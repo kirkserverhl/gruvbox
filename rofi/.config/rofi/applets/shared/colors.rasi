@@ -1,0 +1,11 @@
+/**
+ *
+ * Available Colors Schemes
+ *
+ * gruvbox     
+ *
+ **/
+
+/* Import color-scheme from `colors` directory */
+
+@import "~/.cache/wal/colors-rofi-dark.rasi"

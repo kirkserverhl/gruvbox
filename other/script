@@ -1,0 +1,54 @@
+####  Main Partition 256gb = 262144 128gb = 131072 #### 
+####  Swap partition 64gb = 65536 #### 
+
+####  Install Git and yay!! #### 
+sudo pacman -S --noconfirm git &&
+git clone https://aur.archlinux.org/yay.git &&
+cd yay && makepkg -si && cd .. &&
+
+####  Install stow, unzi, sddm, dotfiles pkgs  #### 
+yay -S --noconfirm stow unzip sddm firefox grub-customizer grub-theme-vimix sddm-theme-sugar-candy-git && yay -S --noconfirm - < pkglist.txt && yay -Syyu --noconfirm &&
+
+####  Move Assets #### 
+unzip a.zip && rm a.zip &&
+sudo mv ~/other/pacman.conf /etc/ &&
+mv ~/other/wallpaper /home/kirk/ &&
+sudo rm -r -f /usr/lib/sddm/sddm.conf.d &&
+sudo mv ~/other/sddm.conf.d /usr/lib/sddm/ &&
+sudo mv ~/other/sddm.jpg /usr/share/sddm/themes/Sugar-Candy/Backgrounds/ &&
+
+####  Distribute Stow Files #### 
+cd .dotfiles && 
+stow ags && stow alacritty && 
+stow bat && stow bpytop && 
+stow byobu && stow dunst && 
+stow fastfetch && stow fontconfig && 
+stow fzf && stow gtk-3.0 && 
+stow gtk-4.0 && stow home && 
+stow home && stow htop && 
+rm -r -f ~/.config/hypr && stow hypr && 
+stow kitty && stow nemo && 
+stow nvim && stow nwg-look && 
+stow pacseek && stow qt6ct && 
+stow ranger && stow rofi && 
+stow scripts && stow sddm && 
+stow settings && stow vlc && 
+stow wal && stow waybar && 
+stow waypaper && stow wlogout && 
+stow xsettingsd && stow yazi && 
+stow znt && stow .config && 
+stow oh-my-zsh && cd .. &&
+
+
+####  Scripts, Cleanup, Zsh, Reboot  #### 
+chmod +x /home/kirk/scripts/*.sh &&
+chmod +x /home/kirk/.config/rofi/applets/bin/*.sh &&
+chmod +x /home/kirk/.config/ags/scripts/*.sh &&
+chmod +x /home/kirk/.config/hypr/hyprctl/*.sh &&
+chmod +x /home/kirk/.config/hypr/scripts/*.sh &&
+chmod +x /home/kirk/.config/settings/*.sh &&
+cd scripts && ./shell.sh &&./cleanup.sh && reboot
+
+
+###  Temp arch messed up
+hyprland dunst kitty xdg-desktop-portal-hyprland qt5-wayland qt6-wayland polit-kde-agent grim slurp hyprlang

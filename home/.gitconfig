@@ -1,0 +1,7 @@
+[init]
+	defaultBranch = GruvDots
+[user]
+	email = kirkserverhl@gmail.com
+	name = kirkserverhl
+[credential]
+	helper = cache
