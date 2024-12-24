@@ -72,7 +72,7 @@ setup_cron_job() {
     	vlc vlc-materia-skin-git vulkan-intel vulkan-radeon waybar waypaper wl-clipboard wl-clipboard-history-git wget wireless_tools
     	wireplumber wofi xclip xdg-desktop-portal-hyprland xdg-utils xf86-video-amdgpu xf86-video-ati xf86-video-nouveau xf86-video-vmware
     	xorg-xhost xorg-server xorg-xinit xorg-wayland xcursor-simp1e-gruvbox-light yazi zoxide zram-generator zsh-autosuggestions-git
-    	zsh
+    	wlogout zsh
 	)
 
 	yay -S --noconfirm "${PACKAGES[@]}" || log_error "Failed to install packages"
@@ -97,11 +97,12 @@ setup_cron_job() {
 	STOW_DIRS=("ags" "alacritty" "bat" "bpytop" "byobu" "dunst" "fastfetch" "fontconfig" "fzf" "gtk-3.0" "gtk-4.0" "home"
     	"htop" "hypr" "kitty" "nemo" "nvim" "nwg-look" "pacseek" "qt6ct" "ranger" "rofi" "scripts" "sddm" "settings" "vlc"
     	"wal" "waybar" "waypaper" "wlogout" "xsettingsd" "yazi" "znt" ".config" "oh-my-zsh")
-  sudo rm ~/.config/hypr/hyrland.config && stow hypr --adopt
+  sudo rm ~/.config/hypr/hyrland.conf && stow hypr --adopt
 
 	for dir in "${STOW_DIRS[@]}"; do
     	stow "$dir" || log_error "Failed to stow $dir"
 	done
+
 
 	checklist[configuration]=true
 } || checklist[configuration]=false
@@ -122,6 +123,7 @@ setup_cron_job() {
 	./shell.sh || log_error "Failed to run shell.sh"
 	./cleanup.sh || log_error "Failed to run cleanup.sh"
   ./wallpaper-restore.sh || log_error "Failed to run wallpaper-restore.sh"
+
 
 	checklist[post_configuration]=true
 } || checklist[post_configuration]=false
