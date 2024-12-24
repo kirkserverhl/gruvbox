@@ -21,7 +21,7 @@
   "edgy.nvim": { "branch": "main", "commit": "7e8dedc39abebe40c289b8012cc89b11c69aa7a0" },
   "flit.nvim": { "branch": "main", "commit": "1ef72de6a02458d31b10039372c8a15ab8989e0d" },
   "friendly-snippets": { "branch": "main", "commit": "efff286dd74c22f731cdec26a70b46e5b203c619" },
-  "fzf-lua": { "branch": "main", "commit": "7022b5b002bb7488e1be4470bad2342bcc8d4d99" },
+  "fzf-lua": { "branch": "main", "commit": "72e25cc0bf4e47c5bef33f65e1943c4cc7dc27a1" },
   "grug-far.nvim": { "branch": "main", "commit": "c88435b825a35bfa468b47159709b3221976ecd1" },
   "gruvbox.nvim": { "branch": "main", "commit": "68c3460a5d1d1a362318960035c9f3466d5011f5" },
   "harpoon": { "branch": "harpoon2", "commit": "a84ab829eaf3678b586609888ef52f7779102263" },
