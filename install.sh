@@ -122,6 +122,7 @@ source ~/.zshrc
 	./cleanup.sh || log_error "Failed to run cleanup.sh"
   ./wallpaper-restore.sh || log_error "Failed to run wallpaper-restore.sh"
   ./hypr_swap.sh || log_error "Failed to run hypr_swap.sh"
+  ./monitor.sh || log_error "Failed to run monitor.sh"
   ./linux_util.sh || log_error "Failed to run linux_util.sh"
 
 
