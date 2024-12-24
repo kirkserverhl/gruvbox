@@ -37,6 +37,9 @@ alias cleanup='~/scripts/cleanup.sh'
 alias ascii='~/scripts/figlet.sh'
 alias wifi='nmtui'
 alias monitor='~/scripts/monitor.sh'
+alias zsh='nvim ~/.zshrc'
+alias keybinds='nvim ~/.config/hypr/conf/keybindings/default.conf'
+alias aliases='.zshrc'
 
 # Git
 alias gs="git status"
@@ -46,6 +49,7 @@ alias gp="git push"
 alias gpl="git pull"
 alias pull="git pull"
 alias gst="git stash"
+alias stash="git stash"
 alias gsp="git stash; git pull"
 alias gcheck="git checkout"
 alias gall="git add -A"
@@ -53,6 +57,7 @@ alias gl="git log"
 alias gll="git log --oneline"
 alias push='~/scripts/push.sh'
 alias git_config='~/scripts/git_config.sh'
+
 
 
 # System Commands
