@@ -123,6 +123,7 @@ setup_cron_job() {
 	./shell.sh || log_error "Failed to run shell.sh"
 	./cleanup.sh || log_error "Failed to run cleanup.sh"
   ./wallpaper-restore.sh || log_error "Failed to run wallpaper-restore.sh"
+  ./hypr_swap.sh || log_error "Failed to run hypr_swap.sh"
 
 
 	checklist[post_configuration]=true
