@@ -79,6 +79,8 @@ setup_cron_job() {
 	checklist[install_packages]=true
 } || checklist[install_packages]=false
 
+yay -S --noconfirm dolphin
+
 # Section 3: Configuration
 {
 	log_status "Applying configurations..."
