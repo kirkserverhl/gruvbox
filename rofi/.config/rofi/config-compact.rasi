@@ -38,7 +38,7 @@ configuration {
 @import "~/.config/settings/cache/current_wallpaper.rasi"
 
 /* ---- Load border width ---- */
-@import "~/settings/rofi-border.rasi"
+@import "~/.config/settings/rofi-border.rasi"
 
 /* ---- Window ---- */
 window {
