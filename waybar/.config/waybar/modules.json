@@ -91,7 +91,7 @@
   "custom/wallpaper": {
     "format": "",
     "on-click": "waypaper",
-    "on-click-right": "~/scripts/wallpaper-effects.sh",
+    "on-click-right": "~/scripts/random_waypaper_toggle.sh",
     "tooltip-format": "Left: Select a wallpaper\nRight: Select wallpaper effect"
   },
 
