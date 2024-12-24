@@ -97,6 +97,7 @@ setup_cron_job() {
 	STOW_DIRS=("ags" "alacritty" "bat" "bpytop" "byobu" "dunst" "fastfetch" "fontconfig" "fzf" "gtk-3.0" "gtk-4.0" "home"
     	"htop" "hypr" "kitty" "nemo" "nvim" "nwg-look" "pacseek" "qt6ct" "ranger" "rofi" "scripts" "sddm" "settings" "vlc"
     	"wal" "waybar" "waypaper" "wlogout" "xsettingsd" "yazi" "znt" ".config" "oh-my-zsh")
+  sudo rm ~/.config/hypr/hyrland.config && stow hypr --adopt
 
 	for dir in "${STOW_DIRS[@]}"; do
     	stow "$dir" || log_error "Failed to stow $dir"
@@ -116,10 +117,11 @@ setup_cron_job() {
 {
 	log_status "Running post-configuration scripts..."
 
-	cd scripts || log_error "Failed to enter scripts directory"
+	cd ~/scripts || log_error "Failed to enter scripts directory"
 
 	./shell.sh || log_error "Failed to run shell.sh"
 	./cleanup.sh || log_error "Failed to run cleanup.sh"
+  ./wallpaper-restore.sh || log_error "Failed to run wallpaper-restore.sh"
 
 	checklist[post_configuration]=true
 } || checklist[post_configuration]=false
@@ -166,6 +168,7 @@ esac
 ####  Browser.cache.disk.enable >  change value to false
 ####  Browser.cache.memory.enable > true
 ####  aBrowser.cache.memory.capacity > change to 1 gb
+####  Run git_config.sh 
 
 
 
