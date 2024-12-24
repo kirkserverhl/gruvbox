@@ -85,12 +85,12 @@ setup_cron_job() {
 	unzip ~/a.zip -d ~/ || log_error "Failed to unzip a.zip"
 	rm -f ~/a.zip || log_error "Failed to remove a.zip"
 
-	sudo mv ~/.dotfiles/assets/pacman.conf /etc/ || log_error "Failed to move pacman.conf"
-	mv ~/.dotfiles/assets/wallpaper /home/kirk/ || log_error "Failed to move wallpaper"
+	sudo ln -s ~/.dotfiles/assets/pacman.conf /etc/ || log_error "Failed to move pacman.conf"
+	# mv ~/.dotfiles/assets/wallpaper /home/kirk/ || log_error "Failed to move wallpaper"
 
 	sudo rm -r -f /usr/lib/sddm/sddm.conf.d || log_error "Failed to remove old sddm config"
-	sudo mv ~/.dotfiles/assets/sddm.conf.d /usr/lib/sddm/ || log_error "Failed to move sddm.conf.d"
-	sudo mv ~/.dotfiles/assets/sddm.jpg /usr/share/sddm/themes/Sugar-Candy/Backgrounds/ || log_error "Failed to move sddm.jpg"
+	sudo ln -s ~/.dotfiles/assets/sddm.conf.d /usr/lib/sddm/ || log_error "Failed to move sddm.conf.d"
+	sudo ln -s ~/.dotfiles/assets/sddm.jpg /usr/share/sddm/themes/Sugar-Candy/Backgrounds/ || log_error "Failed to move sddm.jpg"
 
 	cd ~/.dotfiles || log_error "Failed to enter .dotfiles directory"
 
