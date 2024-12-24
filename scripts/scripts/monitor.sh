@@ -12,6 +12,19 @@ monitor_conf=$(eval echo $monitor_conf)
 default_conf=$(eval echo $default_conf)
 thin_gruv_conf=$(eval echo $thin_gruv_conf)
 
+# Ask if the user wants to ignore monitor.conf in Git
+read -p "Do you want to ignore monitor.conf in Git (y/n)? " git_ignore_choice
+
+if [[ "$git_ignore_choice" =~ ^[Yy]$ ]]; then
+    echo "Marking monitor.conf as assume-unchanged in Git..."
+    git update-index --assume-unchanged "$monitor_conf"
+    echo "monitor.conf is now ignored by Git."
+else
+    echo "Ensuring monitor.conf is tracked by Git..."
+    git update-index --no-assume-unchanged "$monitor_conf"
+    echo "monitor.conf is now being tracked by Git."
+fi
+
 # Prompt user for the workspace setup choice
 echo "Which setup are you using?"
 echo "1. Default"

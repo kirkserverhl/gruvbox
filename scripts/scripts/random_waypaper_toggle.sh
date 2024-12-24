@@ -17,8 +17,16 @@ if [[ -f "$PIDFILE" ]]; then
     fi
 fi
 
+# Function to clean up on shutdown or reboot
+cleanup() {
+    echo "Cleaning up random wallpaper changer..."
+    rm -f "$PIDFILE"
+    exit
+}
+
 # Start the process
 echo "Starting random wallpaper changer..."
+trap cleanup SIGINT SIGTERM EXIT  # Ensure cleanup on script termination
 (
     while true; do
         waypaper --random

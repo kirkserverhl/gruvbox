@@ -1,1 +1,1 @@
-/gruv;/gruv/light
+/gruv;/gruv/colored
