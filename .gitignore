@@ -1,0 +1,10 @@
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore sensitive files
+secrets.env
+private_key.pem
