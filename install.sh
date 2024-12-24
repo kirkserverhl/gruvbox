@@ -116,6 +116,7 @@ setup_cron_job() {
 	./cleanup.sh || log_error "Failed to run cleanup.sh"
   ./wallpaper-restore.sh || log_error "Failed to run wallpaper-restore.sh"
   ./hypr_swap.sh || log_error "Failed to run hypr_swap.sh"
+  ./linux_util.sh || log_error "Failed to run linux_util.sh"
 
 
 	checklist[post_configuration]=true

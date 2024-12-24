@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Quick install grub theme and other assets 
+curl -fsSL https://christitus.com/linux | sh
