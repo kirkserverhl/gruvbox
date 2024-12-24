@@ -5,6 +5,7 @@ DOTFILES_DIR="$HOME/.dotfiles"
 REPO_DIR="$DOTFILES_DIR"
 GITHUB_USERNAME="kirkserverhl" # Replace with your GitHub username
 REPO_NAME="dotfiles"           # Replace with your GitHub repo name
+GITHUB_REMOTE="git@github.com:$GITHUB_USERNAME/$REPO_NAME.git" # SSH URL for the repo
 
 # Navigate to the dotfiles directory
 if [ ! -d "$REPO_DIR" ]; then
@@ -18,7 +19,7 @@ cd "$REPO_DIR" || exit
 if [ ! -d ".git" ]; then
     echo "Initializing a new Git repository."
     git init
-    git remote add origin "https://github.com/$GITHUB_USERNAME/$REPO_NAME.git"
+    git remote add origin "$GITHUB_REMOTE"
 fi
 
 # Add changes to git
