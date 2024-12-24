@@ -82,16 +82,8 @@ setup_cron_job() {
 # Section 3: Configuration
 {
 	log_status "Applying configurations..."
-	unzip ~/a.zip -d ~/ || log_error "Failed to unzip a.zip"
-	rm -f ~/a.zip || log_error "Failed to remove a.zip"
-
-	sudo ln -s ~/.dotfiles/assets/pacman.conf /etc/ || log_error "Failed to move pacman.conf"
-	# mv ~/.dotfiles/assets/wallpaper /home/kirk/ || log_error "Failed to move wallpaper"
-
-	sudo rm -r -f /usr/lib/sddm/sddm.conf.d || log_error "Failed to remove old sddm config"
-	sudo ln -s ~/.dotfiles/assets/sddm.conf.d /usr/lib/sddm/ || log_error "Failed to move sddm.conf.d"
-	sudo ln -s ~/.dotfiles/assets/sddm.jpg /usr/share/sddm/themes/Sugar-Candy/Backgrounds/ || log_error "Failed to move sddm.jpg"
-
+	cd ~/scripts || log_error "Failed to enter scripts directory"
+        ./assets.sh
 	cd ~/.dotfiles || log_error "Failed to enter .dotfiles directory"
 
 	STOW_DIRS=("ags" "alacritty" "bat" "bpytop" "byobu" "dunst" "fastfetch" "fontconfig" "fzf" "gtk-3.0" "gtk-4.0" "home"
