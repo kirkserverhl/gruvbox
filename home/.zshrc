@@ -36,6 +36,7 @@ alias ts='~/scripts/snapshot.sh'
 alias cleanup='~/scripts/cleanup.sh'
 alias ascii='~/scripts/figlet.sh'
 alias wifi='nmtui'
+alias monitor='~/scripts/monitor.sh'
 
 # Git
 alias gs="git status"
