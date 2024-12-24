@@ -60,7 +60,7 @@ setup_cron_job() {
 
 	PACKAGES=(
     	openssh alacritty aylurs-gtk-shell amd-ucode base base-devel blueprint-compiler bluez bpytop brightnessctl btrfs-progs cliphist cmake cmatrix cbonsai-git
-    	duf dunst efibootmgr eza fastfetch figlet firefox fortune-mod fortune-mod-hackers fortune-mod-archlinux fzf git
+    	duf dunst efibootmgr eza fastfetch figlet firefox fortune-mod fortune-mod-hackers fortune-mod-archlinux fzf git inotify-tools
     	gnome-text-editor go grim gruvbox-material-gtk-theme-git gruvbox-plus-icon-theme-git grub grub-customizer grub-theme-vimix
     	gst-plugin-pipewire gum htop hyprcursor hyprpaper hypridle hyprgraphics hyprland hyprlang hyprutils hyprwayland-scanner
     	imagemagick intel-media-driver iwd kcalc kitty libpulse libva-intel-driver linux linux-firmware lsd lsd-print-git lua
