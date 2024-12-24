@@ -8,3 +8,8 @@ Thumbs.db
 # Ignore sensitive files
 secrets.env
 private_key.pem
+
+
+# Ignore Cache  
+settings/.config/settings/cache/
+
