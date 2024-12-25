@@ -55,7 +55,7 @@ alias gcheck="git checkout"
 alias gall="git add -A"
 alias gl="git log"
 alias gll="git log --oneline"
-alias push='~/scripts/push.sh'
+alias push='git push origin main --force'
 alias git_config='~/scripts/git_config.sh'
 
 
