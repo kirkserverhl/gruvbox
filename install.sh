@@ -120,6 +120,7 @@ source ~/.zshrc
 
 	./shell.sh || log_error "Failed to run shell.sh"
 	./cleanup.sh || log_error "Failed to run cleanup.sh"
+	./assets.sh || log_error "failed to run assets.sh"
   ./wallpaper-restore.sh || log_error "Failed to run wallpaper-restore.sh"
   ./hypr_swap.sh || log_error "Failed to run hypr_swap.sh"
   ./monitor.sh || log_error "Failed to run monitor.sh"
