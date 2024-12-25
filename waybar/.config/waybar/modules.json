@@ -107,7 +107,8 @@
   "custom/settings": {
     "format": "",
     "on-click": "~/scripts/scripts.sh",
-    "tooltip-format": "Left: Scripts Right: Keybind Config"
+    "on-click-right": "~/scripts/launch.sh",
+    "tooltip-format": "Left: Scripts\nRight: Keybind Config"
   },
 
   // Keybindings
@@ -153,7 +154,8 @@
     "format": "",
     "on-click": "sleep 0.2;rofi -show drun -replace",
     "on-click-right": "~/scripts/keybind_hints.sh",
-    "tooltip-format": "Left: Open the application launcher\nRight: Show all keybindings"
+    "on-click-right": "~/scripts/launch.sh",
+    "tooltip-format": "Left: Open the application launcher\nRight: Open Apps"
   },
 
   // Power Menu
@@ -204,7 +206,8 @@
   "clock": {
     "format": "{:%H:%M %a}",
     "on-click": "ags toggle calendar",
-    "tooltip": false
+    "on-click-right": "~/scripts/launch.sh",
+    "tooltip-format": "Left: Calendar\nRight: Timer"
   },
 
   // System
