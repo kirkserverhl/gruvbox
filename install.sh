@@ -72,7 +72,7 @@ setup_cron_job() {
     	vlc vlc-materia-skin-git vulkan-intel vulkan-radeon waybar waypaper wl-clipboard wl-clipboard-history-git wget wireless_tools
     	wireplumber wofi xclip xdg-desktop-portal-hyprland xdg-utils xf86-video-amdgpu xf86-video-ati xf86-video-nouveau xf86-video-vmware
     	xorg-xhost xorg-server xorg-xinit xorg-wayland xcursor-simp1e-gruvbox-light yazi zoxide zram-generator zsh-autosuggestions-git
-    	zsh
+    	zsh wlogout
 	)
 
 	yay -S --noconfirm "${PACKAGES[@]}" || log_error "Failed to install packages"
