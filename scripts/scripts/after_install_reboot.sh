@@ -2,7 +2,7 @@
 
 ## Missing pkgs, Fix Zsh, refresh hyprland, move Ass’s  ##
 
-yay -S –noconfirm aylurs-gtk-shell dolphin && 
+yay -S –noconfirm aylurs-gtk-shell sddm-theme-sugar-candy-git && 
 
 cd ~/scripts && ./zsh_fix.sh && 
 cd ~/.dotfiles && pull &&         
