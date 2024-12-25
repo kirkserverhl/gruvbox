@@ -114,6 +114,7 @@ setup_cron_job() {
 	cd ~/scripts || log_error "Failed to enter scripts directory"
 
 	./config.sh || log_error "Failed to run config.sh"
+  ./hypr_swap.sh || log_error "Failed to run hypr_swap.sh"
 	./zsh_fix.sh || log_error "Failed to run zsh_fix.sh"
 	./launch.sh || log_error "Failed to run launch.sh"
 

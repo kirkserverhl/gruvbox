@@ -1,9 +1,25 @@
 #!/bin/bash
 
-# Ensure figlet is installed
+## Missing pkgs, Fix Zsh, refresh Hyprland, move Ass’s  ##
+echo "Running post-boot configuration..."
+
+# Refresh dotfiles
+cd ~/.dotfiles && git pull
+
+# Update SDDM and Pacman theme
+sudo rm -r -f /usr/lib/sddm/sddm.conf.d || log_error "Failed to remove old sddm config"
+sudo cp ~/.dotfiles/assets/sddm.conf.d /usr/lib/sddm/ || log_error "Failed to move sddm.conf.d"
+sudo cp ~/.dotfiles/assets/pacman.conf /etc/ || log_error "Failed to move pacman.conf"
+sudo cp -r ~/.dotfiles/assets/Sugar-Candy/theme.conf /usr/share/sddm/themes/Sugar-Candy || log_error "Failed to move theme.conf"
+sudo cp ~/.dotfiles/assets/sddm.jpg /usr/share/sddm/themes/Sugar-Candy/Backgrounds  || log_error "Failed to move sddm.jpg"
+
+cd ~scripts/ && ./hypr_swap.sh && ./zsh_fix.sh
+
+
+# Post install packages that get missed
 if ! command -v figlet &>/dev/null; then
-    echo "Installing figlet..."
-    sudo pacman -Sy --noconfirm figlet
+    echo "Installing packages ..."
+    sudo pacman -Sy --noconfirm figlet aylurs-gtk-shell sddm-theme-sugar-candy-git
 fi
 
 # Function to display a header with figlet
@@ -37,12 +53,12 @@ if [[ "$configure_monitor" =~ ^[Yy]$ ]]; then
 fi
 
 # SDDM and Pacman Configuration
-display_header "SDDM & Pacman"
-read -p "Do you want to configure SDDM and Pacman (y/n)? " configure_sddm_pacman
-if [[ "$configure_sddm_pacman" =~ ^[Yy]$ ]]; then
-    ~/scripts/assets.sh
-    track_action "SDDM and Pacman configuration"
-fi
+# display_header "SDDM & Pacman"
+# read -p "Do you want to configure SDDM and Pacman (y/n)? " configure_sddm_pacman
+# if [[ "$configure_sddm_pacman" =~ ^[Yy]$ ]]; then
+#     ~/scripts/assets.sh
+#     track_action "SDDM and Pacman configuration"
+# fi
 
 # Cleanup
 display_header "Cleanup"
@@ -71,6 +87,8 @@ else
         echo "- $action"
     done
 fi
+
+echo "Post-reboot configuration completed successfully."
 
 # Offer to reboot or quit
 echo
