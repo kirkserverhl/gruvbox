@@ -40,6 +40,7 @@ alias monitor='~/scripts/monitor.sh'
 alias zsh='nvim ~/.zshrc'
 alias keybinds='nvim ~/.config/hypr/conf/keybindings/default.conf'
 alias aliases='.zshrc'
+alias key='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'
 
 # Git
 alias gs="git status"
