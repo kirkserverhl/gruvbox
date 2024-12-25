@@ -8,7 +8,6 @@ checklist=(
 	[configuration]=false
 	[cron_job]=false
 	[post_configuration]=false
-	[extra_utilities]=false
 )
 
 # Function to print status messages
@@ -25,11 +24,11 @@ log_error() {
 print_checklist() {
 	echo -e "\nInstallation Summary:\n"
 	for section in "${!checklist[@]}"; do
-		if [ "${checklist[$section]}" = true ]; then
-			echo "✔ $section"
-		else
-			echo "✘ $section"
-		fi
+    	if [ "${checklist[$section]}" = true ]; then
+        	echo "✔ $section"
+    	else
+        	echo "✘ $section"
+    	fi
 	done
 }
 
@@ -37,9 +36,9 @@ print_checklist() {
 setup_cron_job() {
 	(crontab -l 2>/dev/null; echo "0 */12 * * * ~/scripts/cleanup.sh") | crontab -
 	if [ $? -eq 0 ]; then
-		checklist[cron_job]=true
+    	checklist[cron_job]=true
 	else
-		checklist[cron_job]=false
+    	checklist[cron_job]=false
 	fi
 }
 
@@ -57,12 +56,23 @@ setup_cron_job() {
 # Section 2: Install Packages
 {
 	log_status "Installing packages..."
-	yay -S powerpill stow --noconfirm 
-	cd .dotfiles && stow scripts && cd ~/scripts && ./assets.sh && cd ..
 	yay -Syyu --noconfirm || log_error "Failed to update package database"
 
 	PACKAGES=(
-		# List of packages...
+    	alacritty amd-ucode base base-devel blueprint-compiler bluez bpytop brightnessctl btrfs-progs cliphist cmake cmatrix cbonsai-git
+    	duf dunst efibootmgr eza fastfetch figlet firefox fortune-mod fortune-mod-hackers fortune-mod-archlinux fzf git
+    	gnome-text-editor go grim gruvbox-material-gtk-theme-git gruvbox-plus-icon-theme-git 
+    	gst-plugin-pipewire gum htop hyprcursor hyprpaper hypridle hyprgraphics hyprland hyprlang hyprutils hyprwayland-scanner
+    	imagemagick intel-media-driver iwd kcalc kitty libpulse libva-intel-driver linux linux-firmware lsd lsd-print-git lua
+    	meson nano nemo nemo-emblems nemo-preview nemo-terminal neovim neovim-lspconfig network-manager-applet networkmanager
+    	noto-fonts noto-fonts-emoji nwg-look otf-fira-sans otf-font-awesome pacseek pacman-mirrorlist pipewire pipewire-alsa
+    	pipewire-jack pipewire-pulse polkit-kde-agent python-pywal16 python-pywalfox python-pillow python-vlc qt5-base
+    	qt5-graphicaleffects qt5-wayland qt6-wayland qt6ct-kde ranger ranger_devicons-git rofi-wayland sddm sddm-theme-sugar-candy-git
+    	slurp smartmontools sof-firmware starship stow timeshift timeshift-autosnap tmux ttf-sharetech-mono-nerd unzip vala vim
+    	vlc vlc-materia-skin-git vulkan-intel vulkan-radeon waybar waypaper wl-clipboard wl-clipboard-history-git wget wireless_tools
+    	wireplumber wofi xclip xdg-desktop-portal-hyprland xdg-utils xf86-video-amdgpu xf86-video-ati xf86-video-nouveau xf86-video-vmware
+    	xorg-xhost xorg-server xorg-xinit xorg-wayland xcursor-simp1e-gruvbox-light yazi zoxide zram-generator zsh-autosuggestions-git
+    	zsh
 	)
 
 	yay -S --noconfirm "${PACKAGES[@]}" || log_error "Failed to install packages"
@@ -72,20 +82,24 @@ setup_cron_job() {
 # Section 3: Configuration
 {
 	log_status "Applying configurations..."
-	cd ~/scripts || log_error "Failed to enter scripts directory"
-	./assets.sh
+	sudo cp ~/.dotfiles/assets/pacman.conf /etc/ || log_error "Failed to move pacman.conf"
+	sudo rm -r -f /usr/lib/sddm/sddm.conf.d || log_error "Failed to remove old sddm config"
+	sudo cp ~/.dotfiles/assets/sddm.conf.d /usr/lib/sddm/ || log_error "Failed to move sddm.conf.d"
+	sudo cp ~/.dotfiles/assets/sddm.jpg /usr/share/sddm/themes/Sugar-Candy/Backgrounds/ || log_error "Failed to move sddm.jpg"
+	sudo rm /usr/share/sddm/themes/Sugar-Candy/theme.conf || log_error "Failed to remove theme.conf"
+	sudo cp ~/.dotfiles/assets/theme.conf /usr/share/sddm/themes/Sugar-Candy/ || log_error "Failed to move theme.conf"
+	
+
 	cd ~/.dotfiles || log_error "Failed to enter .dotfiles directory"
 
-	STOW_DIRS=( "ags" "alacritty" "bat" # Add other directories
-	)
+	STOW_DIRS=("ags" "alacritty" "bat" "bpytop" "byobu" "dunst" "fastfetch" "fontconfig" "fzf" "gtk-3.0" "gtk-4.0" "home"
+    	"htop" "hypr" "kitty" "nemo" "nvim" "nwg-look" "pacseek" "qt6ct" "ranger" "rofi" "scripts" "sddm" "settings" "vlc"
+    	"wal" "waybar" "waypaper" "wlogout" "xsettingsd" "yazi" "znt" ".config" "oh-my-zsh")
 
 	for dir in "${STOW_DIRS[@]}"; do
-		stow "$dir" || log_error "Failed to stow $dir"
+    	stow "$dir" || log_error "Failed to stow $dir"
 	done
 
-	git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-	git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
-	source ~/.zshrc
 	checklist[configuration]=true
 } || checklist[configuration]=false
 
@@ -95,32 +109,18 @@ setup_cron_job() {
 	setup_cron_job
 } || checklist[cron_job]=false
 
+
 # Section 5: Post-Configuration
 {
 	log_status "Running post-configuration scripts..."
-	rm ~/.bash_history ~/.bash_logout ~/.bash_profile ~/.bashrc
 
 	cd ~/scripts || log_error "Failed to enter scripts directory"
-	./shell.sh || log_error "Failed to run shell.sh"
-	./cleanup.sh || log_error "Failed to run cleanup.sh"
-	./zsh_fix.sh || log_error "Failed to run zsh_fix.sh"
-	./assets.sh || log_error "Failed to run assets.sh"
-	./hypr_swap.sh || log_error "Failed to run hypr_swap.sh"
+
+	./config.sh || log_error "Failed to run config.sh"
+	./launch.sh || log_error "Failed to run launch.sh"
+
 	checklist[post_configuration]=true
 } || checklist[post_configuration]=false
-
-# Section 6: Extra Utilities (linux_util.sh)
-{
-	read -rp "Would you like to install a Grub Theme/ Extra Utilities? (y/n): " choice
-	if [[ "$choice" =~ ^[Yy]$ ]]; then
-		cd ~/scripts || log_error "Failed to enter scripts directory"
-		./linux_util.sh || log_error "Failed to run linux_util.sh"
-		checklist[extra_utilities]=true
-	else
-		log_status "Skipping Grub Theme/ Extra Utilities installation."
-		checklist[extra_utilities]=false
-	fi
-}
 
 # Print checklist and options
 print_checklist
@@ -133,40 +133,21 @@ read -rp "Enter your choice (default: reboot in 20 seconds): " choice
 
 case $choice in
 	1)
-		exec "$0"
-		;;
+    	exec "$0"
+    	;;
 	2)
-		log_status "Rebooting..."
-		sudo reboot
-		;;
+    	log_status "Rebooting..."
+    	sudo reboot
+    	;;
 	3)
-		log_status "Exiting..."
-		exit 0
-		;;
+    	log_status "Exiting..."
+    	exit 0
+    	;;
 	*)
-		log_status "Rebooting in 20 seconds..."
-		sleep 20
-		sudo reboot
-		;;
+    	log_status "Rebooting in 20 seconds..."
+    	sleep 20
+    	sudo reboot
+    	;;
 esac
-
-   
-   -----------------------------------
-# END OF install.sh
-# ---------------------------------
-# ---------------------------------
-####  Main Partition 256gb = 262144 128gb = 131072 #### 
-####  Swap partition 64gb = 65536 #### 
-####  Add cache from firefox to ram
-####  About:config
-####  Accept risk
-####  Browser.cache.disk.enable >  change value to false
-####  Browser.cache.memory.enable > true
-####  aBrowser.cache.memory.capacity > change to 1 gb
-####  Run git_config.sh 
-
-
-
-
 
 
