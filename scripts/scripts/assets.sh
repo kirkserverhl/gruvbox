@@ -8,6 +8,7 @@ declare -A FILES_TO_COPY=(
     ["$SOURCE_DIR/sddm.conf.d"]="/usr/lib/sddm/sddm.conf.d"
     ["$SOURCE_DIR/pacman.conf"]="/etc/pacman.conf"
     ["$SOURCE_DIR/sddm.jpg"]="/usr/share/sddm/themes/Sugar-Candy/Backgrounds/sddm.jpg"
+    ["$SOURCE_DIR/theme.conf"]="/usr/share/sddm/themes/Sugar-Candy/"
 )
 
 # Function to copy the file
