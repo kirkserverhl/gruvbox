@@ -56,7 +56,9 @@ setup_cron_job() {
 # Section 2: Install Packages
 {
 	log_status "Installing packages..."
-	yay -Syyu --noconfirm || log_error "Failed to update package database"
+    yay -S powerpill stow --noconfirm 
+    cd .dotfiles && stow scripts && cd ~/scripts && ./assets.sh && cd..
+    yay -Syyu --noconfirm || log_error "Failed to update package database"
 
 	PACKAGES=(
     	openssh alacritty aylurs-gtk-shell amd-ucode base base-devel blueprint-compiler bluez bpytop brightnessctl btrfs-progs cliphist cmake cmatrix cbonsai-git
@@ -79,7 +81,7 @@ setup_cron_job() {
 	checklist[install_packages]=true
 } || checklist[install_packages]=false
 
-yay -S --noconfirm dolphin
+
 
 # Section 3: Configuration
 {
