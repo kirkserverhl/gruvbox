@@ -64,10 +64,10 @@ setup_cron_job() {
     	gnome-text-editor go grim gruvbox-material-gtk-theme-git gruvbox-plus-icon-theme-git 
     	gst-plugin-pipewire gum htop hyprcursor hyprpaper hypridle hyprgraphics hyprland hyprlang hyprutils hyprwayland-scanner
     	imagemagick intel-media-driver iwd kcalc kitty libpulse libva-intel-driver linux linux-firmware lsd lsd-print-git lua
-    	meson nano nemo nemo-emblems nemo-preview nemo-terminal neovim neovim-lspconfig network-manager-applet networkmanager
+    	meson nemo nemo-emblems nemo-preview nemo-terminal neovim neovim-lspconfig network-manager-applet networkmanager
     	noto-fonts noto-fonts-emoji nwg-look otf-fira-sans otf-font-awesome pacseek pacman-mirrorlist pipewire pipewire-alsa
     	pipewire-jack pipewire-pulse polkit-kde-agent python-pywal16 python-pywalfox python-pillow python-vlc qt5-base
-    	qt5-graphicaleffects qt5-wayland qt6-wayland qt6ct-kde ranger ranger_devicons-git rofi-wayland sddm sddm-theme-sugar-candy-git
+    	qt5-graphicaleffects qt5-wayland qt6-wayland qt6ct-kde ranger ranger_devicons-git rofi-wayland sddm 
     	slurp smartmontools sof-firmware starship stow timeshift timeshift-autosnap tmux ttf-sharetech-mono-nerd unzip vala vim
     	vlc vlc-materia-skin-git vulkan-intel vulkan-radeon waybar waypaper wl-clipboard wl-clipboard-history-git wget wireless_tools
     	wireplumber wofi xclip xdg-desktop-portal-hyprland xdg-utils xf86-video-amdgpu xf86-video-ati xf86-video-nouveau xf86-video-vmware
@@ -85,11 +85,8 @@ setup_cron_job() {
 	sudo cp ~/.dotfiles/assets/pacman.conf /etc/ || log_error "Failed to move pacman.conf"
 	sudo rm -r -f /usr/lib/sddm/sddm.conf.d || log_error "Failed to remove old sddm config"
 	sudo cp ~/.dotfiles/assets/sddm.conf.d /usr/lib/sddm/ || log_error "Failed to move sddm.conf.d"
-	sudo cp ~/.dotfiles/assets/sddm.jpg /usr/share/sddm/themes/Sugar-Candy/Backgrounds/ || log_error "Failed to move sddm.jpg"
-	sudo rm /usr/share/sddm/themes/Sugar-Candy/theme.conf || log_error "Failed to remove theme.conf"
-	sudo cp ~/.dotfiles/assets/theme.conf /usr/share/sddm/themes/Sugar-Candy/ || log_error "Failed to move theme.conf"
+	sudo cp ~/.dotfiles/assets/Sugar-Candy /usr/share/sddm/themes/ || log_error "Failed to move sddm.jpg"
 	
-
 	cd ~/.dotfiles || log_error "Failed to enter .dotfiles directory"
 
 	STOW_DIRS=("ags" "alacritty" "bat" "bpytop" "byobu" "dunst" "fastfetch" "fontconfig" "fzf" "gtk-3.0" "gtk-4.0" "home"
@@ -117,6 +114,7 @@ setup_cron_job() {
 	cd ~/scripts || log_error "Failed to enter scripts directory"
 
 	./config.sh || log_error "Failed to run config.sh"
+	./zsh_fix.sh || log_error "Failed to run zsh_fix.sh"
 	./launch.sh || log_error "Failed to run launch.sh"
 
 	checklist[post_configuration]=true
