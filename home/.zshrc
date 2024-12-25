@@ -59,8 +59,6 @@ alias gll="git log --oneline"
 alias push='git push origin main --force'
 alias git_config='~/scripts/git_config.sh'
 
-
-
 # System Commands
 alias shutdown='systemctl poweroff'
 alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
@@ -69,7 +67,7 @@ alias ping='ping -c 5'
 alias fastping='ping -c 100 -i .2'
 
 # Miscellaneous
-alias nf='fastfetch'
+alias ff='fastfetch'
 alias pf='pfetch'
 alias tm='tmux -2'
 alias rg='ranger'
@@ -109,9 +107,8 @@ setopt appendhistory
 # Terminal Customization
 # -----------------------------------------------------
 if [[ $TERM == "xterm-kitty" ]]; then
-    nf && fortune | lsd-print
+    ff && fortune | lsd-print
 else
-    echo "Custom terminal settings loaded."
 fi
 
 # BAT Theme

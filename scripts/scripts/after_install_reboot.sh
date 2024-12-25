@@ -12,3 +12,4 @@ sudo cp -r ~/.dotfiles/assets/Sugar-Candy/theme.conf /usr/share/sddm/themes/Suga
 sudo cp -r ~/.dotfiles/assets/environment /etc/environment &&
 sudo cp ~/.dotfiles/assets/sddm.jpg /usr/share/sddm/themes/Sugar-Candy/Backgrounds 
 
+
