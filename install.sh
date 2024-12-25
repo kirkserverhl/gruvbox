@@ -66,7 +66,7 @@ setup_cron_job() {
     	imagemagick intel-media-driver iwd kcalc kitty libpulse libva-intel-driver linux linux-firmware lsd lsd-print-git lua
     	meson nemo nemo-emblems nemo-preview nemo-terminal neovim neovim-lspconfig network-manager-applet networkmanager
     	noto-fonts noto-fonts-emoji nwg-look otf-fira-sans otf-font-awesome pacseek pacman-mirrorlist pipewire pipewire-alsa
-    	pipewire-jack pipewire-pulse polkit-kde-agent python-pywal16 python-pywalfox python-pillow python-vlc qt5-base
+    	pipewire-jack pipewire-pulse polkit-kde-agent pomodorolm prettier python-pywal16 python-pywalfox python-pillow python-vlc qt5-base
     	qt5-graphicaleffects qt5-wayland qt6-wayland qt6ct-kde ranger ranger_devicons-git rofi-wayland sddm 
     	slurp smartmontools sof-firmware starship stow timeshift timeshift-autosnap tmux ttf-sharetech-mono-nerd unzip vala vim
     	vlc vlc-materia-skin-git vulkan-intel vulkan-radeon waybar waypaper wl-clipboard wl-clipboard-history-git wget wireless_tools
@@ -90,7 +90,7 @@ setup_cron_job() {
 	cd ~/.dotfiles || log_error "Failed to enter .dotfiles directory"
 
 	STOW_DIRS=("ags" "alacritty" "bat" "bpytop" "byobu" "dunst" "fastfetch" "fontconfig" "fzf" "gtk-3.0" "gtk-4.0" "home"
-    	"htop" "hypr" "kitty" "nemo" "nvim" "nwg-look" "pacseek" "qt6ct" "ranger" "rofi" "scripts" "sddm" "settings" "vlc"
+    	"htop" "hypr" "kitty" "nemo" "nvim" "nwg-look" "pacseek" "pomodorolm" "qt6ct" "ranger" "rofi" "scripts" "sddm" "settings" "systemd" "vlc"
     	"wal" "waybar" "waypaper" "wlogout" "xsettingsd" "yazi" "znt" ".config" "oh-my-zsh")
 
 	for dir in "${STOW_DIRS[@]}"; do
@@ -110,7 +110,7 @@ setup_cron_job() {
 # Section 5: Post-Configuration
 {
 	log_status "Running post-configuration scripts..."
-
+	systemctl --user enable after-install-reboot.service
 	cd ~/scripts || log_error "Failed to enter scripts directory"
 
 	./config.sh || log_error "Failed to run config.sh"
