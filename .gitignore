@@ -11,5 +11,5 @@ private_key.pem
 
 
 # Ignore Cache  
-settings/.config/settings/cache/
+# settings/.config/settings/cache/
 
