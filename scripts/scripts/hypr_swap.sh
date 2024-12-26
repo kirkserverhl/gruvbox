@@ -1,7 +1,9 @@
 #!/bin/bash
 
-cd ~/.dotfiles  
-touch ~/.config/hypr/hyprland.conf &&
-rm ~/.config/hypr/hyprland.conf && stow hypr --adopt &&
-waypaper --random && 
-touch ~/.config/hypr/hyprland.conf
+cd ~/.dotfiles || exit
+touch ~/.config/hypr/hyprland.conf > /dev/null 2>&1
+rm ~/.config/hypr/hyprland.conf > /dev/null 2>&1
+stow hypr --adopt > /dev/null 2>&1
+waypaper --random > /dev/null 2>&1
+touch ~/.config/hypr/hyprland.conf > /dev/null 2>&1
+

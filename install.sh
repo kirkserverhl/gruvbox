@@ -110,13 +110,20 @@ setup_cron_job() {
 # Section 5: Post-Configuration
 {
 	log_status "Running post-configuration scripts..."
-	# systemctl --user enable after-install-reboot.service
-	cd ~/scripts || log_error "Failed to enter scripts directory"
 
-	#./hypr_swap.sh || log_error "Failed to run config.sh"
-  ./config.sh || log_error "Failed to run hypr_swap.sh"
-	./zsh_fix.sh || log_error "Failed to run zsh_fix.sh"
-	# ./launch.sh || log_error "Failed to run launch.sh"
+	# Run post-configuration scripts in a new Alacritty terminal
+	alacritty --hold -e bash -c "
+		cd ~/scripts || exit 1;
+		./config.sh || exit 1;
+		./zsh_fix.sh || exit 1;
+		./hypr_swap.sh > /dev/null 2>&1 & disown;  # Run hypr_swap.sh in the background
+		exit
+	" || log_error "Failed to run post-configuration scripts"
+
+	checklist[post_configuration]=true
+} || checklist[post_configuration]=false
+
+
 
 	checklist[post_configuration]=true
 } || checklist[post_configuration]=false

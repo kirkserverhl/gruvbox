@@ -10,7 +10,7 @@ yay -S --noconfirm aylurs-gtk-shell sddm-theme-sugar-candy-git
 cd ~/scripts && ./zsh_fix.sh
 
 # Refresh dotfiles
-cd ~/.dotfiles && git pull
+# cd ~/.dotfiles && git pull
 
 # Update SDDM theme
 sudo cp -r ~/.dotfiles/assets/Sugar-Candy/theme.conf /usr/share/sddm/themes/Sugar-Candy
