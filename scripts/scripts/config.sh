@@ -13,13 +13,13 @@ sudo cp ~/.dotfiles/assets/pacman.conf /etc/ || log_error "Failed to move pacman
 sudo cp -r ~/.dotfiles/assets/Sugar-Candy/theme.conf /usr/share/sddm/themes/Sugar-Candy || log_error "Failed to move theme.conf"
 sudo cp ~/.dotfiles/assets/sddm.jpg /usr/share/sddm/themes/Sugar-Candy/Backgrounds  || log_error "Failed to move sddm.jpg"
 
-cd ~scripts/ && ./hypr_swap.sh && ./zsh_fix.sh
+cd ~/scripts && ./after_install_reboot.sh && ./hypr_swap.sh && ./zsh_fix.sh
 
 
 # Post install packages that get missed
 if ! command -v figlet &>/dev/null; then
     echo "Installing packages ..."
-    sudo pacman -Sy --noconfirm figlet aylurs-gtk-shell sddm-theme-sugar-candy-git
+    sudo pacman -Sy --noconfirm figlet aylurs-gtk-shell sddm-theme-sugar-candy-git pacseek waybar python-pywal16 python-pywalfox
 fi
 
 # Function to display a header with figlet

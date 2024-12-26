@@ -22,5 +22,5 @@ sudo cp ~/.dotfiles/assets/environment /etc/environment
 echo "Post-reboot configuration completed successfully."
 
 # Disable the service after completion
-systemctl --user disable after-install-reboot.service
+# systemctl --user disable after-install-reboot.service
 
