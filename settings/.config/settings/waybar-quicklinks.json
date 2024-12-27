@@ -12,7 +12,8 @@
     "custom/quicklink3": {
         "format": "",
         "on-click": "~/scripts/filemanager.sh",
-        "tooltip-format": "Open filemanager"
+        "on-click-right": "~/scripts/yazi.sh",
+        "tooltip-format": "Left: Open Nemo filemanager\nRight: Open Yazi File Manager"
     }, 
     "custom/quicklink4": {
         "format": "",
