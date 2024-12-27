@@ -64,7 +64,6 @@
     "on-click": "~/scripts/bpytop.sh",
     "on-click-right": "~/scripts/htop.sh",
     "tooltip-format": "Left: BpyTop\nRight: HTop"
-    
   },
 
   // Cliphist

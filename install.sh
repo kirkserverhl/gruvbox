@@ -61,11 +61,11 @@ setup_cron_job() {
 	PACKAGES=(
     	alacritty aylurs-gtk-shell amd-ucode base base-devel blueprint-compiler bluez bpytop brightnessctl btrfs-progs cliphist cmake cmatrix cbonsai-git
     	duf dunst efibootmgr eza fastfetch figlet firefox fortune-mod fortune-mod-hackers fortune-mod-archlinux fzf git
-    	gnome-text-editor go grim gruvbox-material-gtk-theme-git gruvbox-plus-icon-theme-git 
+    	gnome-text-editor go grim grimblast-git gruvbox-material-gtk-theme-git gruvbox-plus-icon-theme-git 
     	gst-plugin-pipewire gum htop hyprshade hyprcursor hyprpaper hypridle hyprgraphics hyprland hyprlang hyprutils hyprwayland-scanner
     	imagemagick intel-media-driver iwd kcalc kitty libpulse libva-intel-driver linux linux-firmware lsd lsd-print-git lua
     	meson nemo nemo-emblems nemo-preview nemo-terminal neovim neovim-lspconfig network-manager-applet networkmanager
-    	noto-fonts noto-fonts-emoji nwg-look otf-fira-sans otf-font-awesome pacseek pacman-mirrorlist pipewire pipewire-alsa
+    	noto-fonts noto-fonts-emoji nwg-look otf-fira-sans otf-font-awesome pacseek pacman-mirrorlist pinta pipewire pipewire-alsa
     	pipewire-jack pipewire-pulse polkit-kde-agent pomodorolm prettier python-pywal16 python-pywalfox python-pillow python-vlc qt5-base
     	qt5-graphicaleffects qt5-wayland qt6-wayland qt6ct-kde rofi-wayland sdm-sugar-candy-git
     	slurp smartmontools sof-firmware starship stow timeshift timeshift-autosnap tmux ttf-sharetech-mono-nerd unzip vala vim
