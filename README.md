@@ -20,31 +20,11 @@ Cmd: ‘archinstall’
 
 Configure Installation:
 
-Mirrors: Choose mirror region, once complete, go ‘back’ 
+Mirrors: Choose mirror region, once complete, go ‘back’ , Disk Configuration: Partitioning, best effort, Choose your drive, select BTRFS, yes, use compression, go ‘back’ , Bootloader: Select GRUB , Root Password: Set a password for the root user , User Creation: Add a user and set a password, confirm and exit , Profile: Type, Choose Desktop, then Hyprland, and enable Polkit, go ‘back’ , Audio: Select PulseAudio, Additional Packages: Add ‘firefox’ , Network Configuration: Choose NetworkManager , Timezone: Set your timezone , Run install.
 
-Disk Configuration: Partitioning, best effort, Choose your drive, select BTRFS, yes, use compression, go ‘back’ 
+Once complete Exit installer:  	‘exit’
 
-Bootloader: Select GRUB 
-
-Root Password: Set a password for the root user
-
-User Creation: Add a user and set a password, confirm and exit 
-
-Profile: Type, Choose Desktop, then Hyprland, and enable Polkit, go ‘back’ 
-
-Audio: Select PulseAudio.
-
-Additional Packages: Add ‘firefox’
-
-Network Configuration: Choose NetworkManager.
-
-Timezone: Set your timezone.
-
-Run install.
-
-3.  Once complete Exit installer:  	‘exit’
-
-4.  Reboot:				‘reboot’ or ‘shutdown - - now’
+Reboot:				‘reboot’ or ‘shutdown - - now’
 
 Optional: Setup swap partition. 
 If not setting up swap use ‘shutdown - -now’ then remove usb and restart computer.
@@ -53,7 +33,7 @@ Step 3: Initial Login
 
 At the login screen, switch to the Hyprland profile and log in with the username and password you created.
 
-Open a terminal with Win + Q  
+Open a terminal with 'Win + Q'
 
 Launch Firefox with command ‘firefox’
 
