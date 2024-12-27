@@ -10,7 +10,7 @@ cd ~/.dotfiles && git pull
 # Post install packages that get missed
 if ! command -v figlet &>/dev/null; then
     echo "Installing packages ..."
-    sudo pacman -Sy --noconfirm figlet aylurs-gtk-shell sddm-theme-sugar-candy-git pacseek waybar python-pywal16 python-pywalfox
+    sudo pacman -Sy --noconfirm figlet aylurs-gtk-shell sddm-theme-sugar-candy-git pacseek waybar waypaper python-pywal16 python-pywalfox
 fi
 
 # Update SDDM and Pacman theme
@@ -19,6 +19,7 @@ sudo cp -r ~/.dotfiles/assets/sddm.conf.d /usr/lib/sddm/ || log_error "Failed to
 sudo cp ~/.dotfiles/assets/pacman.conf /etc/ || log_error "Failed to move pacman.conf"
 sudo cp -r ~/.dotfiles/assets/theme.conf /usr/share/sddm/themes/sugar-candy || log_error "Failed to move theme.conf"
 sudo cp ~/.dotfiles/assets/sddm.jpg /usr/share/sddm/themes/sugar-candy/Backgrounds  || log_error "Failed to move sddm.jpg"
+sudo mkdir ~/Pictures
 
 cd ~/scripts && ./after_install_reboot.sh && ./hypr_swap.sh && ./zsh_fix.sh
 
