@@ -41,6 +41,7 @@ Step 4: Prepare for Setup
 
 Log in to your accounts:
 GitHub: Log in to ensure you can clone repositories.
+
 Google (optional): Sync browser settings if needed.
 
 Step 5: Install Hyprland Setup
