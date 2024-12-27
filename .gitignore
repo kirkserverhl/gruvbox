@@ -10,6 +10,6 @@ secrets.env
 private_key.pem
 
 
-# Ignore Cache  
-# settings/.config/settings/cache/
+# Ignore Yay  
+# yay/.config/settings/cache/
 

@@ -119,6 +119,11 @@ export BAT_THEME="gruvbox-dark"
 # Bun Completions
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
+# Git Update 
+gitupdate() {
+  cd ~/.dotfiles && git add . && git commit -m "$1" && git push
+}
+
 # -----------------------------------------------------
 # END OF .zshrc
 # -----------------------------------------------------
