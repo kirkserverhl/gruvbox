@@ -20,7 +20,17 @@ Cmd: ‘archinstall’
 
 Configure Installation:
 
-Mirrors: Choose mirror region, once complete, go ‘back’ , Disk Configuration: Partitioning, best effort, Choose your drive, select BTRFS, yes, use compression, go ‘back’ , Bootloader: Select GRUB , Root Password: Set a password for the root user , User Creation: Add a user and set a password, confirm and exit , Profile: Type, Choose Desktop, then Hyprland, and enable Polkit, go ‘back’ , Audio: Select PulseAudio, Additional Packages: Add ‘firefox’ , Network Configuration: Choose NetworkManager , Timezone: Set your timezone , Run install.
+Mirrors: Choose mirror region, once complete, go ‘back’ 
+Disk Configuration: Partitioning, best effort, Choose your drive, select BTRFS, yes, use compression, go ‘back’ 
+Bootloader: Select GRUB 
+Root Password: Set a password for the root user 
+User Creation: Add a user and set a password, confirm and exit 
+Profile: Type, Choose Desktop, then Hyprland, and enable Polkit, go ‘back’ 
+Audio: Select PulseAudio
+Additional Packages: Add ‘firefox’
+Network Configuration: Choose NetworkManager
+Timezone: Set your timezone
+Run install.
 
 Once complete Exit installer:  	‘exit’
 
