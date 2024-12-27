@@ -124,10 +124,6 @@ setup_cron_job() {
 } || checklist[post_configuration]=false
 
 
-
-	checklist[post_configuration]=true
-} || checklist[post_configuration]=false
-
 # Print checklist and options
 print_checklist
 
