@@ -67,7 +67,7 @@ setup_cron_job() {
     	meson nemo nemo-emblems nemo-preview nemo-terminal neovim neovim-lspconfig network-manager-applet networkmanager
     	noto-fonts noto-fonts-emoji nwg-look otf-fira-sans otf-font-awesome pacseek pacman-mirrorlist pipewire pipewire-alsa
     	pipewire-jack pipewire-pulse polkit-kde-agent pomodorolm prettier python-pywal16 python-pywalfox python-pillow python-vlc qt5-base
-    	qt5-graphicaleffects qt5-wayland qt6-wayland qt6ct-kde rofi-wayland sddm 
+    	qt5-graphicaleffects qt5-wayland qt6-wayland qt6ct-kde rofi-wayland sdm-sugar-candy-git
     	slurp smartmontools sof-firmware starship stow timeshift timeshift-autosnap tmux ttf-sharetech-mono-nerd unzip vala vim
     	vlc vlc-materia-skin-git vulkan-intel vulkan-radeon waybar waypaper wl-clipboard wl-clipboard-history-git wget wireless_tools
     	wireplumber wofi wolfenstein3d xclip xdg-desktop-portal-hyprland xdg-utils xf86-video-amdgpu xf86-video-ati xf86-video-nouveau xf86-video-vmware

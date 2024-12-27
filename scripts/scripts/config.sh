@@ -15,7 +15,7 @@ fi
 
 # Update SDDM and Pacman theme
 sudo rm -r -f /usr/lib/sddm/sddm.conf.d || log_error "Failed to remove old sddm config"
-sudo cp ~/.dotfiles/assets/sddm.conf.d /usr/lib/sddm/ || log_error "Failed to move sddm.conf.d"
+sudo cp -r ~/.dotfiles/assets/sddm.conf.d /usr/lib/sddm/ || log_error "Failed to move sddm.conf.d"
 sudo cp ~/.dotfiles/assets/pacman.conf /etc/ || log_error "Failed to move pacman.conf"
 sudo cp -r ~/.dotfiles/assets/theme.conf /usr/share/sddm/themes/sugar-candy || log_error "Failed to move theme.conf"
 sudo cp ~/.dotfiles/assets/sddm.jpg /usr/share/sddm/themes/sugar-candy/Backgrounds  || log_error "Failed to move sddm.jpg"
