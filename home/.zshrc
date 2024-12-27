@@ -27,7 +27,7 @@ alias .....='cd ../../../../..'
 alias ls='eza -a --icons'
 alias ll='eza -al --icons'
 alias lt='eza -a --tree --level=1 --icons'
-alias doom='cd ~/terminal-doom && zig-out/bin/terminal-doom'
+alias doom='~/scripts/doom.sh'
 
 
 # Productivity
