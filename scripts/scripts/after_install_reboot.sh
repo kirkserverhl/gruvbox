@@ -4,7 +4,7 @@
 echo "Running post-reboot configuration..."
 
 # Install missing packages
-yay -S --noconfirm aylurs-gtk-shell sddm-theme-sugar-candy-git
+yay -S --noconfirm aylurs-gtk-shell sddm-theme-sugar-candy-git xdotool
 yay -R --noconfirm dolphin
 
 # Fix Zsh
