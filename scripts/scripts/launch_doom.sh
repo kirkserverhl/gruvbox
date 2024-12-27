@@ -1,17 +1,12 @@
 #!/bin/bash
 
-# Run doom
+# Find the next empty workspace
+NEXT_WORKSPACE=$(hyprctl workspaces | grep -oP '\d+' | sort -n | tail -n 1)
+NEXT_WORKSPACE=$((NEXT_WORKSPACE + 1))
+
+# Switch to the new workspace
+hyprctl dispatch workspace $NEXT_WORKSPACE
+
+# Run the doom command in that workspace
 cd ~/terminal-doom && zig-out/bin/terminal-doom
 
-
-#!/bin/bash
-
-# Launch doom in a floating window
-# cd ~/terminal-doom && zig-out/bin/terminal-doom &
-
-# Wait for the window to launch
-#sleep 1
-
-# Get the window ID of the last launched window and make it float
-# window_id=$(hyprctl clients | grep 'terminal-doom' | awk '{print $1}')
-# hyprctl dispatch rule windowid:$window_id float
