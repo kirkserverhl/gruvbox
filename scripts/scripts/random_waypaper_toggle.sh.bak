@@ -3,11 +3,19 @@
 
 PIDFILE="$HOME/.random_waypaper.pid"
 
-# Check if the PID file exists
+# Function to send a notification using dunst
+send_notification() {
+    local message="$1"
+    notify-send "$message"
+}
+
+# Check if the PID file exists and the process is running
 if [[ -f "$PIDFILE" ]]; then
-    # If it exists, stop the running process
+    # If the PID file exists, check if the process is still running
     if kill -0 "$(cat "$PIDFILE")" 2>/dev/null; then
+        # Process is running, stop it
         echo "Stopping random wallpaper changer..."
+        send_notification "Random Wallpaper Stopped"  # Send stop notification
         kill "$(cat "$PIDFILE")" && rm "$PIDFILE"
         exit 0
     else
@@ -21,17 +29,22 @@ fi
 cleanup() {
     echo "Cleaning up random wallpaper changer..."
     rm -f "$PIDFILE"
+    send_notification "Random Wallpaper Stopped"  # Send stop notification
     exit
 }
 
-# Start the process
+# Start the random wallpaper process
 echo "Starting random wallpaper changer..."
+send_notification "Random Wallpaper Started"  # Send start notification
+
 trap cleanup SIGINT SIGTERM EXIT  # Ensure cleanup on script termination
+
+# Run the wallpaper changing loop in the background
 (
     while true; do
-        waypaper --random
-        sleep 300  # 5 minutes
+        waypaper --random  # Set a random wallpaper
+        sleep 300  # Sleep for 5 minutes
     done
 ) &
-echo $! > "$PIDFILE"
+echo $! > "$PIDFILE"  # Save the process ID to the PID file
 

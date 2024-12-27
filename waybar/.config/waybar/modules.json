@@ -93,7 +93,7 @@
     "format": "",
     "on-click": "waypaper",
     "on-click-right": "~/scripts/random_waypaper_toggle.sh",
-    "tooltip-format": "Left: Select a wallpaper\nRight: Select wallpaper effect"
+    "tooltip-format": "Left: Select a wallpaper\nRight: Start Random Wallpaper Script"
   },
 
   // Waybar Themes
