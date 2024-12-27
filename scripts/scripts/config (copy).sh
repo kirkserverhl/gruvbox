@@ -1,5 +1,6 @@
 #!/bin/bash
 
+## Missing pkgs, Fix Zsh, refresh Hyprland, move Ass’s  ##
 echo "Running post-boot configuration..."
 
 # Refresh dotfiles
@@ -10,33 +11,16 @@ sudo rm -r -f /usr/lib/sddm/sddm.conf.d || log_error "Failed to remove old sddm 
 sudo cp ~/.dotfiles/assets/sddm.conf.d /usr/lib/sddm/ || log_error "Failed to move sddm.conf.d"
 sudo cp ~/.dotfiles/assets/pacman.conf /etc/ || log_error "Failed to move pacman.conf"
 sudo cp -r ~/.dotfiles/assets/Sugar-Candy/theme.conf /usr/share/sddm/themes/Sugar-Candy || log_error "Failed to move theme.conf"
-sudo cp ~/.dotfiles/assets/sddm.jpg /usr/share/sddm/themes/Sugar-Candy/Backgrounds || log_error "Failed to move sddm.jpg"
+sudo cp ~/.dotfiles/assets/sddm.jpg /usr/share/sddm/themes/Sugar-Candy/Backgrounds  || log_error "Failed to move sddm.jpg"
 
-# Install missing packages
-echo "Installing missing packages..."
-yay -S --noconfirm aylurs-gtk-shell sddm-sugar-candy-git xdotool figlet
-yay -R --noconfirm dolphin
+cd ~/scripts && ./after_install_reboot.sh && ./hypr_swap.sh && ./zsh_fix.sh
 
-# Fix Zsh
-echo "Configuring Zsh..."
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
-# Update SDDM theme
-sudo cp -r ~/.dotfiles/assets/Sugar-Candy/theme.conf /usr/share/sddm/themes/sugar-candy
-sudo cp ~/.dotfiles/assets/sddm.jpg /usr/share/sddm/themes/sugar-candy/Backgrounds
-
-# Update environment configuration
-sudo cp ~/.dotfiles/assets/environment /etc/environment
-
-# Refresh Hyprland configuration
-echo "Refreshing Hyprland configuration..."
-cd ~/.dotfiles || exit
-touch ~/.config/hypr/hyprland.conf > /dev/null 2>&1
-rm ~/.config/hypr/hyprland.conf > /dev/null 2>&1
-stow hypr --adopt > /dev/null 2>&1
-waypaper --random > /dev/null 2>&1
-touch ~/.config/hypr/hyprland.conf > /dev/null 2>&1
+# Post install packages that get missed
+if ! command -v figlet &>/dev/null; then
+    echo "Installing packages ..."
+    sudo pacman -Sy --noconfirm figlet aylurs-gtk-shell sddm-theme-sugar-candy-git pacseek waybar python-pywal16 python-pywalfox
+fi
 
 # Function to display a header with figlet
 display_header() {
@@ -44,7 +28,7 @@ display_header() {
     figlet -f smslant "$1"
 }
 
-# Function to track performed actions
+# Function to check if an action was performed
 track_action() {
     checklist+=("$1")
 }
@@ -67,6 +51,14 @@ if [[ "$configure_monitor" =~ ^[Yy]$ ]]; then
     ~/scripts/monitor.sh
     track_action "Monitor setup"
 fi
+
+# SDDM and Pacman Configuration
+# display_header "SDDM & Pacman"
+# read -p "Do you want to configure SDDM and Pacman (y/n)? " configure_sddm_pacman
+# if [[ "$configure_sddm_pacman" =~ ^[Yy]$ ]]; then
+#     ~/scripts/assets.sh
+#     track_action "SDDM and Pacman configuration"
+# fi
 
 # Cleanup
 display_header "Cleanup"
@@ -99,6 +91,7 @@ fi
 echo "Post-reboot configuration completed successfully."
 
 # Offer to reboot or quit
+echo
 read -p "Would you like to reboot your system now (y/n)? " reboot_choice
 if [[ "$reboot_choice" =~ ^[Yy]$ ]]; then
     sudo reboot

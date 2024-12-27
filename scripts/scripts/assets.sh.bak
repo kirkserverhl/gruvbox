@@ -7,8 +7,8 @@ SOURCE_DIR="$HOME/.dotfiles/assets"
 declare -A FILES_TO_COPY=(
     ["$SOURCE_DIR/sddm.conf.d"]="/usr/lib/sddm/sddm.conf.d"
     ["$SOURCE_DIR/pacman.conf"]="/etc/pacman.conf"
-    ["$SOURCE_DIR/sddm.jpg"]="/usr/share/sddm/themes/Sugar-Candy/Backgrounds/sddm.jpg"
-    ["$SOURCE_DIR/theme.conf"]="/usr/share/sddm/themes/Sugar-Candy/"
+    ["$SOURCE_DIR/sddm.jpg"]="/usr/share/sddm/themes/sugar-candy/Backgrounds/sddm.jpg"
+    ["$SOURCE_DIR/theme.conf"]="/usr/share/sddm/themes/sugar-candy/"
 )
 
 # Function to copy the file
