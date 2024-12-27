@@ -71,32 +71,3 @@ Run the following  line of commands to start the installation:
 
 sudo pacman -S git && git clone https://github.com/kirkserverhl/gruvbox.git ~/.dotfiles && cd ~/.dotfiles && ./install.sh
 
-Common Issues and Fixes
-
-Network Not Working After Reboot:
-
-Ensure NetworkManager is running:
-sudo systemctl start NetworkManager
-sudo systemctl enable NetworkManager
-Check your Wi-Fi or Ethernet settings.
-
-Display Issues with Hyprland:
-
-Ensure the necessary graphics drivers are installed:
-sudo pacman -S mesa xf86-video-amdgpu  / xf86-video-intel nvidia
-(Choose the appropriate driver for your GPU.)
-
-Errors Cloning Repository:
-
-Verify your internet connection.
-
-Log into GitHub in your browser and confirm access.
-
-Script Errors:
-
-Ensure the script has execute permissions:
-chmod +x ~/.dotfiles/install.sh
-Rerun the script if it fails:	 ~/.dotfiles/install.sh
-Missing Firefox or Other Applications:
-Install manually with:	 sudo pacman -S firefox
-
