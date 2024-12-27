@@ -27,6 +27,7 @@ alias .....='cd ../../../../..'
 alias ls='eza -a --icons'
 alias ll='eza -al --icons'
 alias lt='eza -a --tree --level=1 --icons'
+alias doom='cd ~/terminal-doom && zig-out/bin/terminal-doom'
 
 # Productivity
 alias c='clear && $SHELL'
@@ -127,5 +128,6 @@ gitupdate() {
 # -----------------------------------------------------
 # END OF .zshrc
 # -----------------------------------------------------
+
 
 
