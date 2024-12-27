@@ -115,7 +115,7 @@ setup_cron_job() {
 	alacritty --hold -e bash -c "
 		cd ~/scripts || exit 1;
 		./config.sh || exit 1;
-		./zsh_fix.sh || exit 1;
+		# ./zsh_fix.sh || exit 1;
 		./hypr_swap.sh > /dev/null 2>&1 & disown;  # Run hypr_swap.sh in the background
 		exit
 	" || log_error "Failed to run post-configuration scripts"
