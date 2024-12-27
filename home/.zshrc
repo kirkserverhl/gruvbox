@@ -27,7 +27,7 @@ alias .....='cd ../../../../..'
 alias ls='eza -a --icons'
 alias ll='eza -al --icons'
 alias lt='eza -a --tree --level=1 --icons'
-alias doom='cd ~/terminal-doom && zig-out/bin/terminal-doom'
+alias doom='kitty --hold bash -c "~/scripts/launch_doom.sh; exec bash"'
 
 # Productivity
 alias c='clear && $SHELL'
@@ -41,6 +41,8 @@ alias monitor='~/scripts/monitor.sh'
 alias zsh='nvim ~/.zshrc'
 alias keybinds='nvim ~/.config/hypr/conf/keybindings/default.conf'
 alias aliases='.zshrc'
+alias doom='kitty --hold --title doom --config ~/.config/kitty/kitty.conf bash -c "~/scripts/launch_doom.sh; exec bash"'
+
 
 
 # Git
