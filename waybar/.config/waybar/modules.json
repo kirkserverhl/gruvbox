@@ -109,7 +109,7 @@
     "format": "",
     "on-click": "~/scripts/scripts.sh",
     "on-click-right": "~/scripts/launch.sh",
-    "tooltip-format": "Left: Scripts\nRight: Keybind Config"
+    "tooltip-format": "Left: Zshrc\nRight: Keybindings"
   },
 
   // Keybindings
@@ -147,16 +147,15 @@
     // END APPS LABEL
     "on-click": "sleep 0.2;pkill rofi || rofi -show drun -replace",
     "on-click-right": "~/scripts/keybind_hints.sh",
-    "tooltip-format": "Left: Open the application launcher\nRight: Show all keybindings"
+    "tooltip-format": "Left: Open the application launcher\nRight: Running Applications"
   },
 
   // Rofi Application Launcher
   "custom/appmenuicon": {
     "format": "",
     "on-click": "sleep 0.2;rofi -show drun -replace",
-    "on-click-right": "~/scripts/keybind_hints.sh",
     "on-click-right": "~/scripts/launch.sh",
-    "tooltip-format": "Left: Open the application launcher\nRight: Open Apps"
+    "tooltip-format": "Left: Open Rofi\nRight: Running Applications"
   },
 
   // Power Menu
@@ -207,8 +206,8 @@
   "clock": {
     "format": "{:%H:%M %a}",
     "on-click": "ags toggle calendar",
-    "on-click-right": "~/scripts/launch.sh",
-    "tooltip-format": "Left: Calendar\nRight: Timer"
+    "on-click-right": "~/scripts/toggle_pomodoro.sh",
+    "tooltip-format": "Left: Calendar\nRight: Pomodoro"
   },
 
   // System
