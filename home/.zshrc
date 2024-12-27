@@ -76,7 +76,6 @@ alias fastping='ping -c 100 -i .2'
 alias ff='fastfetch'
 alias pf='pfetch'
 alias tm='tmux -2'
-alias rg='ranger'
 alias ps='pacseek'
 
 # -----------------------------------------------------
