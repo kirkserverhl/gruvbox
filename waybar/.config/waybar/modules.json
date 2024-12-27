@@ -71,9 +71,9 @@
   "custom/cliphist": {
     "format": "",
     "on-click": "sleep 0.1 && ~/scripts/cliphist.sh",
-    "on-click-right": "sleep 0.1 && ~/scripts/cliphist.sh d",
+    "on-click-right": "sleep 0.1 && ~/scripts/screenshot.sh",
     "on-click-middle": "sleep 0.1 && ~/scripts/cliphist.sh w",
-    "tooltip-format": "Clipboard Manager"
+    "tooltip-format": "Left: Clipboard Manager\nRight: Screenshot"
   },
 
   // Updates Count
@@ -84,7 +84,8 @@
     "exec": "~/scripts/updates.sh",
     "interval": 1800,
     "on-click": "$(cat ~/scripts/terminal.sh) --class dotfiles-floating -e ~/scripts/installupdates.sh",
-    "on-click-right": "~/scripts/software.sh"
+    "on-click-right": "~/scripts/software.sh",
+    "tooltip-format": "Left: Start Update\nRight: Pacseek Manager"
   },
 
   // Wallpaper
@@ -99,8 +100,8 @@
   "custom/waybarthemes": {
     "format": "",
     "on-click": "~/scripts/themeswitcher.sh",
-    "on-click-right": "~/scripts/launch.sh",
-    "tooltip-format": "Left: Waybar Theme\nRight: Reload Waybar"
+    "on-click-right": "~/scripts/cycle_animations.sh",
+    "tooltip-format": "Left: Waybar Theme\nRight: Cycle Window Animations"
   },
 
   // Settings
