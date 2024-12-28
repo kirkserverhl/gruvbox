@@ -146,7 +146,7 @@
     // END APPS LABEL
     "on-click": "sleep 0.2;pkill rofi || rofi -show drun -replace",
     "on-click-right": "~/scripts/rofilaunch.sh w",
-    "tooltip-format": "Left: Open the application launcher\nRight: Running Applications"
+    "tooltip-format": "Left: Rofi App Launcher\nRight: Running Applications"
   },
 
   // Rofi Application Launcher
