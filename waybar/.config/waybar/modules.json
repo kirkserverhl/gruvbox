@@ -107,14 +107,14 @@
   "custom/settings": {
     "format": "",
     "on-click": "~/scripts/scripts.sh",
-    "on-click-right": "~/scripts/launch.sh",
+    "on-click-right": "~/scripts/keybinds.sh",
     "tooltip-format": "Left: Zshrc\nRight: Keybindings"
   },
 
   // Keybindings
   "custom/keybindings": {
     "format": "",
-    "on-click": "~/scripts/keybind_hints.sh",
+    "on-click": "~/scripts/keybinds.sh",
     "tooltip": false
   },
 
@@ -145,7 +145,7 @@
     "format": "Apps",
     // END APPS LABEL
     "on-click": "sleep 0.2;pkill rofi || rofi -show drun -replace",
-    "on-click-right": "~/scripts/keybind_hints.sh",
+    "on-click-right": "~/scripts/keybinds.sh",
     "tooltip-format": "Left: Open the application launcher\nRight: Running Applications"
   },
 
@@ -205,7 +205,7 @@
   "clock": {
     "format": "{:%H:%M %a}",
     "on-click": "ags toggle calendar",
-    "on-click-right": "~/scripts/toggle_pomodoro.sh",
+    "on-click-right": "~/scripts/pomodorolm.sh",
     "tooltip-format": "Left: Calendar\nRight: Pomodoro"
   },
 
