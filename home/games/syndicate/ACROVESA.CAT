@@ -1,0 +1,909 @@
+Universal VESA VBE, Copyright (C) 1993 SciTech Software
+All Rights Reserved.
+
+The Universal VESA VBE is not free software. It is fully copyrighted
+shareware software, Copyright (C) 1993 SciTech Software. Please read the
+file LICENSE.TXT for information about your legal use of this software.
+NOTE: Adobe has licensed the Universal VESA VBE video driver for use
+with Acrobat Reader for DOS. You do not need to purchase a registered
+copy of the Universal VESA VBE video driver from SciTech Software.
+
+
+                SCITECH SOFTWARE's SHAREWARE LICENSE AGREEMENT
+
+                               October 22, 1993
+
+     1.   Introduction.  This agreement explains when and how you may
+          use both shareware and registered copies of software products
+          from SciTech Software.  In this agreement:
+
+             . "Product" means the SciTech Software software product(s)
+               you have purchased or obtained for evaluation, including
+               both the software and the associated documentation and
+               other materials.  This includes the source files and
+               libraries that may or may not have come with the product.
+
+             . "Shareware Copy" means a copy of the Product obtained
+               either electronically from bulletin boards, the Internet
+               or some other source, or on diskette from shareware
+               resellers.
+
+             . "Registered Copy" means a copy of the Product purchased
+               from SciTech Software including any printed manuals, and
+               was not obtained electronically.
+
+             . "we" or "us" means SciTech Software.
+
+             . "you" means the end user of the Software.
+
+     2.   Legal Agreement.  This is a legal agreement which allows you,
+          the end user, to use the Product under certain terms and
+          conditions. If you cannot agree to abide by what this
+          agreement says you should not use or evaluate the Product.
+
+     3.   Evaluation Period.  You may use a Shareware Copy of the
+          Product for an evaluation period of up to 21 days, in order to
+          determine whether the Product meets your needs before
+          purchasing it.  Once the evaluation period ends, you agree to
+          either purchase a Registered Copy of the Product, or to stop
+          using it.  If you have ordered a Registered Copy of the
+          Product from us, you may continue to use your Shareware Copy
+          until your Registered Copy arrives.
+
+     4.   Use of the Product.  While you are evaluating the Product, you
+          may use it on as many computers as are required to perform
+          your evaluation. Your 21-day evaluation period begins when you
+          first install the Product on one or more computers for
+          evaluation purposes. Once the evaluation period is over and
+          you purchase the Product, you may only use the product on one
+          computer at a time. You may install the product on multiple
+          computers as long as there is no possibility of the product
+          being used at the same time on different computers. For
+          multiple system licenses please contact SciTech software for
+          special pricing information.
+
+     5.   No Royalties.  If the product that you have purchased is a set
+          of programming libraries for application development, any
+          software that you create using the libraries is owned by you,
+          and you may sell without paying any royalties to SciTech
+          Software. You may not distribute any part of the Product with
+          your software except for appropriate loadable device drivers,
+
+     SciTech Software Shareware License Agreement              Page: 1
+
+
+          DLL's and data files that are required for the Product to
+          operate correctly.
+
+     6.   Distributing Shareware Copies of the Product.  You may make
+          copies of your Shareware Copy of the Product to give to
+          others, as long as you include all of the files that you
+          originally received with your Shareware Copy.  You may not
+          sell Shareware Copies of the Product for a profit (shareware
+          distribution companies may charge their normal shipping and
+          handling fees).
+
+     7.   Copying Registered Copies of the Product.  When you receive a
+          Registered Copy of the Product you may make copies of the
+          Product which are necessary for normal backup purposes only.
+          You agree not to make any other copies of the software, the
+          manual(s), or any part of  them, or sell or give any copies to
+          others without prior written permission from SciTech Software.
+
+     8.   Legal disclaimers required in a non-ideal world:
+
+     THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND,
+     EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE
+     IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+     PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE
+     PRODUCT IS WITH YOU.  SHOULD THE PRODUCT PROVE DEFECTIVE, YOU
+     ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+     IN NO EVENT WILL SCITECH SOFTWARE, OR ANY OTHER PARTY WHO MAY HAVE
+     REDISTRIBUTED THE PRODUCT AS PERMITTED ABOVE, BE LIABLE TO YOU FOR
+     DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR
+     CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE
+     THE PRODUCT (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA
+     BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
+     PARTIES OR A FAILURE OF THE PRODUCT TO OPERATE WITH ANY OTHER
+     PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF
+     THE POSSIBILITY OF SUCH DAMAGES.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     SciTech Software Shareware License Agreement              Page: 2
+
+===============================================================================
+Universal VESA VBE - Distribution Licensing Information         22 October 1993
+===============================================================================
+
+If you are the author of a shareware or commercial application and wish
+to distribute a LICENSED copy of the Universal VESA VBE with your package,
+you must purchase a Software License Agreement from SciTech Software. The
+following conditions must also be met:
+
+a) If any reference to the program is made in your user documentation,
+   reference to the fact that the program is Copryright (C) 1993 SciTech
+   Software MUST be made.
+
+b) The files LICENSE.TXT, COPYRIGHT and this file MUST be distributed along
+   with the program in electronic form.
+
+c) You may not distribute modified versions of the program, but only
+   official licensed versions provided by SciTech software.
+
+Please contact SciTech Software directly for Software Licensing information
+and pricing.
+
+Adobe has licensed and included the Universal VESA VBE video driver
+with Acrobat Reader for DOS.  This program is fully copyrighted;
+Copryright (C) 1993 SciTech Software.  Please read the file 
+LICENSE.TXT for information about your legal use of this software.
+
+This video driver provides VESA version 1.2 support for many popular
+video cards.  This driver enables supported video cards to use
+higher resolution modes while running Acrobat Reader for DOS.
+
+This version of the Universal VESA driver supports video cards built
+with the following Super VGA chipsets:
+
+    - ATI Technologies 18800, 28800
+    - Ahead A & B
+    - Chips & Technologies 82c451/452/453
+    - Everex
+    - Genoa Systems GVGA
+    - OAK Technologies OTI-037C, OTI-067, OTI-077, OTI-087
+    - Paradise PVGA1A, WD90C00/10/11/20/21/30/31
+    - NCR 77C20/21/22E
+    - Trident 88/8900
+    - Video7 V7VGA versions 1-5
+    - Tseng Labs ET3000, ET4000, ET4000/W32
+    - AcuMos AVGA2
+    - S3 86c911/924/801/805/928
+    - Advance Logic AL2101 SuperVGA
+    - MXIC 86010 SuperVGA
+    - Primus 2000 SuperVGA
+    - RealTek 3106 SuperVGA
+    - Cirrus Logic CL-GD 5420, 5422, 5424, 5426, 5428
+
+
+
+MZXW w€ ! ÿÿn
+€    Ü>    ûPjr                            =   C   I   u   y   }      …   ‰      ‘   •   £   «   ¼   #  6#  %  E%   Ük Ü° Ü\Ü^)  L)  9)  ,)  )  ¬(  ›(  b(  V(  C(  5(  (  ì'  Ñ'  ²'  €'  P'  8'  %'  '  ô&  Ü&  µ&  •&  ‰&  v&  E&  9&  ,&  &  &  &  ø%  ë%  Ş%  Ñ%  Ä%  ·%  ¥%  ˜%  ‹%  q%  Z-  A-  2-  &-  -  ñ,  ä,  Õ,  Á,  ±,  ¢,  Œ,  €,  s,  f,  Y,  L,  8,  ,,  ,  ,  ë+  Ø+  ‚+  f+  =+  +  +  Û*  È*  °*  ‰*  3*  '*  *  ô)  è)  Ù)  Í)  ›)  ‡)  s)  Á-  µ-  ¨-  s-  ª ŠbôïôÊô”ômôCô ôĞ ô® ô]ô[ô2ôáô½ô©ôôzôdô ôáôÂôôúô“ôôGô0ôôú
+ôæ
+ôĞ
+ô¹
+ô¥
+ô‹
+ôd
+ôP
+ô5
+ô!
+ô
+ô™	ôéôÍô¢ôéôzôKôóôyôôÿôáôRôô°ôUô>ô.ôôôRô>ô#ôôõôáôŸô?ô&ôônôô¬ôOô3ôôğô¼ô¡ô†ôeôôäôĞôµô¡ô‹ôoô±ôOôôİôÉô®ôšô„ôDôôôô}ô,ôôêôÎô¾ô§ô#ôôŞôÇô°ôhôTô@ô#ôÓô§ô“ôxôdôNôôŒôôôÅô«ô8ôªŠ¦Š¢Š&Š"Š¦
+Š¢
+Š
+Šš
+Š–
+ŠjŠfŠbŠ^ŠZŠŞŠÚŠ^ŠZŠVŠRŠÖŠÒŠÎŠÊŠÆŠÂŠ¾ŠBŠ>Š:Š6Š2Š¶Š:Š6Š2Š.Š*Š&Š®ŠªŠ¦Š¢ŠŠšŠ–Š’ŠŠŠŠ†Š‚Š~ŠzŠvŠrŠnŠjŠfŠbŠæŠjŠîŠrŠöŠzŠvŠrŠnŠòŠîŠêŠæŠZŠVŠRŠNŠJŠFŠBŠ>Š:Š6Š2Š.Š*Š&Š"ŠŠŠŠŠŠ
+ŠŠŠşŠúŠöŠòŠîŠêŠæŠâŠŞŠÚŠÖŠÒŠÎŠÊŠÆŠÂŠ¾ŠºŠ¶Š²Šé1T1211í1Ê1§1„1a1>11ø1ß 11a1LŠHŠDŠ> Üò,Ü                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Universal VESA VBE 4.2         ÿÿ                         ÿÿ    ÿÿ    ÿÿ  ÿÿ  ÿÿ  ÿÿ  ÿÿ  ÿÿ  ÿÿ  ÿÿ  ÿÿ  ÿÿ  ÿÿ  ğ    ¡  ²  ÷  ‚  ²    B	      VESA        ú     @ @     Š                                  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   û.ƒ>  u€üOt
+äu<r<w‹Øèİ Ï.ÿ. <w÷2äĞàĞàS‹Ø.‹‡s .£— .‹‡u .£™ [.ÿ— ÏQVWŒÈØ¾› ¹ üó¤3À¹í óª¸O _^YËQRVWƒùÿt[è~ƒşÿtbWƒÆ¿¾ ¹ üó¤¹	 ¿Í ¾Ö .ŠÇ €ú|¾ß €ú|¾è €ú|¾ñ ó¤_¾® ¹( ó¤3À¹Ø óª_^ZY¸O Ë¾9 ¹ ó¤¹½Êëç_^ZY¸O.ÿ œ.ÿ .ÿ ËSQRVW‹Ë€áƒùvéƒ .ƒ>g ÿt.ÿg ºÈìºÆìììì2ÀîºÈìQS.Ç)   ƒù|.Ç)  .‰+ .Ç- ( ƒùt.Ç- P ƒù|.Ç- @X.ÿ œ.ÿ .ÿ Y.ƒ>+ }é@.ƒ>+ vé5éš S‹Ë€åè]ƒşÿué9.‰+ ‹D‹\‹T.‰- ŠTY€å€tÛt	
+ÿt	€Ï€ë€ë€Ë€R.ÿ œ.ÿ .ÿ Z¸@ À&€>I wéâ .Ç)   €út+.Ç)  €út.Ç)  €út.Ç)  €út.Ç)  .ƒ>c ÿt.ÿc ºÔ°îBì2ä.‹- 2ÉÀt
+;Ã}şÁÑàëö.ˆ6 .¡M .‹K .‹Q .‹O .‹6[ .‹>] .ƒ>)  t%.¡U .‹S .‹Y .‹W .ƒ>+ t
+.‹6_ .‹>a .£9 .‰; .‰? .‰A .‰6G .‰>E .Ç/   .Ç1   ¸O ë-¸Oë(.ƒ>g ÿt.ÿg [¸O.ÿ œ.ÿ .ÿ .Ç+ ÿÿ_^ZY[ËVW´.ÿ œ.ÿ .ÿ ŠØ€ã€û¸O v.‹+ ƒûÿu¸O.ÿ œ.ÿ .ÿ _^ËQVW.ƒ>  tW.ƒ> tO.ƒ>  t+SQR»ÿÿ2Ò¸O.ÿ œ.ÿ .ÿ ÛZY[x.Ç   ¸O.ÿ œ.ÿ .ÿ ë(.Ç  ´ŠÂ€á.ÿ œ.ÿ .ÿ <¸Ou¸O _^YËè ¸O Ë
+ÿu‹Â.£4 
+Ûu.ÿ; Ë.ƒ>7  t.ÿA Ë.‹4 ËVW.€>6  uéÂ .¡) 
+ÛuY=  t= t*= t/= t*‹ÁÑáÈƒáø.‰- ë$ÑéÑéÑéƒáğ.‰- ëƒáø.‰- ë
+Ñáƒáø.‰- ‹Ù.Š6 ÓëºÔŠã°ï.¡% ‹ĞÑàÑàÑàÑàÑàÑàÑàÑàÑàÑàÑêÑêÑêÑêÑêÑê.‹- ‹Ë÷ó‹Ğ.¡) =  t= t'= t= t‹ÁÑé+ÈëÑáÑáÑáÑêÑêë	Ñéë¸Oë¸O _^ËSVW¸O.ƒ>G ÿué‹ 
+Ûté‰ QR.‰/ .‰1 .¡- ÷â.‹) ƒû t%ƒût-ƒût7ƒût2ÁƒÒ ÑáÁƒÒ ÑêÑØÑêÑØë+ÑéÑéÑéÁƒÒ ëÁƒÒ ÑêÑØÑêÑØëÑáÁƒÒ ÑêÑØÑêÑØ±ŠìŠø³‹ò.ÿG ¸O 2ÿZYë¸Oë.‹/ .‹1 ¸O _^[Ë.ƒ>k ÿu.> |¸O.ÿ œ.ÿ .ÿ Ë
+Ûu%.ƒ>k ÿt'€ÿt.ÿk .Æ3 ë.ÿo .Æ3 ¸O .Š>3 ë¸OËP¾ú ­=ÿÿt;Áuö¾8ƒ<ÿt	9tƒÆëò¾ÿÿXÃ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              PR$ŠàĞäĞäĞäĞä
+àĞÄºÎ°²ïZXËPR$ĞÀĞÀĞÀĞÀĞÀŠàºÎ°²îşÂì$
+à°²ïZXËºÔ‹Ãï‹Áï‹ŞºÎ°°îBì$?€ãĞãĞãĞãĞãĞãĞã
+ÃîËºÎ°¾îBì$÷îÃºÎ°¾îBì$÷ îÃ.Ç7   .ÇK Ò.ÇM  .ÇS Ò.ÇU  .Ç[ .Ç] ( .Ç_ .Ça ( .€>#  t?.Ç7  .ÇO í.ÇQ # .ÇW í.ÇY # .Çc 8.Çe  .Çg F.Çi  ÃPRQŠèºÌì²Â$ßĞís îºÎ°ŠåïYZXËPRŠàĞäĞäĞäĞä
+à°ºÎïZXËPRŠà°ºÎîşÂì$ğ
+ÄîZXËºÔ‹Ãï‹Áï‹ŞºÎ°îBì$ü€ã
+ÃîËŠÃŠßŠıÑîÑÛŠïŠûŠØºÔ‹Ãï‹Áï‹ŞºÎ°îBì$ü€ã
+ÃîËºÎ°îBì$ß îºÎ°îBì$ß îÃºÎ°îBì$ß îºÎ°îBì$ß îÃ.Ç7   .ÇK Û.ÇM   .ÇS Û.ÇU   .Çc o.Çe  .Çg Š.Çi  .ƒ># u[.Ç7  .ÇK û.ÇM  .ÇS û.ÇU  .ÇO .ÇQ  .ÇW .ÇY  .Ç[ '.Ç]  .Ç_ C.Ça , ÃPRŠà°ºÖïZXËPRŠàĞäĞäĞäĞä°ºÖïZXËPRŠàĞäĞä°ºÖïZXËPRŠàĞäĞäĞäĞäĞäĞä°ºÖïZXËPRŠàĞäĞäĞäĞä°ºÖïZXËºÔ‹Ãï‹Áï‹ŞºÖ°Šãï°îBìîËºèF°îº°€îºèF°îºÖ°îBì$ûîºÖ°îBì$üîÃºèF°îº° îºèF°îÃ.Ç7   .ÇK {.ÇM  .ÇS ”.ÇU  .Ç[ ©.Ç]  .Ç_ ©.Ça  .Çc Å.Çe - .Çg ò.Çi  .‹# ƒûtK.ÇK U.ÇM  .ÇS j.ÇU  ƒût*.ÇK H.ÇM  .ÇS H.ÇU  .Ç[ ÿÿ.Ç_ ÿÿÃPRQŠÈºÄ°îşÂìşÊĞàĞéĞØŠà°ï²Ìì²Â$ßĞér îYZXË.¡# = t;= t6= uéª = t)= t$.Ç7   .ÇK ¶.ÇM - .ÇS ¶.ÇU - Ã.Ç7   .ÇK ¢.ÇM  .ÇS ¢.ÇU  .Ç[ ¼.Ç] ( .Ç_ ¼.Ça ( °´ ºÄïºÅì$<t*.Ç[ ä.Ç] G .Ç_ +.Ça W .Çc ‚.Çe  Ã.Ç7  .ÇK '.ÇM  .ÇS '.ÇU  .ÇO >.ÇQ  .ÇW >.ÇY  .Ç[ \.Ç]  .Ç_ \.Ça  ÃPRŠàĞàĞàĞà
+à€Ì@°ºÄïZXËPR$ŠàºÄ°îşÂì$ø
+ÄîZXË.Ç7  .ÇK ÿ.ÇM  .ÇS ÿ.ÇU  .ÇO .ÇQ  .ÇW .ÇY  ÃPR$ŠàĞàĞàĞàĞà
+à°ºŞïZXËPR$Šà°ºŞîşÂì$ğ
+ÄîZXËPR$Šà°#ºŞïşÀïZXËPR$Šà°$ºŞïZXËºÔ‹Ãï‹Áï‹ŞºŞ°îBìJ$÷S€ãĞãĞãĞã
+Ãî°îBì$÷[€ãĞãĞã
+ÃîËŠÃŠßŠıÑîÑÛŠïŠûŠØºÔ‹Ãï‹Áï‹ŞºŞ°îBìJ$÷S€ãĞãĞãĞã
+Ãî°îBì$÷[€ãĞãĞã
+ÃîËºÎ°îBì$ãî.ƒ>)  uºÎ°îBì$ïîÃ.Ç7  .Ç[ ¿.Ç] 6 .Ç_ õ.Ça F .Çc ;.Çe # .€># t9.ÇK n.ÇM  .ÇS n.ÇU  .ÇO ‡.ÇQ  .ÇW ‡.ÇY  Ã.ÇK .ÇM  .ÇS .ÇU  .ÇO °.ÇQ  .ÇW °.ÇY  ÃPRºÎĞàĞàĞàĞàŠà°	ïZXËPRºÎĞàĞàĞàĞàŠà°	ï°
+ïZXËPRºÎĞàĞàĞàĞàŠà°	ïZXËºÔ‹Ãï‹Áï‹ŞºÎ°îBì$ç€ãĞãĞãĞã
+ÃîË°´ºÎï°´HºÄï°)´…ºÔïºÔ°/îBì$ı îÃ°´ºÎï°´HºÄï°)´…ºÔïºÔ°/îBì$ı îºÎ°îBì$÷îºÄ°îBì$€îÃºÎ°îBì$÷ î°´ ºÎï°´ ºÎïÃ.Ç7   .ÇK 	.ÇM  .ÇS 	.ÇU  .Ç[ K.Ç] " .Ç_ K.Ça " .Çc m.Çe & .Çg Ó.Çi  .ƒ># |M.Ç7  .ÇK .ÇM  .ÇS .ÇU  .ÇO 6.ÇQ  .ÇW 6.ÇY  .Çc “.Çe @ ÃPR4ŠàºÄ°îşÂ2ÀîìşÊ°ïZXËºÔ‹Ãï‹Áï‹ŞºÔ°îBì$ß€ãĞãĞãĞãĞãĞã
+Ã€îËºÔ‹Ãï‹Áï‹ŞSºÔ°îBì$_€ãĞãĞãĞãĞãĞã
+Ã€îºÄ°îşÂ2ÀîşÊ°îşÂì$ş[Ğë€ã
+ÃîËŠÃŠßŠıÑîÑÛŠïŠûŠØºÔ‹Ãï‹Áï‹ŞSºÔ°îBì$_€ãĞãĞãĞãĞãĞã
+Ã€îºÄ°îşÂ2ÀîşÊ°îşÂì$ş[Ğë€ã
+ÃîËºÎ°îBì$ûîºÔ°îBì$€îÃ.ÇK ¢.ÇM  .ÇS ¢.ÇU  .Ç[ ¼.Ç] ( .Ç_ ¼.Ça ( .ƒ>#  tA.Ç[ ä.Ç] G .Ç_ ä.Ça G .>%  ~.Ç_ +.Ça W .Çc ‚.Çe  ÃPQR$ŠèºÄŠå€ä°ùïŠÅ$ŠàĞìĞì
+à°öîşÂì$ğ
+ÄîŠå€äĞäĞäĞäĞäºÌì$ßºÂ
+ÄîZYXËPR$ĞàĞàĞàĞàŠàºÄ°èï°éïZXËPR$ĞàĞàĞàĞàŠàºÄ°éîZXËºÔ‹Ãï‹Áï‹ŞºÄ°öîBì$Ï€ãĞãĞãĞãĞã
+ÃîËºÄ°îÃºÄ°îºÄ°àîBì$€îÃºÄ°îºÄ°àîBì$ îÃ.Ç7   .ÇK .ÇM F .ÇS .ÇU F .Ç[ –.Ç] $ .Ç_ –.Ça $ .Çc º.Çe  .Çg Õ.Çi  .ƒ># |M.Ç7  .ÇK e.ÇM  .ÇS e.ÇU  .ÇO .ÇQ  .ÇW .ÇY  .Çc Á.Çe  ÃPR$ŠàĞäĞäĞä
+Ä@ºÍîZXËPRŠã$ĞàĞàĞàŠØºÍì$Ç
+ÃîŠÜZXËºÔ‹Ãï‹Áï‹ŞºÔ°#îBì$ı€ãĞã
+ÃîËŠÃŠßŠıÑîÑÛŠïŠûŠØºÔ‹Ãï‹Áï‹ŞºÔ°#îBì$ı€ãĞã
+ÃîËºÄ°îBì$ıîÃPR$ŠàĞäĞäĞäĞä
+ÄºÍîZXËPRŠã$ĞàĞàĞàĞàŠØºÍì$
+ÃîŠÜZXËºÔ‹Ãï‹Áï‹ŞºÔ°3îBì$ü€ã
+ÃîËPRP$ŠàĞäĞäĞäĞä
+ÄºÍîX$0ŠàĞèĞèĞèĞè
+ÄºËîZXËPSRP$ĞàĞàĞàĞàŠØºÍì$
+ÃîX$0ŠØºËì$0
+ÃîZ[XËºÔ‹Ãï‹Áï‹ŞºÔ°3îBì$ü€ã
+ÃîË.ƒ>) u¸ò³ÍÃ.Ç7  .€># uéÎ .€>#  uc.ÇK š.ÇM  .ÇS š.ÇU  .ÇO ±.ÇQ  .ÇW ±.ÇY  .Ç[ Í.Ç]  .Ç_ ë.Ça . .Çc .Çe  Ã.ÇK '.ÇM  .ÇS '.ÇU  .ÇO >.ÇQ  .ÇW >.ÇY  .Ç[ \.Ç]  .Ç_ \.Ça  .Çc ê.Çe  Ã.ÇK x.ÇM + .ÇS x.ÇU + .ÇO £.ÇQ + .ÇW £.ÇY + .Ç[ Î.Ç]  .Ç_ Î.Ça  .Çc ê.Çe  ÃPRĞàĞàĞàĞàŠà°ºÄï°ïZXËPRĞàĞàŠà°ºÄï°ïZXËPRĞàĞàĞàĞàŠà°ºÄïZXËPRĞàĞàŠà°ºÄïZXËºÔ‹Ãï‹Áï‹ŞºÄ°1îBì$ğ€ã
+ÃîË°´ºÄï°´ ºÄï°´ ºÄï°´ ºÄï°´ ºÄï°´ ºÄï°´ ºÄïºÄ°îBì$ãîÃ°´ ºÄïÃ.Ç7  .ÇK =.ÇM  .ÇS U.ÇU  .ÇO i.ÇQ  .ÇW ~.ÇY  .Ç[ .Ç]  .Ç_ .Ça  .Çc «.Çe F .Çg ñ.Çi 	 ÃPQRºÔĞàĞàŠè$ŠÈ¸8Hï°1îşÂì		îşÊ°5îşÂì$ğ
+ÁîşÊ° <r¸9 ï°QîşÂì$À€å0ĞíĞí
+ÅîşÊ¸9 ï¸8 ïZYXËPQRºÔŠè$ŠÈ¸8Hï°1îşÂì		îşÊ°5îşÂì$ğ
+ÁîşÊ° <r¸9 ï°QîşÂì$À€å0ĞíĞí
+ÅîşÊ¸9 ï¸8 ïZYXËºÔ‹Ãï‹Áï‹ŞŠûºÔ¸8Hï°1îşÂì$Ï€ãĞãĞãĞãĞã
+ÃîşÊ° <r¸9 ï°QîşÂì$ĞïĞï€ç
+ÇîşÊ¸9 ï¸8 ïË.Ç7   .ÇK r.ÇM X .ÇS Ê.ÇU T .Ç[ .Ç] S .Ç_ .Ça S . # .¢õ.¢¡.¢KÃPRºÎĞàĞàĞàĞàŠà°	ïZXËºÔ‹Ãï‹Áï‹ŞºÔ°îBì$úŠû€çĞç€ã
+ß
+ÃîË°´ºÄïºÔ°îBì$ıîÃ°´ ºÄïÃ.Ç7   .ÇK Á.ÇM  .ÇS Á.ÇU  .Ç[ Ö.Ç] % .Ç_ Ö.Ça % .Çc û.Çe  .Çg .Çi 	 ÃPRºÖîBîZXËPRºÖîXZËºÔ‹Ãï‹Áï‹ŞºÔ° îBì$€ã
+ÃîËŠÃŠßŠıÑîÑÛŠïŠûŠØºÔ‹Ãï‹Áï‹ŞºÔ° îBì$€ã
+ÃîËºÔ°îBì$ïîºÔ°îBì$ıîºÎ°îBì$ûîºÔ° îBì$ø îÃºÔ°îBì$ï îÃ.Ç7  .ÇK v.ÇM  .ÇS v.ÇU  .ÇO .ÇQ 	 .ÇW .ÇY 	 .Ç[ Š.Ç]  .Ç_ ¦.Ça , .Çc Ò.Çe 5 .Çg .Çi  ÃPR$ŠàĞàĞàĞàĞà
+à°ÅºÄïZXËPR$ĞàĞàĞàĞàŠà°ÅºÄîBì$
+ÄîZXËºÔ‹Ãï‹Áï‹ŞºÄ°ñîBì$ü€ã
+ÃîËºÄ°eîBì$¿@î°§´‡ºÄïºÄ°ÃîBì$ûîºÄ°ğîBì$÷îÃ°§´ ºÄïÃ.Ç7  .ÇK .ÇM  .ÇS .ÇU  .ÇO ¦.ÇQ  .ÇW ¦.ÇY  .Ç[ Ä.Ç]  .Ç_ Ä.Ça  .Çc à.Çe 0 .Çg .Çi 	 ÃPRºÖîBîZXËPRº×îZXËºÔ‹Ãï‹Áï‹ŞºÎ°!îBì$ø€ã
+ÃîË.ƒ>) uºÈìºÆìììì°ÀîÃ.Ç7  .ÇK ‘.ÇM  .ÇS ‘.ÇU  .ÇO œ.ÇQ 	 .ÇW œ.ÇY 	 .Ç[ ¥.Ç]  .Ç_ ¥.Ça  .Çc Á.Çe  ÃPRºÖîBîZXËPRºÖîXZËºÔ‹Ãï‹Áï‹ŞºÔ°îBì$PŠû€çĞç€ã
+ßĞãĞãĞãĞã
+ÃîËŠÃŠßŠıÑîÑÛŠïŠûŠØºÔ‹Ãï‹Áï‹ŞºÔ°îBì$PŠû€çĞç€ã
+ßĞãĞãĞãĞã
+ÃîËºÔ°îBì$_ îºÎ°îBì$ûîÃºÎ°îBì$û îÃ.Ç7  .ÇK B .ÇM  .ÇS B .ÇU  .ÇO M .ÇQ 	 .ÇW M .ÇY 	 .Ç[ V .Ç] - .Ç_ ƒ .Ça = .Çc À .Çe  .Çg Û .Çi  ÃPRºÎĞàĞàĞàĞàŠà°	ïZXËPRºÎĞàĞàŠà°	ïZXËºÔ‹Ãï‹Áï‹ŞºÔ°îBì$úŠû€çĞç€ã
+ß
+ÃîË°´ºÄïºÔ°îBì$ıîÃ°´ºÄïºÔ°îBì$ıîºÄ°îBì$€îºÎ°îBì$ß îÃ°´ ºÄïÃ.Ç7   .ÇK a!.ÇM  .ÇS a!.ÇU  .Ç[ ‡!.Ç] % .Ç_ ‡!.Ça % .Çc ¬!.Çe  .Çg ò!.Çi 	 .ƒ># t*.ÇK v!.ÇM  .ÇS v!.ÇU  .Çc Â!.Çe 0 ÃT¥ã.^ñéúúqØé û!¾‰".¡! Ñàğ.ÿÃ´5°Í!‹ûï¤¾  ¹ ü¸ ó¦ã3ÀË´5°Í!&‹ Ú&‹ ¸%Í!ŒÀ- À´IÍ!¸ LÍ!U‹ìVW‹FØ‹v¸  À¿8‹N
+üó¤_^]ËU‹ìVW‹FØ‹v¸  À¿ú ‹N
+üó¤_^]ËU‹ìƒ~ t.Æò  .Æö ‹F.£! ‹F.£# ‹F
+.£% ‹F.£' ‹F.£ ‹F
+ÑèÑèÑèÑèÑèÑè.¢­ èÿ.‹6K ¿Ä	.‹M ƒùX~éNó¤.‹6O ¿
+.‹Q ƒù%~é7ó¤.‹6S ¿A
+.‹U ƒùX~é ó¤.‹6W ¿™
+.‹Y ƒù%~é	ó¤.‹6[ ¿¾
+.‹] ƒùW~éò ó¤.‹6_ ¿.‹a ƒùW~éÛ ó¤.‹6c ¿l.‹e ƒùF~éÄ ó¤.‹6g ¿².‹i ƒù~é­ ó¤.‹6k ¿².‹m ƒù~é– ó¤.‹6o ¿².‹q ƒù~é ó¤.ÇK Ä	.ÇO 
+.ÇS A
+.ÇW ™
+.ƒ>[ ÿt.Ç[ ¾
+.Ç_ .ƒ>c ÿt.Çc l.ƒ>g ÿt.Çg ².ƒ>k ÿt.Çk Ğ.Ço Ñ.ƒ>7 t.Æ±  è; ¸ ]Ë¸  ]Ë.¡‰À3À&‡, À´IÍ!š/  ´1. ! ºÒÂÑêÑêÑêÑêÍ!´5°Í!.‰ .Œ º  Úº¤´%°Í!Ã.‹ Ú.‹ ´%°Í!Ã¸° Pš'ÜƒÄ¸Pÿ6ª ÿ6¨ ¸ğ Pš'ÜƒÄ¸Pš'ÜƒÄ¸î Pš'ÜƒÄËèºÿ¸RPš'ÜƒÄ¸`Pš'ÜƒÄ¸›Pš'ÜƒÄ¸ŞPš'ÜƒÄ¸
+Pš'ÜƒÄ¸OPš'ÜƒÄ¸Pš'ÜƒÄ¸œPš'ÜƒÄ¸ÉPš'ÜƒÄ¸Pš'ÜƒÄ¸FPš'ÜƒÄ¸ PšdÜƒÄËU‹ìì$VWŒVø†Üş‰FæÇFÜ OFøPFÜPP¸ PšÂÜƒÄƒ~ÜOt¸~Pš'ÜƒÄ¸ PšdÜƒÄ‹†ìş‹–êş‰Fò‰Vğ¸\ Pÿvÿvš;/ÜƒÄ@‰Vö‰Fô‹vô3À+v  Vÿvÿv†ÜıPšÆ.ÜƒÄ
+Æ‚Üı ¸šP†ÜıPšÊ-ÜƒÄ¸¥P†ÜıPšu!ÜƒÄ‰Vî‰FìÂué5¸¨PRÿvìšª!ÜƒÄ¸Pÿvîÿvìšª!ÜƒÄÇFÜOFÜPP¸ Pš‘ÜƒÄ
+‹vŞ3ÿƒ~Şté’ ÇFÜ0ÇFŞ  ÇFâ  FÜPP¸ Pš‘ÜƒÄ
+€~â1u¸ ë3À‹øë_ÇFÜOÄ^ğ&‹‰FŞFÜPP¸ Pš‘ÜƒÄ
+ƒ~ÜOtÄ^ğ&ÿ7¸±Pÿvîÿvìšª!ÜƒÄ
+ÇFÜO‰vŞFÜPP¸ Pš‘ÜƒÄ
+ƒFğÄ^ğ&ƒ?ÿu˜ÇFÜO‰vŞFÜPP¸ Pš‘ÜƒÄ
+ÿtÇFÜÇFŞ  FÜPP¸ Pš‘ÜƒÄ
+ÿvîÿvìš;ÜƒÄ_^‹å]Ë¸¶Pš'ÜƒÄ¸ PšdÜƒÄ_^‹å]ËU‹ìƒìVWÄ^&‹G&‹‰Fú‰VøFüP¸ÓPÿv
+ÿvÿvš 1ƒÄ‹øÿ€ sPš­ÜƒÄ‹ø‹ßƒûitL8ƒûduéÎ ƒûıué|ƒûbuélƒûcuéŒ émƒûguéÆ ƒûhuéYéZƒëmƒûvéOÑã.ÿ§\*Ç   é?ÿvşÿvüšÛÜƒÄ£” Àu?¸ñPš'ÜƒÄ3öëVš"ôƒÄRP‹Æ@P¸Pš'ÜƒÄ
+Fƒş~Ş¸ PšdÜƒÄÿ” éä ÿvşÿvüšÛÜƒÄ£– éĞ ÿvşÿvüšÛÜƒÄ£˜ é¼ ÿvşÿvüšÛÜƒÄ£š é¨ Ç¢  éŸ èùÀt(ÿvúÿvøè‰üƒÄ¸&Pš'ÜƒÄ¸ PšdÜƒÄë¸DPš'ÜƒÄ¸ PšdÜƒÄëSè¼øÀtƒ>¢  u¸ƒPš'ÜƒÄèÀøë¸­Pš'ÜƒÄ¸ PšdÜƒÄëÇ¤   ëÇ¦  ëè]ûƒÿÿté/ş_^‹å]Ë~)N*N*N*¦)N*):*û)U‹ìì
+VÇºÿÿ¸\ Pÿvÿvš;/ÜƒÄ@‰Vş‰Fü‹vü3À+v  Vÿvÿv†öşPšÆ.ÜƒÄ
+Æ‚öş ¸šP†öşPšÊ-ÜƒÄ¸àP†öşPšu!ÜƒÄ‰Vø‰FöÂuéš ë¸ P¸¨P†öşPš÷.ÜƒÄ
+Àtÿvøÿvö¸ÿ P†öşPšÀÜƒÄ
+ÂuÉ3öë)FúP¸ãP†öşPšƒ-ÜƒÄ= u‹ŞÑã‹Fú‰‡ºFÿvøÿvö¸ÿ P†öşPšÀÜƒÄ
+Âu»‹ŞÑãÇ‡ºÿÿÿvøÿvöš;ÜƒÄ^‹å]ËU‹ìÄ^&ÿw&ÿ7èÑşƒÄÿv
+ÿvÿvèÀüƒÄƒ>   u&¸ P¸œ P¸š P¸˜ P¸– P¸” Pš¨ôƒÄƒ>¤  uÿ6” šdÜƒÄƒ>¢  uènùè¼öÀt¸æPš'ÜƒÄ¸ÿÿPšdÜƒÄƒ>” ÿu¸$Pš'ÜƒÄ¸şÿPšdÜƒÄƒ>˜  uM¸_Pš'ÜƒÄ¸ªPš'ÜƒÄ¸ôPš'ÜƒÄ¸>Pš'ÜƒÄ¸…Pš'ÜƒÄ¸ıÿPšdÜƒÄƒ>¢  téİ ÿ6” š"ôƒÄRP¸˜Pš'ÜƒÄÿ6– ÿ6” šc"ôƒÄÂtÿ6– ÿ6” šc"ôƒÄRP¸«Pš'ÜƒÄ¸±Pš'ÜƒÄƒ>  t!¡ %ÿ P¡ % ÿ±ÓèP¸ÃPš'ÜƒÄë¸İPš'ÜƒÄÿ6š š="ôƒÄRP¸éPš'ÜƒÄ>˜  }ÿ6˜ ¸ıPš'ÜƒÄë¡˜ » ™÷ûP¸Pš'ÜƒÄÿ6¦ ÿ6 ÿ6œ ÿ6š ÿ6˜ ÿ6– ÿ6” è¯õƒÄÀu&¸+Pš'ÜƒÄ¸mPš'ÜƒÄ¸üÿPšdÜƒÄè9÷]ËºŠ.‰´0Í!‹. ‹, Ú£} Œ{ ‰w ‰.‘ èU¡w À3À‹Ø‹ø¹ÿüò®ãCC&8uö€Í€÷Ù‰u ¹ ÓãƒÃƒãğ‰y ŒÒ+ê¿ŠÇ&‹>òÿ s¿ &‰>ò±ÓïG;ïséù‹ßÚ‰‰ ‰ ¡{ +ØÀ´JWÍ!_ÓçúÒ‹çû¸ŠÀ&‰>ò3À.¿º¹º+Ïüóªƒ>ŞvG€>} r@w€>~ r7¸X» Í!r*´g‹ŞÍ!r ´H» Í!r@£‘ HÀ´IÍ!r
+¸X»  Í!sén´ Í‰ ‰ƒ 
+Àt¸@ À»p &Æ3í.¾®¿ºèµ ÿ6s ÿ6q ÿ6o ÿ6m ÿ6k šŒ+  Pè .VW¾º¿ºèÊ _^ËË‹ì´LŠFÍ!¹ º/ é¸ 5Í!‰[ Œ] ¸5Í!‰_ Œa ¸5Í!‰c Œe ¸5Í!‰g Œi ¸ %ŒÊÚºÍ!Ã¸ %Å[ Í!¸%Å_ Í!¸%Åc Í!¸%Åg Í!Ë¸ ‹×‹Ş;ßt&€?ÿt&ŠO2í;Ès‹Á‹ÓƒÃëã;×t‹Ú&€? &Æÿt&ÿ_ëÄ&ÿWë½Ã´ ‹×‹Ş;ßt&€?ÿt&8gr&Šg‹ÓƒÃëå;×t‹Ú&€? &Æÿt&ÿ_ëÇ&ÿWëÀÃ´@» Í!Ã¹ º= .èêÿ¸ PèÕ   ÀU‹ìƒ>> u¸ ë‹>±Óã‹F‹V‰‡¤‰—¢ÿ>3À]ËU‹ì´C2ÀÅVÍ!r
+Ä^
+&‰3ÀëPè1]ËU‹ì´C°ÅV‹N
+Í!r3ÀëPè]ËËU‹ìV‹vöu"ëÿ>‹>±ÓãÿŸ¢ƒ>> uéè.şÿBèşè3şƒ~ uöuÿFÿJÿvèşY^]Â U‹ì3ÀPPÿvèœÿ]ËU‹ì¸ P3ÀPÿvèŠÿ]Ë3ÀP¸ P3ÀPè{ÿË¸ PP3ÀPèoÿËV–’…Àt÷ãã‘÷æÁ–÷ãÖ^ËYQ3ÉëYQ¹ ëYQ¹ ëYQ¹ UVW‹ì‹ù‹F
+‹V‹^‹NÉuÒtiÛte÷Ç uÒy
+÷Ú÷ØƒÚ ƒÏÉy
+÷Ù÷ÛƒÙ ƒ÷‹é¹  W3ÿ3öÑàÑÒÑÖÑ×;ırw;ór+óı@âç[÷Ã t‹Æ‹×Ñë÷Ã t÷Ú÷ØƒÚ _^]Ê ÷ó÷Ç t’3Òëí[S€ùs‹ØÓàÓâöÙ€ÁÓëÓË€é’3ÀÓâËÉ}÷Ó÷ÑƒÃƒÑ ë/ÃsÂ Šé±ÒåõŠèÓèĞŠÅ% ËÉ}÷Ó÷ÑƒÃƒÑ ëÑ+Ãsê Šù±Òç2Û+ÓŠèÓèĞŠÅ% ËU‹ìV‹vö|ƒşX~¾W ‰6Š„˜‹ğë÷Şƒş0éÇÿÿ‰6 ¸ÿÿ^]Â U‹ìV‹vVè¼ÿ‹Æ^]Â U‹ì¸ D‹^Í!’%€ ]ËU‹ìƒì"VWÄ~
+‹^ƒû$w\€ûrW‹F‹NÉ}€~ t&Æ-G÷Ù÷ØƒÙ vŞã‘+Ò÷ó‘÷ó6ˆFã
+ëğ+Ò÷ó6ˆFÀuôNŞ÷ÙÎüN6Š,
+s:ëFªâî° ª‹V‹F
+_^‹å]Â U‹ì3ÀPÿvÿvÿv¸
+ P° P°aPèbÿ]Â U‹ì‹^Ñã§àÿı´BŠF‹^‹N
+‹VÍ!rëPèÜş™]ËU‹ì‹F
+FuŒ^ÇF
+"ÿv‹FFuŒÚ¸hë‹V‹FRPÿvÿv
+èˆƒÄRPèwÿ¸lPÿvÿv
+èn'ƒÄ‹V‹F
+]Â
+ U‹ìƒìÿv
+ÿv3À3ÒPRÄ^&ƒ?ÿu¸ ë¸ Ä^&&‹Pèsÿ‰V
+‰FFşPÿv
+ÿvè üƒÄÀt¹‹V
+‹F‹å]Â QŠè±ÓèĞŠÅŠãÓëYËŠÜ% ƒã;Ñu;ÃÃU‹ì‹^Ñã÷‡à t¸ Pë´?‹^‹NÅVÍ!rëPèÕı]ËU‹ìƒì*VWÇFü  ÇFú  ëÄ~öFÿ t&Ä=ƒFÃ&‹=ƒFÃü‹vF&¬
+Àtn<%tm˜—ÿFúÿv
+ÿvÿVYYÀ|*˜ÿx:€½ru3“
+Ûx€¿ruÿFúÿv
+ÿvÿVYYÀâé“ÿv
+ÿvSÿVƒÄÿNúë ;Çtœÿv
+ÿvPÿVƒÄÿNúé‚éÇFöÿÿFÆFÿ &¬˜‰v—ÿ|Šr2ÿƒûvéBÑã.ÿ§Ú—écÿéL€NÿëÓƒï0‡~öÿ|É¸
+ ÷çFöë¿€Nÿë¹€Nÿë³€Nÿë­€fÿßë§€Nÿ ë¡‹Fú+ÒöFÿtUë”¾ ë¾
+ ë¾ ë3ö÷Ç  u	ƒÿXt€NÿFøPFúP‹Fö%ÿPVÿv
+ÿvÿvÿvè¸ƒÄƒ~ø ~öFÿuÿFüè˜ş«öFÿt’«é©ş|é é…è  éÿv
+ÿvPÿVƒÄÿNúföÿè  é­R<:tÀ~ÿv
+ÿvPÿVƒÄÿNúZŒÛëè  é‰[À~RSÿv
+ÿvPÿVƒÄÿNú[ZöFÿuèşÿFü’«öFÿ t“«é*şéFøPFúP¸ÿ#FöPÿv
+ÿvÿvÿvèLƒÄƒ~ø ~9ŠFÿ˜© u*èÕıÿFüöFÿt¸ ëöFÿt¸ ë3ÀPWèƒÄéËıèéÅıè|–é¹è  éºöFÿuè‘ıÿFüföÿt-öFÿuªÿFúÿv
+ÿvÿVYYÀ~
+Àx	“€¿r“~ÿNöÓÿv
+ÿvPÿVƒÄÿNúöFÿu° ªéYıöFÿuè3ı‹vöö}¾ tÿFúÿv
+ÿvÿVYYÀ|öFÿuªNâöFÿuÿFüéıéû +Àü~Ö¹ ó«&¬€fÿï<^u€Nÿ&¬´ ŠĞ‹ø±Óï¹"ÊÒåkÖ&¬< t)<]t(<-uà&:wÛ&€<]tÕ&¬*ÂtáĞĞÅƒ× kÖşÈuôëÑé® ‰vföÿ‹vööFÿuèüN|XÿFúÿv
+ÿvÿVYYÀ|Y–‹Ş±Óî¹"ËÒå„jÖ–“töFÿtëöFÿt	öFÿuÀªë½ÿv
+ÿvPÿVƒÄÿNúF;vö}	öFÿuÿFüöFÿu° ªé.üF;vö}öFÿu° ªÿFüÿv
+ÿv¸ÿÿPÿVƒÄƒ~üƒ^ü ‹Füé ÿFúÿv
+ÿvÿVYYÀ~
+Àx	“€¿r“táYƒÁÿátøYë·+Ò¹ ÿNö|IRQÿFúÿv
+ÿvÿVYYYZÀ~5şÉ|1Šè€í0r*€ı
+r€ír €ır
+€í r€ıs€Å
+ÑâÑâÑâÑâÕë²+À€ùtYƒÁÿáYéSÿ_^‹å]Ã???ìóùê	==G	8†	,
++B¢%S€ë0r"€û	v€û*w€ëë€ë'€û	v:ÙsDDø· ë[ùÃU‹ìƒìVWÆFÿ ÇFü  ÇFú ÿFüÿv
+ÿvÿVYYÀ|q˜“öÃ€u¿Aöuß“ÿN|c<+t<-uşFÿÿN|SÿFüÿv
+ÿvÿVYYÀ|:+ö‹ş‹NãVƒù$w3€ùr.<0ux€ùuqÿN|;ÿFüÿv
+ÿvÿVYY<xtZ<XtVé ÇFúÿÿëÇFú  ÿv
+ÿvPÿVƒÄÿNü+À™é· é¤ <0ÇF
+ u'ÿN|ïÿFüÿv
+ÿvÿVYYÇF <xt<Xu1ÇF ë‹N“èàş“r¨–ë
+–÷fğúu0ÿN|XÿFüÿv
+ÿvÿVYY‹N“è¶ş“sÙë.–÷á—‡Ê÷â÷Á—ÖuQÿN|(ÿFüÿv
+ÿvÿVYY‹N“è†ş“sÒÿv
+ÿvPÿVƒÄÿNü‹×–€~ÿ t÷Ú÷ØƒÚ Ä~‹^ü&Ä~‹^ú&‰ë¸ÿÿºÿFÿ€Ô ƒÒ ÇFú ëÖ_^‹å]ÃU‹ìVŒÃÄv&‰‹F&‰D&ŒT&Œ\Ã^]Ë¹ ;Şs8‹ÙÑãÇ‡à  ‹Áº ÷ê‹ØÆ‡Rÿ‹Áº ÷êNP‹Áº ÷ê‹ØX‰‡`A;ŞrÈ R˜PèòöYÀu&Pÿı¸ P÷P t¸ ë3ÀP3À3ÒPR¸NPèÆƒÄ f˜Pè¶öYÀu&dÿı¸ P÷d t¸ ë3ÀP3À3ÒPR¸bPèŠƒÄÃU‹ì‹Vƒúÿu¸ÿÿëŠÂ´ ‹Øö‡At	ŠÂ´   ëŠÂ´ ]ËU‹ì´AÅVÍ!r3ÀëPèöõ]ËŠÆè ŠÂÔ†àè †à'@'ªÃU‹ìì– VWÇFî  ÇFìP ÇFê  ëJW¹ÿÿ2Àò®÷ÑI_Ã6ˆGşNìu3SQR†jÿ+ø†jÿPWÿvÿv
+ÿVÀuÇFê ÇFìP ~î¾jÿZY[Ãü¾jÿ‰~ü‹~üÄv&¬
+Àt<%t6ˆGşNìíè§ÿëèéå‰vğ&¬<%tæ‰~ü3É‰NòÇFş  ˆNõÇFøÿÿÇFöÿÿë&¬2ä‹Ğ‹Ø€ë €û`sŠŸûƒûvéÑã.ÿ§œé†€ı wøƒNşëÏ€ı wíƒNşëÄ€ı wâ€~õ+tˆVõë´ƒfşßëƒNş µë¦€ı wM÷Fş u)ƒNşµë’é;‹~6‹ƒF€ısÀy÷ØƒNş‰Føµénÿ€ıu×‰FöşÅéaÿ€ısÊµÿFöéTÿ’,0˜€ıwµ‡FøÀ|ÑÑà‹ĞÑàÑàÂFøé2ÿ€ıu›‡FöÀtµÑà‹ĞÑàÑàÂFöéÿƒNşéeÿNş ƒfşïéYÿ·ë
+·
+ë
+·³éÚÆFõ ˆVû3ÒˆVú‹~6‹ë·
+ÆFúˆVû‹~6‹™GG‰v÷Fş t6‹GG‰~~»ÀuÒuƒ~ö u6Æ ‹ÇëƒNşRPWŠÇ˜PŠFúPSèô‹VöÒ}éô éÿ ˆVû‰v~º‹^6ÿ7CC‰^÷Fş  t6‹CC‰^èı°:ªZè…ı6Æ ÆFú ƒfşûNº+ù‡Ï‹Vö;Ñ‹Ñé¡ ‰vˆVû‹~6‹ƒF~»2ä6‰¹ éÄ ‰vˆVû‹~÷Fş  u6‹=ƒFÿë6Ä=ƒFŒÀÇu¿ôèFı;Növ‹Nöé‡ ‰vˆVû‹~‹NöÉ}¹ WQ^»SR¸ #FşP‹Fş© t	¸ ƒF
+ëƒF¸ Pè]~»÷Fş t‹VøÒ~èæü&€=-uI+Ñ~‰Vò&€=-tŠFõ
+ÀtO&ˆƒ~ò ~
+‹NöÉ}ÿNòè´ü‹÷‹~ü‹^ø¸ #Fş= uŠfû€üouƒ~ò ÇFò ë€üxt€üXuƒNş@KKƒnò}ÇFò  Nò÷Fş uë° èmüK;Ùö÷Fş@ t°0è\üŠFûèVü‹VòÒ~'+Ê+Ú&Š<-t< t<+u&¬è7üIK‡Êã°0è,üâù‡Êã+Ù&¬6ˆGşNìèüâğÛ~	‹Ë° è	üâùéMü‰v‹~÷Fş  u6‹=ƒFë6Ä=ƒF¸P *FìFî&‰÷Fş tGG&Ç  éü‹vğF‹~ü°%èºû&¬
+Àu÷€~ìP}è´ûƒ~ê t¸ÿÿë‹Fî_^‹å]Â øâ-í[h¦­²Û¹½Á;è‹«,hhhU‹ìVÿvÿv
+è”YY‹ğ@Pÿvÿv
+ÿvÿvè~ƒÄ
+‹V‹FÆ^]Ëº\ëºa¹ ´@» Í!¹' ºf´@Í!éhî            .;t7Ú ƒ>  t.Œ!ë8ŒØ.;t¡ .£!3ÀPè¢ .%ë#.‹.Ç  .Ç!  .Ç#  .%R3ÀPè=ƒÄÃÚ Ç   Œ .;t.&ƒ>  u&¡  [&  ŒÁĞÂ&ƒ>  u&‰ ë
+&‰ ëèQ ŒÀ&  Øƒ>  tÃ¡  &  ŒÀŒÛ  Ã&£ ŒÛ; t  Œ &Œ .Œ#ÛÃ.Ç#  Ã.¡#Àt!ŒÓœúĞ6 6Œ Œ Ó&Œ Œ Ã.Œ#Œ Œ ÃU‹ìVW.Œ%‹VÒt.;!uè±şëèÿ.%_^]ËP.%3ÀPPèqƒÄ% tº +Ğ3À.%PRèXƒÄXP3ÛŠÜ±ÓëÓà.%SPè?ƒÄ[=ÿÿt.‰.‰!Ú‰  ‰ ¸ Ã3À™ÃP3ÛŠÜ±ÓëÓà.%SPèƒÄ[=ÿÿt8% u.‹!.‰!Ú‰  ‰ ¸ ÃSR÷Ø 3ÛSPèÑƒÄZ[=ÿÿtBëÍ3À™Ã‹Ú)    Ú£  ‰ ‹Ú  Û‰ ¸ ÃU‹ì3Ò‹Fë	U‹ì‹V‹F‹ÈÊVW.Œ%t^ ƒÒ rA÷Âğÿu;±ÓèÓâ
+â.‹Òt .‹#Òt‹ÚÚ9  s‹ ;Óuğè&ÿëè½şëèvÿë3À™ëwôè#ş‹ ‰ ¸ .%_^]ËS.‹6'V.‹6)VèrÿƒÄÒu[ÃÂS‹  üJ¿ ‹÷¹ ó¥Òt7ŒÀ@ÀŒØ@Ø3ÿ‹÷‹Êù v¹ ÑáÑáÑáó¥ê vŒÀ ÀŒØ ØëÓ.%èûıƒÄZ¸ Ã.;!tE‹ûøÇ‹ñ+ğ&‰6  &‰ PÃ&£  ‹ÓÑÂ&ƒ>  t&‰> ë&‰> ‹óè°ıƒÄ‹Ö¸ ÃSÃ&£  ØS3ÀPèÿ ƒÄZ¸ ÃU‹ì3ÒëU‹ì‹V‹F
+‹^VW.Œ%.‰'.£)Ût:‹ÈÊt? ƒÒ r@÷Âğÿu:±ÓèÓâ
+âÃ&‹  ;Èrw‹Ó¸ ë!èBÿëèÁşëRPè<şƒÄëSPèıƒÄ3À™.%_^]ËU‹ìV‹vF+6{ ƒÆ?±Óî;6u‹F‹V£ ‰‹ ¸ ëF±Óæ‹‘ ‹Æ{ ;Âv‹ò+6{ Vÿ6{ è!YY‹Ğƒúÿu‹Æ±Óè£ë¸¡{ Â£‘ Ç   3À^]Â U‹ì‹‰ ‹‡ ‹V‹Fèçír ‹‘ ‹ ‹V‹FèÔíwÿvÿvèXÿÀu¸ÿÿë3À]ÃU‹ìƒì¡ 3Ò±èNë‹ ƒÒ FVƒú|=ÿÿvºÿÿ¸ÿÿëV‹ ¡‹ ‹N‹^è>ë‰Vş‰Fü‹‰ ‹‡ èjírÕ‹‘ ‹ ‹Vş‹FüèWíwÂ¡ ‹‹ ‰Fú‰VøÿvşÿvüèÎşÀt¨‹Vú‹Fø‹å]ÃU‹ìƒìFøPè2ôYYFøPÿvÿvÿv
+ÿvÿvè ƒÄ‹å]ËU‹ìƒìVWNò‰NüŒVşÆFòUÆFóÍ‹FˆFôÇFõ]Ë<%r<&wÆFõ6ÇFö‰NøÇFú]ËÅvÿ4ÿtÅv‹‹\‹L‹T‹|
+‹tÿ^üœœVÅvDÅvDDDƒd‰|
+‰T‰L‰\‰tPPè‘êX_^‹å]ËU‹ìÅV
+´DŠF‹^‹NÍ!rƒ~ u‹ÂëëPècê]Ëÿ&¦ÿ&¨ÿ&ªÿ&¬  –˜š.Œ”‰6œ‰>ü{ ¾€ 2ä&¬@ŒÅ‡Ö“‹6u FF¹ €>} rw ‹ş±2Àò®ãr€ñP‹ÁÃ@%şÿ‹ü+ør`‹çQIó¤2Àªİ‡ò‡Ù‹Ã‹ĞCè wrF<tè wõ< t<t<	uä2ÀëàÀtBª
+ÀuC†à2Àùã¬I,"t"<\u€<"u¬IöÃé1çYÊ.”‰CÛÛ‹ô‹ì+ërâ‹å‰.’Œ”ã‰v ŒVƒÅ6¬
+Ààútí3À‰F ‰F.”‹6œ‹>ÿ6šÿ6˜¡£k ¡”£o ¡’£m ÿ&–U‹ì´J‹^FÍ!r¸ÿÿëSPèéX]ËU‹ìVWUÄvü+À™¹
+ · ¿A&ŠFöu÷½  €û+t€û-uE&ŠF€û9w/€ë0r*÷áÃÖtêë‹ú¹
+ ÷á—‡Ñ÷â’—ÃÑ&ŠF€û9w€ë0sàM|÷Ú÷ØƒÚ ]_^]ËU‹ìÿvÿvè~ÿYY]ËU‹ì‹N´CŠF
+ÅVÍ!r‘ëPèiè]ËU‹ì‹V;Şr	¸ PèTèë‹ÚÑãÇ‡à  Rè Y]ËU‹ì´>‹^Í!rÑãÇ‡à  3ÀëPè#è]ËU‹ìƒì‹F;Şr¸ Pë[‹^Ñã÷‡à t¸ ëL¸ D‹^Í!r>öÂ€u5¸B3É‹ÑÍ!r.RP¸B3É‹ÑÍ!‰Fü‰VşZYr¸ BÍ!r;Vşr	w;Fürë·3ÀëPè®ç‹å]ËU‹ìV¾ÿÿ‹FFué¡ Ä^&‹G;Fté’ Ä^&ƒ t/&ƒ? }ÿvSè~ YYÀusÄ^&÷G t&ÿw
+&ÿwèÌ÷YYÄ^&€ |&ŠG˜PèÔşY‹ğÄ^&ÇG  &ÇG  &Ç  &ÆGÿ&ƒ t!3À3ÒPRPR&ÿwè0èRPèöğYYÄ^&ÇG  ‹Æ^]ËU‹ìV‹FFuèXé´ Ä^&‹G;Ft¸ÿÿé¤ Ä^&ƒ? |Q&÷G u&‹G‹VƒÂ;Fté &9WuyÄ^&Ç  &‹G‹VƒÂ;Fub&9Wu\&‹G
+&‹W&‰G&‰WëJëHÄ^&‹G&@‹ğ&)7P&‹G
+&‹W&‰G&‰WPR&ŠG˜PèãƒÄ;ÆtÄ^&÷G u&ƒOéXÿ3À^]ËU‹ìƒìVW‹~
+3É‹F‹V‰Fş‰Vüë	Ä^ü&ˆÿFüƒù
+t4O~1Ä^&ÿ|&‹G&‹w&ÿGÀ&Š´ ëÿvÿvèJYY‹È=ÿÿu¾ƒùÿu‹Fş‹Vü;Fu;Vu3Ò3ÀëÄ^ü&Æ Ä^&÷G t3Ò3Àë‹V‹F_^‹å]ËU‹ìƒìVW3ÿ‹6ŞŒ^şÇFüNëÄ^ü&÷G tÿvşSèkşYYGƒFü‹ÆNÀuŞ‹Ç_^‹å]ËU‹ìVW3ÿÄ^ÿF&ŠŠÁ<ruº ¾ ë€ùwuºë€ùauº	¿€ ¾ ë3ÀëzÄ^&ŠÿF€ù+tÄ^&€?+u!€ùtt€ùbu€ù+uÄ^&ŠƒâüƒÊ¿€¾ €ùtuÊ @ë€ùbuÊ €ë¡% ÀĞ‹Â© €tƒÎ@ÇHÜÇF1Ä^&‰Ä^&‰?‹Æ_^]Â U‹ìƒìÿvÿvFşPFüPè+ÿÄ^&‰GÀt*&€ }7ÿvü‹FşFPÿvÿv
+è'ƒÄÄ^&ˆG
+À}Ä^&ÆGÿ&ÇG  3Ò3ÀëiÄ^&ŠG˜PèfäYÀt	Ä^&O ¸ PÄ^&÷G t¸ ë3ÀP3À3ÒPRÿvÿvè3ƒÄÀtÿvÿvè)üYYë Ä^&ÇG  ‹V‹F‹å]Â U‹ìƒìŒ^şÇFüNÄ^ü&€ |‹FüƒFüP¡Şº ÷êNZ;ĞrŞÄ^ü&€ |3Ò3Àë‹Vş‹Fü‹å]ÃU‹ìƒìè­ÿ‰Vş‰FüÂu3Ò3Àëÿvşÿvüÿvÿvÿvÿv
+3ÀPè´ş‹å]ËU‹ì¸_)Pÿvÿvÿvÿv
+FPèEí]ËU‹ìƒìVÄ^&ƒ? }&‹O&A‹ñëÄ^&‹™3Â+Â‹È‹ğÄ^&÷G@ uCÄ^&‹G&‹W‰Fş‰Vü&ƒ? }%ëÿNüÄ^ü&€?
+uF‹ÁIÀuìëÄ^üÿFü&€?
+uF‹ÁIÀuì‹Æ^‹å]Â U‹ìV‹vÿvÿvè™ûYYÀt¸ÿÿë`ƒşuÄ^&ƒ? ~ÿvSèLÿ™)F
+VÄ^&g_ş&Ç  &‹G
+&‹W&‰G&‰WVÿvÿv
+&ŠG˜Pè2ãƒÄƒúÿu
+=ÿÿu¸ÿÿë3À^]ËU‹ìƒì¸ P3À3ÒPRÄ^&ŠG˜PèıâƒÄ‰Vş‰Füƒúÿu=ÿÿué¢ Ä^&ƒ? |é† &ŠG˜Ñà‹Ø÷‡à tc¸ P3À3ÒPR‹^&ŠG˜Pè²âƒÄ‰Vú‰Føƒúÿu=ÿÿt`3ÀPÿvşÿvüÄ^&ŠG˜PèˆâƒÄƒúÿu=ÿÿuºÿÿ¸ÿÿë4‹Fú‹Vø‰Fş‰VüÿvÿvèAş™FüVşëÿvÿvè/ş™)FüVş‹Vş‹Fü‹å]ËU‹ìƒìV¾ Œ^şÇFüNëÄ^ü&‹G% = uÿvşSèúYYƒFü‹ÆNÀuÛ^‹å]ÃU‹ìÄ^&÷G tè±ÿÄ^&ÿw&‹G
+&‹W&‰G&‰WPR&ŠG˜PèGƒÄÄ^&‰À~	&ƒgß3Àë)Ä^&ƒ? u&‹G%ş  &‰GëÄ^&Ç  &ƒO¸ÿÿ]Â U‹ìÄ^&ÿÿvSè YY]ËXPU‹ìV‹FFu¸ÿÿéÙ Ä^&ƒ? ~Ä^&ÿ&‹G&‹w&ÿGÀ&Šé´ Ä^&ƒ? |o&÷Gug&÷G t_Ä^&O€ &ƒ tÿvSèÿÀt²ë¡ë®Ä^&÷G tè·ş¸ P¸0PÄ^&ŠG˜PèZƒÄÀu3Ä^&ŠG˜Pè§÷Y= tÄ^&ƒOéTÿÄ^&‹G%ş  &‰Gé@ÿ€>0uÄ^&÷G@ tÄ^&ƒgß 0´ ^]Ë¸NPè	ÿYYËU‹ìVWŒÚÄ~Åv
+‹NÑéüó¥s¤Ú‹V‹F_^]ËU‹ì‹N´<ÅVÍ!rëPè:ß]Â U‹ì‹^+É+Ò´@Í!]Â U‹ìƒìVW‹v
+‹~÷Æ Àu¡% Àğ3ÀPÿvÿvèvöƒÄ‰Fş÷Æ ué€ #>
+‹Ç©€u¸ PèÙŞƒ~şÿu#ƒ>t
+ÿ6èÅŞé÷Ç€ t3Àë¸ ‰Fşë÷Æ t?¸P PëÜ÷Æğ tÿvÿv3ÀPèAÿ‹øÀ}éÌ WèDöYëÿvÿvÿvşè#ÿ‹øÀ}~é® Vÿvÿvèª ƒÄ‹øÀ|f3ÀPWèÃóYY‰Fü©€ t#Î  ÷Æ €t#%ÿ   3ÒRP¸ PWè›óƒÄë
+÷Æ tWèàş÷Fş t÷Æ t÷Æğ t¸ PPÿvÿvèoõƒÄÿ|/÷Æ t¸ ë3À‹ÖâÿøĞR÷Fş t3Àë¸ ZĞ‹ßÑã‰—à‹Ç_^‹å]ËU‹ìƒì°‹N
+÷Á u
+°÷Á u° ÅV±ğ"N
+
+Á´=Í!r‰Fş‹F
+%ÿ¸ €‹^şÑã‰‡à‹FşëPèjİ‹å]ËU‹ì¸_)P¸bPÿvÿvF
+Pèqç]ËU‹ìÄ^&ÿÿv
+SŠF˜Pè ƒÄ]ËU‹ìVŠF¢2Ä^&ƒ?ÿ}T&ÿ&‹G&‹w&ÿGŠ2À&ˆF
+&÷G uéT€>2
+t
+€>2téCÿv
+ÿvèèõYYÀué/¸ÿÿé.é&Ä^&÷G u&÷G u
+Ä^&ƒOëÚÄ^&O &ƒ to&ƒ? tÿv
+SèšõYYÀuµÄ^&‹G÷Ø&‰&‹G&‹w&ÿGŠ2À&ˆF
+&÷G uéµ €>2
+t
+€>2té¤ ÿv
+ÿvèIõYYÀué é^ÿéŠ Ä^&ŠG˜Ñà‹Ø÷‡à t¸ P3À3ÒPR‹^&ŠG˜PèşÜƒÄ€>2
+u'Ä^&÷G@ u¸ P¸ P&ŠG˜PèÇƒÄ= u¸ P¸2PÄ^&ŠG˜Pè¨ƒÄ= tÄ^&÷G uéíş 2´ ^]ËU‹ì¸bPÿvè\şƒÄ]ËU‹ìƒìVW‹~‰~şÄ^&÷G t.ë"ÿvÿvÄ^
+ÿF
+&Š˜Pè'şƒÄ=ÿÿu3Àé¾‹ÇOÀu×é±Ä^&÷G@ ué(&ƒ uéË &9si&ƒ? tÿvSè ôYYÀu¾Ä^&ŠG˜Ñà‹Ø÷‡à t¸ P3À3ÒPR‹^&ŠG˜PèŞÛƒÄWÿvÿv
+Ä^&ŠG˜Pè¸ƒÄ;Çué0émÿé*Ä^&‹Ç|&&ƒ? u¸ÿÿ&+G&‰ëÿvÿvèŸóYYÀté:ÿWÿvÿv
+Ä^&ÿw&ÿwèüúƒÄ
+Ä^&‹Ç&‰&éÎ Ä^&ŠG˜Ñà‹Ø÷‡à t¸ P3À3ÒPR‹^&ŠG˜Pè.ÛƒÄWÿvÿv
+Ä^&ŠG˜PèƒÄ;Çué€ é½şë{Ä^&ƒ tRëGÄ^&ÿ} &‹G&‹w&ÿGÄ^
+ÿF
+&ŠÀ&ˆŠÂ´ ëÿvÿvÄ^
+ÿF
+&ŠPèvüƒÄ=ÿÿuéhş‹ÇOÀu²ëWÿvÿv
+Ä^&ŠG˜Pè7ƒÄ;Çté@ş‹Fş_^‹å]Â
+ U‹ìƒìVW‹F;Şr
+¸ PèkÙé° ‹F@= r‹^Ñã÷‡à t3Àé• ÿvÿv
+ÿvÿvè:ÛƒÄ‰Fş@= r‹^Ñã÷‡à @u‹Fşëf‹NşÄv‹ş‹Şü&¬<t0<tªâóëâïS¸ PFıPÿvèíÚƒÄ[üŠFıª;ûuë’ë"S¸ P÷ÙÀPQÿvèÈÙƒÄ‹^Ñãà [+û—_^‹å]ËU‹ìVW‹~‹vÄ^&‹G;Fuƒÿşÿv¸ÿÿéñ ƒ>¤ u~buÇ¤ ëƒ>¢ u~NuÇ¢ Ä^&ƒ? t¸ P3À3ÒPRÿvSè§õƒÄ
+Ä^&÷G t&ÿw
+&ÿwè£èYYÄ^&ƒgó&ÇG  ‹F‹VƒÂ&‰G
+&‰W&‰G&‰Wƒÿt`öv\ÇDÜÇBN1‹F
+Fu!VèaéY‰V‰F
+Âué?ÿÄ^&ƒOëé2ÿÄ^‹F‹V
+&‰G&‰W&‰G
+&‰W&‰wƒÿu&ƒO3À_^]ËU‹ìVÄ^&‹G&‹7&ÿÀ&ŠŠÂ
+Àu¸ÿÿëŠÂ´ ^]ÃU‹ìÄ^&ÿ]ÃU‹ìFPÿvÿv
+FP¸x-P¸P-PèqÙƒÄ]ËU‹ìÿvÿvÿvÿv
+FP¸x-P¸P-PèMÙƒÄ]ËU‹ìVWüÄ~‹×2À¹ÿÿò®uÿÄ~
+¹ÿÿò®÷Ñ+ù‡÷÷Æ t¤IÑéó¥s¤’ŒÂ_^]ËU‹ìVüÅvŠ^
+÷Æ t	¬:Ãt"Àt­:Ãt"Àt:ãt"äuï3Ò3ÀëFDşŒÚ^]ËU‹ìVWüÄ~
+‹÷2À¹ÿÿò®÷ÑŒÀØÄ~ó¤‹V‹F_^]ËU‹ìWÄ~3À;Fu;Çt
+ü¹ÿÿò®‘÷ĞH_]ËU‹ìVWŒÚüÄ~
+‹÷‹F‹Èã‹Ø2Àò®+Ù‹Ë‹şÅvó¦ŠDÿ&Š]ÿ2äŠü+ÃÚ_^]ËU‹ìVWüÄ~
+‹÷2À‹^‹Ëò®+ÙŒÇßÄ~‡Ëó¤‹Ëóª‹V‹F_^]ËU‹ìVWüÅvÄ~
+‹N3À‹Øºzaã$¬&Š
+Àt®áó:Ær:Âw, :Şr:Úw€ë :ÃtÚ+Ã_^]ËU‹ìƒìÿvÿvè#ÿYY@‹È‹F‹VÑ‰Fş‰VüëÿNüÄ^ü&Š:F
+u‹Vş‹Füë	IÉuå3Ò3À‹å]ËU‹ìì VW‹~;>Şr
+¸ PèHÕé/‹F@= s3Àé!‹ßÑã÷‡à t¸ P3À3ÒPRWèÖƒÄ‹ßÑã÷‡à @uÿvÿv
+ÿvWèí ƒÄéá ‹ßÑã§àÿı‹F
+‹V‰Fö‰Vô‹F‰FúëuÿNúÄ^ôÿFô&ŠˆFù<
+u
+Ä^ü&ÆÿFüÄ^üŠFù&ˆÿFü†rÿ‹Vü3Û+ĞƒÛ Û|Duú€ r<†rÿ‹vü3Ò+ğƒÚ VPWèo ƒÄ‹Ğ;Ætƒúÿu¸ÿÿëQ‹F+FúëE†rÿŒVş‰Füƒ~ú téxÿ†rÿ‹vü3Ò+ğƒÚ ‹ÆÀv$V†rÿPWè  ƒÄ‹Ğ;Ætƒúÿt±‹FÂ+Æë‹F_^‹å]ËU‹ì‹^Ñã÷‡à t¸ Pë!´@‹^‹NÅVÍ!rP‹^Ñãà XëPèÖÓ]ËU‹ìƒìV3öŒ^şÇFüN;6Şs!Ä^ü&÷G tÿvşSèÿëYYƒFüF;6Şrß^‹å]ËU‹ìƒìV¾ Œ^şÇFüNëÄ^ü&÷G tÿvşSè}ìYYNƒFüöuá^‹å]ËU‹ìVW‹~3Éë+9¼°u$‹ÙÑãÑãF
+^3À&‰G‹ÑÑâÑâ‹^Ú&‰_^]ËA‹Áº ÷ê‹ğ‹Øƒ¿°ÿuÃ_^]ËU‹ìVW‹N3ÿë!‹„°;Fu9Œ²~	º ‹Á÷ê‹È‰Œ²_^]ËG‹Çº ÷ê‹ğ‹Øƒ¿°ÿuÍ_^]ËU‹ìƒìÆFñFğPP¸ Pš‘ÜƒÄ
+ŠFğ´ % £şÆFñFğPP¸ Pš‘ÜƒÄ
+ŠFö´ £úŠF÷´ £øÇFğ0ÆFó ÆFö FğPP¸ Pš‘ÜƒÄ
+€~ö1u¸ ë3À£ü‹å]ËU‹ìƒìÇFş@ ÇFüI ÆFí  ş€ˆFìFìPP¸ Pš‘ÜƒÄ
+Ä^ü&€'ƒ>ü tÇFìÆFî FìPP¸ Pš‘ÜƒÄ
+ÆFí úˆFò øˆFóÆFï FìPP¸ Pš‘ÜƒÄ
+‹å]ËU‹ììVŒVø†ôş‰†îşÇ†äş OFøP†äşPP¸ PšÂÜƒÄƒ¾äşOt3À^‹å]Ë¸ P¸\P†ôşPš.ÜƒÄ
+Àt3À^‹å]Ë3É‹†ÿ‹–ÿ‰Fö‰VôëÄ^ô&ƒ? t‹ÙÑã‹vô&‹‰‡ AƒFôÄ^ô&ƒ?ÿuÛ‹ÙÑãÇ‡ ÿÿ‹†øş^‹å]ËU‹ìƒìÇFğ FğPP¸ Pš‘ÜƒÄ
+€~ğt3À‹å]Ë€~òt€~ôu¸ ‹å]Ë3À‹å]ËºÈìËºÆìììì´ ËèíÿèîÿËU‹ìèğÿºÆŠFîèåÿºÆì´ ]ËU‹ìƒìVèÒÿºÆì´ ‰Fúè¶ÿºÆì´ ‰Fşè©ÿ‹Fú5ÿ ‰FüºÆŠFüîè¤ÿºÆì´ ‹È;Nüué« ¸à Pè•ÿƒÄ%à =à tCènÿºÆì´ ‹Ø‹ËºÆì´ ‹Ø;Ùuòècÿ= u¾ é 3ÛºÆì<u¾ ërCƒû|í¾ ëg¸` Pè?ÿƒÄ©à u¾ ëRÿvúè+ÿƒÄºÆì´ ;Füt	èÿ;Füu¾ ë/èóşºÆ°ÿîèîş= u¾ ë¾ ëèÖşºÆŠFşî3À^‹å]ËèÓşºÆŠFúîè¹şºÆŠFşî‹Æ^‹å]ËU‹ìƒì¸ ÀÀ&>@ 31téM¸	 P¸‡P¸ Àº1 PRš.ÜƒÄ
+Àté-Ä^&Ç  Ä^&Ç ¸ ÀÀ& C ˜‰Fş‹Øƒë1ƒûw?Ñã.ÿ§KÄ^
+&Ç  ¸
+P¸Pè«ûƒÄë;Ä^
+&Ç ë1Ä^
+&Ç ë'Ä^
+&Ç ëÄ^
+&Ç ¸ ÀÀ&öD €tÄ^&Ç Ä^&Ç ‹Fş=1 t=2 t=3 t!ë>¸» P¸ÎPš	 ƒÄ©  tcÄ^&Ç ëY¸° P¸ÎPš	 ƒÄ© tDÄ^&Ç ë:¸° P¸ÎPš	 ƒÄ% Àt= tëÄ^&Ç ëÄ^&Ç ëÄ^&Ç ¸ P¸PèûƒÄ¸ ‹å]Ë3À‹å]ËF`jtU‹ìƒì¸ P¸ÎPš	 ƒÄ‰Fş3ÀP¸ P¸ÎPš% ƒÄ¸û P¸ P¸ÎPš» ƒÄÀtéŠ ¸  P¸ P¸ÎPš% ƒÄ¸û P¸ P¸ÎPš» ƒÄÀt^Ä^&Ç Ä^&Ç  ¸ P¸ÎPš	 ƒÄ© u"Ä^&Ç  Ä^
+&Ç  ¸¨
+P¸PèşùƒÄëÄ^&Ç Ä^
+&Ç ¸ ‹å]Ëÿvş¸ P¸ÎPš% ƒÄ3À‹å]ËU‹ìƒìÇFğ _ÇFò  FğPP¸ Pš‘ÜƒÄ
+€~ğ_téĞ Ä^&Ç Ä^&Ç ŠFò´ ±Óø= t= t,ë4Ä^
+&Ç ¸(P¸PècùƒÄ¸(P¸PèSùƒÄëRÄ^
+&Ç ëHÄ^
+&Ç  ¸(P¸Pè/ùƒÄ¸(P¸PèùƒÄ¸(P¸PèùƒÄ¸(P¸PèÿøƒÄ€~ó u
+Ä^&Ç ë€~óu
+Ä^&Ç ëÄ^&Ç ¸ ‹å]Ë3À‹å]ËU‹ìƒìÇFğ pÇFò  FğPP¸ Pš‘ÜƒÄ
+€~ğpté¬ Ä^&Ç Ä^&Ç ‹Fö±Óè=)t.w=6t= të>=st%=xt*ë2Ä^
+&Ç ë8Ä^
+&Ç ë.Ä^
+&Ç ë$Ä^
+&Ç ëÄ^
+&Ç ëÄ^
+&Ç  Ä^&Ç  ±Ònõ€~õ u
+Ä^&Ç ë€~õu
+Ä^&Ç ëÄ^&Ç ¸ ‹å]Ë3À‹å]ËU‹ìV¸ ÀÀ&‹67 ¸ ÀÀ&€<wuRÀ&|™fuHÄ^&Ç Ä^&Ç  Ä^
+&Ç  ¸ ÀÀ&ŠD˜Àt
+= t=" uÄ^&Ç ëÄ^&Ç ¸ ^]Ë3À^]ËU‹ìƒì¸8 P¸ P¸ŞPš» ƒÄÀué$Ä^&Ç Ä^&Ç ¸ P¸# P¸ŞPš» ƒÄÀtZÄ^
+&Ç ¸ P¸ŞPš	 ƒÄ% ‹Ğ‹ÚƒûvéÎ Ñã.ÿ§è	Ä^&Ç é¼ Ä^&Ç é± Ä^&Ç é¦ Ä^&Ç é› ºŞ° îì´ ±Óø‰Fş‹^şƒûw-Ñã.ÿ§Ø	Ä^
+&Ç  ëÄ^
+&Ç ëÄ^
+&Ç ëÄ^
+&Ç Ä^
+&ƒ?t¸¸P¸Pè{öƒÄ¸ P¸ŞPš	 ƒÄ±Óø‹ĞÀt= tëÄ^&Ç ëÄ^&Ç ëÄ^&Ç ¸ ‹å]Ë3À‹å]ËO	u	Y	u	u	c	u	m		Ë		Ë		Ë	%	U‹ìƒìV¸ P¸ÎPš	 ƒÄ‹ğ3ÀP¸ P¸ P¸ÎPš8 ƒÄ¸ P¸	 P¸ÎPš» ƒÄÀté”¸ P¸ P¸ÎPš% ƒÄ¸ P¸	 P¸ÎPš» ƒÄÀuéeÄ^&Ç Ä^&Ç ¸) P¸ÔPš	 ƒÄ‹ğ¸… P¸ P¸) P¸ÔPš8 ƒÄ¸ÿ P¸+ P¸ÔPš» ƒÄÀuéß¸ P¸ÄPš	 ƒÄ‹ğ¸H P¸ P¸ÄPš% ƒÄ¸ğ P¸ P¸ÄPš» ƒÄÀué ¸ÿ P¸ P¸ÄPš» ƒÄÀuéş ¸ P¸ P¸ÄPš» ƒÄÀué‡ ¸7 P¸ÔPš	 ƒÄ=1 u
+Ä^
+&Ç ëÄ^
+&Ç ¸DP¸Pè–ôƒÄV¸ P¸ÄPš% ƒÄévV¸ P¸ÄPš% ƒÄÄ^
+&Ç ¸DP¸PèYôƒÄ¸DP¸PèIôƒÄé:Ä^
+&Ç ¸DP¸Pè.ôƒÄ¸DP¸PèôƒÄ¸ P¸ P¸ÄPš» ƒÄÀtÄ^
+&Ç V¸ P¸ÄPš% ƒÄéŞ ¸¦ P¸4 P¸ÔPš% ƒÄ¸2 P¸ÔPš	 ƒÄÀt3ÀP¸4 P¸ÔPš% ƒÄÄ^
+&Ç ¸DP¸Pè—óƒÄ¸DP¸Pè‡óƒÄ¸DP¸PèwóƒÄ¸DP¸PègóƒÄëYV¸) P¸ÔPš% ƒÄÄ^
+&Ç  ¸DP¸Pè<óƒÄ¸DP¸Pè,óƒÄ¸DP¸PèóƒÄ¸DP¸PèóƒÄ¸ P¸ÎPš	 ƒÄ±Óø‹ğ= t= tëÄ^&Ç ëÄ^&Ç ëÄ^&Ç èWóÇFğØ FğPP¸ Pš‘ÜƒÄ
+¸@ À& I ˜% =X t`¸DP¸PèòƒÄ¸DP¸Pè€òƒÄ¸DP¸PèpòƒÄ¸DP¸Pè`òƒÄ¸DP¸PèPòƒÄ¸DP¸Pè@òƒÄèLó¸ ^‹å]ËV¸ P¸ÎPš% ƒÄ3À^‹å]ËU‹ìV3ÀP¸ P¸ÄPš% ƒÄºÅì´ ‹ğƒş}é¸ P¸ÄPš	 ƒÄ‹ÈºÅ° îì´ ‹ØŠÁî‹Ã% = téç ŠÁ4ºÅîÄ^&Ç Ä^&Ç ƒşuOÄ^
+&Ç  Ä^&Ç ¸ P¸ÔPš	 ƒÄ© tÄ^&Ç ¸ØP¸PènñƒÄ¸ØP¸Pè^ñƒÄëuƒşu
+Ä^
+&Ç ë,ƒştƒş3tƒşStƒşstş£ u
+Ä^
+&Ç ëÄ^
+&Ç ¸ P¸ÔPš	 ƒÄ% ‹ØÛu
+Ä^&Ç ëƒû
+Ä^&Ç ëÄ^&Ç ¸ ^]Ë3À^]ËU‹ìƒìÇFğ oÇFò  FğPP¸ Pš‘ÜƒÄ
+~ò7VunÄ^&Ç Ä^&Ç ÇFğoFğPP¸ Pš‘ÜƒÄ
+Ä^
+&Ç  €~ò_w&Ç €fñ€~ñ u
+Ä^&Ç ë€~ñu
+Ä^&Ç ëÄ^&Ç ¸ ‹å]Ë3À‹å]ËU‹ìƒìVº¿°îºØ° î¸? P¸ÍPši ƒÄÀu3À^‹å]ËÄ^&Ç	 Ä^&Ç ¸ P¸3 P¸ÔPš» ƒÄÀuéŸ¸ÿ P¸3 P¸ËPš» ƒÄÀt]Ä^
+&Ç ¸7 P¸ÔPš	 ƒÄ% ‹Ğ‹Úƒûw/Ñã.ÿ§¸Ä^&Ç ëmÄ^&Ç ëcÄ^&Ç ëYÄ^&Ç ëOÄ^&Ç ëEÄ^
+&Ç ¸7 P¸ÔPš	 ƒÄ% ‹Ğ=
+ t= tëÄ^&Ç ëÄ^&Ç ëÄ^&Ç Ä^&ƒ?té¾è¨ïÇFîàÇFğ® FîPP¸ Pš‘ÜƒÄ
+ƒ~îuE¸àP¸!PèèîƒÄ¸àP¸"PèØîƒÄÇHàÇJ. ¸ P¸Pè
+ïƒÄÄ^
+&Ç ëfÇFîğÇFğ¾ FîPP¸ Pš‘ÜƒÄ
+ƒ~îuC¸àP¸!Pè€îƒÄ¸àP¸"PèpîƒÄÇHğÇJ> ¸ P¸Pè¢îƒÄÄ^
+&Ç èYïéå ¸àP¸Pè6îƒÄ¸àP¸ Pè&îƒÄ¸àP¸PèîƒÄÄ^
+&Ç  è—îÇFî FîPP¸ Pš‘ÜƒÄ
+ºÚì¸6 P¸ÀPš	 ƒÄ‰FşºÀî¸ P¸ÎPš	 ƒÄ±Óø% ‹ØƒûwÑã.ÿ§°¾  ë¾ °ë¾ ¸Æ&Ç xV&Ç 4&> V4u
+Ä^&Ç ëÄ^&Ç ÿvş¸6 P¸ÀPš% ƒÄèqî¸ ^‹å]ËYY^c……gq{U‹ìƒì¸ P¸ÄPš	 ƒÄ‰Fş¸ PP¸ÄPš» ƒÄÀuéö 3ÀP¸ P¸ÄPš% ƒÄ¸ÿ P¸ P¸ÄPš» ƒÄÀtéÈ ¸ P¸ P¸ÄPš% ƒÄ¸ÿ P¸ P¸ÄPš» ƒÄÀué™ Ä^&Ç
+ Ä^&Ç Ä^&Ç  ¸ P¸ÄPš	 ƒÄ±Óø‹Ğƒú}HÒu
+Ä^
+&Ç ëÄ^
+&Ç  ¸lP¸PèRìƒÄ¸lP¸PèBìƒÄ¸lP¸Pè2ìƒÄëƒúu
+Ä^
+&Ç ëÄ^
+&Ç ¸ ‹å]Ëÿvş¸ P¸ÄPš% ƒÄ3À‹å]ËU‹ììV‹vŒVø†øş‰†òşÇ†èşO‰¶ìşFøP†èşPP¸ PšÂÜƒÄƒ¾èşOt¸ôPVè¬ëƒÄ^‹å]Ëÿ¶ÿVèèëƒÄ^‹å]ËU‹ìƒì¸8 P¸ÔPš	 ƒÄ‰Fş3ÀP¸8 P¸ÔPš% ƒÄ¸ P¸5 P¸ÔPš» ƒÄÀté§¸H P¸8 P¸ÔPš% ƒÄ¸ P¸5 P¸ÔPš» ƒÄÀuéxÄ^&Ç Ä^&Ç ¸0 P¸ÔPš	 ƒÄ‹ĞÄ^
+&Ç  %ğ ‰Fü= u&Ç ë~ü  u
+Ä^
+&Ç ëú‚ uÄ^
+&Ç ¸6 P¸ÔPš	 ƒÄ%à ‹ĞÄ^&Ç ÷Â  t&Ç Ä^
+&ƒ?|.‹ÂÀt =@ t=€ tëÄ^&Ç ëÄ^&Ç ëÄ^&Ç 3ÀP¸8 P¸ÔPš% ƒÄ¸PèRşƒÄ¸PèGşƒÄ¸Pè<şƒÄ¸Pè1şƒÄ¸Pè&şƒÄ¸PèşƒÄ¸PèşƒÄ¸PèşƒÄ¸PèúıƒÄ¸PèïıƒÄ¸PèäıƒÄÄ^
+&ƒ?}¸ P¸PèêƒÄë¸Pè¿ıƒÄÇ&¸ ‹å]Ëÿvş¸8 P¸ÔPš% ƒÄ3À‹å]ËU‹ìƒì¸ P¸ÄPš	 ƒÄ‰Fş3ÀP¸ P¸ÄPš% ƒÄ¸0 P¸	 P¸ÎPš» ƒÄÀté– ¸ P¸ P¸ÄPš% ƒÄ¸0 P¸	 P¸ÎPš» ƒÄÀtjÄ^&Ç Ä^
+&Ç  Ä^&Ç ¸
+ P¸ÄPš	 ƒÄ% ‰Fü‹^üƒûw-Ñã.ÿ§pÄ^&Ç ëÄ^&Ç ëÄ^&Ç ëÄ^&Ç ¸ ‹å]Ëÿvş¸ P¸ÄPš% ƒÄ3À‹å]Ë*4>HU‹ì¸ÿ P¸†‚Pši ƒÄÀuéŸ ¸; P¸ P¸ÔPš» ƒÄÀué„ ¸ P¸ P¸ÎPš» ƒÄÀtlÄ^&Ç Ä^&Ç Ä^&Ç Ä^
+&Ç  ¸ P¸ÔPš	 ƒÄ% ‹Øƒûw-Ñã.ÿ§5Ä^&Ç ëÄ^&Ç ëÄ^&Ç ëÄ^&Ç ¸ ]Ë3À]Ë$U‹ìƒì¸§ P¸ÄPš	 ƒÄ‰Fş3ÀP¸§ P¸ÄPš% ƒÄ¸ÿ P¸Å P¸ÄPš» ƒÄÀté‘ ¸‡ P¸§ P¸ÄPš% ƒÄ¸ÿ P¸Å P¸ÄPš» ƒÄÀteÄ^&Ç Ä^&Ç Ä^
+&Ç  ¸Â P¸ÄPš	 ƒÄ±Óø% ‰FüÀt= t= tëÄ^&Ç ëÄ^&Ç ëÄ^&Ç ¸ ‹å]Ëÿvş¸§ P¸ÄPš% ƒÄ3À‹å]ËU‹ì¸? P¸= P¸ÎPš» ƒÄÀtM¸ P¸ÖPši ƒÄÀt9¸ P¸×Pši ƒÄÀt%Ä^&Ç Ä^
+&Ç  Ä^&Ç Ä^&Ç  ¸ ]Ë3À]ËU‹ìƒìV¸ P¸ P¸ÔPš» ƒÄÀuéË ¸ P¸ÖPši ƒÄÀué´ ¸ P¸×Pši ƒÄÀué Ä^&Ç Ä^
+&Ç  Ä^&Ç ¸ P¸ÔPš	 ƒÄ±Óø‹ğ¸ P¸ÔPš	 ƒÄ% ‰Fş‹^şƒûwIÑã.ÿ§Ä^&Ç ë8Ä^&Ç ë.öt
+Ä^&Ç ë Ä^&Ç ëöt
+Ä^&Ç ëÄ^&Ç ¸ ^‹å]Ë3À^‹å]Ë=GQiU‹ìƒì¸ P¸ÄPš	 ƒÄ‰Fş¸ P¸ P¸ÄPš% ƒÄ¸ P¸ÄPš	 ƒÄ= té¸? P¸ P¸ÄPš» ƒÄÀuéğ ¸ÿ P¸ P¸ÔPš» ƒÄÀuéÕ Ä^&Ç Ä^&Ç ¸' P¸ÔPš	 ƒÄ-Š ‹Øƒûw7Ñã.ÿ§Ä^
+&Ç  ë&Ä^
+&Ç ëÄ^
+&Ç ëÄ^
+&Ç ëÄ^
+&Ç ¸
+ P¸ÄPš	 ƒÄ±Óø% ‰Fü‹^üƒûw-Ñã.ÿ§ÿÄ^&Ç ëÄ^&Ç ëÄ^&Ç ëÄ^&Ç ¸ P¸Pè†äƒÄ¸ P¸PèwäƒÄ¸ ‹å]Ëÿvş¸ P¸ÄPš% ƒÄ3À‹å]Ë›¥¯¹BrLLLL`jrrVVVVU‹ìì0VW‹v
+‹F™±
+šgÜ‰Vò‰FğŒ^êÇFèd‹^±Óã‹‡v‹—t‰Fî‰Vìöu¿ ëƒşu¿ ëƒşu¿ ë¿ Œ^âÇFà°éÄ^à&ŠG˜;Ç~éì Ä^à&‹G™P&‹GR™Y[šŸÜ‰Vö‰FôÄ^à&€u3É» šŸÜ‰Vö‰Fô‹Fö‹VôƒÂÿ  %ÿÿ‰FöÇFô  3Ò;Fò|~é“ ;Vğvé‹ ƒ~ tÿvöÿvôÿvòÿvğš¹ÜşÈÄ^à&ˆG3Òë‹ÚÑã‹‡ºÄ^à&;tB‹ÚÑãƒ¿ºÿuä‹ÚÑã‹‡ºÄ^à&;t;Ä^àÄvì&‹&‰GÄ^ì&‹GÄ^à&‰G&ƒ u&ƒ tÄ^à&‹Ä^è&‰ƒFèƒFàƒFìÄ^à&ƒ?ÿtéñşÄ^è&Çÿÿƒ~ uéØ Œ^æÇFä éÁ 3Ò‹Êë‹ÚÑã‹‡dÄ^ä&;u¹ ëB‹ÚÑãƒ¿dÿußÉté ŒVø†àş‰†ÚşÇ†ĞşOÄ^ä&‹‰†ÔşFøP†ĞşPP¸ PšÂÜƒÄ3Òë‹ÚÑã‹‡ºÄ^ä&;tB‹ÚÑãƒ¿ºÿuä‹ÚÑã‹‡ºÄ^ä&;t+ƒ¾ĞşOu$÷†àş t€¾ûş u&‹Ä^è&‰ƒFèÄ^è&ÇÿÿƒFäÄ^ä&ƒ?ÿté3ÿ¸lP¸°Pš#  ƒÄ¸> P¸dPš'#  ƒÄ_^‹å]ËU‹ìƒìè—ãÀuÄ^&Çÿÿ‹å]Ëè×âÄ^&‰Ä^&ƒ?ÿu
+èåãÄ^&‰ÿvÿvÿvÿvFúPFüPFşPè?çƒÄÀté¹ÿvÿvÿvÿvFúPFüPFşPèÏêƒÄÀtéÿvÿvÿvÿvFúPFüPFşPèİïƒÄÀtégÿvÿvÿvÿvFúPFüPFşPè¤èƒÄÀté>ÿvÿvÿvÿvFúPFüPFşPèçƒÄÀtéÿvÿvÿvÿvFúPFüPFşPè"îƒÄÀtéìÿvÿvÿvÿvFúPFüPFşPèíãƒÄÀtéÃÿvÿvÿvÿvFúPFüPFşPè6åƒÄÀtéšÿvÿvÿvÿvFúPFüPFşPèŠòƒÄÀtéqÿvÿvÿvÿvFúPFüPFşPèôƒÄÀtéHÿvÿvÿvÿvFúPFüPFşPèàöƒÄÀtéÿvÿvÿvÿvFúPFüPFşPè|÷ƒÄÀtéö ÿvÿvÿvÿvFúPFüPFşPè¬ùƒÄÀtéÍ ÿvÿvÿvÿvFúPFüPFşPègõƒÄÀté¤ ÿvÿvÿvÿvFúPFüPFşPèîƒÄÀu~ÿvÿvÿvÿvFúPFüPFşPè8øƒÄÀuXÿvÿvÿvÿvFúPFüPFşPè¦÷ƒÄÀu2ÿvÿvÿvÿvFúPFüPFşPèßæƒÄÀuÄ^&Çÿÿ‹å]ËÄ^&ƒ?ÿu‹Fş&‰Ä^
+&ƒ?ÿu‹Fü&‰Ä^&ƒ?ÿu‹Fú&‰Ä^&ÿ7Ä^&ÿ7Ä^&ÿ7Ä^&ÿ7Ä^&ÿ7èúƒÄ
+‹å]ËU‹ì‹FÀ|= ‹Ø±Óã‹—¾‹‡¼]ËŒÚ¸„]ËU‹ì‹FÀ|= ‹Ø±Óã‹—N‹‡L]ËŒÚ¸à]ËU‹ì‹VÒ|5ƒú0‹Ú±Óã‹‡‡u3Ò3À]Ë‹Ú±ÓãÄŸ‹FÓàØ&‹W&‹]ËŒÚ¸„]ËU‹ì‹^ûÀuºÚì‹ÓŠFîBì´ ]ËU‹ì‹^‹ÓŠFîBŠF
+î]ËU‹ìVW‹v‹~WVèÀÿƒÄ‹V
+÷Ò#Â‹V#V
+ÂPWVèÃÿƒÄ_^]ËU‹ìƒì‹^‹N‹Óì´ ‰FşŠÁöĞPŠFşZ"Â‹Óîì´ #Á‰FüŠFş
+Áîì´ #Á‰FúŠFşîƒ~ü u
+9Núu¸ ë3À‹å]ËU‹ìƒìVW‹v‹~WVè:ÿƒÄ‰Fş‹F
+÷Ğ‹Vş#ĞRWVè?ÿƒÄWVèÿƒÄ#F
+‰Fü‹FşF
+PWVè ÿƒÄWVèûşƒÄ#F
+‰FúÿvşWVèÿƒÄƒ~ü u‹Fú;F
+u¸ ë3À_^‹å]ËU‹ìƒìV‹v;6ìék¡îğu{¡ì±ÓàÄ^Ø&‹G&‹£ğ‰î¡îğuÿì¸ÿÿ^‹å]ËÄî&€?-t&€?/tÇğ  Çî  ¸şÿ^‹å]ËÿîÄî&€?-t&€?/uÇğ  Çî  ¸ıÿ^‹å]ËÄîÿî&ŠˆFÿ
+ÀuÇğ  Çî  ¸ıÿ^‹å]Ë€~ÿ:tŠFÿ˜Pÿvÿvš	.ÜƒÄ‰Vü‰FúÂu¸ıÿ^‹å]ËÿFúÄ^ú&€?:uYÿìÄî&€? u,;6ì¸ıÿ^‹å]Ë¡ì±ÓàÄ^Ø&‹G&‹£ğ‰îÿìÄ^¡ğ‹î&‰G&‰Çğ  Çî  ë(Äî&€? uÿìÇğ  Çî  Ä^&ÇG  &Ç  ŠFÿ˜^‹å]ËÇğ  Çî  ÿì¸ÿÿ^‹å]ËU‹ìÄ^&ŠG´ =d t*-D ‹Øƒûvé²Ñã.ÿ§©-f ‹ØƒûvéÑã.ÿ§‰Ä^&ÿw&ÿw¸òPÿvÿv
+šƒ-ÜƒÄ‹ÈéyÄ^&ÿw&ÿw¸õPÿvÿv
+šƒ-ÜƒÄ‹ÈéVÄ^&ÿw&ÿw¸øPÿvÿv
+šƒ-ÜƒÄ‹Èé3Ä^&ÿw&ÿw¸ûPÿvÿv
+šƒ-ÜƒÄ‹ÈéÄ^&ÿw&ÿw¸şPÿvÿv
+šƒ-ÜƒÄ‹Èéí Ä^&ÿw&ÿw¸Pÿvÿv
+šƒ-ÜƒÄ‹ÈéÊ Ä^&ÿw&ÿw¸Pÿvÿv
+šƒ-ÜƒÄ‹Èé§ Ä^&ÿw&ÿw¸
+Pÿvÿv
+šƒ-ÜƒÄ‹Èé„ Ä^&ÿw&ÿw¸Pÿvÿv
+šƒ-ÜƒÄ‹ÈëbÄ^&ÿw&ÿw¸Pÿvÿv
+šƒ-ÜƒÄ‹Èë@Ä^&ÿw&ÿw¸Pÿvÿv
+šƒ-ÜƒÄ‹Èë¹ Ä^&Ä_‹F‹V
+&‰G&‰ë¸ıÿ]ËÉu¸ıÿ]Ë¸ÿÿ]Ë÷vvvvvvv%vvv]vHkvvvvv;vv±vvvvvÔU‹ììª VWÇFú ¸P†VÿPšF.ÜƒÄ3É¾ ;N})‹Áº
+ ÷êÄ^Ø‹û&Šˆ‚Vÿ&€}!tFÆ‚Vÿ:AF;N|×Æ‚Vÿ FüP†VÿPÿv
+ÿvÿvèĞûƒÄ‹ğ=? t=ıÿt(=şÿt,=ÿÿtëj=H t=h u`¸üÿ_^‹å]Ë¸ÿÿ_^‹å]Ë¸ıÿ_^‹å]Ë‹FFu	¸ıÿ_^‹å]Ëÿvú¡ì±ÓàÄ^Ø&ÿw&ÿ7ÿ^ƒÄ=ıÿu	¸ıÿ_^‹å]ËÿìÿFúéaÿ3É;N}‹Áº
+ ÷êÄ^Ø&Š´ ;ÆtA;N|å‹Áº
+ ÷êÄ^Ø‹û&€!u&Ä]&Ç éÿÿvşÿvüÿvWèüƒÄ=ıÿtéÿ¸ıÿ_^‹å]ËU‹ìVW3ÿ;~}V‹Çº
+ ÷êÄ^Ø‹ó&€!u&ÿt&ÿt&Š´ P¸Pš'ÜƒÄ
+ëF
+&ÿt&ÿt&Š´ P¸-Pš'ÜƒÄ
+G;~|ª_^]Ë    Borland C++ - Copyright 1991 Borland Intl. Divide error
+Abnormal program termination
+                                          º             ÿÿÿÿÿÿÿÿ           ¬ Š4.2 UNIVBE - Universal VESA Video BIOS Extension (VBE) Version 1.2
+          Release %s (%s)
+
+ Oct 23 1993 Copyright (C) 1993 SciTech Software, all rights reserved.
+ Options are:
+     -s<x>    - Force detection of SuperVGA (-s0 for list)
+     -c<x>    - Force detection of SuperVGA chipset (numerical id)
+     -m<size> - Force memory size to 'size'
+     -d<x>    - Force DAC type (0:VGA, 1:15 bit, 2:16 bit, 3:24 bit)
+     -i       - Do not perform SuperVGA detection
+     -q       - Quiet mode
+     -g       - Regenerate default .ini file
+     -u       - Unload the Universal VESA VBE from memory
+     -t       - Don't go TSR, just return the detected SuperVGA id
+     -b       - Swap RED and BLUE bytes in 24 bit modes
+ VESA BIOS call 00h failed!
+ univbe.ini wt [remove] %03X Could not create .ini file!
+ S:s:C:c:M:m:D:d:UuIihQqGgTtBb Unknown SuperVGA chip. Valid values are:
+
+  %2d: %s
+ Default .ini file generated.
+ Universal VESA VBE is not loaded - cannot generate .ini file.
+ Removing Universal VESA VBE from memory.
+ Universal VESA VBE is not loaded - cannot remove.
+ rt %x Universal VESA VBE is already loaded - installation aborted.
+ Supported video card not detected - installation aborted.
+ Unable to detect video memory size. Please consult your video card manual
+ and use the -m command line switch to specify the amount of video memory
+ that your video card has on board. If your card has 1Mb of video memory,
+ you would use the following command to start the Universal VESA VBE:
+
+     univbe -m1024
+ Installing for: %s  (%s) 
+Old BIOS:        VESA VBE %d.%d compliant
+ Normal VGA
+ RAM DAC:        %s
+ Memory:         %d Kb
+ Memory:         %d Mb
+ ERROR: Could not install correctly - internal buffers too small!
+        Please report this problem to have it rectified promptly.
+  d  X      €                   €€^       €€      €€à        X                        €@È        €^       €       €à      @ X                
+        €@È        €^        €       €à      @ X                
+        À@È       !€€^      "€€      €€à      `	 X                        ÿÿ                  T   U           a   b   c   d                   r   s                                                   u               aŠgŠoŠwŠŠq   t           `   a   b   c                                                                                           _Š‘Šp   r           x   y   {   ~                                                                                           “ŠšŠ¡Šp  p   p ! p  p  p 0 p 1 p 2     p b         p q                                                     p w             ¨Š­Š½ŠÍŠÜŠìŠy   _       [   ~   \   ^                                                                                               üŠR   V   X           S   T   Y               [   \                                                                       Š
+ŠŠŠ"ŠX   ]   d       ^   _   \   `               a   b   c                                                   r               *Š1Š9ŠAŠIŠQŠYŠ[   _           \   ]   ^   b                   t   v                       u   w                                       aŠhŠmŠsŠob oe op     of og oi oj                                                                                         xŠ…Š)   7   =   -   /   .   0   8       ğ ğ- ğ/ ğ. ğ0         ğ ğ- ğ/ ğ. ğ0             ğÿ-ğÿ/ğÿ.            Š–ŠŠ±ŠÃŠX   ]   g       ^   _   \   a   j               q   r                       x   y                                       ÎŠÔŠÚŠáŠOOO        OOOO            O                        OOOO            O            éŠğŠ÷ŠŠX   ]           ^   _   \                                                                                               	Š+   0   6       )   *   ,   1   7                               @       B   C   D                                       ŠU   V       W   X   Y   Z   [                                                                                           Š*   0   6       ,   -   +   1   7       B   C   D   E               B   C   D   E                                       Š   !   *       %   &   '   (   7                               8       :   ;   <                                       "ŠX   ]   l           _   \   `   m               f   g           o           d   e   t       p           q               )Š3Š=ŠGŠQŠ
+Š¨
+Š(Š¬Š<Š¸ŠDŠØŠ`ŠàŠlŠôŠ|ŠøŠtŠğŠlŠèŠ[ŠhŠwŠŠŠ¬Š¹ŠËŠÜŠìŠ ŠŠŠ)Š?ŠMŠ]ŠnŠ”
+Š Š Š$Š´Š0Š¼ŠPŠØŠXŠäŠlŠôŠpŠìŠhŠäŠ`ŠšŠ¥Š¸ŠËŠVESA 18800 18800-1 28800-2 28800-4 28800-5 761295520 B 82c451 82c452 82c453 EvNR Ev236 (Trident) Ev620 (Trident) Ev629 (ET4000) Ev673 (Trident) Ev678 (Trident) GVGA OTI-037C OTI-057 OTI-067 OTI-077 OTI-087 PVGA1A WD90C00 WD90C10 WD90C11 WD90C2x WD90C30 WD90C31 8800CS 8900 8900C 9000 Versions 1-4 Version 5 ET3000 ET4000 ET4000 Speedstar 24 ET4000 Genoa 7900 ET4000/W32 77C21 77C22 77C22E 77C22E+ 86c911 86c924 86c801/805 86c928 AVGA2 AL2101 68010 P2000 RT3106 CL-GD5420 CL-GD5422 CL-GD5424 CL-GD5426 CL-GD5428 ATI SuperVGA AHEAD SuperVGA Chips & Tech SuperVGA Everex SuperVGA Genoa SuperVGA OAK SuperVGA Paradise SuperVGA Trident SuperVGA Video7 SuperVGA Tseng Labs SuperVGA NCR SuperVGA S3 SuperVGA AcuMos SuperVGA Avance Logic SuperVGA MXIC SuperVGA Primus SuperVGA RealTek SuperVGA Cirrus Logic SuperVGA Invalid SuperVGA id!! Normal DAC HiColor 15 bit DAC HiColor 16 bit DAC TrueColor 24 bit DAC Unknown DAC      %d %x %o %u %ld %lx %lo %lu %f %lf %Lf hH?   -%c       %s
+   -%c<arg>  %s
+              !!!!!                  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                                                                                                                                  ÜÜÜ  	              N  
+             b               v  C             Š  B                                                                                                                                                                                                                                                                                                                          ```                                 @ÿÿ   ),(((((),(((),#,*((((**#(#%( TMP .$$$   
+
+	
+
+
+	 (null)   	
+
+ print scanf : floating point formats not linked
+                          ó   –
+                         The Universal VESA VBE
+                         ----------------------
+
+                   Copyright (C) 1993 SciTech Software
+                           All rights reserved.
+
+What is it?
+-----------
+
+The Universal VESA VBE is a small Terminate and Stay Resident (TSR) program
+that extends the video BIOS of SuperVGA video cards to make them compatible
+with the Video Electonics Standards Association (VESA) recommended
+Video BIOS Extensions (VBE).
+
+By having a video card that has a VESA VBE compatible BIOS, or by
+installing this small TSR, programs that support the VESA VBE programming
+interface will work correctly for your SuperVGA. This helps to solve a
+lot of problems with compatability between different SuperVGA cards on the
+market. Note that this program will not take advantage of any of the
+acceleration features that your video card may provide.
+
+Why use it?
+-----------
+
+You may already have a VESA VBE TSR for you video card, or you video card
+may have a VESA VBE compatible BIOS already, so why would you want to use
+this program?
+
+The simple answer is that most of the TSR's that exist today, and a lot
+of the not-so-new SuperVGA cards that are around implement an older version
+of the VESA VBE programming interface (if any at all). For this reason, some
+programs that use the advanced features of the new VESA VBE standard will
+not work with the TSR or BIOS that you currently have.
+
+So what advanced features does this TSR provide that other's don't? The
+Universal VESA VBE implements the VESA VBE 1.2 programming interface,
+which supports the following features:
+
+    . SuperVGA page flipping. High performance animation programs can
+      use your card to full potential using the VESA BIOS to implement
+      extended page flipping (imagine, 1024x768x16 double buffered
+      animation, or even 800x600x256 and 640x400x32k/64k on a 1Mb video
+      card!!).
+
+    . SuperVGA virtual screens. Programs may set up a virtual display
+      resolution of say 1024x1024 pixels, and smoothly scroll a window
+      with less physical resolution around within this buffer.
+
+    . Support for the 32k, 64k and 16 million color video modes. As well
+      as supporting the industry standard 16 and 256 color video
+      modes.
+
+    . Speed. The bank switching code in this package tends to run faster
+      than the routines embedded in the VIDEO BIOS of some video cards.
+
+    . Programs that know about the Universal VESA VBE protected mode
+      extensions can use the high performance protected mode programming
+      interface provided by this TSR.
+
+    . Extremely small size. When the TSR is resident in your computer it
+      only requires about 3k of memory which is smaller than the
+      size of most commerical VESA VBE TSR's. It may also be loaded high
+      to save even more memory.
+
+Hardware Requirements
+---------------------
+
+The Universal VESA VBE will run on any 80x86 based IBM PC compatible
+running MSDOS. Currently the Universal VESA VBE supports the following
+SuperVGA cards (note that not all of these have been fully tested):
+
+    - ATI Technologies 18800, 28800
+    - Ahead A & B
+    - Chips & Technologies 82c451/452/453
+    - Everex
+    - Genoa Systems GVGA
+    - OAK Technologies OTI-037C, OTI-067, OTI-077, OTI-087
+    - Paradise PVGA1A, WD90C00/10/11/20/21/30/31
+    - NCR 77C20/21/22E
+    - Trident 88/8900
+    - Video7 V7VGA versions 1-5
+    - Tseng Labs ET3000, ET4000, ET4000/W32
+    - AcuMos AVGA2
+    - S3 86c911/924/801/805/928
+    - Advance Logic AL2101 SuperVGA
+    - MXIC 86010 SuperVGA
+    - Primus 2000 SuperVGA
+    - RealTek 3106 SuperVGA
+    - Cirrus Logic CL-GD 5420, 5422, 5424, 5426, 5428
+
+How do I install it?
+--------------------
+
+You can install the TSR from the command line, or from your autoexec.bat
+file. Don't worry about installing it twice, it will automatically detect
+if you have already installed it.
+
+To install it simply type:
+
+    univesa
+
+from the command line. It will determine what type of SuperVGA card you
+have installed and install itself accordingly. If you wish to remove the
+TSR from memory after it has been installed, simply type:
+
+    univesa -u
+
+This will remove the program from memory, even if it was not the last
+TSR to be installed. However if you installed another TSR after this
+one that has hooked into the Int 10h interface the old TSR will cease
+to function.
+
+You may also use command line options to modify the the installation
+process used by the program. The following is produced by typing
+'univesa -h' at the command line:
+
+Options are:
+    -s<name> - Force detection of SuperVGA 'name'
+    -c<x>    - Force detection of SuperVGA chipset (numerical id)
+    -m<size> - Force memory size to 'size'
+    -d<x>    - Force DAC type (0:VGA, 1:15 bit, 2:16 bit, 3:24 bit)
+    -i       - Do not perform SuperVGA detection
+    -q       - Quiet mode
+    -g       - Regenerate default .ini file
+    -u       - Unload the Universal VESA VBE from memory
+    -t       - Don't go TSR, just return the detected SuperVGA id
+    -b       - Swap the RED and BLUE bytes in 24 bit modes.
+
+It is possible the SuperVGA detection code will hang the machine on old
+VGA/SVGA cards. You can optionally force the program to work with any
+combination of card, chipset, memory size and DAC, but unless you specify
+the -i option, unspecified values will be filled in automatically for you.
+
+Thus you if the detection code did not correctly identify you video card
+configuration, you can force the TSR to work with the correct values.
+
+For some SuperVGA cards, I have not been able to work out a solid method
+of detecting the amount of video memory on board. If this is the case,
+the Universal VESA VBE will refuse to install itself and ask that you
+specify the amount of video memory on your card from the command line.
+
+The Universal VESA VBE does not provide support for any of the extended
+text modes that your video card may provide, but will provide support
+for any extended text modes supported by an underlying VESA VBE compliant
+BIOS. Thus if you video card already has a VBE BIOS or you install
+your favorite VESA VBE TSR for your video card _before_ installing the
+Universal VESA VBE, the Universal VESA VBE will use a pass-through
+mechanism to ensure the extended text modes still work correctly.
+
+What's the .ini file for?
+-------------------------
+
+For most installations, the Universal VESA VBE will automatically
+determine the video modes that you card supports. However on some older
+video cards some video modes that the Universal VESA VBE thinks are
+available aren't and so an error will occur if a program tries to set
+the video mode. The .ini file is used to remove support for those video
+modes. You can edit the .ini file yourself or you can get the TSR
+to automatically generate the default .ini file for you.
+
+In order to generate the default .ini file for you, you must remove the
+TSR from memory, delete the old .ini file, re-install the TSR in memory
+and run the program with the -g option. The default .ini file is now
+generated. You should then remove the TSR again and re-install it using
+the values in the new .ini file. A batch file called 'makeini.bat'
+is provided which will do this for you.
+
+The format of the .ini file is simple. All the video modes removed by
+the program are listed under the section '[remove]' in the .ini file.
+They are listed as the hexadecimal internal mode numbers used by the
+TSR (see the next section for a list of the mode numbers used). An
+example .ini file might be:
+
+[remove]
+
+10D
+
+Video modes supported by this TSR
+---------------------------------
+
+The Universal VESA VBE supports the VESA VBE 1.2 programming interface,
+which defines a number of standard video modes numbers. The new version
+of the VESA VBE specs will allow the vendor to extend the video numbers
+used to whatever values they wish, so I have taken the liberty to
+extend the mode numbers used by the Universal VESA VBE to include
+modes not originally specified in the VBE 1.2 specs, but supported by
+a number of popular video cards on the market. Depending on how well
+your applications have been written, they may or may not be able to
+use those modes.
+
+The following is a list of the internal mode numbers used by the Universal
+VESA VBE and a description of each video mode:
+
+    102   - 800x600 16 color
+    104   - 1024x768 16 color
+    106   - 1280x1024 16 color
+    11C   - 640x350 256 color
+    100   - 640x400 256 color
+    101   - 640x480 256 color
+    103   - 800x600 256 color
+    105   - 1024x768 256 color
+    107   - 1280x1024 256 color
+    10D   - 320x200 32k color
+    11D   - 640x350 32k color
+    11E   - 640x400 32k color
+    110   - 640x480 32k color
+    113   - 800x600 32k color
+    116   - 1024x768 32k color
+    119   - 1280x1024 32k color
+    10E   - 320x200 64k color
+    11F   - 640x350 64k color
+    120   - 640x400 64k color
+    111   - 640x480 64k color
+    114   - 800x600 64k color
+    117   - 1024x768 64k color
+    11A   - 1280x1024 64k color
+    10F   - 320x200 16m color
+    121   - 640x350 16m color
+    122   - 640x400 16m color
+    112   - 640x480 16m color
+    115   - 800x600 16m color
+    118   - 1024x768 16m color
+    11B   - 1280x1024 16m color
+
+Problems and known bugs
+-----------------------
+
+The Universal VESA TSR seems to have problems with QEMM, since QEMM does
+something weird with the Video BIOS. In order to fix this problem,
+you should use the QEMM 'exclude' options to exclude the Video BIOS
+area. Do this by including the following in the QEMM options:
+
+        EXCLUDE=C000-C1FF
+
+Refer to the BUGS file for a list of known problems with the Universal
+VESA VBE.
+
+

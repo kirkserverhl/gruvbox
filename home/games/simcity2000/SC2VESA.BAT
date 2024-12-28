@@ -1,0 +1,3 @@
+.\UNIVBE
+call .\SC2000.EXE %1
+.\UNIVBE -U

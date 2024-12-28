@@ -1,0 +1,70 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f11\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}MS Sans Serif;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\nowidctlpar\widctlpar\adjustright \f11\fs20\cgrid \snext0 Normal;}{\*\cs10 \additive Default Paragraph Font;}{\s15\nowidctlpar\widctlpar\adjustright \f2\fs20\lang2057\cgrid \sbasedon0 \snext15 Plain Text;}}{\info{\operator Keith R. Hamilton}{\creatim\yr1997\mo8\dy29\hr12\min15}{\revtim\yr1997\mo10\dy16\hr17\min18}{\version3}{\edmins2}{\nofpages2}{\nofwords419}{\nofchars2391}{\*\company Dma Design Ltd}{\nofcharsws2936}{\vern71}}\endnotes\aendnotes\aftnstart0\hyphhotz0\aftnnar\lytprtmet\hyphcaps0\viewkind4\viewscale100\pgbrdrhead\pgbrdrfoot \fet0\sectd \linex0\headery709\footery709\colsx709\endnhere\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \nowidctlpar\widctlpar\adjustright \f11\fs20\cgrid {\f0\lang1031 Grand Theft Auto - Installationsprobleme
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f0\lang1031 
+\par 24 Bit Version
+\par --------------
+\par Wenn Ihr Computer die 24 bit Version des Spieles mit defekten Grafiken
+\par startet, wechseln Sie bitte mit dem F11 Menü den Bildschirmmodus. Dies sollte
+\par das Problem lösen.
+\par 
+\par Die High Colour GTA Version verwendet eine implementierte Version des
+\par "univbe" Treibers, um die 15, 16 und 32-bit Grafikmodi anzuzeigen. Wenn Ihre
+\par Grafikkarte vom "univbe" Test nicht erkannt wird oder Sie Ihre Grafikkarte
+\par wechseln und dies nicht automatisch erkannt wird, starten Sie "uvconfig.exe"
+\par im "gtados" Verzeichnis. Wenn auch dies nicht zur Lösung führt, starten Sie das
+\par 24-bit GTA durch Eingabe von "gta24 -nounivbe" im "gtados" Verzeichnis. Dies
+\par wird "univbe" übergehen und den Treiber Ihrer Grafikkarte verwenden. Alternativ
+\par können Sie sich auch die neueste Version von "univbe" von SciTech Software
+\par besorgen und ihn vor dem Start von GTA ausführen.
+\par 
+\par Windows Treiber ( Grand Theft Auto DirectX )
+\par ---------------
+\par GTA DirectX kann nur ordnungsgemäß betrieben werden, wenn Sie die neuesten
+\par Windows 95 Direct X Microsoft Treiber für Ihre Videokarte installiert haben.
+\par Der Händler Ihrer Grafikkarte sollte Ihnen diese besorgen können.
+\par 
+\par Die aktuellen Treiber können das Spiel zusätzlich in High Colour bei geringer
+\par Auflösung  starten (empfohlen). Eine solche Karte ist z. B. die Matrox Millenium.
+\par 
+\par 
+\par Gravis Ultrasound
+\par -----------------
+\par 
+\par Die DOS Version von GTA unter Windows95 gestartet, wird mit einer
+\par Ultrasound keine Soundeffekte abspielen. Sie müßten hierzu Windows beenden
+\par und im MS-DOS Modus starten bzw. die PIF-Datei von DOS-Box auf MS-DOS
+\par Modus ändern.
+\par 
+\par DOS Version - CD Sound
+\par ----------------------
+\par Damit Sie bei der DOS Version von GTA CD Musik hören können, müssen Sie
+\par den MSCDEX Treiber geladen haben.  Bei der Windows 95 Version sollten Sie
+\par diesen Treiber nicht extra starten müssen, auch wenn Sie hier die DOS Version
+\par in einer DOS Box starten.
+\par 
+\par Sidewinder Control Pad - unter DOS GTA
+\par -----------------------------------
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f0\lang1031 Das Microsoft Sidewinder Pad ist nicht mit der DOS Version von GTA
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f0\lang1031 kompatibel. Sie können es nur in der Windows (DirectX) GTA Version einsetzen.
+\par 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f0\lang1031 Voodoo Graphics (3Dfx) Besitzer
+\par }{\f0\lang1031 ------------------------------------------}{\f0\lang1031 
+\par GTA unterstützt 3Dfx Glide 2.42 oder höher.  Besitzer der Voodoo
+\par Graphics Karte müssen mindestens diese aktuellere Version auf ihrem
+\par System installiert haben.  Um das aktualisierte Glide Treiberpaket zu
+\par installieren, starten Sie das Programm GRTVGR im 3Dfx-Verzeichnis auf
+\par der GTA CD.}{\f0\lang1031 
+\par }\pard\plain \s15\nowidctlpar\widctlpar\adjustright \f2\fs20\lang2057\cgrid {Wir empfehlen Ihnen, mindestens 32MB RAM für die 3DFX GTA Version
+\par zu besitzen.
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \f11\fs20\cgrid {\f0\lang1031 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f0\lang1031 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f0\lang1031 EMM386 (DOS)
+\par ------------
+\par Wenn Sie unter DOS 6.22 GTA spielen, in Ihrer CONFIG.SYS Datei die
+\par Zeile DEVICE=C:\\DOS\\EMM386.EXE haben und die Tastatur nicht richtig
+\par ansprechen sollte, starten Sie den Computer mit den Tasten Strg-Alt-Entfernen
+\par neu.
+\par 
+\par Ändern Sie dann die Zeile in DEVICE=C:\\WINDOWS\\EMM386.EXE, um das
+\par Problem zu lösen. 
+\par 
+\par }}

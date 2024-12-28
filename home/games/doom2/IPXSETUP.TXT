@@ -1,0 +1,123 @@
+-----------------------
+-IPXSETUP for CTF Doom-
+-----------------------
+
+Latest Version - 10th March 1998 (Version 2.00)
+
+Based on IPXSETUP v1.22 by id Software.
+
+Email Bugs to John Cole (jcole@eisa.net.au)
+
+-------------------------------------------------------------------------------
+DISCLAIMER:
+
+John Cole does not take any responibility for any Damages/Data Loss that
+may occur in using this modified EXE.
+-------------------------------------------------------------------------------
+
+In this document:
+
+      1. What has changed
+      2. How to use
+      3. Considerations
+      4. Compiling
+
+!!!!  If one person uses IPXSETUP version 2.00 then everyone must use it !!!!
+
+**********************
+** What has changed **
+**********************
+
+* "-name <pname>" specifies a player name. Only used in "-altctf" in
+  ctfdoom no other modes make use of it.
+
+* Environment variable DOOMENV, can now be set specifying an alternate
+  EXE file.                                                 (1st-feb-98)
+
+  eg. (At command prompt)
+      SET DOOMENV=ctfdoom.exe
+
+  Will try to launch ctfdoom.exe before any other doom .EXE
+
+* Changed the "." to a spinner.
+
+* New parameter "-player <playerno>". Where playerno is between 1 and 4.
+
+
+****************
+** How to use **
+****************
+
+Allows players now to select which team they wish to play for.
+
+    Teams
+      1        Players 1(Green)  & 3(Brown)
+      2        Players 2(Indigo) & 4(Red)
+
+    This is extremely useful if you have a 4 player game setup with 2
+computers in each room. Usually IPXSETUP will decide players numbers by
+their network node address this parameter forces a player number into the
+game.
+
+NOTE : If "-player" is not used the original code is used.
+
+eg.
+   Lets assume we have a 4 player game set up without the "-player" parameter
+   with two machines in each room.
+
+   Room 1
+   Player 1  (IPXSETUP Chooses the Player Numbers)
+   Player 2
+
+   Room 2
+   Player 3
+   Player 4
+
+   Now seeing as the CTF implementation uses players 1 & 3 on one team and
+   2 & 4 on the other, this really is NOT an ideal setup!
+
+
+   To overcome this now is extremely easy :
+
+   Room 1
+   Player 1  IPXSETUP -player 1 -ctf -file <mapname.WAD> -nodes 4
+   Player 3  IPXSETUP -player 3 -ctf -file <mapname.WAD> -nodes 4
+
+   Room 2
+   Player 2  IPXSETUP -player 2 -ctf -file <mapname.WAD> -nodes 4
+   Player 4  IPXSETUP -player 4 -ctf -file <mapname.WAD> -nodes 4
+
+
+   Thats it!! Players are now set up the correct way!
+
+
+********************
+** Considerations **
+********************
+
+Try to make the fastest machine (see below) "-player 1", it really doesn't
+matter if you don't except the game performance might not be as good.
+
+THE FASTEST MACHINE MAY NOT ALWAYS BE THE FASTEST (!what a contradiction!)
+assume Player "y" has a Cyrix P166+ only running at 320x200 and Player "z" is
+using a Pentium 200 running at 640x480. The pentium in my opinion should
+DEFINATELY NOT be Player 1 it's having to manipulate more than 2x the amount
+of graphics the Cyrix has to.
+
+Too see this run the CTFDoom EXE with "-timedemo demo1" on all machines
+to check the gametics vs realtics and the framerate. This should give you
+an indication whether the machine has the power to be player 1.
+
+(Or drop you resolution back a bit!)
+
+
+***************
+** Compiling **
+***************
+
+To re-compile the source you need Borland C 3.1, create a project file called
+IPXSETUP and include all the .C files in the project.
+
+Set optimizations to OPTIMIZE FOR SPEED and use the small memory model.
+
+
