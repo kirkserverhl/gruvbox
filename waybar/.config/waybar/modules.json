@@ -106,9 +106,9 @@
   // Settings
   "custom/settings": {
     "format": "",
-    "on-click": "~/scripts/scripts.sh",
-    "on-click-right": "~/scripts/keybinds.sh",
-    "tooltip-format": "Left: Zshrc\nRight: Keybindings"
+    "on-click": "~/scripts/keybinds.sh",
+    "on-click-right": "$(cat ~/scripts/terminal.sh) --class dotfiles-floating -e nvim .zshrc ",
+    "tooltip-format": "Left: Keybindings\nRight: Zshrc"
   },
 
   // Keybindings

@@ -8,7 +8,7 @@
     "format": "",
     "on-click": "~/scripts/browser.sh",
     "on-click-right": "~/scripts/terminal.sh",
-    "tooltip-format": "Open Firefox"
+    "tooltip-format": "Left: Open Firefox\nRight: Open Kitty"
   },
   "custom/quicklink3": {
     "format": "",
