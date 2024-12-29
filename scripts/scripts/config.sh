@@ -22,6 +22,8 @@ echo "Running post-boot configuration..."
 # Refresh dotfiles
 cd ~/.dotfiles && git pull
 
+# Maike Pictures folder for screenshot
+sudo mkdir ~/Pictures
 
 # Post install packages that get missed
 if ! command -v figlet &>/dev/null; then
@@ -31,7 +33,7 @@ fi
 
 # Update Screenshot folder and Pacman theme
 sudo cp ~/.dotfiles/assets/pacman.conf /etc/ || log_error "Failed to move pacman.conf"
-sudo mkdir ~/Pictures
+
 
 cd ~/scripts && ./after_install_reboot.sh && ./hypr_swap.sh && ./zsh_fix.sh && ./sddm_candy_install.sh
 
@@ -49,13 +51,7 @@ track_action() {
 # Initialize checklist
 checklist=()
 
-# Shell Configuration
-display_header "Shell"
-read -p "Do you want to configure your shell (y/n)? " configure_shell
-if [[ "$configure_shell" =~ ^[Yy]$ ]]; then
-    ~/scripts/shell.sh
-    track_action "Shell configuration"
-fi
+
 
 # SDDM Configuration
 display_header "SDDM"
@@ -91,6 +87,14 @@ if [[ "$configure_grub" =~ ^[Yy]$ ]]; then
     track_action "GRUB theme and extra packages setup"
 fi
 
+# Shell Configuration
+display_header "Shell"
+read -p "Do you want to configure your shell (y/n)? " configure_shell
+if [[ "$configure_shell" =~ ^[Yy]$ ]]; then
+    ~/scripts/shell.sh
+    track_action "Shell configuration"
+fi
+
 # Display checklist summary with tte beams
 print_checklist_tte() {
     checklist_file="/tmp/config_checklist.txt"
@@ -112,8 +116,8 @@ echo "1. Reboot now"
 echo "2. Rerun this script"
 echo "3. Exit"
 
-# Prompt user for input with a 60-second timeout
-read -t 60 -p "Enter your choice (default is reboot): " choice
+# Prompt user for input with a 30-second timeout
+read -t 30 -p "Enter your choice (default is reboot): " choice
 
 # Check the user's input or proceed to the default action
 case $choice in
@@ -130,7 +134,7 @@ case $choice in
         exit 0
         ;;
     *)
-        echo "No input detected. Rebooting in 60 seconds..."
+        echo "No input detected. Rebooting in 30 seconds..."
         sudo reboot
         ;;
 esac
