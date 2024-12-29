@@ -1,5 +1,21 @@
 #!/bin/bash
 
+## Existing tasks
+echo "Running post-boot configuration..."
+
+#!/bin/bash
+
+## Existing tasks
+echo "Running post-boot configuration..."
+
+# Add this part for nvim configuration
+echo "[ ] Begin configuring Nvim"
+nohup nvim --headless &>/dev/null &  # Run nvim in the background silently
+echo "[✔] Begin configuring Nvim"
+
+# Rest of your script...
+
+
 ## Missing pkgs, Fix Zsh, refresh Hyprland, move Ass’s  ##
 echo "Running post-boot configuration..."
 
@@ -90,12 +106,31 @@ print_checklist_tte() {
 
 print_checklist_tte
 
-# Ask the user to reboot or close the terminal
-echo -e "\\nConfiguration complete. Would you like to reboot now? [y/N]"
-read -r reboot_choice
-if [[ "$reboot_choice" =~ ^[Yy]$ ]]; then
-    sudo reboot
-else
-    echo -e "\\nYou can close this terminal by pressing Win + Q."
-fi
+# Options for reboot, rerun, or exit
+echo "Installation is complete. Choose an option:"
+echo "1. Reboot now"
+echo "2. Rerun this script"
+echo "3. Exit"
 
+# Prompt user for input with a 60-second timeout
+read -t 60 -p "Enter your choice (default is reboot): " choice
+
+# Check the user's input or proceed to the default action
+case $choice in
+    1)
+        echo "Rebooting now..."
+        sudo reboot
+        ;;
+    2)
+        echo "Rerunning the script..."
+        exec "$0"  # Reruns the current script
+        ;;
+    3)
+        echo "Exiting. System will not reboot."
+        exit 0
+        ;;
+    *)
+        echo "No input detected. Rebooting in 60 seconds..."
+        sudo reboot
+        ;;
+esac

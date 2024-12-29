@@ -134,32 +134,36 @@ print_checklist_tte
 } || checklist[post_configuration]=false
 
 
+
+
 # Print checklist and options
-print_checklist_tte
+# print_checklist_tte
 
-log_status "What would you like to do next?"
-echo "1) Rerun the script"
-echo "2) Reboot the system"
-echo "3) Exit"
-read -rp "Enter your choice (default: reboot in 20 seconds): " choice
+# Options for reboot, rerun, or exit
+# echo "Installation is complete. Choose an option:"
+# echo "1. Reboot now"
+# echo "2. Rerun this script"
+# echo "3. Exit"
 
-case $choice in
-	1)
-    	exec "$0"
-    	;;
-	2)
-    	log_status "Rebooting..."
-    	sudo reboot
-    	;;
-	3)
-    	log_status "Exiting..."
-    	exit 0
-    	;;
-	*)
-    	log_status "Rebooting in 20 seconds..."
-    	sleep 20
-    	sudo reboot
-    	;;
+# Prompt user for input with a 60-second timeout
+# read -t 60 -p "Enter your choice (default is reboot): " choice
+
+# Check the user's input or proceed to the default action
+# case $choice in
+#     1)
+#        echo "Rebooting now..."
+#        sudo reboot
+#        ;;
+#    2)
+#        echo "Rerunning the script..."
+#        exec "$0"  # Reruns the current script
+#        ;;
+#    3)
+#        echo "Exiting. System will not reboot."
+#        exit 0
+#        ;;
+#    *)
+#        echo "No input detected. Rebooting in 60 seconds..."
+#        sudo reboot
+#:will        ;;
 esac
-
-
