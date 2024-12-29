@@ -73,7 +73,7 @@ setup_cron_job() {
 	PACKAGES=(
     	alacritty  amd-ucode base base-devel blueprint-compiler bluez bpytop brightnessctl btrfs-progs cliphist cmake cmatrix cbonsai-git
     	duf dunst efibootmgr eza fastfetch figlet firefox fortune-mod fortune-mod-hackers fortune-mod-archlinux fzf git
-    	gnome-text-editor go grim grimblast-git gruvbox-material-gtk-theme-git gruvbox-plus-icon-theme-git 
+    	gnome-text-editor go grim grimblast-git
     	gst-plugin-pipewire gum htop hyprshade hyprcursor hyprpaper hypridle hyprgraphics  hyprlang hyprutils hyprwayland-scanner
     	imagemagick intel-media-driver iwd kcalc kitty libpulse libva-intel-driver linux linux-firmware lsd lsd-print-git lua
     	meson nemo nemo-emblems nemo-preview nemo-terminal neovim neovim-lspconfig neovim-web-devicons-git network-manager-applet networkmanager
@@ -95,9 +95,6 @@ setup_cron_job() {
 {
 	log_status "Applying configurations..."
 	sudo cp ~/.dotfiles/assets/pacman.conf /etc/ || log_error "Failed to move pacman.conf"
-	sudo rm -r -f /usr/lib/sddm/sddm.conf.d || log_error "Failed to remove old sddm config"
-	sudo cp ~/.dotfiles/assets/sddm.conf.d /usr/lib/sddm/ || log_error "Failed to move sddm.conf.d"
-	sudo cp ~/.dotfiles/assets/Sugar-Candy /usr/share/sddm/themes/ || log_error "Failed to move sddm.jpg"
 	
 	cd ~/.dotfiles || log_error "Failed to enter .dotfiles directory"
 

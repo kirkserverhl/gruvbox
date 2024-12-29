@@ -41,6 +41,15 @@ if [[ "$configure_shell" =~ ^[Yy]$ ]]; then
     track_action "Shell configuration"
 fi
 
+# SDDM Configuration
+display_header "SDDM"
+read -p "Do you want to instay Sugar-Candy SDDM theme (y/n)? " configure_sddm
+if [[ "$configure_sddm" =~ ^[Yy]$ ]]; then
+    ~/scripts/sddm_candy_install.sh
+    track_action "SDDM setup"
+fi
+
+
 # Monitor Setup
 display_header "Monitor Setup"
 read -p "Do you want to configure monitor setup (y/n)? " configure_monitor
