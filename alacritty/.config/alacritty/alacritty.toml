@@ -27,7 +27,7 @@ bold.family = "ShureTechMono Nerd Font"
 italic.family = "ShureTechMono Nerd Font"
 bold_italic.family = "ShureTechMono Nerd Font"
 
-size = 12.0
+size = 11.0
 
 [general]
 live_config_reload = true
