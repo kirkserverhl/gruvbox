@@ -3,16 +3,14 @@
 # Path to the monitor.conf file that we want to modify
 monitor_conf="~/.dotfiles/hypr/.config/hypr/conf/monitor.conf"
 
-# Define the paths for each configuration
-default_conf="~/.config/hypr/conf/monitors/default.conf"
-thin_gruv_conf="~/.config/hypr/conf/monitors/thin_gruv.conf"
-
 # Expand the ~ symbol to the full home directory path
 monitor_conf=$(eval echo $monitor_conf)
-default_conf=$(eval echo $default_conf)
-thin_gruv_conf=$(eval echo $thin_gruv_conf)
 
-# Ask if the user wants to ignore monitor.conf in Git
+# Dynamically list all available configuration files in the monitors directory
+monitor_dir="$HOME/.config/hypr/conf/monitors"
+configs=($(find "$monitor_dir" -type f -name "*.conf"))
+
+# Prompt user to ignore monitor.conf in Git
 read -p "Do you want to ignore monitor.conf in Git (y/n)? " git_ignore_choice
 
 if [[ "$git_ignore_choice" =~ ^[Yy]$ ]]; then
@@ -25,32 +23,32 @@ else
     echo "monitor.conf is now being tracked by Git."
 fi
 
-# Prompt user for the workspace setup choice
-echo "Which setup are you using?"
-echo "1. Default"
-echo "2. Thin Gruv"
+# Display available configurations to the user
+echo "Available monitor configurations:"
+for i in "${!configs[@]}"; do
+    config_name=$(basename "${configs[$i]}")
+    echo "$((i + 1)). $config_name"
+done
 
-read -p "Enter choice (1 or 2): " choice
+# Prompt user to select a configuration
+read -p "Enter the number of your choice: " choice
 
-# Determine the appropriate config file based on the user input
-case "$choice" in
-  1)
-    # If the user chooses 'default', update the monitor.conf with default.conf
-    selected_conf="$default_conf"
-    ;;
-  2)
-    # If the user chooses 'thin_gruv', update the monitor.conf with thin_gruv.conf
-    selected_conf="$thin_gruv_conf"
-    ;;
-  *)
+# Validate the choice
+if [[ "$choice" -ge 1 && "$choice" -le "${#configs[@]}" ]]; then
+    selected_conf="${configs[$((choice - 1))]}"
+    selected_name=$(basename "$selected_conf")
+    echo "You selected: $selected_name"
+else
     echo "Invalid choice. Exiting."
     exit 1
-    ;;
-esac
+fi
 
 # Update the monitor.conf file with the selected configuration
 echo "Updating monitor.conf to use $selected_conf..."
 sed -i "s|source = .*|source = $selected_conf|" "$monitor_conf"
+
+# Send a dunst notification
+notify-send -u normal -t 3000 "Monitor Configuration Updated" "Selected: $selected_name"
 
 echo "monitor.conf has been updated successfully!"
 
