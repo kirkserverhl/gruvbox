@@ -10,14 +10,14 @@ cd ~/.dotfiles && git pull
 # Post install packages that get missed
 if ! command -v figlet &>/dev/null; then
     echo "Installing packages ..."
-    sudo pacman -Sy --noconfirm figlet aylurs-gtk-shell sddm-theme-sugar-candy-git pacseek waybar waypaper python-pywal16 python-pywalfox
+    sudo pacman -Sy --noconfirm figlet aylurs-gtk-shell pacseek waybar waypaper python-pywal16 python-pywalfox
 fi
 
 # Update Screenshot folder and Pacman theme
 sudo cp ~/.dotfiles/assets/pacman.conf /etc/ || log_error "Failed to move pacman.conf"
 sudo mkdir ~/Pictures
 
-cd ~/scripts && ./after_install_reboot.sh && ./hypr_swap.sh && ./zsh_fix.sh
+cd ~/scripts && ./after_install_reboot.sh && ./hypr_swap.sh && ./zsh_fix.sh && ./sddm_candy_install.sh
 
 # Function to display a header with figlet
 display_header() {
@@ -66,26 +66,27 @@ if [[ "$configure_grub" =~ ^[Yy]$ ]]; then
     track_action "GRUB theme and extra packages setup"
 fi
 
-# Display completed actions
-display_header "Summary"
-echo "The following actions were performed:"
-if [ ${#checklist[@]} -eq 0 ]; then
-    echo "- No actions performed."
-else
-    for action in "${checklist[@]}"; do
-        echo "- $action"
-    done
-fi
+# Display checklist summary with tte beams
+print_checklist_tte() {
+    checklist_file="/tmp/config_checklist.txt"
+    echo -e "\\nConfiguration Summary:\\n" > "$checklist_file"
+    echo "✔ Configuration Completed Successfully" >> "$checklist_file"
+    if command -v tte &>/dev/null; then
+        cat "$checklist_file" | tte beams
+    else
+        cat "$checklist_file"
+    fi
+    rm "$checklist_file"
+}
 
-echo "Post-reboot configuration completed successfully."
+print_checklist_tte
 
-# Offer to reboot or quit
-echo
-read -p "Would you like to reboot your system now (y/n)? " reboot_choice
+# Ask the user to reboot or close the terminal
+echo -e "\\nConfiguration complete. Would you like to reboot now? [y/N]"
+read -r reboot_choice
 if [[ "$reboot_choice" =~ ^[Yy]$ ]]; then
     sudo reboot
 else
-    echo "Exiting to terminal."
-    exit 0
+    echo -e "\\nYou can close this terminal by pressing Win + Q."
 fi
 

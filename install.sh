@@ -21,16 +21,28 @@ log_error() {
 }
 
 # Function to print the checklist
-print_checklist() {
-	echo -e "\nInstallation Summary:\n"
-	for section in "${!checklist[@]}"; do
-    	if [ "${checklist[$section]}" = true ]; then
-        	echo "✔ $section"
-    	else
-        	echo "✘ $section"
-    	fi
-	done
+print_checklist_tte() {
+    checklist_file="/tmp/checklist.txt"
+    echo -e "\\nInstallation Summary:\\n" > "$checklist_file"
+    for section in "${!checklist[@]}"; do
+        if [ "${checklist[$section]}" = true ]; then
+            echo "✔ $section" >> "$checklist_file"
+        else
+            echo "✘ $section" >> "$checklist_file"
+        fi
+    done
+
+    # Display the checklist using tte beams
+    if command -v tte &>/dev/null; then
+        cat "$checklist_file" | tte beams
+    else
+        cat "$checklist_file"
+    fi
+
+    # Clean up temporary file
+    rm "$checklist_file"
 }
+
 
 # Function to add a cron job
 setup_cron_job() {
@@ -59,20 +71,20 @@ setup_cron_job() {
 	yay -Syyu --noconfirm || log_error "Failed to update package database"
 
 	PACKAGES=(
-    	alacritty aylurs-gtk-shell amd-ucode base base-devel blueprint-compiler bluez bpytop brightnessctl btrfs-progs cliphist cmake cmatrix cbonsai-git
+    	alacritty  amd-ucode base base-devel blueprint-compiler bluez bpytop brightnessctl btrfs-progs cliphist cmake cmatrix cbonsai-git
     	duf dunst efibootmgr eza fastfetch figlet firefox fortune-mod fortune-mod-hackers fortune-mod-archlinux fzf git
     	gnome-text-editor go grim grimblast-git gruvbox-material-gtk-theme-git gruvbox-plus-icon-theme-git 
-    	gst-plugin-pipewire gum htop hyprshade hyprcursor hyprpaper hypridle hyprgraphics hyprland hyprlang hyprutils hyprwayland-scanner
+    	gst-plugin-pipewire gum htop hyprshade hyprcursor hyprpaper hypridle hyprgraphics  hyprlang hyprutils hyprwayland-scanner
     	imagemagick intel-media-driver iwd kcalc kitty libpulse libva-intel-driver linux linux-firmware lsd lsd-print-git lua
-    	meson nemo nemo-emblems nemo-preview nemo-terminal neovim neovim-lspconfig network-manager-applet networkmanager
+    	meson nemo nemo-emblems nemo-preview nemo-terminal neovim neovim-lspconfig neovim-web-devicons-git network-manager-applet networkmanager
     	noto-fonts noto-fonts-emoji nwg-look otf-fira-sans otf-font-awesome pacseek pacman-mirrorlist pinta pipewire pipewire-alsa
     	pipewire-jack pipewire-pulse polkit-kde-agent pomodorolm prettier python-pywal16 python-pywalfox python-pillow python-vlc qt5-base
     	qt5-graphicaleffects qt5-wayland qt6-wayland qt6ct-kde rofi-wayland sdm-sugar-candy-git
     	slurp smartmontools sof-firmware starship stow timeshift timeshift-autosnap tmux ttf-sharetech-mono-nerd unzip vala vim
-    	vlc vlc-materia-skin-git vulkan-intel vulkan-radeon waybar waypaper wl-clipboard wl-clipboard-history-git wget wireless_tools
+    	vlc vlc-materia-skin-git vulkan-intel vulkan-radeon wl-clipboard wl-clipboard-history-git wget wireless_tools
     	wireplumber wofi wolfenstein3d xclip xdg-desktop-portal-hyprland xdg-utils xf86-video-amdgpu xf86-video-ati xf86-video-nouveau xf86-video-vmware
     	xorg-xhost xorg-server xorg-xinit xorg-wayland xcursor-simp1e-gruvbox-light yazi zig zoxide zram-generator zsh-autosuggestions-git
-    	zsh wlogout sdm-sugar-candy-git python-terminaltexteffects
+    	zsh wlogout python-terminaltexteffects
 	)
 
 	yay -S --noconfirm "${PACKAGES[@]}" || log_error "Failed to install packages"
@@ -106,6 +118,8 @@ setup_cron_job() {
 	setup_cron_job
 } || checklist[cron_job]=false
 
+# Print checklist and before post configuration
+print_checklist_tte
 
 # Section 5: Post-Configuration
 {
@@ -116,8 +130,7 @@ setup_cron_job() {
 		cd ~/scripts || exit 1;
 		./config.sh || exit 1;
 		./hypr_swap.sh > /dev/null 2>&1 & disown;  # Run hypr_swap.sh in the background
-		./hypr_swap.sh > /dev/null 2>&1 & disown; # Re-run hypr_swap.sh
-		exit
+		
 	" || log_error "Failed to run post-configuration scripts"
 
 	checklist[post_configuration]=true
@@ -125,7 +138,7 @@ setup_cron_job() {
 
 
 # Print checklist and options
-print_checklist
+print_checklist_tte
 
 log_status "What would you like to do next?"
 echo "1) Rerun the script"
