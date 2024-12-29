@@ -93,6 +93,62 @@ parse_keybinds() {
   keybinds_hint+="󰌓 ▏󰖳 + 󰲠-󰲰                Workspace 1-9\n"
   keybinds_hint+="󰌓 ▏󰖳 + 󰘶 + 󰲠-󰲰            Move Window To 1-9\n"
   keybinds_hint+="󰌓 ▏󰖳 + 󰰊                  This Menu\n"
+  keybinds_hint+="󰌓 ▏󰖳 + CTRL + 󰯲           Center Window\n"
+
+ keybinds_hint+="━━━━━━━━━━━━━━━━━━ Tmux ━━━━━━━━━━━━━━━━━━━━━━━\n"
+keybinds_hint+="󰌓 ▏CTRL + 󰯬               Tmux: Main Prefix\n"
+keybinds_hint+="󰌓 ▏Prefix + Alt + 󰰨       Tmux: List Keymaps\n"
+keybinds_hint+="󰌓 ▏Prefix + ?             Tmux: List Keymaps\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰘶 + 󰰟         Tmux: Reload\n"
+keybinds_hint+="󰌓 ▏Prefix + [ OR 󰌑        Tmux: Enter Vim-Mode\n"
+keybinds_hint+="󰌓 ▏Prefix + ]             Tmux: Paste Last Yanked\n"
+keybinds_hint+="󰌓 ▏Prefix + =             Tmux: Show older yanked text\n"
+keybinds_hint+="󰌓 ▏Prefix + 󱁐             Tmux: Change Layout\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰘶 + 󰯲         Tmux: Customize options\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰘶 + 󰰄         Tmux: Install plugin\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰯾             Tmux: Open LazyGit\n"
+keybinds_hint+="━━━━━━━━━━━━━━━━━━ Tmux Sessions ━━━━━━━━━━━━━━━\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰰢             Tmux: Choose session\n"
+keybinds_hint+="󰌓 ▏Prefix + Hold 󰰢        Tmux: Save session\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰰓             Tmux: New Session\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰯵             Tmux: Detach session\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰘶 + 󰯵         Tmux: Choose session\n"
+keybinds_hint+="󰌓 ▏Prefix + $             Tmux: Rename Session\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰰟             Tmux: Restore session\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰰍             Tmux: GoTo Last session\n"
+keybinds_hint+="󰌓 ▏Prefix + )             Tmux: Move to next session\n"
+keybinds_hint+="󰌓 ▏Prefix + (             Tmux: Move to prev session\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰰥             Tmux: Show a clock\n"
+keybinds_hint+="󰌓 ▏Prefix + ~             Tmux: Show messages\n"
+keybinds_hint+="━━━━━━━━━━━━━━━━━━ Tmux Windows ━━━━━━━━━━━━━━━━━━\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰰄             Tmux: Window Info\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰯻             Tmux: Find window/pane\n"
+keybinds_hint+="󰌓 ▏Prefix + &             Tmux: Kill window\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰰮             Tmux: List windows\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰯲             Tmux: Create window\n"
+keybinds_hint+="󰌓 ▏Prefix + ;             Tmux: Split Window Vertically\n"
+keybinds_hint+="󰌓 ▏Prefix + ,             Tmux: Split Window Horizontally\n"
+keybinds_hint+="󰌓 ▏Prefix + !             Tmux: Create new window of pane\n"
+keybinds_hint+="━━━━━━━━━━━━━━━━━ Tmux Windows Navigating ━━━━━━━━━\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰘶 + .         Tmux: Navigate to Next Window\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰘶 + ,         Tmux: Navigate to Prev Window\n"
+keybinds_hint+="━━━━━━━━━━━━━━━━━ Tmux Panes ━━━━━━━━━━━━━━━━━━━━━━\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰰜             Tmux: Display pane numbers\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰘶 + 󰰐         Tmux: Clear Marked pane\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰰱             Tmux: Kill pane\n"
+keybinds_hint+="━━━━━━━━━━━━━━━━━ Tmux Panes Resize ━━━━━━━━━━━━━━━\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰘶 + 󰰇         Tmux: Resize DOWN\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰘶 + 󰰊         Tmux: Resize UP\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰘶 + 󰰍         Tmux: Resize RIGHT\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰘶 + 󰰁         Tmux: Resize LEFT\n"
+keybinds_hint+="󰌓 ▏Prefix + 󰰐             Tmux: Maximize/Minimize Pane\n"
+keybinds_hint+="━━━━━━━━━━━━━━━━━ Tmux Panes Navigating ━━━━━━━━━━━\n"
+keybinds_hint+="󰌓 ▏CTRL + 󰰇               Tmux: Navigate DOWN\n"
+keybinds_hint+="󰌓 ▏CTRL + 󰰊               Tmux: Navigate UP\n"
+keybinds_hint+="󰌓 ▏CTRL + 󰰍               Tmux: Navigate RIGHT\n"
+keybinds_hint+="󰌓 ▏CTRL + 󰰁               Tmux: Navigate LEFT\n"
+keybinds_hint+="󰌓 ▏Prefix + >             Tmux: Swap pane RIGHT\n"
+keybinds_hint+="󰌓 ▏Prefix + <             Tmux: Swap pane LEFT"
 
   # Add additional case entries for static sections if necessary
   case_entries+="\"Utils\")\n  $SCRIPTS/utility_script.sh\n  ;;\n"
@@ -118,4 +174,17 @@ $(echo -e "$case_entries")
   echo "No action defined for $selected"
   ;;
 esac
+
+
+
+"Toggle Split")
+  hyprctl dispatch togglesplit
+  ;;
+"Toggle Floating")
+  hyprctl dispatch togglefloating
+  ;;
+"Toggle Group")
+  hyprctl dispatch togglegroup
+  ;;
+
 
