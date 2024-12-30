@@ -42,6 +42,7 @@ alias monitor='~/scripts/monitor.sh'
 alias zsh='nvim ~/.zshrc'
 alias keybinds='nvim ~/.config/hypr/conf/keybindings/default.conf'
 alias aliases='.zshrc'
+alias archnews="yay -Pww"
 
 
 
