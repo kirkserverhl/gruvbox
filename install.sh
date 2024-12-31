@@ -1,5 +1,13 @@
 #!/bin/bash
 clear
+echo ""
+echo "  Welcome to Hyprland Gruvbox Installation !!"
+echo ""
+echo "Sit back and enjoy the ride !!   "
+echo ""
+echo ""
+echo ""
+
 # Checklist to track completed sections
 declare -A checklist
 checklist=(
@@ -56,19 +64,22 @@ setup_cron_job() {
 
 # Section 1: Git and Yay Setup
 {
-	log_status "Installing Git and Yay..."
+	log_status "  Installing Git and Yay..."
+	echo ""
 	sudo pacman -S --noconfirm git || log_error "Failed to install git"
 	git clone https://aur.archlinux.org/yay.git || log_error "Failed to clone yay"
 	cd yay
 	makepkg -si --noconfirm || log_error "Failed to build and install yay"
 	cd ..
+  echo ""
 	checklist[git_and_yay]=true
 } || checklist[git_and_yay]=false
 
 # Section 2: Install Packages
 {
-	log_status "Installing packages..."
-	yay -Syyu --noconfirm || log_error "Failed to update package database"
+	log_status "  Installing packages..."
+	echo ""
+  yay -Syyu --noconfirm || log_error "Failed to update package database"
 
 	PACKAGES=(
     	alacritty  amd-ucode base base-devel blueprint-compiler bluez bpytop brightnessctl btrfs-progs cliphist cmake cmatrix cbonsai-git
@@ -93,8 +104,9 @@ setup_cron_job() {
 clear
 # Section 3: Configuration
 {
-	log_status "Applying configurations..."
-	sudo cp ~/.dotfiles/assets/pacman.conf /etc/ || log_error "Failed to move pacman.conf"
+	log_status "  Applying configurations..."
+	echo ""
+  sudo cp ~/.dotfiles/assets/pacman.conf /etc/ || log_error "Failed to move pacman.conf"
 	
 	cd ~/.dotfiles || log_error "Failed to enter .dotfiles directory"
 
@@ -111,7 +123,7 @@ clear
 clear
 # Section 4: Starting Cron Job
 {
-	log_status "Setting up cron job..."
+	log_status "  Setting up cron job..."
 	setup_cron_job
 } || checklist[cron_job]=false
 
@@ -123,7 +135,7 @@ echo ""
 
 # Section 5: Post-Configuration
 {
-	log_status "Running post-configuration scripts..." 
+	log_status "󰯂  Running post-configuration scripts..." 
 	echo ""
 	echo "DO NOT CLOSE THIS TERMINAL!!"
 
@@ -140,7 +152,7 @@ echo ""
 
 clear
 echo ""
-echo " Hyprland Gruvbox Installation is Complete!!"
+echo "  Hyprland Gruvbox Installation is Complete !!"
 print_checklist_tte
 echo ""
 echo "A list of common helpful keybinds is below:  
@@ -151,30 +163,29 @@ echo "A list of common helpful keybinds is below:
 󰌓  ▏ 󰖳 + CTRL + Y           󰇥  Yazi File Browser
 󰌓  ▏ 󰖳 + CTRL + N             NeoVim
 󰌓  ▏ 󰖳 + CTRL + ENTER       󰀻  Rofi App Launcher
-󰌓  ▏ 󰖳 + CTRL + T             Open Htop
+󰌓  ▏ 󰖳 + ALT + T              Open Htop
 󰌓  ▏ 󰖳 + CTRL + T             Open Bpytop
 󰌓  ▏ 󰖳 + CTRL + C           󰃬  K-Calc
-󰌓  ▏ 󰖳 + CTRL + V             VLC Player
-󰌓  ▏ 󰖳 + CTRL + M           󰲝  Network Manager
 󰌓  ▏ 󰖳 + CTRL + Q           󰗽  Logout
 
-󰌓  ▏ 󰖳 + Mouse Left         Move Window
+󰌓  ▏ 󰖳 + Mouse Left             Move Window
+󰌓  ▏ CTRL + Mouse Right         Close Window
 
-To display a full list of keybinds use... 
-or left-click the gear icon   in the Waybar"
+To display a full list of keybinds use  󰌓  ▏ 󰖳 + SPACE
+or left-click the gear icon    in the Waybar"
 echo ""
 
 # Options for reboot, rerun, or exit
-echo "Restart is required to complete setup."
+echo "Restart is required to complete setup !!"
 echo "Choose an option:"
 echo ""
-echo "1. Reboot now"
-echo "2. Rerun the installation script"
-echo "3. Exit"
+echo "1.     Reboot now"
+echo "2.  󰑎   Rerun the installation script"
+echo "3.  󰩈   Exit"
 echo ""
 
 # Prompt user for input with a 30-second timeout
-read -t 60 -p "Enter your choice (default is reboot): " choice
+read -t 60 -p "Enter your choice (auto reboot in 60 seconds): " choice
 echo ""
 
 # Check the user's input or proceed to the default action
@@ -190,7 +201,8 @@ case $choice in
     3)
         echo "Exiting. System will not reboot."
         echo ""
-        echo "To close this terminal use 󰌓  ▏ 󰖳 + Q"
+        echo "To close this terminal use  󰌓  ▏ 󰖳 + Q"
+	echo ""
         exit 0
         ;;
     *)

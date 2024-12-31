@@ -50,6 +50,7 @@ mark_skipped() {
 
 # SDDM Configuration
 display_header "SDDM"
+echo ""
 read -p "󱥰  Do you want to install Sugar-Candy SDDM theme (y/n)? " configure_sddm
 if [[ "$configure_sddm" =~ ^[Yy]$ ]]; then
     if ~/scripts/sddm_candy_install.sh; then
@@ -64,6 +65,7 @@ fi
 
 # Monitor Setup
 display_header "Monitor  Setup"
+echo ""
 read -p "󱄄  Do you want to configure monitor setup (y/n)? " configure_monitor
 if [[ "$configure_monitor" =~ ^[Yy]$ ]]; then
     if ~/scripts/monitor.sh; then
@@ -78,6 +80,7 @@ fi
 
 # Cleanup
 display_header "Cleanup"
+echo ""
 read -p "󰃢  Do you want to perform a system cleanup (y/n)? " perform_cleanup
 if [[ "$perform_cleanup" =~ ^[Yy]$ ]]; then
     if ~/scripts/cleanup.sh; then
@@ -92,25 +95,28 @@ fi
 
 # GRUB Theme and Extra Packages
 display_header "GRUB  &  Extra  Packages"
+echo ""
 read -p "󰕮  Do you want to configure GRUB theme and install extra packages (y/n)? " configure_grub
 if [[ "$configure_grub" =~ ^[Yy]$ ]]; then
-    if ~/scripts/grub_theme.sh; then
-        track_action "GRUB & Extra Packages setup"
-        mark_completed "GRUB Theme and Extra Packages"
+    if echo "Setting up GRUB theme and installing extra packages..."
+    curl -fsSL https://christitus.com/linux | sh; then
+        track_action "Grub Install"
+        mark_completed "Grub Install"
     else
-        mark_skipped "GRUB Theme and Extra Packages"
+        mark_skipped "Grub Install"
     fi
 else
-    mark_skipped "GRUB Theme and Extra Packages"
+    mark_skipped "Grub Install"
 fi
 
 # Shell Configuration
 display_header "Shell  Configuration"
-read -p "󰌓  Do you want to configure your shell (y/n)? " configure_shell
+echo ""
+read -p "󰳗  Do you want to configure your shell (y/n)? " configure_shell
 if [[ "$configure_shell" =~ ^[Yy]$ ]]; then
-    if ~/scripts/shell_config.sh; then
-        track_action "Shell configuration"
-        mark_completed "Shell Configuration"
+    if ~/scripts/shell.sh; then
+    	track_action "Shell Configuration"
+      mark_completed "Shell Configuration"
     else
         mark_skipped "Shell Configuration"
     fi
@@ -119,6 +125,7 @@ else
 fi
 
 # Display Checklist Summary
+clear 
 echo -e "\nConfiguration Summary:\n"
 for section in "${!checklist[@]}"; do
     echo -e "${checklist[$section]} $section"
@@ -133,8 +140,8 @@ echo "Configuration is complete!"
 echo ""
 echo "Choose an option:"
 echo ""
-echo "1. Rerun this script"
-echo "2. Exit"
+echo "1. 󰑎  Rerun this script"
+echo "2. 󰩈  Exit"
 echo ""
 
 # Prompt user for input with a 30-second timeout
@@ -150,11 +157,14 @@ case $choice in
     2)
         echo "Exiting Configuration."
         echo ""
-        echo "To close this terminal use 󰌓  ▏ 󰖳 + Q"
+        echo "To close this terminal use  󰌓  ▏ 󰖳 + Q"
         exit 0
         ;;
     *)
-        echo "No input detected. To close this terminal and complete installation use 󰌓  ▏ 󰖳 + Q"
+        echo ""
+        echo "No input detected. 
+        
+        To close this terminal and complete installation use  󰌓  ▏ 󰖳 + Q"
         ;;
 
 
