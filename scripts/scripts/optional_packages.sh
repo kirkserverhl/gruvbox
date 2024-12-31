@@ -117,6 +117,7 @@ echo ""
 echo "Installation is complete. Choose an option:"
 echo "1. Rerun this script"
 echo "2. Exit"
+echo ""
 
 # Prompt user for input with a 30-second timeout
 read -t 60 -p "Enter your choice (default is exit): " choice
