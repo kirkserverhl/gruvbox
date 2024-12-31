@@ -1,9 +1,9 @@
 #!/bin/bash
 clear
 echo ""
-echo "  Welcome to Hyprland Gruvbox Installation !!"
+echo "   Welcome to Hyprland Gruvbox Installation !!"
 echo ""
-echo "Sit back and enjoy the ride !!   "
+echo " Sit back and enjoy the ride !!   "
 echo ""
 echo ""
 echo ""
@@ -200,7 +200,6 @@ case $choice in
         exec "$0"  # Reruns the current script
         ;;
     3)
-        waypaper --random 
         echo "Exiting. System will not reboot."
         echo ""
         echo "To close this terminal use  󰌓  ▏ 󰖳 + Q"
