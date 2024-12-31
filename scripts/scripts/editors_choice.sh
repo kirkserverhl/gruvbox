@@ -1,5 +1,5 @@
 #!/bin/bash
-
+clear
 # Function to keep sudo active
 keep_sudo_alive() {
     while true; do
@@ -34,7 +34,9 @@ checklist=()
 
 # Function to install Ghossty Terminal
 display_header "Ghossty Terminal"
+echo ""
 read -p " Do you want to install Ghossty Terminal (y/n)? " install_ghossty
+echo ""
 if [[ "$install_ghossty" =~ ^[Yy]$ ]]; then
     echo "Installing Ghossty Terminal packages..."
     yay -S --noconfirm ghostty ghostty-shell-integration ghostty-terminfo
@@ -44,7 +46,9 @@ fi
 
 # Function to install Surfshark VPN
 display_header "Surfshark VPN"
+echo ""
 read -p "󱙳 Do you want to install Surfshark VPN (y/n)? " install_surfshark
+echo ""
 if [[ "$install_surfshark" =~ ^[Yy]$ ]]; then
     echo "Installing Surfshark VPN..."
     yay -S --noconfirm surfshark-client
@@ -54,7 +58,9 @@ fi
 
 # Function to install qBittorrent Enhanced
 display_header "qBittorrent"
+echo ""
 read -p "󰰽 Do you want to install qBittorrent (y/n)? " install_qbittorent
+echo ""
 if [[ "$install_qbittorent" =~ ^[Yy]$ ]]; then
     echo "Installing qBittorrent Enhanced..."
     yay -S --noconfirm qbittorrent-enhanced
@@ -64,7 +70,9 @@ fi
 
 # Function to install Disk Utility
 display_header "Disk Utility"
+echo ""
 read -p "󱛟 Do you want to install Disk Utility (y/n)? " install_disk
+echo ""
 if [[ "$install_disk" =~ ^[Yy]$ ]]; then
     echo "Installing Disk Utility..."
     yay -S --noconfirm gnome-disk-utility
@@ -74,7 +82,9 @@ fi
 
 # Function to install Game Package
 display_header "Game Package"
+echo ""
 read -p " Do you want to install Game Package (y/n)? " install_game
+echo ""
 if [[ "$install_game" =~ ^[Yy]$ ]]; then
     echo "Installing Game Package..."
     yay -S --noconfirm wolfenstein3d
@@ -110,11 +120,13 @@ print_checklist_tte() {
     rm "$checklist_file"
 }
 
+clear
 print_checklist_tte
 
 # Options for reboot, rerun, or exit
 echo ""
 echo "Installation is complete. Choose an option:"
+echo ""
 echo "1. Rerun this script"
 echo "2. Exit"
 echo ""
