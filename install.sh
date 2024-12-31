@@ -1,5 +1,5 @@
 #!/bin/bash
-
+clear
 # Checklist to track completed sections
 declare -A checklist
 checklist=(
@@ -90,7 +90,7 @@ setup_cron_job() {
 	yay -S --noconfirm "${PACKAGES[@]}" || log_error "Failed to install packages"
 	checklist[install_packages]=true
 } || checklist[install_packages]=false
-
+clear
 # Section 3: Configuration
 {
 	log_status "Applying configurations..."
@@ -108,19 +108,24 @@ setup_cron_job() {
 
 	checklist[configuration]=true
 } || checklist[configuration]=false
-
+clear
 # Section 4: Starting Cron Job
 {
 	log_status "Setting up cron job..."
 	setup_cron_job
 } || checklist[cron_job]=false
 
+clear
 # Print checklist and before post configuration
+clear
 print_checklist_tte
+echo ""
 
 # Section 5: Post-Configuration
 {
-	log_status "Running post-configuration scripts..."
+	log_status "Running post-configuration scripts..." 
+	echo ""
+	echo "DO NOT CLOSE THIS TERMINAL!!"
 
 	# Run post-configuration scripts in a new Alacritty terminal
 	alacritty --hold -e bash -c "
@@ -133,37 +138,67 @@ print_checklist_tte
 	checklist[post_configuration]=true
 } || checklist[post_configuration]=false
 
+clear
+echo ""
+echo " Hyprland Gruvbox Installation is Complete!!"
+print_checklist_tte
+echo ""
+echo "A list of common helpful keybinds is below:  
 
+󰌓  ▏ 󰖳 + ENTER              󰄛  Kitty Terminal
+󰌓  ▏ 󰖳 + B                    Firefox
+󰌓  ▏ 󰖳 + N                    Nemo File Browser
+󰌓  ▏ 󰖳 + CTRL + Y           󰇥  Yazi File Browser
+󰌓  ▏ 󰖳 + CTRL + N             NeoVim
+󰌓  ▏ 󰖳 + CTRL + ENTER       󰀻  Rofi App Launcher
+󰌓  ▏ 󰖳 + CTRL + T             Open Htop
+󰌓  ▏ 󰖳 + CTRL + T             Open Bpytop
+󰌓  ▏ 󰖳 + CTRL + C           󰃬  K-Calc
+󰌓  ▏ 󰖳 + CTRL + V             VLC Player
+󰌓  ▏ 󰖳 + CTRL + M           󰲝  Network Manager
+󰌓  ▏ 󰖳 + CTRL + Q           󰗽  Logout
 
+󰌓  ▏ 󰖳 + Mouse Left         Move Window
 
-# Print checklist and options
-# print_checklist_tte
+To display a full list of keybinds use... 
+or left-click the gear icon   in the Waybar"
+echo ""
 
 # Options for reboot, rerun, or exit
-# echo "Installation is complete. Choose an option:"
-# echo "1. Reboot now"
-# echo "2. Rerun this script"
-# echo "3. Exit"
+echo "Restart is required to complete setup."
+echo "Choose an option:"
+echo ""
+echo "1. Reboot now"
+echo "2. Rerun the installation script"
+echo "3. Exit"
+echo ""
 
-# Prompt user for input with a 60-second timeout
-# read -t 60 -p "Enter your choice (default is reboot): " choice
+# Prompt user for input with a 30-second timeout
+read -t 60 -p "Enter your choice (default is reboot): " choice
+echo ""
 
 # Check the user's input or proceed to the default action
-# case $choice in
-#     1)
-#        echo "Rebooting now..."
-#        sudo reboot
-#        ;;
-#    2)
-#        echo "Rerunning the script..."
-#        exec "$0"  # Reruns the current script
-#        ;;
-#    3)
-#        echo "Exiting. System will not reboot."
-#        exit 0
-#        ;;
-#    *)
-#        echo "No input detected. Rebooting in 60 seconds..."
-#        sudo reboot
-#:will        ;;
+case $choice in
+    1)
+        echo "Rebooting now..."
+        sudo reboot
+        ;;
+    2)
+        echo "Rerunning the script..."
+        exec "$0"  # Reruns the current script
+        ;;
+    3)
+        echo "Exiting. System will not reboot."
+        echo ""
+        echo "To close this terminal use 󰌓  ▏ 󰖳 + Q"
+        exit 0
+        ;;
+    *)
+        echo "No input detected. Rebooting in 60 seconds..."
+        sudo reboot
+        ;;
+
+
+
 esac
+
