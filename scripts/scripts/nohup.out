@@ -17489,3 +17489,4 @@ fatal: destination path '/home/kirk/.oh-my-zsh/custom/plugins/zsh-syntax-highlig
 ./nohup.sh: line 1: mkddir: command not found
 ./nohup.sh: line 1: mkddir: command not found
 ./nohup.sh: line 1: mkddir: command not found
+./nohup.sh: line 1: mkddir: command not found

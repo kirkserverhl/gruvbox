@@ -150,6 +150,7 @@ echo ""
 	checklist[post_configuration]=true
 } || checklist[post_configuration]=false
 
+
 clear
 echo ""
 echo "  Hyprland Gruvbox Installation is Complete !!"
@@ -192,13 +193,14 @@ echo ""
 case $choice in
     1)
         echo "Rebooting now..."
-        sudo reboot
+        waypaper --random && sudo reboot
         ;;
     2)
         echo "Rerunning the script..."
         exec "$0"  # Reruns the current script
         ;;
     3)
+        waypaper --random 
         echo "Exiting. System will not reboot."
         echo ""
         echo "To close this terminal use  󰌓  ▏ 󰖳 + Q"
@@ -207,7 +209,7 @@ case $choice in
         ;;
     *)
         echo "No input detected. Rebooting in 60 seconds..."
-        sudo reboot
+        waypaper --random && sudo reboot
         ;;
 
 

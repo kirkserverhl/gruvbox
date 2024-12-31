@@ -34,7 +34,7 @@ sudo cp ~/.dotfiles/assets/pacman.conf /etc/ || log_error "Failed to move pacman
 
 #cd ~/scripts && nohup ./sddm_candy_install.sh && nohup ./after_install_reboot.sh && nohup ./hypr_swap.sh && nohup ./zsh_fix.sh && nohup ./pictures
 
-cd ~/scripts && ./sddm_candy_install.sh && nohup ./nohup.sh
+cd ~/scripts && ./sddm_candy_install.sh && ./zsh_fix.sh  && ./hypr_swap.sh   && mkdir ~/Pictures #nohup ./nohup.sh
 
 # Initialize checklist array
 declare -A checklist
