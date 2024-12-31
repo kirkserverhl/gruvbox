@@ -82,7 +82,7 @@ setup_cron_job() {
     	qt5-graphicaleffects qt5-wayland qt6-wayland qt6ct-kde rofi-wayland sdm-sugar-candy-git
     	slurp smartmontools sof-firmware starship stow timeshift timeshift-autosnap tmux ttf-sharetech-mono-nerd unzip vala vim
     	vlc vlc-materia-skin-git vulkan-intel vulkan-radeon wl-clipboard wl-clipboard-history-git wget wireless_tools
-    	wireplumber wofi wolfenstein3d xclip xdg-desktop-portal-hyprland xdg-utils xf86-video-amdgpu xf86-video-ati xf86-video-nouveau xf86-video-vmware
+    	wireplumber wofi xclip xdg-desktop-portal-hyprland xdg-utils xf86-video-amdgpu xf86-video-ati xf86-video-nouveau xf86-video-vmware
     	xorg-xhost xorg-server xorg-xinit xorg-wayland  waypaper waybar yazi zig zoxide zram-generator zsh-autosuggestions-git
     	zsh wlogout python-terminaltexteffects
 	)
