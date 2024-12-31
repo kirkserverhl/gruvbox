@@ -82,7 +82,7 @@ setup_cron_job() {
   yay -Syyu --noconfirm || log_error "Failed to update package database"
 
 	PACKAGES=(
-    	alacritty  amd-ucode base base-devel blueprint-compiler bluez bpytop brightnessctl btrfs-progs cliphist cmake cmatrix cbonsai-git
+    	alacritty  amd-ucode base base-devel blueprint-compiler bluez blueberry bpytop brightnessctl btrfs-progs cliphist cmake cmatrix cbonsai-git
     	duf dunst efibootmgr eza fastfetch figlet firefox fortune-mod fortune-mod-hackers fortune-mod-archlinux fzf git
     	gnome-text-editor go grim grimblast-git
     	gst-plugin-pipewire gum htop hyprpolkitagent hyprpicker hyprshade hyprcursor hyprpaper hypridle hyprgraphics  hyprlang hyprutils hyprwayland-scanner
@@ -164,9 +164,7 @@ echo " A list of common helpful keybinds is below:
 󰌓  ▏ 󰖳 + CTRL + Y           󰇥  Yazi File Browser
 󰌓  ▏ 󰖳 + CTRL + N             NeoVim
 󰌓  ▏ 󰖳 + CTRL + ENTER       󰀻  Rofi App Launcher
-󰌓  ▏ 󰖳 + ALT + T              Open Htop
-󰌓  ▏ 󰖳 + CTRL + T             Open Bpytop
-󰌓  ▏ 󰖳 + CTRL + C           󰃬  K-Calc
+󰌓  ▏ 󰖳 + Q     	            󰅙  Close Window
 󰌓  ▏ 󰖳 + CTRL + Q           󰗽  Logout
 
 󰌓  ▏ 󰖳 + Mouse Left             Move Window
