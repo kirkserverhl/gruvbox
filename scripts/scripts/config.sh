@@ -67,6 +67,7 @@ fi
 display_header "Monitor  Setup"
 echo ""
 read -p " 󱄄  Do you want to configure monitor setup (y/n)? " configure_monitor
+echo ""
 if [[ "$configure_monitor" =~ ^[Yy]$ ]]; then
     if ~/scripts/monitor.sh; then
         track_action "Monitor setup"
