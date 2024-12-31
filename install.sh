@@ -153,10 +153,10 @@ echo ""
 
 clear
 echo ""
-echo "  Hyprland Gruvbox Installation is Complete !!"
+echo "   Hyprland Gruvbox Installation is Complete !!"
 print_checklist_tte
 echo ""
-echo "A list of common helpful keybinds is below:  
+echo " A list of common helpful keybinds is below:  
 
 󰌓  ▏ 󰖳 + ENTER              󰄛  Kitty Terminal
 󰌓  ▏ 󰖳 + B                    Firefox
@@ -177,37 +177,37 @@ or left-click the gear icon    in the Waybar"
 echo ""
 
 # Options for reboot, rerun, or exit
-echo "Restart is required to complete setup !!"
-echo "Choose an option:"
+echo " Restart is required to complete setup !!"
+echo " Choose an option:"
 echo ""
-echo "1.     Reboot now"
-echo "2.  󰑎   Rerun the installation script"
-echo "3.  󰩈   Exit"
+echo " 1.     Reboot now"
+echo " 2.  󰑎   Rerun the installation script"
+echo " 3.  󰩈   Exit"
 echo ""
 
 # Prompt user for input with a 30-second timeout
-read -t 60 -p "Enter your choice (auto reboot in 60 seconds): " choice
+read -t 60 -p " Enter your choice (auto reboot in 60 seconds): " choice
 echo ""
 
 # Check the user's input or proceed to the default action
 case $choice in
     1)
-        echo "Rebooting now..."
+        echo " Rebooting now..."
         waypaper --random && sudo reboot
         ;;
     2)
-        echo "Rerunning the script..."
+        echo " Rerunning the script..."
         exec "$0"  # Reruns the current script
         ;;
     3)
-        echo "Exiting. System will not reboot."
+        echo " Exiting. System will not reboot."
         echo ""
-        echo "To close this terminal use  󰌓  ▏ 󰖳 + Q"
+        echo " To close this terminal use  󰌓  ▏ 󰖳 + Q"
 	echo ""
         exit 0
         ;;
     *)
-        echo "No input detected. Rebooting in 60 seconds..."
+        echo " No input detected. Rebooting in 60 seconds..."
         waypaper --random && sudo reboot
         ;;
 
