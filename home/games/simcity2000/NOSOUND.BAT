@@ -1,1 +1,0 @@
-sc2000.exe NOSOUND
