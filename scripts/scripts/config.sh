@@ -110,6 +110,21 @@ else
     mark_skipped "Grub Install"
 fi
 
+# Editors Choice Packages
+display_header "Editors Choice Packages"
+echo ""
+read -p " 󰕮  Do you want to install Editors Choice packages (y/n)? " editors_choice
+if [[ "$editors_choice" =~ ^[Yy]$ ]]; then
+    if  ~/scripts/editors_choice.sh; then
+        track_action "Editors Choice Packages"
+        mark_completed "Editors Choice Packages"
+    else
+        mark_skipped "Editors Choice Packages"
+    fi
+else
+    mark_skipped "Editors Choice Packages"
+fi
+
 # Shell Configuration
 display_header "Shell  Configuration"
 echo ""
