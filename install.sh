@@ -82,7 +82,7 @@ setup_cron_job() {
   yay -Syyu --noconfirm || log_error "Failed to update package database"
 
 	PACKAGES=(
-    	alacritty  amd-ucode base base-devel blueprint-compiler bluez blueberry bpytop brightnessctl btrfs-progs cliphist cmake cmatrix cbonsai-git
+    	alacritty  amd-ucode aylurs-gtk-shell base base-devel blueprint-compiler bluez bluez-utils blueberry bpytop brightnessctl btrfs-progs cliphist cmake cmatrix cbonsai-git
     	duf dunst efibootmgr eza fastfetch figlet firefox fortune-mod fortune-mod-hackers fortune-mod-archlinux fzf git
     	gnome-text-editor go grim grimblast-git
     	gst-plugin-pipewire gum htop hyprpolkitagent hyprpicker hyprshade hyprcursor hyprpaper hypridle hyprgraphics  hyprlang hyprutils hyprwayland-scanner
