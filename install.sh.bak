@@ -135,26 +135,20 @@ echo ""
 
 # Section 5: Post-Configuration
 {
-    log_status "🔧 Running post-configuration scripts..."
-    echo "Checking ~/scripts/config.sh"
+	log_status "󰯂  Running post-configuration scripts..." 
+	echo ""
+	echo "DO NOT CLOSE THIS TERMINAL!!"
 
-    if [[ -d ~/scripts && -f ~/scripts/config.sh ]]; then
-        echo "Found ~/scripts/config.sh. Attempting to execute..."
-        cd ~/scripts
-        ./config.sh
-        if [[ $? -eq 0 ]]; then
-            checklist[post_configuration]=true
-            echo "config.sh executed successfully."
-        else
-            log_error "config.sh execution failed."
-            checklist[post_configuration]=false
-        fi
-    else
-        log_error "Directory ~/scripts or script config.sh not found."
-        checklist[post_configuration]=false
-    fi
+	# Run post-configuration scripts in a new Alacritty terminal
+	alacritty --hold -e bash -c "
+		cd ~/scripts || exit 1;
+		./config.sh || exit 1;
+		./hypr_swap.sh > /dev/null 2>&1 & disown;  # Run hypr_swap.sh in the background
+		
+	" || log_error "Failed to run post-configuration scripts"
+
+	checklist[post_configuration]=true
 } || checklist[post_configuration]=false
-
 
 
 clear
