@@ -41,8 +41,7 @@ alias wifi='nmtui'
 alias monitor='~/scripts/monitor.sh'
 alias zsh='nvim ~/.zshrc'
 alias keybinds='nvim ~/.config/hypr/conf/keybindings/default.conf'
-alias aliases='.zshrc'
-alias archnews="yay -Pww"
+# alias archnews="yay -Pww"
 alias jel1="sudo mount.cifs //192.168.0.105/jel1 /mnt/jel1 -o username=kirk,password=123456"
 alias jel2="sudo mount.cifs //192.168.0.105/jel2 /mnt/jel2 -o username=kirk,password=123456"
 alias jel3="sudo mount.cifs //192.168.0.105/jel3 /mnt/jel3 -o username=kirk,password=123456"
