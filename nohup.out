@@ -5174,3 +5174,186 @@ waybar: no process found
 [LOG] Image data for HDMI-A-1: /home/kirk/wallpaper/earth-in-space.png at [-1187.81, 0.00], scale: 1.01 (original image size: [3450, 1910])
 [LOG] Submitting viewport dest size 900x1600 for 748dd0003ea0
 [LOG] handlePreferredScale: 1.20 for 748dd0003ea0
+[LOG] Welcome to hyprpaper!
+built from commit  ()
+[LOG] Cleaned old hyprpaper preloads (4), removing 45.4MB
+[LOG] Preloaded target /home/kirk/wallpaper/earth-in-space.png in 66.06ms -> Pixel size: [3450, 1910]
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 33.2MB
+[LOG] Total SM usage for all buffers: 33.2MB
+[LOG] hyprpaper socket started at /run/user/1000/hypr/0bd541f2fd902dbfa04c3ea2ccf679395e316887_1736017929_701274532/.hyprpaper.sock (fd: 5)
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 643c18a93000
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 643c18a933a0
+[LOG] configure for HDMI-A-1
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 5.8MB
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 5.8MB
+[LOG] Total SM usage for all buffers: 44.7MB
+[LOG] Image data for DP-1: /home/kirk/wallpaper/earth-in-space.png at [-27.22, 0.00], scale: 0.47 (original image size: [3450, 1910])
+[LOG] Submitting viewport dest size 1600x900 for 643c18a93000
+[LOG] Image data for HDMI-A-1: /home/kirk/wallpaper/earth-in-space.png at [-1187.81, 0.00], scale: 0.84 (original image size: [3450, 1910])
+[LOG] Submitting viewport dest size 900x1600 for 643c18a933a0
+[LOG] handlePreferredScale: 1.20 for 643c18a93000
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 53.0MB
+[LOG] Image data for DP-1: /home/kirk/wallpaper/earth-in-space.png at [-27.22, 0.00], scale: 0.57 (original image size: [3450, 1910])
+[LOG] Submitting viewport dest size 1600x900 for 643c18a93000
+[LOG] handlePreferredScale: 1.20 for 643c18a933a0
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 61.3MB
+[LOG] Image data for HDMI-A-1: /home/kirk/wallpaper/earth-in-space.png at [-1187.81, 0.00], scale: 1.01 (original image size: [3450, 1910])
+[LOG] Submitting viewport dest size 900x1600 for 643c18a933a0
+[LOG] handlePreferredScale: 1.20 for 643c18a93000
+[LOG] handlePreferredScale: 1.20 for 643c18a933a0
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/kirk/wallpaper/earth-in-space.png, preload path /run/user/1000/.hyprpaper_sqfT3v
+[LOG] Unloading target /home/kirk/wallpaper/earth-in-space.png, preload path /run/user/1000/.hyprpaper_pX3qGh
+[LOG] Unloading target /home/kirk/wallpaper/earth-in-space.png, preload path /run/user/1000/.hyprpaper_MWosAZ
+[LOG] Unloading target /home/kirk/wallpaper/earth-in-space.png, preload path /run/user/1000/.hyprpaper_lfvZSE
+[LOG] Unloading target /home/kirk/wallpaper/earth-in-space.png, preload path /run/user/1000/.hyprpaper_yNtKzC
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: preload /home/kirk/wallpaper/alley gruv.jpg
+[LOG] Preloaded target /home/kirk/wallpaper/alley gruv.jpg in 22.55ms -> Pixel size: [3840, 2160]
+[LOG] Buffer created for target /home/kirk/wallpaper/alley gruv.jpg, Shared Memory usage: 8.3MB
+[LOG] Buffer created for target /home/kirk/wallpaper/alley gruv.jpg, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 16.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: wallpaper DP-1,/home/kirk/wallpaper/alley gruv.jpg
+[LOG] Buffer created for target /home/kirk/wallpaper/alley gruv.jpg, Shared Memory usage: 23.0MB
+[LOG] Total SM usage for all buffers: 39.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 643c18a95810
+[LOG] configure for DP-1
+[LOG] Buffer created for target /home/kirk/wallpaper/alley gruv.jpg, Shared Memory usage: 5.8MB
+[LOG] Total SM usage for all buffers: 45.4MB
+[LOG] Image data for DP-1: /home/kirk/wallpaper/alley gruv.jpg at [-0.00, 0.00], scale: 0.42 (original image size: [3840, 2160])
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Submitting viewport dest size 1600x900 for 643c18a95810
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/kirk/wallpaper/alley gruv.jpg, preload path /run/user/1000/.hyprpaper_Ctz7Oe
+[LOG] Unloading target /home/kirk/wallpaper/alley gruv.jpg, preload path /run/user/1000/.hyprpaper_N9uGDw
+[LOG] Unloading target /home/kirk/wallpaper/alley gruv.jpg, preload path /run/user/1000/.hyprpaper_IVMeaf
+[LOG] Unloading target /home/kirk/wallpaper/alley gruv.jpg, preload path /run/user/1000/.hyprpaper_cosoRh
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] handlePreferredScale: 1.20 for 643c18a95810
+[LOG] Pool buffer missing for available target??
+[LOG] Pool buffer failed #2. Ignoring WP.
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: preload /home/kirk/wallpaper/alley gruv.jpg
+[LOG] Preloaded target /home/kirk/wallpaper/alley gruv.jpg in 20.42ms -> Pixel size: [3840, 2160]
+[LOG] Buffer created for target /home/kirk/wallpaper/alley gruv.jpg, Shared Memory usage: 8.3MB
+[LOG] Buffer created for target /home/kirk/wallpaper/alley gruv.jpg, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 16.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: wallpaper HDMI-A-1,/home/kirk/wallpaper/alley gruv.jpg
+[LOG] Buffer created for target /home/kirk/wallpaper/alley gruv.jpg, Shared Memory usage: 23.0MB
+[LOG] Total SM usage for all buffers: 39.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 643c18a971c0
+[LOG] configure for HDMI-A-1
+[LOG] Buffer created for target /home/kirk/wallpaper/alley gruv.jpg, Shared Memory usage: 5.8MB
+[LOG] Total SM usage for all buffers: 45.4MB
+[LOG] Image data for HDMI-A-1: /home/kirk/wallpaper/alley gruv.jpg at [-1312.50, 0.00], scale: 0.74 (original image size: [3840, 2160])
+[LOG] Submitting viewport dest size 900x1600 for 643c18a971c0
+[LOG] handlePreferredScale: 1.20 for 643c18a971c0
+[LOG] Image data for HDMI-A-1: /home/kirk/wallpaper/alley gruv.jpg at [-1312.50, 0.00], scale: 0.89 (original image size: [3840, 2160])
+[LOG] Submitting viewport dest size 900x1600 for 643c18a971c0
+[LOG] handlePreferredScale: 1.20 for 643c18a971c0
+:: Wallpaper Cache disabled
+/home/kirk/.config/hypr/scripts/wallpaper.sh: line 66: [: /home/kirk/wallpaper/alley: binary operator expected
+:: Setting wallpaper with source image /home/kirk/wallpaper/alley gruv.jpg
+:: Path of current wallpaper copied to /home/kirk/.config/settings/cache/current_wallpaper
+:: Wallpaper Filename: alley
+:: Wallpaper effect is set to off
+:: Stop all running waybar instances
+waybar: no process found
+:: Execute pywal with /home/kirk/wallpaper/alley gruv.jpg
+usage: wal [-h] [-a "alpha"] [-b background] [--fg foreground]
+           [--backend [backend]] [--theme [/path/to/file or theme_name]]
+           [--iterative] [--cols16 [method]] [--recursive]
+           [--saturate 0.0-1.0] [--preview] [--vte] [-c]
+           [-i "/path/to/img.jpg"] [-l] [-n] [-o "script_name"]
+           [-p "theme_name"] [-q] [-r] [-R] [-s] [-t] [-v] [-w] [-e]
+           [--contrast [1.0-21.0]]
+wal: error: unrecognized arguments: gruv.jpg
+/home/kirk/.config/hypr/scripts/wallpaper.sh: line 141: /home/kirk/.config/waybar/launch.sh: No such file or directory
+We got: en
+Post command ~/.config/hypr/scripts/wallpaper.sh /home/kirk/wallpaper/alley\ gruv.jpg && ~/scripts/launch.sh executed
+:: Generate new cached wallpaper blur-50x30-off-alley with blur 50x30
+magick: no decode delegate for this image format `' @ error/constitute.c/ReadImage/746.
+:: Resized to 75%
+:: Blurred
+:: Generate new cached wallpaper square-alley
+magick: no decode delegate for this image format `' @ error/constitute.c/ReadImage/746.
+waybar: no process found
+:: Reload ags
+:: Theme: /gruv
+
+(waybar:1522149): Gtk-WARNING **: 14:50:24.797: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(waybar:1522149): Gtk-WARNING **: 14:50:24.797: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-04 14:50:24.810] [info] Using configuration file /home/kirk/.config/waybar/themes/gruv/config
+[2025-01-04 14:50:24.810] [info] Including resource file: ~/.config/settings/waybar-quicklinks.json
+[2025-01-04 14:50:24.810] [info] Including resource file: ~/.config/waybar/modules.json
+[2025-01-04 14:50:24.812] [info] Discovered appearance 'dark'
+[2025-01-04 14:50:24.812] [info] Using CSS file /home/kirk/.config/waybar/themes/gruv/colored/style.css
+[2025-01-04 14:50:24.817] [info] Hyprland IPC starting
+[2025-01-04 14:50:24.818] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 14:50:24.818] [info] Loading persistent workspaces from Hyprland workspace rules
+
+(gjs:1522166): Gtk-WARNING **: 14:50:24.819: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(gjs:1522166): Gtk-WARNING **: 14:50:24.819: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-04 14:50:24.821] [warning] no bluetooth controller found
+[2025-01-04 14:50:24.821] [warning] No batteries.
+[2025-01-04 14:50:24.853] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 14:50:24.853] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-04 14:50:24.855] [warning] no bluetooth controller found
+[2025-01-04 14:50:24.855] [warning] No batteries.
+[2025-01-04 14:50:25.095] [info] Bar configured (width: 1572, height: 37) for output: DP-1
+[2025-01-04 14:50:25.096] [info] Bar configured (width: 872, height: 37) for output: HDMI-A-1
+[2025-01-04 14:50:25.457] [info] Bar configured (width: 907, height: 37) for output: HDMI-A-1
+[2025-01-04 14:50:39.735] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-01-04 14:50:39.736] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 14:50:39.736] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-04 14:50:39.736] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-01-04 14:50:39.736] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 14:50:39.736] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-04 14:50:39.739] [info] Bar configured (width: 883, height: 37) for output: HDMI-A-1
+[2025-01-04 14:50:39.742] [info] Bar configured (width: 884, height: 37) for output: HDMI-A-1
+[2025-01-04 14:50:39.793] [info] Bar configured (width: 885, height: 37) for output: HDMI-A-1
+[2025-01-04 14:50:39.810] [info] Bar configured (width: 886, height: 37) for output: HDMI-A-1
+[2025-01-04 14:50:39.826] [info] Bar configured (width: 888, height: 37) for output: HDMI-A-1
+[2025-01-04 14:50:39.843] [info] Bar configured (width: 890, height: 37) for output: HDMI-A-1
+[2025-01-04 14:50:39.859] [info] Bar configured (width: 892, height: 37) for output: HDMI-A-1
+[2025-01-04 14:50:39.876] [info] Bar configured (width: 894, height: 37) for output: HDMI-A-1
+[2025-01-04 14:50:39.892] [info] Bar configured (width: 896, height: 37) for output: HDMI-A-1
+[2025-01-04 14:50:39.909] [info] Bar configured (width: 898, height: 37) for output: HDMI-A-1
+[2025-01-04 14:50:39.926] [info] Bar configured (width: 900, height: 37) for output: HDMI-A-1
+[2025-01-04 14:50:39.943] [info] Bar configured (width: 902, height: 37) for output: HDMI-A-1
+[2025-01-04 14:50:39.960] [info] Bar configured (width: 904, height: 37) for output: HDMI-A-1
+[2025-01-04 14:50:39.976] [info] Bar configured (width: 905, height: 37) for output: HDMI-A-1
+[2025-01-04 14:50:39.993] [info] Bar configured (width: 906, height: 37) for output: HDMI-A-1
+[2025-01-04 14:50:40.009] [info] Bar configured (width: 907, height: 37) for output: HDMI-A-1
+[2025-01-04 14:51:00.002] [info] Bar configured (width: 905, height: 37) for output: HDMI-A-1
+[2025-01-04 14:52:00.002] [info] Bar configured (width: 906, height: 37) for output: HDMI-A-1
+[2025-01-04 14:53:24.305] [info] Bar configured (width: 907, height: 37) for output: HDMI-A-1
+[2025-01-04 14:53:24.588] [info] Bar configured (width: 906, height: 37) for output: HDMI-A-1
+[2025-01-04 14:53:26.712] [info] Bar configured (width: 918, height: 37) for output: HDMI-A-1
+[2025-01-04 14:54:00.001] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 14:54:50.378] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 14:54:50.677] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 14:55:00.001] [info] Bar configured (width: 918, height: 37) for output: HDMI-A-1

@@ -186,12 +186,11 @@ clear
 print_checklist_tte
 echo ""
 echo "   Hyprland Gruvbox Installation is Complete !! 🫠
-          A list of common helpful keybinds is below:" | lsd-print
+     A list of common helpful keybinds is below:" | lsd-print
 
 echo "⌨️  ▏ 󰖳 + ENTER             👻   Ghostty Terminal
 ⌨️  ▏ 󰖳 + B                    Firefox
 ⌨️  ▏ 󰖳 + N                    Nemo File Browser
-⌨️  ▏ 󰖳 + CTRL + Y           󰇥  Yazi File Browser
 ⌨️  ▏ 󰖳 + CTRL + N             NeoVim
 ⌨️  ▏ 󰖳 + CTRL + ENTER       󰀻  Rofi App Launcher
 ⌨️  ▏ 󰖳 + Q                  󰅙  Close Window
@@ -224,9 +223,7 @@ case $choice in
         ;;
     3)
         echo " Exiting. System will not reboot." 
-        echo ""
-        echo " To close this terminal use  ⌨️  ▏ 󰖳 + Q" 
-	      exit 0
+        exit 0
         ;;
     *)
         echo " No input detected. Rebooting in 60 seconds..."
