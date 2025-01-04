@@ -1,5 +1,43 @@
 #!/bin/bash
 
+# Function to log statuses
+log_status() {
+    echo -e "\033[1;34m[INFO] $1\033[0m"
+}
+
+log_error() {
+    echo -e "\033[1;31m[ERROR] $1\033[0m"
+}
+
+log_success() {
+    echo -e "\033[1;32m[SUCCESS] $1\033[0m"
+}
+
+# Apply Gruvbox Theme with Pywal
+apply_gruvbox_theme() {
+    if command -v wal &>/dev/null; then
+        log_status "Applying Gruvbox color scheme with Pywal..."
+        wal -f ~/gruvbox.json
+        # Source colors if applicable
+        if [ -f ~/.cache/wal/colors.sh ]; then
+            source ~/.cache/wal/colors.sh
+            log_success "Gruvbox colors applied successfully."
+        else
+            log_error "Failed to source Pywal colors."
+        fi
+    else
+        log_error "Pywal is not installed. Installing now..."
+        sudo pacman -Sy --noconfirm python-pywal16
+        if command -v wal &>/dev/null; then
+            log_success "Pywal installed successfully. Applying colors..."
+            wal -f ~/gruvbox.json
+            source ~/.cache/wal/colors.sh
+        else
+            log_error "Failed to install Pywal."
+        fi
+    fi
+}
+
 ## Missing pkgs, Fix Zsh, refresh Hyprland, move Ass’s  ##
 echo "   Running post-boot configuration..."
 
@@ -179,7 +217,4 @@ case $choice in
         ;;
 
 
-
 esac
-
-

@@ -1,9 +1,30 @@
 #!/bin/bash
+
+# Gruvbox colors
+RESET="\e[0m"          # Reset all attributes
+GREEN="\e[38;2;142;192;124m"  # #8ec07c
+CYAN="\e[38;2;69;133;136m"    # #458588
+YELLOW="\e[38;2;215;153;33m"  # #d79921
+RED="\e[38;2;204;36;29m"      # #cc241d
+GRAY="\e[38;2;60;56;54m"      # #3c3836"
+BOLD="\e[1m"                  # Bold text
+
+if command -v wal &>/dev/null; then
+    log_status "Applying Gruvbox color scheme with Pywal..."
+    wal -f ~/gruvbox.json
+    source ~/.cache/wal/colors.sh
+    log_success "Gruvbox colors applied successfully."
+else
+    log_error "Pywal is not installed."
+fi
+
+
+
 clear
 echo ""
-echo "   Welcome to Hyprland Gruvbox Installation !!"
+echo -e "${YELLOW}${BOLD}   Welcome to Hyprland Gruvbox Installation !!${RESET}"
 echo ""
-echo " Sit back and enjoy the ride !!   "
+echo -e "${CYAN} Sit back and enjoy the ride !!   ${RESET}"
 echo ""
 echo ""
 echo ""
@@ -20,12 +41,22 @@ checklist=(
 
 # Function to print status messages
 log_status() {
-	echo "[INFO] $1"
+    echo -e "${CYAN}[INFO]${RESET} $1"
+}
+
+# Function to print success messages
+log_success() {
+    echo -e "${GREEN}[SUCCESS]${RESET} $1"
+}
+
+# Function to print warning messages
+log_warning() {
+    echo -e "${YELLOW}[WARNING]${RESET} $1"
 }
 
 # Function to print error messages
 log_error() {
-	echo "[ERROR] $1"
+    echo -e "${RED}[ERROR]${RESET} $1"
 }
 
 # Function to print the checklist
@@ -62,24 +93,32 @@ setup_cron_job() {
 	fi
 }
 
+
 # Section 1: Git and Yay Setup
 {
-	log_status "  Installing Git and Yay..."
-	echo ""
-	sudo pacman -S --noconfirm git || log_error "Failed to install git"
-	git clone https://aur.archlinux.org/yay.git || log_error "Failed to clone yay"
-	cd yay
-	makepkg -si --noconfirm || log_error "Failed to build and install yay"
-	cd ..
-  echo ""
-	checklist[git_and_yay]=true
+    log_status "Installing Git and Yay..."
+    sudo pacman -S --noconfirm git || log_error "Failed to install git"
+    git clone https://aur.archlinux.org/yay.git || log_error "Failed to clone yay"
+    cd yay
+    makepkg -si --noconfirm || log_error "Failed to build and install yay"
+    cd ..
+    log_success "Git and Yay installed successfully."
+    checklist[git_and_yay]=true
 } || checklist[git_and_yay]=false
+
 
 # Section 2: Install Packages
 {
-	log_status "  Installing packages..."
-	echo ""
-  yay -Syyu --noconfirm || log_error "Failed to update package database"
+
+  log_status " Installing packages..."
+  if yay -S --noconfirm "${PACKAGES[@]}"; then
+      log_success "All packages installed successfully."
+      checklist[install_packages]=true
+  else
+      log_error "Failed to install some packages."
+      checklist[install_packages]=false
+  fi
+
 
 	PACKAGES=(
     	amd-ucode aylurs-gtk-shell base base-devel blueprint-compiler bluez bluez-utils blueberry bpytop brightnessctl btrfs-progs cliphist cmake cmatrix cbonsai-git
@@ -93,8 +132,8 @@ setup_cron_job() {
     	qt5-graphicaleffects qt5-wayland qt6-wayland qt6ct-kde rofi-calc rofi-wayland sdm-sugar-candy-git
     	smile slurp smartmontools sof-firmware starship stow timeshift timeshift-autosnap tmux ttf-sharetech-mono-nerd unzip vala vim
     	vlc vlc-materia-skin-git vulkan-intel vulkan-radeon wl-clipboard wl-clipboard-history-git wget wireless_tools
-    	wireplumber wofi xclip xdg-desktop-portal-hyprland xdg-utils xf86-video-amdgpu xf86-video-ati xf86-video-nouveau xf86-video-vmware
-    	xorg-xhost xorg-server xorg-xinit xorg-wayland  waypaper waybar yazi zig zoxide zram-generator zsh-autosuggestions-git
+    	wireplumber wofi xclip xdg-desktop-portal-gtk xdg-desktop-portal-hyprland xdg-utils xf86-video-amdgpu xf86-video-ati xf86-video-nouveau xf86-video-vmware
+    	xorg-xhost xorg-server xorg-xinit xorg-wayland  waypaper waybar wtype yazi zig zoxide zram-generator zsh-autosuggestions-git
     	zsh wlogout python-terminaltexteffects
 	)
 
@@ -110,9 +149,10 @@ clear
 	
 	cd ~/.dotfiles || log_error "Failed to enter .dotfiles directory"
 
-	STOW_DIRS=("ags" "alacritty" "bat" "bpytop" "byobu" "dunst" "fastfetch" "fontconfig" "fzf" "ghostty" "gtk-3.0" "gtk-4.0" "home"
+	STOW_DIRS=("ags" "bat" "bpytop" "byobu" "dunst" "fastfetch" "fontconfig" "fzf" "ghostty" "gtk-3.0" "gtk-4.0" "home"
     	"htop" "hypr" "kitty" "nemo" "nvim" "nwg-dock-hyprland" "nwg-look" "pacseek" "pomodorolm" "qt6ct" "rofi" "scripts" "sddm" "settings" "systemd" "vim" "vlc"
-    	"wal" "waybar" "waypaper" "wlogout" "xsettingsd" "yazi" "znt" ".config" "oh-my-zsh")
+    	"wal" "waybar" "waypaper" "wlogout" "xdg-desktop-portal"
+      "xsettingsd" "yazi" "znt" ".config" "oh-my-zsh")
 
 	for dir in "${STOW_DIRS[@]}"; do
     	stow "$dir" || log_error "Failed to stow $dir"
@@ -130,8 +170,20 @@ clear
 clear
 # Print checklist and before post configuration
 clear
-print_checklist_tte
+
+# echo -e "${GRAY}Installation Summary:${RESET}"
+# print_checklist_tte
+
 echo ""
+
+if command -v wal &>/dev/null; then
+    log_status "Applying Gruvbox color scheme with Pywal..."
+    wal -f ~/gruvbox.json
+    source ~/.cache/wal/colors.sh
+    log_success "Gruvbox colors applied successfully."
+else
+    log_error "Pywal is not installed."
+fi
 
 # Section 5: Post-Configuration
 {
