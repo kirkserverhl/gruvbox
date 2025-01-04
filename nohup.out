@@ -4430,3 +4430,9 @@ waybar: no process found
 [2025-01-04 13:05:58.050] [info] Bar configured (width: 906, height: 37) for output: HDMI-A-1
 [2025-01-04 13:06:00.002] [info] Bar configured (width: 907, height: 37) for output: HDMI-A-1
 [2025-01-04 13:06:01.301] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 13:06:38.702] [info] Bar configured (width: 907, height: 37) for output: HDMI-A-1
+[2025-01-04 13:06:40.675] [info] Bar configured (width: 908, height: 37) for output: HDMI-A-1
+[2025-01-04 13:06:40.975] [info] Bar configured (width: 907, height: 37) for output: HDMI-A-1
+[2025-01-04 13:07:00.002] [info] Bar configured (width: 905, height: 37) for output: HDMI-A-1
+Gdk-Message: 13:07:47.855: Error reading events from display: Broken pipe
+[31merror: [0mexit status 1
