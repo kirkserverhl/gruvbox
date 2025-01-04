@@ -188,13 +188,13 @@ echo ""
 echo "   Hyprland Gruvbox Installation is Complete !! 🫠
           A list of common helpful keybinds is below:" | lsd-print
 
-echo "⌨️   ▏ 󰖳 + ENTER             👻   Ghostty Terminal
+echo "⌨️  ▏ 󰖳 + ENTER             👻   Ghostty Terminal
 ⌨️  ▏ 󰖳 + B                    Firefox
 ⌨️  ▏ 󰖳 + N                    Nemo File Browser
 ⌨️  ▏ 󰖳 + CTRL + Y           󰇥  Yazi File Browser
 ⌨️  ▏ 󰖳 + CTRL + N             NeoVim
 ⌨️  ▏ 󰖳 + CTRL + ENTER       󰀻  Rofi App Launcher
-⌨️  ▏ 󰖳 + Q     	            󰅙  Close Window
+⌨️  ▏ 󰖳 + Q                  󰅙  Close Window
 ⌨️  ▏ 󰖳 + CTRL + Q           󰗽  Logout
 ⌨️  ▏ 󰖳 + Mouse Left         Move Window"
 echo ""

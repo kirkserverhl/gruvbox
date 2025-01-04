@@ -4901,3 +4901,276 @@ waybar: no process found
 [2025-01-04 13:44:12.081] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
 [2025-01-04 13:44:12.381] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
 [2025-01-04 13:45:00.002] [info] Bar configured (width: 918, height: 37) for output: HDMI-A-1
+[2025-01-04 13:45:16.887] [info] Bar configured (width: 906, height: 37) for output: HDMI-A-1
+[2025-01-04 13:45:17.507] [info] Bar configured (width: 907, height: 37) for output: HDMI-A-1
+[2025-01-04 13:45:17.807] [info] Bar configured (width: 906, height: 37) for output: HDMI-A-1
+[2025-01-04 13:46:00.002] [info] Bar configured (width: 907, height: 37) for output: HDMI-A-1
+[2025-01-04 13:47:00.002] [info] Bar configured (width: 904, height: 37) for output: HDMI-A-1
+[2025-01-04 13:48:00.002] [info] Bar configured (width: 907, height: 37) for output: HDMI-A-1
+[2025-01-04 13:50:00.001] [info] Bar configured (width: 906, height: 37) for output: HDMI-A-1
+[2025-01-04 13:51:00.002] [info] Bar configured (width: 904, height: 37) for output: HDMI-A-1
+[2025-01-04 13:52:00.001] [info] Bar configured (width: 905, height: 37) for output: HDMI-A-1
+[2025-01-04 13:54:00.002] [info] Bar configured (width: 906, height: 37) for output: HDMI-A-1
+[2025-01-04 13:55:00.002] [info] Bar configured (width: 905, height: 37) for output: HDMI-A-1
+[2025-01-04 13:56:00.002] [info] Bar configured (width: 906, height: 37) for output: HDMI-A-1
+[2025-01-04 13:57:00.001] [info] Bar configured (width: 904, height: 37) for output: HDMI-A-1
+[2025-01-04 13:58:00.000] [info] Bar configured (width: 906, height: 37) for output: HDMI-A-1
+[2025-01-04 14:04:10.331] [info] Bar configured (width: 908, height: 37) for output: HDMI-A-1
+:: Wallpaper Cache disabled
+:: Setting wallpaper with source image /home/kirk/wallpaper/car.png
+:: Path of current wallpaper copied to /home/kirk/.config/settings/cache/current_wallpaper
+:: Wallpaper Filename: car.png
+:: Wallpaper effect is set to off
+:: Stop all running waybar instances
+:: Execute pywal with /home/kirk/wallpaper/car.png
+We got: en
+Post command ~/.config/hypr/scripts/wallpaper.sh /home/kirk/wallpaper/car.png && ~/scripts/launch.sh executed
+/home/kirk/.config/hypr/scripts/wallpaper.sh: line 141: /home/kirk/.config/waybar/launch.sh: No such file or directory
+:: Generate new cached wallpaper blur-50x30-off-car.png with blur 50x30
+:: Resized to 75%
+:: Blurred
+:: Generate new cached wallpaper square-car.png
+waybar: no process found
+:: Reload ags
+:: Theme: /gruv
+
+(waybar:313331): Gtk-WARNING **: 14:04:29.426: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(waybar:313331): Gtk-WARNING **: 14:04:29.426: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-04 14:04:29.438] [info] Using configuration file /home/kirk/.config/waybar/themes/gruv/config
+[2025-01-04 14:04:29.438] [info] Including resource file: ~/.config/settings/waybar-quicklinks.json
+[2025-01-04 14:04:29.438] [info] Including resource file: ~/.config/waybar/modules.json
+[2025-01-04 14:04:29.441] [info] Discovered appearance 'dark'
+[2025-01-04 14:04:29.441] [info] Using CSS file /home/kirk/.config/waybar/themes/gruv/colored/style.css
+
+(gjs:313348): Gtk-WARNING **: 14:04:29.445: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(gjs:313348): Gtk-WARNING **: 14:04:29.445: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-04 14:04:29.446] [info] Hyprland IPC starting
+[2025-01-04 14:04:29.447] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 14:04:29.447] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-04 14:04:29.451] [warning] no bluetooth controller found
+[2025-01-04 14:04:29.451] [warning] No batteries.
+[2025-01-04 14:04:29.483] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 14:04:29.483] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-04 14:04:29.485] [warning] no bluetooth controller found
+[2025-01-04 14:04:29.485] [warning] No batteries.
+[2025-01-04 14:04:29.723] [info] Bar configured (width: 1572, height: 37) for output: DP-1
+[2025-01-04 14:04:29.723] [info] Bar configured (width: 872, height: 37) for output: HDMI-A-1
+[2025-01-04 14:04:30.143] [info] Bar configured (width: 908, height: 37) for output: HDMI-A-1
+[2025-01-04 14:04:38.859] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[LOG] Welcome to hyprpaper!
+built from commit  ()
+[LOG] Cleaned old hyprpaper preloads (4), removing 45.4MB
+[LOG] Preloaded target /home/kirk/wallpaper/earth-in-space.png in 67.87ms -> Pixel size: [3450, 1910]
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 33.2MB
+[LOG] Total SM usage for all buffers: 33.2MB
+[LOG] hyprpaper socket started at /run/user/1000/hypr/0bd541f2fd902dbfa04c3ea2ccf679395e316887_1736017507_893644037/.hyprpaper.sock (fd: 5)
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 62dd80d94000
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 62dd80d943a0
+[LOG] configure for HDMI-A-1
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 5.8MB
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 5.8MB
+[LOG] Total SM usage for all buffers: 44.7MB
+[LOG] Image data for DP-1: /home/kirk/wallpaper/earth-in-space.png at [-27.22, 0.00], scale: 0.47 (original image size: [3450, 1910])
+[LOG] Submitting viewport dest size 1600x900 for 62dd80d94000
+[LOG] Image data for HDMI-A-1: /home/kirk/wallpaper/earth-in-space.png at [-1187.81, 0.00], scale: 0.84 (original image size: [3450, 1910])
+[LOG] Submitting viewport dest size 900x1600 for 62dd80d943a0
+[LOG] handlePreferredScale: 1.20 for 62dd80d94000
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 53.0MB
+[LOG] Image data for DP-1: /home/kirk/wallpaper/earth-in-space.png at [-27.22, 0.00], scale: 0.57 (original image size: [3450, 1910])
+[LOG] Submitting viewport dest size 1600x900 for 62dd80d94000
+[LOG] handlePreferredScale: 1.20 for 62dd80d943a0
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 61.3MB
+[LOG] Image data for HDMI-A-1: /home/kirk/wallpaper/earth-in-space.png at [-1187.81, 0.00], scale: 1.01 (original image size: [3450, 1910])
+[LOG] Submitting viewport dest size 900x1600 for 62dd80d943a0
+[LOG] handlePreferredScale: 1.20 for 62dd80d94000
+[LOG] handlePreferredScale: 1.20 for 62dd80d943a0
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/kirk/wallpaper/earth-in-space.png, preload path /run/user/1000/.hyprpaper_Q7Zcer
+[LOG] Unloading target /home/kirk/wallpaper/earth-in-space.png, preload path /run/user/1000/.hyprpaper_7yrs6p
+[LOG] Unloading target /home/kirk/wallpaper/earth-in-space.png, preload path /run/user/1000/.hyprpaper_3RQDR8
+[LOG] Unloading target /home/kirk/wallpaper/earth-in-space.png, preload path /run/user/1000/.hyprpaper_1AMgXD
+[LOG] Unloading target /home/kirk/wallpaper/earth-in-space.png, preload path /run/user/1000/.hyprpaper_0N0Xfd
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: preload /home/kirk/wallpaper/default.jpeg
+[LOG] Preloaded target /home/kirk/wallpaper/default.jpeg in 14.98ms -> Pixel size: [1920, 1080]
+[LOG] Buffer created for target /home/kirk/wallpaper/default.jpeg, Shared Memory usage: 8.3MB
+[LOG] Buffer created for target /home/kirk/wallpaper/default.jpeg, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 16.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: wallpaper DP-1,/home/kirk/wallpaper/default.jpeg
+[LOG] Buffer created for target /home/kirk/wallpaper/default.jpeg, Shared Memory usage: 23.0MB
+[LOG] Total SM usage for all buffers: 39.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 62dd80d93fc0
+[LOG] configure for DP-1
+[LOG] Buffer created for target /home/kirk/wallpaper/default.jpeg, Shared Memory usage: 5.8MB
+[LOG] Total SM usage for all buffers: 45.4MB
+[LOG] Image data for DP-1: /home/kirk/wallpaper/default.jpeg at [-0.00, 0.00], scale: 0.83 (original image size: [1920, 1080])
+[LOG] Submitting viewport dest size 1600x900 for 62dd80d93fc0
+[LOG] handlePreferredScale: 1.20 for 62dd80d93fc0
+[LOG] Image data for DP-1: /home/kirk/wallpaper/default.jpeg at [-0.00, 0.00], scale: 1.00 (original image size: [1920, 1080])
+[LOG] Submitting viewport dest size 1600x900 for 62dd80d93fc0
+[LOG] handlePreferredScale: 1.20 for 62dd80d93fc0
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/kirk/wallpaper/default.jpeg, preload path /run/user/1000/.hyprpaper_Uwncdt
+[LOG] Unloading target /home/kirk/wallpaper/default.jpeg, preload path /run/user/1000/.hyprpaper_1wL71S
+[LOG] Unloading target /home/kirk/wallpaper/default.jpeg, preload path /run/user/1000/.hyprpaper_7FoLvy
+[LOG] Unloading target /home/kirk/wallpaper/default.jpeg, preload path /run/user/1000/.hyprpaper_zjir17
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: preload /home/kirk/wallpaper/default.jpeg
+[LOG] Preloaded target /home/kirk/wallpaper/default.jpeg in 12.39ms -> Pixel size: [1920, 1080]
+[LOG] Buffer created for target /home/kirk/wallpaper/default.jpeg, Shared Memory usage: 8.3MB
+[LOG] Buffer created for target /home/kirk/wallpaper/default.jpeg, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 16.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: wallpaper HDMI-A-1,/home/kirk/wallpaper/default.jpeg
+[LOG] Buffer created for target /home/kirk/wallpaper/default.jpeg, Shared Memory usage: 23.0MB
+[LOG] Total SM usage for all buffers: 39.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 62dd80d981c0
+[LOG] configure for HDMI-A-1
+[LOG] Buffer created for target /home/kirk/wallpaper/default.jpeg, Shared Memory usage: 5.8MB
+[LOG] Total SM usage for all buffers: 45.4MB
+[LOG] Image data for HDMI-A-1: /home/kirk/wallpaper/default.jpeg at [-656.25, 0.00], scale: 1.48 (original image size: [1920, 1080])
+[LOG] Submitting viewport dest size 900x1600 for 62dd80d981c0
+[LOG] handlePreferredScale: 1.20 for 62dd80d981c0
+[LOG] Image data for HDMI-A-1: /home/kirk/wallpaper/default.jpeg at [-656.25, 0.00], scale: 1.78 (original image size: [1920, 1080])
+[LOG] Submitting viewport dest size 900x1600 for 62dd80d981c0
+[LOG] handlePreferredScale: 1.20 for 62dd80d981c0
+:: Wallpaper Cache disabled
+:: Setting wallpaper with source image /home/kirk/wallpaper/default.jpeg
+:: Path of current wallpaper copied to /home/kirk/.config/settings/cache/current_wallpaper
+:: Wallpaper Filename: default.jpeg
+:: Wallpaper effect is set to off
+:: Stop all running waybar instances
+waybar: no process found
+:: Execute pywal with /home/kirk/wallpaper/default.jpeg
+We got: en
+Post command ~/.config/hypr/scripts/wallpaper.sh /home/kirk/wallpaper/default.jpeg && ~/scripts/launch.sh executed
+Error: Failed to connect to unix /tmp/kitty_pywal with error: dial unix /tmp/kitty_pywal: connect: no such file or directory
+/home/kirk/.config/hypr/scripts/wallpaper.sh: line 141: /home/kirk/.config/waybar/launch.sh: No such file or directory
+:: Generate new cached wallpaper blur-50x30-off-default.jpeg with blur 50x30
+:: Resized to 75%
+:: Blurred
+:: Generate new cached wallpaper square-default.jpeg
+waybar: no process found
+:: Reload ags
+:: Theme: /gruv
+
+(waybar:223416): Gtk-WARNING **: 14:10:16.089: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(waybar:223416): Gtk-WARNING **: 14:10:16.089: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-04 14:10:16.103] [info] Using configuration file /home/kirk/.config/waybar/themes/gruv/config
+[2025-01-04 14:10:16.103] [info] Including resource file: ~/.config/settings/waybar-quicklinks.json
+[2025-01-04 14:10:16.103] [info] Including resource file: ~/.config/waybar/modules.json
+[2025-01-04 14:10:16.105] [info] Discovered appearance 'dark'
+[2025-01-04 14:10:16.105] [info] Using CSS file /home/kirk/.config/waybar/themes/gruv/colored/style.css
+[2025-01-04 14:10:16.111] [info] Hyprland IPC starting
+[2025-01-04 14:10:16.112] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 14:10:16.112] [info] Loading persistent workspaces from Hyprland workspace rules
+
+(gjs:223446): Gtk-WARNING **: 14:10:16.113: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(gjs:223446): Gtk-WARNING **: 14:10:16.113: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-04 14:10:16.115] [warning] no bluetooth controller found
+[2025-01-04 14:10:16.116] [warning] No batteries.
+[2025-01-04 14:10:16.153] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 14:10:16.153] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-04 14:10:16.155] [warning] no bluetooth controller found
+[2025-01-04 14:10:16.155] [warning] No batteries.
+[2025-01-04 14:10:16.399] [info] Bar configured (width: 1572, height: 37) for output: DP-1
+[2025-01-04 14:10:16.399] [info] Bar configured (width: 872, height: 37) for output: HDMI-A-1
+[2025-01-04 14:10:16.774] [info] Bar configured (width: 916, height: 37) for output: HDMI-A-1
+[2025-01-04 14:10:16.807] [info] Bar configured (width: 917, height: 37) for output: HDMI-A-1
+[2025-01-04 14:10:16.857] [info] Bar configured (width: 918, height: 37) for output: HDMI-A-1
+[2025-01-04 14:10:16.957] [info] Bar configured (width: 917, height: 37) for output: HDMI-A-1
+[2025-01-04 14:11:00.001] [info] Bar configured (width: 915, height: 37) for output: HDMI-A-1
+[2025-01-04 14:11:10.796] [info] Bar configured (width: 916, height: 37) for output: HDMI-A-1
+[2025-01-04 14:11:11.178] [info] Bar configured (width: 915, height: 37) for output: HDMI-A-1
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/kirk/wallpaper/default.jpeg, preload path /run/user/1000/.hyprpaper_7FUdUK
+[LOG] Unloading target /home/kirk/wallpaper/default.jpeg, preload path /run/user/1000/.hyprpaper_GiznoE
+[LOG] Unloading target /home/kirk/wallpaper/default.jpeg, preload path /run/user/1000/.hyprpaper_pQjN55
+[LOG] Unloading target /home/kirk/wallpaper/default.jpeg, preload path /run/user/1000/.hyprpaper_UBzZfO
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: preload /home/kirk/wallpaper/earth-in-space.png
+[LOG] Preloaded target /home/kirk/wallpaper/earth-in-space.png in 66.39ms -> Pixel size: [3450, 1910]
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 8.3MB
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 16.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: wallpaper DP-1,/home/kirk/wallpaper/earth-in-space.png
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 23.0MB
+[LOG] Total SM usage for all buffers: 39.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 748dd0003b70
+[LOG] configure for DP-1
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 5.8MB
+[LOG] Total SM usage for all buffers: 45.4MB
+[LOG] Image data for DP-1: /home/kirk/wallpaper/earth-in-space.png at [-27.22, 0.00], scale: 0.47 (original image size: [3450, 1910])
+[LOG] Submitting viewport dest size 1600x900 for 748dd0003b70
+[LOG] handlePreferredScale: 1.20 for 748dd0003b70
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Image data for DP-1: /home/kirk/wallpaper/earth-in-space.png at [-27.22, 0.00], scale: 0.57 (original image size: [3450, 1910])
+[LOG] Submitting viewport dest size 1600x900 for 748dd0003b70
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/kirk/wallpaper/earth-in-space.png, preload path /run/user/1000/.hyprpaper_WSjcfd
+[LOG] Unloading target /home/kirk/wallpaper/earth-in-space.png, preload path /run/user/1000/.hyprpaper_p7LfxV
+[LOG] Unloading target /home/kirk/wallpaper/earth-in-space.png, preload path /run/user/1000/.hyprpaper_MbumCh
+[LOG] Unloading target /home/kirk/wallpaper/earth-in-space.png, preload path /run/user/1000/.hyprpaper_l1QYRZ
+[LOG] handlePreferredScale: 1.20 for 748dd0003b70
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: preload /home/kirk/wallpaper/earth-in-space.png
+[LOG] Preloaded target /home/kirk/wallpaper/earth-in-space.png in 66.37ms -> Pixel size: [3450, 1910]
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 8.3MB
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 16.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: wallpaper HDMI-A-1,/home/kirk/wallpaper/earth-in-space.png
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 23.0MB
+[LOG] Total SM usage for all buffers: 39.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 748dd0003ea0
+[LOG] configure for HDMI-A-1
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 5.8MB
+[LOG] Total SM usage for all buffers: 45.4MB
+[LOG] Image data for HDMI-A-1: /home/kirk/wallpaper/earth-in-space.png at [-1187.81, 0.00], scale: 0.84 (original image size: [3450, 1910])
+[LOG] Submitting viewport dest size 900x1600 for 748dd0003ea0
+[LOG] handlePreferredScale: 1.20 for 748dd0003ea0
+[LOG] Image data for HDMI-A-1: /home/kirk/wallpaper/earth-in-space.png at [-1187.81, 0.00], scale: 1.01 (original image size: [3450, 1910])
+[LOG] Submitting viewport dest size 900x1600 for 748dd0003ea0
+[LOG] handlePreferredScale: 1.20 for 748dd0003ea0
