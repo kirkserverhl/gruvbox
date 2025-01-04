@@ -1,43 +1,44 @@
 window {
-  background: rgba(0, 0, 0, 0.8);
-	border-radius: 10px;
-	border-style: solid;
-	border-width: 0px;
-	border-color: #ffffff;
-	opacity:0.8;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 0px;
+  border-color: #ffffff;
+  opacity: 0.9;
 }
 
 #box {
   /* Define attributes of the box surrounding icons here */
-  padding: 1px
+  padding: 1px;
 }
 
 #active {
-	/* This is to underline the button representing the currently active window */
-	border-bottom: solid 0px;
-	border-color: #FFFFFF
+  /* This is to underline the button representing the currently active window */
+  border-bottom: solid 0px;
+  border-color: #ffffff;
 }
 
-button, image {
-	background: none;
-	border-style: none;
-	box-shadow: none;
-	color: #999
+button,
+image {
+  background: none;
+  border-style: none;
+  box-shadow: none;
+  color: #999;
 }
 
 button {
-	padding: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	color: #eee;
-  font-size: 12px
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: #eee;
+  font-size: 12px;
 }
 
 button:hover {
-	background-color: rgba(255, 255, 255, 0.15);
-	border-radius: 0px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 0px;
 }
 
 button:focus {
-	box-shadow: none
+  box-shadow: none;
 }
