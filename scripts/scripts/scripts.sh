@@ -9,6 +9,7 @@ keybinds_hint="  Cleanup	          	cleanup.sh
    DOOM 		   	doom.sh
 󰊪   Editors Packages	   	editors_packages.sh
    SDDM,Grub,SHELL,etc	   	config.sh
+   Figlet	   	   	figlet.sh
 󰸉   Animations (RT 󰇘   	   	animation.sh
 󰹑   Decorations (RT       	animation.sh
    Re-install Gruvbox        	install.sh"

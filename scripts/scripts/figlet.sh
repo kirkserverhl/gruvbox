@@ -1,24 +1,46 @@
 #!/bin/bash
-figlet -f smslant "Figlet"
+
+# Function to display the header using figlet
+# Clears the screen and displays the header
+function display_header() {
+    clear
+    figlet -f smslant "$1"
+}
+
+# Main script logic
 echo 
 # ------------------------------------------------
-# Script to create ascii font based header on user input
+# Script to create ASCII font-based header on user input
 # and copy the result to the clipboard
 # -----------------------------------------------------
 
-read -p "Enter the text for ascii encoding: " mytext
+# Prompt the user for input
+read -p "Enter the text for ASCII encoding: " mytext
 
-if [ -f ~/figlet.txt ]; then
-    touch ~/figlet.txt
+# Display the header
+if [ -n "$mytext" ]; then
+    display_header "$mytext"
+else
+    echo "No text entered. Exiting."
+    exit 1
 fi
 
-echo "cat <<\"EOF\"" > ~/figlet.txt
-figlet -f smslant "$mytext" >> ~/figlet.txt
-echo "" >> ~/figlet.txt
-echo "EOF" >> ~/figlet.txt
+# Save the output to a file
+output_file=~/figlet.txt
+echo "Saving output to $output_file..."
+figlet -f smslant "$mytext" > "$output_file"
 
-lines=$( cat ~/figlet.txt )
-wl-copy "$lines"
-xclip -sel clip ~/figlet.txt
+echo "Contents of the file:"
+cat "$output_file"
 
-echo "Text copied to clipboard!"
+# Copy the output to the clipboard
+if command -v wl-copy &> /dev/null; then
+    wl-copy < "$output_file"
+    echo "Text copied to clipboard (wl-copy)."
+elif command -v xclip &> /dev/null; then
+    xclip -sel clip < "$output_file"
+    echo "Text copied to clipboard (xclip)."
+else
+    echo "Clipboard tool not found. Please install 'wl-copy' or 'xclip'."
+fi
+

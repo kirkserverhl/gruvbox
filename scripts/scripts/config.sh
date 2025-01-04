@@ -17,12 +17,6 @@ echo "[✔] Begin configuring Nvim"
 nohup nvim --headless &>/dev/null &  # Run nvim in the background silently
 echo ""
 
-# Refresh dotfiles
-# cd ~/.dotfiles && git pull
-
-# Maike Pictures folder for screenshot
-# sudo mkdir ~/Pictures
-
 # Post install packages that get missed
 if ! command -v figlet &>/dev/null; then
     echo " 󰏖 Installing packages ..."
