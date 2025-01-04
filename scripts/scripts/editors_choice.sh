@@ -35,16 +35,16 @@ display_header() {
 checklist=()
 
 # Function to install Ghossty Terminal
-display_header "Ghossty  Terminal"
-echo ""
-read -p "   Do you want to install Ghossty Terminal (y/n) ? " install_ghossty
-echo ""
-if [[ "$install_ghossty" =~ ^[Yy]$ ]]; then
-    echo "   Installing Ghossty Terminal packages..."
-    yay -S --noconfirm ghostty ghostty-shell-integration ghostty-terminfo
-    checklist+=("Ghossty Terminal")
-    echo " 󰸞  Ghossty Terminal installation completed."
-fi
+# display_header "Ghossty  Terminal"
+# echo ""
+# read -p "   Do you want to install Ghossty Terminal (y/n) ? " install_ghossty
+# echo ""
+# if [[ "$install_ghossty" =~ ^[Yy]$ ]]; then
+#     echo "   Installing Ghossty Terminal packages..."
+#     yay -S --noconfirm ghostty ghostty-shell-integration ghostty-terminfo
+#     checklist+=("Ghossty Terminal")
+#     echo " 󰸞  Ghossty Terminal installation completed."
+# fi
 
 # Function to install Surfshark VPN
 display_header "Surfshark  VPN"
@@ -105,7 +105,7 @@ print_checklist_tte() {
         # Add each installed section with its respective icon
         for section in "${checklist[@]}"; do
             case $section in
-                "Ghossty Terminal") echo "  Ghossty Terminal" >> "$checklist_file" ;;
+#                "Ghossty Terminal") echo "  Ghossty Terminal" >> "$checklist_file" ;;
                 "Surfshark VPN") echo " 󱙳 Surfshark VPN" >> "$checklist_file" ;;
                 "qBittorrent Enhanced") echo " 󰰽 qBittorrent" >> "$checklist_file" ;;
                 "Disk Utility") echo " 󱛟 Disk Utility" >> "$checklist_file" ;;
