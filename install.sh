@@ -88,7 +88,7 @@ setup_cron_job() {
     	gst-plugin-pipewire gum htop hyprpolkitagent hyprpicker hyprshade hyprcursor hyprpaper hypridle hyprgraphics  hyprlang hyprutils hyprwayland-scanner
     	imagemagick intel-media-driver iwd kcalc kitty libpulse libva-intel-driver linux linux-firmware lsd lsd-print-git lua
     	meson nemo nemo-emblems nemo-preview nemo-terminal neovim neovim-lspconfig neovim-web-devicons-git network-manager-applet networkmanager
-    	noto-fonts noto-fonts-emoji nwg-dock-hyprland nwg-look otf-fira-sans otf-font-awesome pacseek pacman-mirrorlist pinta pipewire pipewire-alsa
+    	noto-fonts noto-fonts-emoji nwg-dock-hyprland nwg-look otf-fira-sans otf-font-awesome pacseek pacman-mirrorlist pavucontrol pinta pipewire pipewire-alsa
     	pipewire-jack pipewire-pulse pomodorolm prettier python-pywal16 python-pywalfox python-pillow python-hyprpy python-vlc qt5-base
     	qt5-graphicaleffects qt5-wayland qt6-wayland qt6ct-kde rofi-wayland sdm-sugar-candy-git
     	smile slurp smartmontools sof-firmware starship stow timeshift timeshift-autosnap tmux ttf-sharetech-mono-nerd unzip vala vim
