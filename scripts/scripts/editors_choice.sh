@@ -1,6 +1,7 @@
 #!/bin/bash
 clear
-echo "  Running Editors Choice Installer..."
+echo ""
+echo "  Running Editors Choice Installer..." | lsd-print
 echo ""
 # Function to keep sudo active
 keep_sudo_alive() {
@@ -12,7 +13,7 @@ keep_sudo_alive() {
 
 # Start sudo in the background
 if ! sudo -v; then
-    echo  " 󰟵 Sudo credentials required to continue."
+    echo  " 󰟵 Sudo credentials required to continue." | lsd-print
     exit 1
 fi
 
@@ -40,10 +41,10 @@ echo ""
 read -p " 🦈  Do you want to install Surfshark VPN (y/n) ? " install_surfshark
 echo ""
 if [[ "$install_surfshark" =~ ^[Yy]$ ]]; then
-    echo " 🛠️  Installing Surfshark VPN..."
+    echo " 🛠️  Installing Surfshark VPN..." 
     yay -S --noconfirm surfshark-client
     checklist+=("Surfshark VPN")
-    echo " ✔️  Surfshark VPN installation completed."
+    echo " ✔️  Surfshark VPN installation completed." | lsd-print
 fi
 
 # Function to install qBittorrent Enhanced
@@ -52,34 +53,34 @@ echo ""
 read -p " 👿  Do you want to install qBittorrent (y/n) ? " install_qbittorent
 echo ""
 if [[ "$install_qbittorent" =~ ^[Yy]$ ]]; then
-    echo " 🛠️  Installing qBittorrent Enhanced..."
+    echo " 🛠️  Installing qBittorrent Enhanced..." 
     yay -S --noconfirm qbittorrent-enhanced
     checklist+=("qBittorrent Enhanced")
-    echo " ✔️  qBittorrent Enhanced installation completed."
+    echo " ✔️  qBittorrent Enhanced installation completed." | lsd-print
 fi
 
 # Function to install Disk Utility
 display_header "Disk  Utility"
 echo ""
-read -p "  󱛟  Do you want to install Disk Utility (y/n) ? " install_disk
+read -p "  󱛟  Do you want to install Disk Utility (y/n) ? " install_disk 
 echo ""
 if [[ "$install_disk" =~ ^[Yy]$ ]]; then
-    echo "    Installing Disk Utility..."
+    echo "    Installing Disk Utility..." 
     yay -S --noconfirm gnome-disk-utility
     checklist+=("Disk Utility")
-    echo " ✔️  Disk Utility installation completed."
+    echo " ✔️  Disk Utility installation completed." | lsd-print
 fi
 
 # Function to install Game Package
 display_header "Game  Package"
 echo ""
-read -p " 🕹️   Do you want to install Game Package (y/n) ? " install_game
+read -p " 🕹️   Do you want to install Game Package (y/n) ? " install_game 
 echo ""
 if [[ "$install_game" =~ ^[Yy]$ ]]; then
-    echo " 🛠️  Installing Game Package..."
+    echo " 🛠️  Installing Game Package..." 
     yay -S --noconfirm wolfenstein3d
     checklist+=("Game Package")
-    echo " ✔️  Game Package installation completed."
+    echo " ✔️  Game Package installation completed." | lsd-print
 fi
 
 # Display checklist summary with tte beams
@@ -114,34 +115,30 @@ print_checklist_tte
 
 # Options for reboot, rerun, or exit
 echo ""
-echo " ✔️  Installation is complete." 
-echo ""
-echo " Choose an option:"
-echo ""
+echo " ✔️  Installation is complete."  | lsd-print   
+echo " Choose an option:" | lsd-print
 echo " 1.  󰑎   Rerun this script"
 echo " 2.  󰩈   Exit"
 echo ""
 
 # Prompt user for input with a 30-second timeout
-read -t 60 -p " Enter your choice (default is exit): " choice
+read -t 60 -p " Enter your choice (default is exit): " choice | lsd-print
 echo ""
 
 # Check the user's input or proceed to the default action
 case $choice in
     1)
-        echo "  󰑎  Rerunning the script..."
+        echo "  󰑎  Rerunning the script..." | lsd-print
         exec "$0"  # Reruns the current script
         ;;
     2)
-        echo "  󰩈  Exiting Configuration."
-        echo ""
-        echo " To close this terminal use  ⌨️   ▏ 󰖳 + Q"
+        echo "  󰩈  Exiting Configuration." | lsd-print
+        echo " To close this terminal use  ⌨️   ▏ 󰖳 + Q" | lsd-print
         exit 0
         ;;
     *)
         echo ""
-        echo "⛔️  No input detected."
-        echo ""
+        echo "⛔️  No input detected." | lsd-print
         echo " To close this terminal and complete installation use  ⌨️   ▏ 󰖳 + Q"
         ;;
 
