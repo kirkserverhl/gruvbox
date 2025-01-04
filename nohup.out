@@ -4721,3 +4721,183 @@ waybar: no process found
 [2025-01-04 13:41:36.197] [info] Bar configured (width: 917, height: 37) for output: HDMI-A-1
 [2025-01-04 13:41:36.497] [info] Bar configured (width: 916, height: 37) for output: HDMI-A-1
 [2025-01-04 13:42:00.001] [info] Bar configured (width: 918, height: 37) for output: HDMI-A-1
+
+(nemo:206757): Gtk-WARNING **: 13:42:17.071: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(nemo:206757): Gtk-WARNING **: 13:42:17.072: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+
+(nemo:206757): Nemo-WARNING **: 13:42:17.201: Current gtk theme is not known to have nemo support (YOUR_DARK_GTK3_THEME) - checking...
+
+(nemo:206757): Nemo-WARNING **: 13:42:17.228: The theme appears to have no nemo support.  Adding some...
+
+(nemo:206757): Nemo-WARNING **: 13:42:17.534: Action '90_new-launcher.nemo_action' is missing dependency: cinnamon-desktop-editor
+
+(nemo:206757): Gtk-CRITICAL **: 13:42:18.931: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:206757): Gtk-CRITICAL **: 13:42:18.931: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:206757): Gtk-CRITICAL **: 13:42:18.931: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:206757): Gtk-CRITICAL **: 13:42:18.931: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:206757): Gtk-CRITICAL **: 13:42:18.931: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:206757): Gtk-CRITICAL **: 13:42:18.931: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:206757): Gtk-CRITICAL **: 13:42:18.931: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:206757): Gtk-CRITICAL **: 13:42:18.931: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+[2025-01-04 13:42:28.147] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 13:42:28.479] [info] Bar configured (width: 918, height: 37) for output: HDMI-A-1
+[2025-01-04 13:42:30.291] [info] Bar configured (width: 906, height: 37) for output: HDMI-A-1
+[2025-01-04 13:42:30.313] [info] Bar configured (width: 907, height: 37) for output: HDMI-A-1
+[2025-01-04 13:42:30.612] [info] Bar configured (width: 906, height: 37) for output: HDMI-A-1
+[2025-01-04 13:42:55.280] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 13:42:55.578] [info] Bar configured (width: 918, height: 37) for output: HDMI-A-1
+[2025-01-04 13:42:56.978] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 13:42:57.545] [info] Bar configured (width: 918, height: 37) for output: HDMI-A-1
+time="2025-01-04T13:42:59-05:00" level=info msg=">>> Loading preferences"
+time="2025-01-04T13:42:59-05:00" level=info msg="lang: en_US"
+time="2025-01-04T13:42:59-05:00" level=info msg=">>> Loading basic lang from '/usr/share/nwg-look/langs/en_US.json'"
+
+(nwg-look:249356): Gtk-WARNING **: 13:42:59.537: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(nwg-look:249356): Gtk-WARNING **: 13:42:59.538: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+time="2025-01-04T13:42:59-05:00" level=info msg=">>> Parsing original /home/kirk/.config/gtk-3.0/settings.ini"
+time="2025-01-04T13:42:59-05:00" level=info msg=">>> Reading gsettings"
+time="2025-01-04T13:42:59-05:00" level=info msg="gtk-theme: YOUR_DARK_GTK3_THEME"
+time="2025-01-04T13:42:59-05:00" level=info msg="icon-theme: Gruvbox-Plus-Dark"
+time="2025-01-04T13:42:59-05:00" level=info msg="font-name: ShureTechMono Nerd Font 12"
+time="2025-01-04T13:42:59-05:00" level=info msg="cursor-theme: Simp1e-Gruvbox-Light"
+time="2025-01-04T13:42:59-05:00" level=info msg="cursor-size: 24"
+time="2025-01-04T13:42:59-05:00" level=info msg="toolbar-style: both-horiz"
+time="2025-01-04T13:42:59-05:00" level=info msg="toolbar-icons-size: large"
+time="2025-01-04T13:42:59-05:00" level=info msg="font-hinting: slight"
+time="2025-01-04T13:42:59-05:00" level=info msg="font-antialiasing: grayscale"
+time="2025-01-04T13:42:59-05:00" level=info msg="font-rgba-order: rgb"
+time="2025-01-04T13:42:59-05:00" level=info msg="text-scaling-factor: 1"
+time="2025-01-04T13:42:59-05:00" level=info msg="color-scheme: prefer-dark"
+time="2025-01-04T13:42:59-05:00" level=info msg="event-sounds: true"
+time="2025-01-04T13:42:59-05:00" level=info msg="input-feedback-sounds: false"
+[2025-01-04 13:43:00.770] [info] Bar configured (width: 906, height: 37) for output: HDMI-A-1
+[2025-01-04 13:43:00.812] [info] Bar configured (width: 907, height: 37) for output: HDMI-A-1
+[2025-01-04 13:43:01.111] [info] Bar configured (width: 906, height: 37) for output: HDMI-A-1
+time="2025-01-04T13:43:05-05:00" level=info msg=">>> Applying gsettings"
+time="2025-01-04T13:43:05-05:00" level=info msg=">> org.gnome.desktop.interface"
+time="2025-01-04T13:43:05-05:00" level=info msg="gtk-theme: Gruvbox-Material-Dark-HIDPI OK"
+time="2025-01-04T13:43:05-05:00" level=info msg="icon-theme: Gruvbox-Plus-Dark OK"
+time="2025-01-04T13:43:05-05:00" level=info msg="cursor-theme: Simp1e-Gruvbox-Light OK"
+time="2025-01-04T13:43:05-05:00" level=info msg="cursor-size: 24 OK"
+time="2025-01-04T13:43:05-05:00" level=info msg="font-name: ShureTechMono Nerd Font 12 OK"
+time="2025-01-04T13:43:05-05:00" level=info msg="font-hinting: slight OK"
+time="2025-01-04T13:43:05-05:00" level=info msg="font-antialiasing: grayscale OK"
+time="2025-01-04T13:43:05-05:00" level=info msg="font-rgba-order: rgb OK"
+time="2025-01-04T13:43:05-05:00" level=info msg="text-scaling-factor: 1 OK"
+time="2025-01-04T13:43:05-05:00" level=info msg="toolbar-style: both-horiz OK"
+time="2025-01-04T13:43:05-05:00" level=info msg="toolbar-icons-size: large OK"
+time="2025-01-04T13:43:05-05:00" level=info msg="color-scheme: prefer-dark OK"
+time="2025-01-04T13:43:05-05:00" level=info msg=">> org.gnome.desktop.sound"
+time="2025-01-04T13:43:05-05:00" level=info msg="event-sounds: true OK"
+time="2025-01-04T13:43:05-05:00" level=info msg="input-feedback-sounds: false OK"
+time="2025-01-04T13:43:05-05:00" level=info msg=">>> Backing up gsettings to /home/kirk/.local/share/nwg-look"
+time="2025-01-04T13:43:05-05:00" level=info msg=">>> Exporting /home/kirk/.config/gtk-3.0/settings.ini"
+time="2025-01-04T13:43:05-05:00" level=info msg=">>> Exporting /home/kirk/.gtkrc-2.0"
+time="2025-01-04T13:43:05-05:00" level=info msg=">>> Exporting /home/kirk/.icons/default/index.theme"
+time="2025-01-04T13:43:05-05:00" level=info msg=">>> Exporting /home/kirk/.config/xsettingsd/xsettingsd.conf"
+time="2025-01-04T13:43:07-05:00" level=info msg=">>> Applying gsettings"
+time="2025-01-04T13:43:07-05:00" level=info msg=">> org.gnome.desktop.interface"
+time="2025-01-04T13:43:07-05:00" level=info msg="gtk-theme: Gruvbox-Material-Dark-HIDPI OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="icon-theme: Gruvbox-Plus-Dark OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="cursor-theme: Simp1e-Gruvbox-Light OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="cursor-size: 24 OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="font-name: ShureTechMono Nerd Font 12 OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="font-hinting: slight OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="font-antialiasing: grayscale OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="font-rgba-order: rgb OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="text-scaling-factor: 1 OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="toolbar-style: both-horiz OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="toolbar-icons-size: large OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="color-scheme: prefer-dark OK"
+time="2025-01-04T13:43:07-05:00" level=info msg=">> org.gnome.desktop.sound"
+time="2025-01-04T13:43:07-05:00" level=info msg="event-sounds: true OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="input-feedback-sounds: false OK"
+time="2025-01-04T13:43:07-05:00" level=info msg=">>> Backing up gsettings to /home/kirk/.local/share/nwg-look"
+time="2025-01-04T13:43:07-05:00" level=info msg=">>> Exporting /home/kirk/.config/gtk-3.0/settings.ini"
+time="2025-01-04T13:43:07-05:00" level=info msg=">>> Exporting /home/kirk/.gtkrc-2.0"
+time="2025-01-04T13:43:07-05:00" level=info msg=">>> Exporting /home/kirk/.icons/default/index.theme"
+time="2025-01-04T13:43:07-05:00" level=info msg=">>> Exporting /home/kirk/.config/xsettingsd/xsettingsd.conf"
+time="2025-01-04T13:43:07-05:00" level=info msg=">>> Applying gsettings"
+time="2025-01-04T13:43:07-05:00" level=info msg=">> org.gnome.desktop.interface"
+time="2025-01-04T13:43:07-05:00" level=info msg="gtk-theme: Gruvbox-Material-Dark-HIDPI OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="icon-theme: Gruvbox-Plus-Dark OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="cursor-theme: Simp1e-Gruvbox-Light OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="cursor-size: 24 OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="font-name: ShureTechMono Nerd Font 12 OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="font-hinting: slight OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="font-antialiasing: grayscale OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="font-rgba-order: rgb OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="text-scaling-factor: 1 OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="toolbar-style: both-horiz OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="toolbar-icons-size: large OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="color-scheme: prefer-dark OK"
+time="2025-01-04T13:43:07-05:00" level=info msg=">> org.gnome.desktop.sound"
+time="2025-01-04T13:43:07-05:00" level=info msg="event-sounds: true OK"
+time="2025-01-04T13:43:07-05:00" level=info msg="input-feedback-sounds: false OK"
+time="2025-01-04T13:43:07-05:00" level=info msg=">>> Backing up gsettings to /home/kirk/.local/share/nwg-look"
+time="2025-01-04T13:43:07-05:00" level=info msg=">>> Exporting /home/kirk/.config/gtk-3.0/settings.ini"
+time="2025-01-04T13:43:07-05:00" level=info msg=">>> Exporting /home/kirk/.gtkrc-2.0"
+time="2025-01-04T13:43:07-05:00" level=info msg=">>> Exporting /home/kirk/.icons/default/index.theme"
+time="2025-01-04T13:43:07-05:00" level=info msg=">>> Exporting /home/kirk/.config/xsettingsd/xsettingsd.conf"
+:: Wallpaper Cache disabled
+:: Setting wallpaper with source image /home/kirk/wallpaper/dudeOnBuilding2.png
+:: Path of current wallpaper copied to /home/kirk/.config/settings/cache/current_wallpaper
+:: Wallpaper Filename: dudeOnBuilding2.png
+:: Wallpaper effect is set to off
+:: Stop all running waybar instances
+:: Execute pywal with /home/kirk/wallpaper/dudeOnBuilding2.png
+We got: en
+Post command ~/.config/hypr/scripts/wallpaper.sh /home/kirk/wallpaper/dudeOnBuilding2.png && ~/scripts/launch.sh executed
+/home/kirk/.config/hypr/scripts/wallpaper.sh: line 141: /home/kirk/.config/waybar/launch.sh: No such file or directory
+:: Generate new cached wallpaper blur-50x30-off-dudeOnBuilding2.png with blur 50x30
+:: Resized to 75%
+:: Blurred
+:: Generate new cached wallpaper square-dudeOnBuilding2.png
+waybar: no process found
+:: Reload ags
+[31merror: [0mthere is no "astal" instance runnning
+:: Theme: /gruv
+
+(waybar:269582): Gtk-WARNING **: 13:43:30.897: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(waybar:269582): Gtk-WARNING **: 13:43:30.897: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-04 13:43:30.910] [info] Using configuration file /home/kirk/.config/waybar/themes/gruv/config
+[2025-01-04 13:43:30.910] [info] Including resource file: ~/.config/settings/waybar-quicklinks.json
+[2025-01-04 13:43:30.910] [info] Including resource file: ~/.config/waybar/modules.json
+[2025-01-04 13:43:30.912] [info] Discovered appearance 'dark'
+[2025-01-04 13:43:30.912] [info] Using CSS file /home/kirk/.config/waybar/themes/gruv/colored/style.css
+
+(gjs:269599): Gtk-WARNING **: 13:43:30.917: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(gjs:269599): Gtk-WARNING **: 13:43:30.917: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-04 13:43:30.917] [info] Hyprland IPC starting
+[2025-01-04 13:43:30.918] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 13:43:30.918] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-04 13:43:30.922] [warning] no bluetooth controller found
+[2025-01-04 13:43:30.922] [warning] No batteries.
+[2025-01-04 13:43:30.954] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 13:43:30.955] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-04 13:43:30.957] [warning] no bluetooth controller found
+[2025-01-04 13:43:30.957] [warning] No batteries.
+[2025-01-04 13:43:31.199] [info] Bar configured (width: 1572, height: 37) for output: DP-1
+[2025-01-04 13:43:31.199] [info] Bar configured (width: 872, height: 37) for output: HDMI-A-1
+[2025-01-04 13:43:31.596] [info] Bar configured (width: 906, height: 37) for output: HDMI-A-1
+[2025-01-04 13:44:00.002] [info] Bar configured (width: 907, height: 37) for output: HDMI-A-1
+[2025-01-04 13:44:02.047] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 13:44:02.346] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 13:44:04.283] [info] Bar configured (width: 907, height: 37) for output: HDMI-A-1
+[2025-01-04 13:44:04.717] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 13:44:10.664] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 13:44:10.964] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 13:44:12.081] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 13:44:12.381] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 13:45:00.002] [info] Bar configured (width: 918, height: 37) for output: HDMI-A-1

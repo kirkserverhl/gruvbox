@@ -210,6 +210,7 @@ echo " 3.  󰩈   Exit"
 # Prompt user for input with a 60-second timeout
 echo "" 
 read -t 60 -p " Enter your choice (auto reboot in 60 seconds): " choice 
+echo ""
 
 # Check the user's input or proceed to the default action
 case $choice in
@@ -223,6 +224,7 @@ case $choice in
         ;;
     3)
         echo " Exiting. System will not reboot." 
+        echo ""
         echo " To close this terminal use  ⌨️  ▏ 󰖳 + Q" 
 	      exit 0
         ;;
