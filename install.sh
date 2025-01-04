@@ -117,7 +117,7 @@ setup_cron_job() {
     	duf dunst efibootmgr eza fastfetch figlet firefox fortune-mod fortune-mod-archlinux fzf git ghostty
     	gnome-text-editor go grim grimblast-git
     	gst-plugin-pipewire gum htop hyprpolkitagent hyprpicker hyprshade hyprcursor hyprpaper hypridle hyprgraphics  hyprlang hyprutils hyprwayland-scanner
-    	imagemagick intel-media-driver iwd  kitty libpulse libva-intel-driver linux linux-firmware lsd lsd-print-git lua
+    	imagemagick intel-media-driver iwd  kitty kvantum libpulse libva-intel-driver linux linux-firmware lsd lsd-print-git lua
     	meson nemo nemo-emblems nemo-preview nemo-terminal neovim neovim-lspconfig neovim-web-devicons-git network-manager-applet networkmanager
     	noto-fonts noto-fonts-emoji nwg-dock-hyprland nwg-look otf-fira-sans otf-font-awesome pacseek pacman-mirrorlist pavucontrol pinta pipewire pipewire-alsa
     	pipewire-jack pipewire-pulse pomodorolm prettier python-pywal16 python-pywalfox python-pillow python-hyprpy python-vlc qt5-base
@@ -125,7 +125,7 @@ setup_cron_job() {
     	smile slurp smartmontools sof-firmware starship stow timeshift timeshift-autosnap tmux ttf-sharetech-mono-nerd unzip vala vim
     	vlc vlc-materia-skin-git vulkan-intel vulkan-radeon wl-clipboard wl-clipboard-history-git wget wireless_tools
     	wireplumber wofi xclip xdg-desktop-portal-gtk xdg-desktop-portal-hyprland xdg-utils xf86-video-amdgpu xf86-video-ati xf86-video-nouveau xf86-video-vmware
-    	xorg-xhost xorg-server xorg-xinit xorg-wayland  waypaper waybar wtype yazi zig zoxide zram-generator zsh-autosuggestions-git
+    	xorg-xhost xorg-server xorg-xinit xorg-wayland xsettingsd waypaper waybar wtype yazi zig zoxide zram-generator zsh-autosuggestions-git
     	zsh wlogout python-terminaltexteffects
 	)
   echo ""
@@ -209,25 +209,25 @@ echo " 3.  󰩈   Exit"
 
 # Prompt user for input with a 60-second timeout
 echo "" 
-read -t 60 -p " Enter your choice (auto reboot in 60 seconds): " choice | lsd-print
+read -t 60 -p " Enter your choice (auto reboot in 60 seconds): " choice 
 
 # Check the user's input or proceed to the default action
 case $choice in
     1)
-        echo " Rebooting now..." | lsd-print
+        echo " Rebooting now..." 
         waypaper --random && sudo reboot
         ;;
     2)
-        echo " Rerunning the script..." | lsd-print
+        echo " Rerunning the script..." 
         exec "$0"  # Reruns the current script
         ;;
     3)
-        echo " Exiting. System will not reboot." | lsd-print
-        echo " To close this terminal use  ⌨️  ▏ 󰖳 + Q" | lsd-print
+        echo " Exiting. System will not reboot." 
+        echo " To close this terminal use  ⌨️  ▏ 󰖳 + Q" 
 	      exit 0
         ;;
     *)
-        echo " No input detected. Rebooting in 60 seconds..." lsd-print
+        echo " No input detected. Rebooting in 60 seconds..."
         waypaper --random && sudo reboot
         ;;
 
