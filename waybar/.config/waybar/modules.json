@@ -91,15 +91,15 @@
   "custom/wallpaper": {
     "format": "",
     "on-click": "waypaper",
-    "on-click-right": "~/scripts/random_waypaper_toggle.sh",
-    "tooltip-format": "Left: Select a wallpaper\nRight: Start Random Wallpaper Script"
+    "on-click-right": "~/scripts/decorations.sh",
+    "tooltip-format": "Left: Select a wallpaper\nRight: Cycle Window Decorations"
   },
 
   // Waybar Themes
   "custom/waybarthemes": {
     "format": "",
     "on-click": "~/scripts/themeswitcher.sh",
-    "on-click-right": "~/scripts/cycle_animations.sh",
+    "on-click-right": "~/scripts/animations.sh",
     "tooltip-format": "Left: Waybar Theme\nRight: Cycle Window Animations"
   },
 
