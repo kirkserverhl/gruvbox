@@ -82,7 +82,7 @@ setup_cron_job() {
   yay -Syyu --noconfirm || log_error "Failed to update package database"
 
 	PACKAGES=(
-    	alacritty  amd-ucode aylurs-gtk-shell base base-devel blueprint-compiler bluez bluez-utils blueberry bpytop brightnessctl btrfs-progs cliphist cmake cmatrix cbonsai-git
+    	amd-ucode aylurs-gtk-shell base base-devel blueprint-compiler bluez bluez-utils blueberry bpytop brightnessctl btrfs-progs cliphist cmake cmatrix cbonsai-git
     	duf dunst efibootmgr eza fastfetch figlet firefox fortune-mod fortune-mod-hackers fortune-mod-archlinux fzf git ghostty
     	gnome-text-editor go grim grimblast-git
     	gst-plugin-pipewire gum htop hyprpolkitagent hyprpicker hyprshade hyprcursor hyprpaper hypridle hyprgraphics  hyprlang hyprutils hyprwayland-scanner
@@ -91,7 +91,7 @@ setup_cron_job() {
     	noto-fonts noto-fonts-emoji nwg-dock-hyprland nwg-look otf-fira-sans otf-font-awesome pacseek pacman-mirrorlist pinta pipewire pipewire-alsa
     	pipewire-jack pipewire-pulse pomodorolm prettier python-pywal16 python-pywalfox python-pillow python-hyprpy python-vlc qt5-base
     	qt5-graphicaleffects qt5-wayland qt6-wayland qt6ct-kde rofi-wayland sdm-sugar-candy-git
-    	slurp smartmontools sof-firmware starship stow timeshift timeshift-autosnap tmux ttf-sharetech-mono-nerd unzip vala vim
+    	smile slurp smartmontools sof-firmware starship stow timeshift timeshift-autosnap tmux ttf-sharetech-mono-nerd unzip vala vim
     	vlc vlc-materia-skin-git vulkan-intel vulkan-radeon wl-clipboard wl-clipboard-history-git wget wireless_tools
     	wireplumber wofi xclip xdg-desktop-portal-hyprland xdg-utils xf86-video-amdgpu xf86-video-ati xf86-video-nouveau xf86-video-vmware
     	xorg-xhost xorg-server xorg-xinit xorg-wayland  waypaper waybar yazi zig zoxide zram-generator zsh-autosuggestions-git
