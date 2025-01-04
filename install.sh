@@ -9,22 +9,12 @@ RED="\e[38;2;204;36;29m"      # #cc241d
 GRAY="\e[38;2;60;56;54m"      # #3c3836"
 BOLD="\e[1m"                  # Bold text
 
-if command -v wal &>/dev/null; then
-    log_status "Applying Gruvbox color scheme with Pywal..."
-    wal -f ~/gruvbox.json
-    source ~/.cache/wal/colors.sh
-    log_success "Gruvbox colors applied successfully."
-else
-    log_error "Pywal is not installed."
-fi
-
-
 
 clear
 echo ""
-echo -e "${YELLOW}${BOLD}   Welcome to Hyprland Gruvbox Installation !!${RESET}"
+echo -e "${YELLOW}${BOLD} 🫠  Welcome to Hyprland Gruvbox Installation !!${RESET}"
 echo ""
-echo -e "${CYAN} Sit back and enjoy the ride !!   ${RESET}"
+echo -e "${CYAN} Sit back and enjoy the ride !!  🚀 ${RESET}"
 echo ""
 echo ""
 echo ""
@@ -93,10 +83,9 @@ setup_cron_job() {
 	fi
 }
 
-
 # Section 1: Git and Yay Setup
 {
-    log_status "Installing Git and Yay..."
+    log_status "⚙️ Installing Git and Yay..."
     sudo pacman -S --noconfirm git || log_error "Failed to install git"
     git clone https://aur.archlinux.org/yay.git || log_error "Failed to clone yay"
     cd yay
@@ -106,11 +95,10 @@ setup_cron_job() {
     checklist[git_and_yay]=true
 } || checklist[git_and_yay]=false
 
-
 # Section 2: Install Packages
 {
 
-  log_status " Installing packages..."
+  log_status "📦️  Installing packages..."
   if yay -S --noconfirm "${PACKAGES[@]}"; then
       log_success "All packages installed successfully."
       checklist[install_packages]=true
@@ -143,7 +131,7 @@ setup_cron_job() {
 clear
 # Section 3: Configuration
 {
-	log_status "  Applying configurations..."
+	log_status "🛠️  Applying configurations..."
 	echo ""
   sudo cp ~/.dotfiles/assets/pacman.conf /etc/ || log_error "Failed to move pacman.conf"
 	
@@ -163,7 +151,7 @@ clear
 clear
 # Section 4: Starting Cron Job
 {
-	log_status "  Setting up cron job..."
+	log_status " 🕰️  Setting up cron job..."
 	setup_cron_job
 } || checklist[cron_job]=false
 
@@ -187,7 +175,7 @@ fi
 
 # Section 5: Post-Configuration
 {
-    log_status "🔧 Running post-configuration scripts..."
+    log_status " 🔧 Running post-configuration scripts..."
     echo "Checking ~/scripts/config.sh"
 
     if [[ -d ~/scripts && -f ~/scripts/config.sh ]]; then
@@ -211,7 +199,7 @@ fi
 
 clear
 echo ""
-echo "   Hyprland Gruvbox Installation is Complete !!"
+echo "   Hyprland Gruvbox Installation is Complete !! 🫠" | lsd-print
 print_checklist_tte
 echo ""
 echo " A list of common helpful keybinds is below:  
@@ -228,7 +216,7 @@ echo " A list of common helpful keybinds is below:
 󰌓  ▏ 󰖳 + Mouse Left             Move Window
 󰌓  ▏ CTRL + Mouse Right         Close Window
 
-To display a full list of keybinds use  󰌓  ▏ 󰖳 + SPACE
+To display a full list of keybinds use  ⌨️  ▏ 󰖳 + SPACE
 or left-click the gear icon    in the Waybar"
 echo ""
 
@@ -258,7 +246,7 @@ case $choice in
     3)
         echo " Exiting. System will not reboot."
         echo ""
-        echo " To close this terminal use  󰌓  ▏ 󰖳 + Q"
+        echo " To close this terminal use  ⌨️  ▏ 󰖳 + Q"
 	echo ""
         exit 0
         ;;

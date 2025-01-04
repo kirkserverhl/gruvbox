@@ -1,0 +1,1086 @@
+[LOG] Welcome to hyprpaper!
+built from commit  ()
+[LOG] Cleaned old hyprpaper preloads (4), removing 45.4MB
+[LOG] Preloaded target /home/kirk/wallpaper/earth-in-space.png in 69.10ms -> Pixel size: [3450, 1910]
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 33.2MB
+[LOG] Total SM usage for all buffers: 33.2MB
+[LOG] hyprpaper socket started at /run/user/1000/hypr/0bd541f2fd902dbfa04c3ea2ccf679395e316887_1735998738_35933182/.hyprpaper.sock (fd: 5)
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 61bf58418000
+[LOG] configure for DP-1
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 61bf584183a0
+[LOG] configure for HDMI-A-1
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 5.8MB
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 5.8MB
+[LOG] Total SM usage for all buffers: 44.7MB
+[LOG] Image data for DP-1: /home/kirk/wallpaper/earth-in-space.png at [-27.22, 0.00], scale: 0.47 (original image size: [3450, 1910])
+[LOG] Submitting viewport dest size 1600x900 for 61bf58418000
+[LOG] Image data for HDMI-A-1: /home/kirk/wallpaper/earth-in-space.png at [-1187.81, 0.00], scale: 0.84 (original image size: [3450, 1910])
+[LOG] Submitting viewport dest size 900x1600 for 61bf584183a0
+[LOG] handlePreferredScale: 1.20 for 61bf58418000
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 53.0MB
+[LOG] Image data for DP-1: /home/kirk/wallpaper/earth-in-space.png at [-27.22, 0.00], scale: 0.57 (original image size: [3450, 1910])
+[LOG] Submitting viewport dest size 1600x900 for 61bf58418000
+[LOG] handlePreferredScale: 1.20 for 61bf584183a0
+[LOG] Buffer created for target /home/kirk/wallpaper/earth-in-space.png, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 61.3MB
+[LOG] Image data for HDMI-A-1: /home/kirk/wallpaper/earth-in-space.png at [-1187.81, 0.00], scale: 1.01 (original image size: [3450, 1910])
+[LOG] Submitting viewport dest size 900x1600 for 61bf584183a0
+[LOG] handlePreferredScale: 1.20 for 61bf58418000
+[LOG] handlePreferredScale: 1.20 for 61bf584183a0
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/kirk/wallpaper/earth-in-space.png, preload path /run/user/1000/.hyprpaper_8d7Big
+[LOG] Unloading target /home/kirk/wallpaper/earth-in-space.png, preload path /run/user/1000/.hyprpaper_EU7m8x
+[LOG] Unloading target /home/kirk/wallpaper/earth-in-space.png, preload path /run/user/1000/.hyprpaper_zt190j
+[LOG] Unloading target /home/kirk/wallpaper/earth-in-space.png, preload path /run/user/1000/.hyprpaper_bcWId9
+[LOG] Unloading target /home/kirk/wallpaper/earth-in-space.png, preload path /run/user/1000/.hyprpaper_qVGbFO
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: preload /home/kirk/wallpaper/endeavor.webp
+[LOG] Preloaded target /home/kirk/wallpaper/endeavor.webp in 17.04ms -> Pixel size: [2732, 1536]
+[LOG] Buffer created for target /home/kirk/wallpaper/endeavor.webp, Shared Memory usage: 8.3MB
+[LOG] Buffer created for target /home/kirk/wallpaper/endeavor.webp, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 16.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: wallpaper DP-1,/home/kirk/wallpaper/endeavor.webp
+[LOG] Buffer created for target /home/kirk/wallpaper/endeavor.webp, Shared Memory usage: 23.0MB
+[LOG] Total SM usage for all buffers: 39.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 61bf58417fc0
+[LOG] configure for DP-1
+[LOG] Buffer created for target /home/kirk/wallpaper/endeavor.webp, Shared Memory usage: 5.8MB
+[LOG] Total SM usage for all buffers: 45.4MB
+[LOG] Image data for DP-1: /home/kirk/wallpaper/endeavor.webp at [-0.67, 0.00], scale: 0.59 (original image size: [2732, 1536])
+[LOG] Submitting viewport dest size 1600x900 for 61bf58417fc0
+[LOG] handlePreferredScale: 1.20 for 61bf58417fc0
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Image data for DP-1: /home/kirk/wallpaper/endeavor.webp at [-0.67, 0.00], scale: 0.70 (original image size: [2732, 1536])
+[LOG] Submitting viewport dest size 1600x900 for 61bf58417fc0
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/kirk/wallpaper/endeavor.webp, preload path /run/user/1000/.hyprpaper_leshOI
+[LOG] Unloading target /home/kirk/wallpaper/endeavor.webp, preload path /run/user/1000/.hyprpaper_qVBTtU
+[LOG] Unloading target /home/kirk/wallpaper/endeavor.webp, preload path /run/user/1000/.hyprpaper_r6INd5
+[LOG] Unloading target /home/kirk/wallpaper/endeavor.webp, preload path /run/user/1000/.hyprpaper_gAcXKO
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] handlePreferredScale: 1.20 for 61bf58417fc0
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: preload /home/kirk/wallpaper/endeavor.webp
+[LOG] Preloaded target /home/kirk/wallpaper/endeavor.webp in 16.42ms -> Pixel size: [2732, 1536]
+[LOG] Buffer created for target /home/kirk/wallpaper/endeavor.webp, Shared Memory usage: 8.3MB
+[LOG] Buffer created for target /home/kirk/wallpaper/endeavor.webp, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 16.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: wallpaper HDMI-A-1,/home/kirk/wallpaper/endeavor.webp
+[LOG] Buffer created for target /home/kirk/wallpaper/endeavor.webp, Shared Memory usage: 23.0MB
+[LOG] Total SM usage for all buffers: 39.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 61bf5841b010
+[LOG] configure for HDMI-A-1
+[LOG] Buffer created for target /home/kirk/wallpaper/endeavor.webp, Shared Memory usage: 5.8MB
+[LOG] Total SM usage for all buffers: 45.4MB
+[LOG] Image data for HDMI-A-1: /home/kirk/wallpaper/endeavor.webp at [-934.00, 0.00], scale: 1.04 (original image size: [2732, 1536])
+[LOG] Submitting viewport dest size 900x1600 for 61bf5841b010
+[LOG] handlePreferredScale: 1.20 for 61bf5841b010
+[LOG] Image data for HDMI-A-1: /home/kirk/wallpaper/endeavor.webp at [-934.00, 0.00], scale: 1.25 (original image size: [2732, 1536])
+[LOG] Submitting viewport dest size 900x1600 for 61bf5841b010
+[LOG] handlePreferredScale: 1.20 for 61bf5841b010
+:: Wallpaper Cache disabled
+:: Setting wallpaper with source image /home/kirk/wallpaper/endeavor.webp
+:: Path of current wallpaper copied to /home/kirk/.config/settings/cache/current_wallpaper
+:: Wallpaper Filename: endeavor.webp
+:: Wallpaper effect is set to off
+:: Stop all running waybar instances
+waybar: no process found
+:: Execute pywal with /home/kirk/wallpaper/endeavor.webp
+We got: en
+Post command ~/.config/hypr/scripts/wallpaper.sh /home/kirk/wallpaper/endeavor.webp && ~/scripts/launch.sh executed
+Error: Failed to connect to unix /tmp/kitty_pywal with error: dial unix /tmp/kitty_pywal: connect: no such file or directory
+/home/kirk/.config/hypr/scripts/wallpaper.sh: line 141: /home/kirk/.config/waybar/launch.sh: No such file or directory
+:: Generate new cached wallpaper blur-50x30-off-endeavor.webp with blur 50x30
+:: Resized to 75%
+:: Blurred
+:: Generate new cached wallpaper square-endeavor.webp
+waybar: no process found
+:: Reload ags
+[31merror: [0mthere is no "astal" instance runnning
+:: Theme: /gruv
+
+(waybar:604755): Gtk-WARNING **: 09:41:09.831: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(waybar:604755): Gtk-WARNING **: 09:41:09.831: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-04 09:41:09.845] [info] Using configuration file /home/kirk/.config/waybar/themes/gruv/config
+[2025-01-04 09:41:09.845] [info] Including resource file: ~/.config/settings/waybar-quicklinks.json
+[2025-01-04 09:41:09.845] [info] Including resource file: ~/.config/waybar/modules.json
+[2025-01-04 09:41:09.847] [info] Discovered appearance 'dark'
+[2025-01-04 09:41:09.847] [info] Using CSS file /home/kirk/.config/waybar/themes/gruv/colored/style.css
+
+(gjs:604773): Gtk-WARNING **: 09:41:09.853: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+[2025-01-04 09:41:09.853] [info] Hyprland IPC starting
+
+(gjs:604773): Gtk-WARNING **: 09:41:09.854: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-04 09:41:09.855] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 09:41:09.855] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-04 09:41:09.858] [warning] no bluetooth controller found
+[2025-01-04 09:41:09.858] [warning] No batteries.
+[2025-01-04 09:41:09.895] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 09:41:09.895] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-04 09:41:09.898] [warning] no bluetooth controller found
+[2025-01-04 09:41:09.898] [warning] No batteries.
+[2025-01-04 09:41:10.149] [info] Bar configured (width: 1572, height: 37) for output: DP-1
+[2025-01-04 09:41:10.149] [info] Bar configured (width: 872, height: 37) for output: HDMI-A-1
+[2025-01-04 09:41:10.539] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/kirk/wallpaper/endeavor.webp, preload path /run/user/1000/.hyprpaper_J3K9Ks
+[LOG] Unloading target /home/kirk/wallpaper/endeavor.webp, preload path /run/user/1000/.hyprpaper_YHixt2
+[LOG] Unloading target /home/kirk/wallpaper/endeavor.webp, preload path /run/user/1000/.hyprpaper_2bDmvx
+[LOG] Unloading target /home/kirk/wallpaper/endeavor.webp, preload path /run/user/1000/.hyprpaper_A44wTz
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: preload /home/kirk/wallpaper/gruv_waves.webp
+[LOG] Preloaded target /home/kirk/wallpaper/gruv_waves.webp in 53.56ms -> Pixel size: [3840, 2160]
+[LOG] Buffer created for target /home/kirk/wallpaper/gruv_waves.webp, Shared Memory usage: 8.3MB
+[LOG] Buffer created for target /home/kirk/wallpaper/gruv_waves.webp, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 16.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: wallpaper DP-1,/home/kirk/wallpaper/gruv_waves.webp
+[LOG] Buffer created for target /home/kirk/wallpaper/gruv_waves.webp, Shared Memory usage: 23.0MB
+[LOG] Total SM usage for all buffers: 39.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 733ca00014d0
+[LOG] configure for DP-1
+[LOG] Buffer created for target /home/kirk/wallpaper/gruv_waves.webp, Shared Memory usage: 5.8MB
+[LOG] Total SM usage for all buffers: 45.4MB
+[LOG] Image data for DP-1: /home/kirk/wallpaper/gruv_waves.webp at [-0.00, 0.00], scale: 0.42 (original image size: [3840, 2160])
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Submitting viewport dest size 1600x900 for 733ca00014d0
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/kirk/wallpaper/gruv_waves.webp, preload path /run/user/1000/.hyprpaper_rZh0ml
+[LOG] Unloading target /home/kirk/wallpaper/gruv_waves.webp, preload path /run/user/1000/.hyprpaper_JddP3w
+[LOG] Unloading target /home/kirk/wallpaper/gruv_waves.webp, preload path /run/user/1000/.hyprpaper_NK1Hsx
+[LOG] Unloading target /home/kirk/wallpaper/gruv_waves.webp, preload path /run/user/1000/.hyprpaper_F4keKJ
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] handlePreferredScale: 1.20 for 733ca00014d0
+[LOG] Pool buffer missing for available target??
+[LOG] Pool buffer failed #2. Ignoring WP.
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: preload /home/kirk/wallpaper/gruv_waves.webp
+[LOG] Preloaded target /home/kirk/wallpaper/gruv_waves.webp in 51.51ms -> Pixel size: [3840, 2160]
+[LOG] Buffer created for target /home/kirk/wallpaper/gruv_waves.webp, Shared Memory usage: 8.3MB
+[LOG] Buffer created for target /home/kirk/wallpaper/gruv_waves.webp, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 16.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: wallpaper HDMI-A-1,/home/kirk/wallpaper/gruv_waves.webp
+[LOG] Buffer created for target /home/kirk/wallpaper/gruv_waves.webp, Shared Memory usage: 23.0MB
+[LOG] Total SM usage for all buffers: 39.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 733ca0004160
+[LOG] configure for HDMI-A-1
+[LOG] Buffer created for target /home/kirk/wallpaper/gruv_waves.webp, Shared Memory usage: 5.8MB
+[LOG] Total SM usage for all buffers: 45.4MB
+[LOG] Image data for HDMI-A-1: /home/kirk/wallpaper/gruv_waves.webp at [-1312.50, 0.00], scale: 0.74 (original image size: [3840, 2160])
+[LOG] Submitting viewport dest size 900x1600 for 733ca0004160
+[LOG] handlePreferredScale: 1.20 for 733ca0004160
+[LOG] Image data for HDMI-A-1: /home/kirk/wallpaper/gruv_waves.webp at [-1312.50, 0.00], scale: 0.89 (original image size: [3840, 2160])
+[LOG] Submitting viewport dest size 900x1600 for 733ca0004160
+[LOG] handlePreferredScale: 1.20 for 733ca0004160
+:: Wallpaper Cache disabled
+:: Setting wallpaper with source image /home/kirk/wallpaper/gruv_waves.webp
+:: Path of current wallpaper copied to /home/kirk/.config/settings/cache/current_wallpaper
+:: Wallpaper Filename: gruv_waves.webp
+:: Wallpaper effect is set to off
+:: Stop all running waybar instances
+:: Execute pywal with /home/kirk/wallpaper/gruv_waves.webp
+We got: en
+Post command ~/.config/hypr/scripts/wallpaper.sh /home/kirk/wallpaper/gruv_waves.webp && ~/scripts/launch.sh executed
+Error: Failed to connect to unix /tmp/kitty_pywal with error: dial unix /tmp/kitty_pywal: connect: no such file or directory
+/home/kirk/.config/hypr/scripts/wallpaper.sh: line 141: /home/kirk/.config/waybar/launch.sh: No such file or directory
+:: Generate new cached wallpaper blur-50x30-off-gruv_waves.webp with blur 50x30
+:: Resized to 75%
+:: Blurred
+:: Generate new cached wallpaper square-gruv_waves.webp
+waybar: no process found
+:: Reload ags
+:: Theme: /gruv
+
+(waybar:605159): Gtk-WARNING **: 09:41:52.061: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(waybar:605159): Gtk-WARNING **: 09:41:52.061: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-04 09:41:52.074] [info] Using configuration file /home/kirk/.config/waybar/themes/gruv/config
+[2025-01-04 09:41:52.074] [info] Including resource file: ~/.config/settings/waybar-quicklinks.json
+[2025-01-04 09:41:52.075] [info] Including resource file: ~/.config/waybar/modules.json
+[2025-01-04 09:41:52.077] [info] Discovered appearance 'dark'
+[2025-01-04 09:41:52.077] [info] Using CSS file /home/kirk/.config/waybar/themes/gruv/colored/style.css
+[2025-01-04 09:41:52.082] [info] Hyprland IPC starting
+[2025-01-04 09:41:52.084] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 09:41:52.084] [info] Loading persistent workspaces from Hyprland workspace rules
+
+(gjs:605176): Gtk-WARNING **: 09:41:52.085: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(gjs:605176): Gtk-WARNING **: 09:41:52.085: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-04 09:41:52.088] [warning] no bluetooth controller found
+[2025-01-04 09:41:52.089] [warning] No batteries.
+[2025-01-04 09:41:52.126] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 09:41:52.126] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-04 09:41:52.128] [warning] no bluetooth controller found
+[2025-01-04 09:41:52.128] [warning] No batteries.
+[2025-01-04 09:41:52.379] [info] Bar configured (width: 1572, height: 37) for output: DP-1
+[2025-01-04 09:41:52.379] [info] Bar configured (width: 872, height: 37) for output: HDMI-A-1
+[2025-01-04 09:41:52.776] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 09:42:00.001] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:42:08.122] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:42:08.421] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:42:18.989] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:42:19.272] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:42:45.691] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:42:45.991] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:42:46.674] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:42:46.974] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:43:01.308] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:43:01.608] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:43:08.309] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:43:08.608] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:43:30.561] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:43:30.860] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:43:31.261] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:43:31.560] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:43:41.928] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:43:42.360] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:44:00.001] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:44:15.350] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-04 09:44:15.648] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:44:26.967] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-04 09:44:27.266] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:44:34.218] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-04 09:44:34.517] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:44:52.670] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-04 09:44:52.969] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:45:00.001] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:45:01.786] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:45:02.086] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:45:12.937] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:45:13.237] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:45:51.775] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:45:52.074] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:46:00.001] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:46:02.792] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-04 09:46:03.075] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:46:21.394] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-04 09:46:21.678] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:46:28.795] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-04 09:46:29.094] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:46:48.247] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-04 09:46:48.546] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:46:58.749] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-04 09:46:59.048] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:47:00.001] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 09:47:17.350] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:47:17.650] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 09:47:23.851] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:47:24.150] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 09:48:00.002] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:48:06.186] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-04 09:48:06.487] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/kirk/wallpaper/gruv_waves.webp, preload path /run/user/1000/.hyprpaper_QD8lZO
+[LOG] Unloading target /home/kirk/wallpaper/gruv_waves.webp, preload path /run/user/1000/.hyprpaper_3VEkVc
+[LOG] Unloading target /home/kirk/wallpaper/gruv_waves.webp, preload path /run/user/1000/.hyprpaper_v5qfp0
+[LOG] Unloading target /home/kirk/wallpaper/gruv_waves.webp, preload path /run/user/1000/.hyprpaper_lvBN1z
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: preload /home/kirk/wallpaper/spider.webp
+[LOG] Preloaded target /home/kirk/wallpaper/spider.webp in 47.52ms -> Pixel size: [3840, 2160]
+[LOG] Buffer created for target /home/kirk/wallpaper/spider.webp, Shared Memory usage: 8.3MB
+[LOG] Buffer created for target /home/kirk/wallpaper/spider.webp, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 16.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: wallpaper DP-1,/home/kirk/wallpaper/spider.webp
+[LOG] Buffer created for target /home/kirk/wallpaper/spider.webp, Shared Memory usage: 23.0MB
+[LOG] Total SM usage for all buffers: 39.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 733ca00045e0
+[LOG] configure for DP-1
+[LOG] Buffer created for target /home/kirk/wallpaper/spider.webp, Shared Memory usage: 5.8MB
+[LOG] Total SM usage for all buffers: 45.4MB
+[LOG] Image data for DP-1: /home/kirk/wallpaper/spider.webp at [-0.00, 0.00], scale: 0.42 (original image size: [3840, 2160])
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Submitting viewport dest size 1600x900 for 733ca00045e0
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/kirk/wallpaper/spider.webp, preload path /run/user/1000/.hyprpaper_OCFN1V
+[LOG] Unloading target /home/kirk/wallpaper/spider.webp, preload path /run/user/1000/.hyprpaper_Jddw4J
+[LOG] Unloading target /home/kirk/wallpaper/spider.webp, preload path /run/user/1000/.hyprpaper_H55E8G
+[LOG] Unloading target /home/kirk/wallpaper/spider.webp, preload path /run/user/1000/.hyprpaper_MdwSx1
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] handlePreferredScale: 1.20 for 733ca00045e0
+[LOG] Pool buffer missing for available target??
+[LOG] Pool buffer failed #2. Ignoring WP.
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: preload /home/kirk/wallpaper/spider.webp
+[LOG] Preloaded target /home/kirk/wallpaper/spider.webp in 48.87ms -> Pixel size: [3840, 2160]
+[LOG] Buffer created for target /home/kirk/wallpaper/spider.webp, Shared Memory usage: 8.3MB
+[LOG] Buffer created for target /home/kirk/wallpaper/spider.webp, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 16.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: wallpaper HDMI-A-1,/home/kirk/wallpaper/spider.webp
+[LOG] Buffer created for target /home/kirk/wallpaper/spider.webp, Shared Memory usage: 23.0MB
+[LOG] Total SM usage for all buffers: 39.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 61bf5841b810
+[LOG] configure for HDMI-A-1
+[LOG] Buffer created for target /home/kirk/wallpaper/spider.webp, Shared Memory usage: 5.8MB
+[LOG] Total SM usage for all buffers: 45.4MB
+[LOG] Image data for HDMI-A-1: /home/kirk/wallpaper/spider.webp at [-1312.50, 0.00], scale: 0.74 (original image size: [3840, 2160])
+[LOG] Submitting viewport dest size 900x1600 for 61bf5841b810
+[LOG] handlePreferredScale: 1.20 for 61bf5841b810
+[LOG] Image data for HDMI-A-1: /home/kirk/wallpaper/spider.webp at [-1312.50, 0.00], scale: 0.89 (original image size: [3840, 2160])
+[LOG] Submitting viewport dest size 900x1600 for 61bf5841b810
+[LOG] handlePreferredScale: 1.20 for 61bf5841b810
+:: Wallpaper Cache disabled
+:: Setting wallpaper with source image /home/kirk/wallpaper/spider.webp
+:: Path of current wallpaper copied to /home/kirk/.config/settings/cache/current_wallpaper
+:: Wallpaper Filename: spider.webp
+:: Wallpaper effect is set to off
+:: Stop all running waybar instances
+:: Execute pywal with /home/kirk/wallpaper/spider.webp
+We got: en
+Post command ~/.config/hypr/scripts/wallpaper.sh /home/kirk/wallpaper/spider.webp && ~/scripts/launch.sh executed
+Error: Failed to connect to unix /tmp/kitty_pywal with error: dial unix /tmp/kitty_pywal: connect: no such file or directory
+/home/kirk/.config/hypr/scripts/wallpaper.sh: line 141: /home/kirk/.config/waybar/launch.sh: No such file or directory
+:: Generate new cached wallpaper blur-50x30-off-spider.webp with blur 50x30
+:: Resized to 75%
+:: Blurred
+:: Generate new cached wallpaper square-spider.webp
+waybar: no process found
+:: Reload ags
+:: Theme: /gruv
+
+(waybar:606951): Gtk-WARNING **: 09:48:24.621: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(waybar:606951): Gtk-WARNING **: 09:48:24.621: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-04 09:48:24.635] [info] Using configuration file /home/kirk/.config/waybar/themes/gruv/config
+[2025-01-04 09:48:24.635] [info] Including resource file: ~/.config/settings/waybar-quicklinks.json
+[2025-01-04 09:48:24.635] [info] Including resource file: ~/.config/waybar/modules.json
+[2025-01-04 09:48:24.637] [info] Discovered appearance 'dark'
+[2025-01-04 09:48:24.637] [info] Using CSS file /home/kirk/.config/waybar/themes/gruv/colored/style.css
+[2025-01-04 09:48:24.642] [info] Hyprland IPC starting
+
+(gjs:606968): Gtk-WARNING **: 09:48:24.643: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(gjs:606968): Gtk-WARNING **: 09:48:24.643: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-04 09:48:24.643] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 09:48:24.643] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-04 09:48:24.648] [warning] no bluetooth controller found
+[2025-01-04 09:48:24.648] [warning] No batteries.
+[2025-01-04 09:48:24.688] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 09:48:24.688] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-04 09:48:24.691] [warning] no bluetooth controller found
+[2025-01-04 09:48:24.691] [warning] No batteries.
+[2025-01-04 09:48:24.936] [info] Bar configured (width: 1572, height: 37) for output: DP-1
+[2025-01-04 09:48:24.936] [info] Bar configured (width: 872, height: 37) for output: HDMI-A-1
+[2025-01-04 09:48:25.382] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:48:59.128] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-01-04 09:48:59.129] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 09:48:59.129] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-04 09:48:59.129] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-01-04 09:48:59.130] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 09:48:59.130] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-04 09:50:00.001] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:50:13.531] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:50:13.831] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:50:21.366] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:50:21.665] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:50:23.832] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:50:24.115] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:50:29.799] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:50:30.099] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:50:42.867] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:50:43.167] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:50:51.102] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:50:51.400] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:51:00.001] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 09:51:01.754] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:51:02.051] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 09:51:08.136] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:51:08.435] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 09:51:14.419] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:51:14.703] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 09:51:25.038] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:51:25.336] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 09:51:33.004] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:51:33.304] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 09:51:39.271] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:51:39.570] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 09:51:50.606] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:51:50.904] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:00.001] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:01.239] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:01.538] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:11.157] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:11.456] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:19.691] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:19.990] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:28.259] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:28.558] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:29.775] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:30.074] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:31.760] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:32.042] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:32.808] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:33.108] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:35.825] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:36.108] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:43.710] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:44.008] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:51.026] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:51.326] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:52:59.944] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:53:00.243] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:53:10.878] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:53:11.177] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:53:12.944] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:53:13.244] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:53:14.845] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:53:15.144] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:53:22.962] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:53:23.262] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:53:33.663] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:53:33.962] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:53:42.514] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:53:42.813] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:53:59.616] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:53:59.915] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:54:00.001] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:54:05.899] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:54:06.199] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:54:14.033] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:54:14.332] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:54:15.099] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:54:15.682] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:54:25.534] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:54:25.833] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/kirk/wallpaper/spider.webp, preload path /run/user/1000/.hyprpaper_hicciM
+[LOG] Unloading target /home/kirk/wallpaper/spider.webp, preload path /run/user/1000/.hyprpaper_kpdUX6
+[2025-01-04 09:55:00.002] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[LOG] Unloading target /home/kirk/wallpaper/spider.webp, preload path /run/user/1000/.hyprpaper_V6t2VX
+[LOG] Unloading target /home/kirk/wallpaper/spider.webp, preload path /run/user/1000/.hyprpaper_Zlg3z1
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: preload /home/kirk/wallpaper/Patterns.png
+[LOG] Preloaded target /home/kirk/wallpaper/Patterns.png in 298.33ms -> Pixel size: [8000, 4500]
+[LOG] Buffer created for target /home/kirk/wallpaper/Patterns.png, Shared Memory usage: 8.3MB
+[LOG] Buffer created for target /home/kirk/wallpaper/Patterns.png, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 16.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: wallpaper DP-1,/home/kirk/wallpaper/Patterns.png
+[LOG] Buffer created for target /home/kirk/wallpaper/Patterns.png, Shared Memory usage: 23.0MB
+[LOG] Total SM usage for all buffers: 39.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] configure for DP-1
+[LOG] handlePreferredScale: 1.00 for 733ca0003e70
+[LOG] configure for DP-1
+[LOG] Buffer created for target /home/kirk/wallpaper/Patterns.png, Shared Memory usage: 5.8MB
+[LOG] Total SM usage for all buffers: 45.4MB
+[LOG] Image data for DP-1: /home/kirk/wallpaper/Patterns.png at [-0.00, 0.00], scale: 0.20 (original image size: [8000, 4500])
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Submitting viewport dest size 1600x900 for 733ca0003e70
+[LOG] Received a request: unload all
+[LOG] Unloading target /home/kirk/wallpaper/Patterns.png, preload path /run/user/1000/.hyprpaper_7Xd0Wt
+[LOG] Unloading target /home/kirk/wallpaper/Patterns.png, preload path /run/user/1000/.hyprpaper_vshbNg
+[LOG] Unloading target /home/kirk/wallpaper/Patterns.png, preload path /run/user/1000/.hyprpaper_zuPNd7
+[LOG] Unloading target /home/kirk/wallpaper/Patterns.png, preload path /run/user/1000/.hyprpaper_2JS8xf
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] handlePreferredScale: 1.20 for 733ca0003e70
+[LOG] Pool buffer missing for available target??
+[LOG] Pool buffer failed #2. Ignoring WP.
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: preload /home/kirk/wallpaper/Patterns.png
+[LOG] Preloaded target /home/kirk/wallpaper/Patterns.png in 301.07ms -> Pixel size: [8000, 4500]
+[LOG] Buffer created for target /home/kirk/wallpaper/Patterns.png, Shared Memory usage: 8.3MB
+[LOG] Buffer created for target /home/kirk/wallpaper/Patterns.png, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 16.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Received a request: wallpaper HDMI-A-1,/home/kirk/wallpaper/Patterns.png
+[LOG] Buffer created for target /home/kirk/wallpaper/Patterns.png, Shared Memory usage: 23.0MB
+[LOG] Total SM usage for all buffers: 39.6MB
+[LOG] Accepted incoming socket connection request on fd 4
+[LOG] Closing Accepted Connection
+[LOG] configure for HDMI-A-1
+[LOG] handlePreferredScale: 1.00 for 61bf5841c1c0
+[LOG] configure for HDMI-A-1
+[LOG] Buffer created for target /home/kirk/wallpaper/Patterns.png, Shared Memory usage: 5.8MB
+[LOG] Total SM usage for all buffers: 45.4MB
+[LOG] Image data for HDMI-A-1: /home/kirk/wallpaper/Patterns.png at [-2734.37, 0.00], scale: 0.36 (original image size: [8000, 4500])
+[LOG] Submitting viewport dest size 900x1600 for 61bf5841c1c0
+[LOG] handlePreferredScale: 1.20 for 61bf5841c1c0
+:: Wallpaper Cache disabled
+[LOG] Image data for HDMI-A-1: /home/kirk/wallpaper/Patterns.png at [-2734.38, 0.00], scale: 0.43 (original image size: [8000, 4500])
+:: Setting wallpaper with source image /home/kirk/wallpaper/Patterns.png
+:: Path of current wallpaper copied to /home/kirk/.config/settings/cache/current_wallpaper
+:: Wallpaper Filename: Patterns.png
+:: Wallpaper effect is set to off
+:: Stop all running waybar instances
+:: Execute pywal with /home/kirk/wallpaper/Patterns.png
+[LOG] Submitting viewport dest size 900x1600 for 61bf5841c1c0
+[LOG] handlePreferredScale: 1.20 for 61bf5841c1c0
+We got: en
+Post command ~/.config/hypr/scripts/wallpaper.sh /home/kirk/wallpaper/Patterns.png && ~/scripts/launch.sh executed
+Error: Failed to connect to unix /tmp/kitty_pywal with error: dial unix /tmp/kitty_pywal: connect: no such file or directory
+/home/kirk/.config/hypr/scripts/wallpaper.sh: line 141: /home/kirk/.config/waybar/launch.sh: No such file or directory
+:: Generate new cached wallpaper blur-50x30-off-Patterns.png with blur 50x30
+:: Resized to 75%
+:: Blurred
+:: Generate new cached wallpaper square-Patterns.png
+waybar: no process found
+:: Reload ags
+:: Theme: /gruv
+
+(waybar:617765): Gtk-WARNING **: 09:55:11.652: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(waybar:617765): Gtk-WARNING **: 09:55:11.652: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-04 09:55:11.667] [info] Using configuration file /home/kirk/.config/waybar/themes/gruv/config
+[2025-01-04 09:55:11.667] [info] Including resource file: ~/.config/settings/waybar-quicklinks.json
+[2025-01-04 09:55:11.667] [info] Including resource file: ~/.config/waybar/modules.json
+[2025-01-04 09:55:11.669] [info] Discovered appearance 'dark'
+[2025-01-04 09:55:11.670] [info] Using CSS file /home/kirk/.config/waybar/themes/gruv/colored/style.css
+[2025-01-04 09:55:11.674] [info] Hyprland IPC starting
+[2025-01-04 09:55:11.676] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 09:55:11.676] [info] Loading persistent workspaces from Hyprland workspace rules
+
+(gjs:617782): Gtk-WARNING **: 09:55:11.677: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(gjs:617782): Gtk-WARNING **: 09:55:11.677: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-04 09:55:11.679] [warning] no bluetooth controller found
+[2025-01-04 09:55:11.680] [warning] No batteries.
+[2025-01-04 09:55:11.719] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 09:55:11.719] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-04 09:55:11.721] [warning] no bluetooth controller found
+[2025-01-04 09:55:11.722] [warning] No batteries.
+[2025-01-04 09:55:11.969] [info] Bar configured (width: 1572, height: 37) for output: DP-1
+[2025-01-04 09:55:11.969] [info] Bar configured (width: 872, height: 37) for output: HDMI-A-1
+[2025-01-04 09:55:12.353] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:56:00.001] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:56:02.658] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:56:02.956] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:56:09.607] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:56:09.906] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:57:00.001] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 09:57:06.393] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:57:06.693] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 09:57:14.161] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:57:14.461] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 09:57:35.412] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:57:35.712] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 09:57:41.297] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 09:57:41.595] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 09:58:00.001] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:58:24.567] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:58:24.866] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:58:31.551] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-04 09:58:31.849] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 09:59:00.344] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-01-04 09:59:00.345] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 09:59:00.345] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-04 09:59:00.345] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-01-04 09:59:00.345] [info] Loading persistent workspaces from Waybar config
+[2025-01-04 09:59:00.346] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-04 10:00:00.001] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 10:00:12.855] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 10:00:13.139] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 10:00:14.272] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 10:00:14.572] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 10:00:54.642] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-04 10:00:54.941] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-04 10:01:00.001] [info] Bar configured (width: 918, height: 37) for output: HDMI-A-1
+[2025-01-04 10:01:00.959] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 10:01:01.258] [info] Bar configured (width: 918, height: 37) for output: HDMI-A-1
+[2025-01-04 10:01:06.093] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-04 10:01:06.391] [info] Bar configured (width: 918, height: 37) for output: HDMI-A-1
+[2025-01-04 10:01:21.883] [info] Bar configured (width: 906, height: 37) for output: HDMI-A-1
+debug: Found portal inhibitor
+debug: Attempted path: /usr/bin/../share/obs/obs-studio/locale/en-US.ini
+debug: Attempted path: /usr/bin/../share/obs/obs-studio/locale.ini
+debug: Attempted path: /usr/bin/../share/obs/obs-studio/themes
+debug: Attempted path: /usr/bin/../share/obs/obs-studio/themes/
+warning: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+warning: [Safe Mode] Unclean shutdown detected!
+[2025-01-04 10:01:28.013] [info] Bar configured (width: 918, height: 37) for output: HDMI-A-1
+warning: [Safe Mode] User elected to launch normally.
+info: Platform: Wayland
+info: CPU Name: AMD Ryzen 7 5800H with Radeon Graphics
+info: CPU Speed: 2670.918MHz
+info: Physical Cores: 8, Logical Cores: 16
+info: Physical Memory: 28991MB Total, 16404MB Free
+info: Kernel Version: Linux 6.12.8-arch1-1
+info: Distribution: "Arch Linux" Unknown
+info: Desktop Environment: Hyprland (Hyprland)
+info: Session Type: wayland
+info: Qt Version: 6.8.1 (runtime), 6.8.1 (compiled)
+info: Portable mode: false
+[2025-01-04 10:01:29.740] [info] Bar configured (width: 906, height: 37) for output: HDMI-A-1
+info: OBS 31.0.0 (linux)
+info: ---------------------------------
+info: ---------------------------------
+info: audio settings reset:
+	samples per sec: 48000
+	speakers:        2
+	max buffering:   960 milliseconds
+	buffering type:  dynamically increasing
+info: ---------------------------------
+info: Initializing OpenGL...
+info: Using EGL/Wayland
+info: Initialized EGL 1.5
+info: Loading up OpenGL on adapter AMD AMD Radeon Graphics (radeonsi, renoir, LLVM 18.1.8, DRM 3.59, 6.12.8-arch1-1)
+info: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.3.2-arch1.1, shading language 4.60
+info: ---------------------------------
+info: video settings reset:
+	base resolution:   1920x1080
+	output resolution: 1920x1080
+	downscale filter:  Bicubic
+	fps:               60/1
+	format:            NV12
+	YUV mode:          Rec. 709/Partial
+info: NV12 texture support enabled
+info: P010 texture support not available
+info: Audio monitoring device:
+	name: Default
+	id: default
+info: ---------------------------------
+warning: Failed to load 'en-US' text for module: 'decklink-captions.so'
+warning: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+libDeckLinkAPI.so: cannot open shared object file: No such file or directory
+warning: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+warning: Failed to initialize module 'decklink.so'
+info: [pipewire] Available capture sources:
+info: [pipewire]     - Monitor source
+info: [pipewire]     - Window source
+warning: v4l2loopback not installed, virtual camera not registered
+info: VAAPI: API version 1.22
+info: FFmpeg VAAPI H264 encoding supported
+info: FFmpeg VAAPI AV1 encoding not supported
+info: FFmpeg VAAPI HEVC encoding supported
+error: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+
+info: NVENC not supported
+warning: Failed to initialize module 'obs-nvenc.so'
+info: ---------------------------------
+info:   Loaded Modules:
+info:     text-freetype2.so
+info:     rtmp-services.so
+info:     obs-x264.so
+info:     obs-webrtc.so
+info:     obs-vst.so
+info:     obs-transitions.so
+info:     obs-qsv11.so
+info:     obs-outputs.so
+info:     obs-libfdk.so
+info:     obs-filters.so
+info:     obs-ffmpeg.so
+info:     linux-v4l2.so
+info:     linux-pulseaudio.so
+info:     linux-pipewire.so
+info:     linux-jack.so
+info:     linux-capture.so
+info:     linux-alsa.so
+info:     image-source.so
+info:     frontend-tools.so
+info:     decklink-output-ui.so
+info:     decklink-captions.so
+info: ---------------------------------
+info: ---------------------------------
+info: Available Encoders:
+info:   Video Encoders:
+info: 	- ffmpeg_svt_av1 (SVT-AV1)
+info: 	- ffmpeg_aom_av1 (AOM AV1)
+info: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+info: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+info: 	- obs_x264 (x264)
+info:   Audio Encoders:
+info: 	- ffmpeg_aac (FFmpeg AAC)
+info: 	- ffmpeg_opus (FFmpeg Opus)
+info: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+info: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+info: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+info: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+info: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+info: 	- libfdk_aac (libfdk AAC)
+info: ==== Startup complete ===============================================
+info: All scene data cleared
+info: ------------------------------------------------
+info: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+info: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+info: pulse-input: Started recording from 'alsa_output.usb-DisplayLink_Plugable_UD_6950H_235703-02.analog-stereo.monitor' (default)
+info: [Loaded global audio device]: 'Desktop Audio'
+info: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+info: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+info: pulse-input: Started recording from 'alsa_input.usb-DisplayLink_Plugable_UD_6950H_235703-02.iec958-stereo' (default)
+info: [Loaded global audio device]: 'Mic/Aux'
+info: PipeWire initialized
+info: Switched to scene 'Scene'
+info: ------------------------------------------------
+info: Loaded scenes:
+info: - scene 'Scene':
+info:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+info: ------------------------------------------------
+info: [pipewire] Screencast session created
+[2025-01-04 10:01:30.214] [info] Bar configured (width: 942, height: 37) for output: HDMI-A-1
+warning: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+[2025-01-04 10:01:30.245] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+warning: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+info: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+
+info: [pipewire] Asking for monitor and window
+info: [pipewire] source selected, setting up screencast
+info: [pipewire] Server version: 1.2.7
+info: [pipewire] Library version: 1.2.7
+info: [pipewire] Header version: 1.2.7
+info: [pipewire] Created stream 0x62079418cf40
+info: [pipewire] Stream 0x62079418cf40 state: "connecting" (error: none)
+info: [pipewire] Playing stream 0x62079418cf40
+info: [pipewire] Stream 0x62079418cf40 state: "paused" (error: none)
+info: [pipewire] Negotiated format:
+info: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+info: [pipewire]     Modifier: 0x0
+info: [pipewire]     Size: 1920x1080
+info: [pipewire]     Framerate: 0/1
+info: [pipewire] Negotiated format:
+info: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+info: [pipewire]     Modifier: 0x20000044051ba01
+info: [pipewire]     Size: 1920x1080
+info: [pipewire]     Framerate: 0/1
+info: [pipewire] Stream 0x62079418cf40 state: "streaming" (error: none)
+error: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+info: [pipewire] Renegotiating stream
+info: [pipewire] Stream 0x62079418cf40 state: "paused" (error: none)
+info: [pipewire] Negotiated format:
+info: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+info: [pipewire]     Modifier: 0x20000044051ba01
+info: [pipewire]     Size: 1920x1080
+info: [pipewire]     Framerate: 0/1
+info: [pipewire] Negotiated format:
+info: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+info: [pipewire]     Modifier: 0x20000044051b901
+info: [pipewire]     Size: 1920x1080
+info: [pipewire]     Framerate: 0/1
+info: [pipewire] Stream 0x62079418cf40 state: "streaming" (error: none)
+error: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+info: [pipewire] Renegotiating stream
+info: [pipewire] Stream 0x62079418cf40 state: "paused" (error: none)
+info: [pipewire] Negotiated format:
+info: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+info: [pipewire]     Modifier: 0x20000044051b901
+info: [pipewire]     Size: 1920x1080
+info: [pipewire]     Framerate: 0/1
+info: [pipewire] Negotiated format:
+info: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+info: [pipewire]     Modifier: 0x200000440517901
+info: [pipewire]     Size: 1920x1080
+info: [pipewire]     Framerate: 0/1
+info: [pipewire] Stream 0x62079418cf40 state: "streaming" (error: none)
+error: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+info: [pipewire] Renegotiating stream
+info: [pipewire] Stream 0x62079418cf40 state: "paused" (error: none)
+info: [pipewire] Negotiated format:
+info: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+info: [pipewire]     Modifier: 0x200000440517901
+info: [pipewire]     Size: 1920x1080
+info: [pipewire]     Framerate: 0/1
+info: [pipewire] Negotiated format:
+info: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+info: [pipewire]     Modifier: 0x200000000401a01
+info: [pipewire]     Size: 1920x1080
+info: [pipewire]     Framerate: 0/1
+info: [pipewire] Stream 0x62079418cf40 state: "streaming" (error: none)
+info: ---------------------------------
+info: [x264 encoder: 'simple_video_recording'] preset: veryfast
+info: [x264 encoder: 'simple_video_recording'] profile: high
+info: [x264 encoder: 'simple_video_recording'] settings:
+	rate_control: CRF
+	bitrate:      0
+	buffer size:  0
+	crf:          23
+	fps_num:      60
+	fps_den:      1
+	width:        1920
+	height:       1080
+	keyint:       250
+
+info: libfdk_aac encoder created
+info: libfdk_aac bitrate: 192, channels: 2
+info: ==== Recording Start ===============================================
+info: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/kirk/2025-01-04 10-01-37.mkv'...
+[2025-01-04 10:01:41.562] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-04 10:01:42.162] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-04 10:01:43.379] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-04 10:01:43.978] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-04 10:01:46.163] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-04 10:01:46.462] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-04 10:02:00.001] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-04 10:03:36.034] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+[2025-01-04 10:03:36.334] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-04 10:04:00.001] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+info: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/kirk/2025-01-04 10-01-37.mkv' stopped
+info: Output 'simple_file_output': stopping
+info: Output 'simple_file_output': Total frames output: 9765
+info: Output 'simple_file_output': Total drawn frames: 9804
+info: ==== Recording Stop ================================================
+info: libfdk_aac encoder destroyed
+warning: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+[2025-01-04 10:05:00.001] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+
+(nemo:651500): Gtk-WARNING **: 10:05:04.042: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(nemo:651500): Gtk-WARNING **: 10:05:04.042: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+
+(nemo:651500): Nemo-WARNING **: 10:05:04.060: Current gtk theme is not known to have nemo support (YOUR_DARK_GTK3_THEME) - checking...
+
+(nemo:651500): Nemo-WARNING **: 10:05:04.086: The theme appears to have no nemo support.  Adding some...
+
+(nemo:651500): Nemo-WARNING **: 10:05:04.381: Action '90_new-launcher.nemo_action' is missing dependency: cinnamon-desktop-editor
+[0000586f16bbf520] main libvlc: Running vlc with the default interface. Use 'cvlc' to use vlc without interface.
+[2025-01-04 10:05:16.059] [warning] Item 'vlc': Image file “vlc” contains no data
+[2025-01-04 10:05:16.060] [warning] Item 'vlc': Image file “vlc” contains no data
+[2025-01-04 10:05:16.062] [info] Bar configured (width: 986, height: 37) for output: HDMI-A-1
+[2025-01-04 10:05:16.062] [warning] Item 'vlc': Image file “vlc” contains no data
+[2025-01-04 10:05:16.082] [warning] Item 'vlc': Image file “vlc” contains no data
+[2025-01-04 10:05:16.082] [warning] Item 'vlc': Image file “vlc” contains no data
+
+(waybar:617765): LIBDBUSMENU-GTK-WARNING **: 10:05:16.090: Children but no menu, someone's been naughty with their 'children-display' property: 'submenu'
+
+(waybar:617765): LIBDBUSMENU-GTK-WARNING **: 10:05:16.091: Children but no menu, someone's been naughty with their 'children-display' property: 'submenu'
+
+(waybar:617765): LIBDBUSMENU-GTK-WARNING **: 10:05:16.091: Children but no menu, someone's been naughty with their 'children-display' property: 'submenu'
+
+(waybar:617765): LIBDBUSMENU-GTK-WARNING **: 10:05:16.092: Children but no menu, someone's been naughty with their 'children-display' property: 'submenu'
+
+(waybar:617765): LIBDBUSMENU-GTK-WARNING **: 10:05:16.092: Children but no menu, someone's been naughty with their 'children-display' property: 'submenu'
+
+(waybar:617765): LIBDBUSMENU-GTK-WARNING **: 10:05:16.092: Children but no menu, someone's been naughty with their 'children-display' property: 'submenu'
+
+(waybar:617765): LIBDBUSMENU-GLIB-WARNING **: 10:05:16.099: Unable to replace properties on 0: Error getting properties for ID
+
+(waybar:617765): LIBDBUSMENU-GLIB-WARNING **: 10:05:16.105: Unable to replace properties on 0: Error getting properties for ID
+[2025-01-04 10:05:16.109] [warning] Item 'vlc': Image file “vlc” contains no data
+[2025-01-04 10:05:16.109] [warning] Item 'vlc': Image file “vlc” contains no data
+[00007fbe08c07f10] avcodec decoder: Using Mesa Gallium driver 24.3.2-arch1.1 for AMD Radeon Graphics (radeonsi, renoir, LLVM 18.1.8, DRM 3.59, 6.12.8-arch1-1) for hardware decoding
+[2025-01-04 10:05:19.974] [info] Bar configured (width: 987, height: 37) for output: HDMI-A-1
+[2025-01-04 10:05:19.974] [warning] Item 'vlc': Image file “vlc” contains no data
+[2025-01-04 10:05:20.273] [info] Bar configured (width: 986, height: 37) for output: HDMI-A-1
+[2025-01-04 10:05:20.274] [warning] Item 'vlc': Image file “vlc” contains no data
+[2025-01-04 10:05:20.308] [info] Bar configured (width: 987, height: 37) for output: HDMI-A-1
+[2025-01-04 10:05:20.308] [warning] Item 'vlc': Image file “vlc” contains no data
+[2025-01-04 10:05:20.607] [info] Bar configured (width: 986, height: 37) for output: HDMI-A-1
+[2025-01-04 10:05:20.607] [warning] Item 'vlc': Image file “vlc” contains no data
+[h264 @ 0x7fbe08ce4b40] get_buffer() failed
+[h264 @ 0x7fbe08ce4b40] thread_get_buffer() failed
+[h264 @ 0x7fbe08ce4b40] decode_slice_header error
+[h264 @ 0x7fbe08ce4b40] no frame!
+[h264 @ 0x7fbe08d00880] get_buffer() failed
+[h264 @ 0x7fbe08d00880] thread_get_buffer() failed
+[h264 @ 0x7fbe08d00880] decode_slice_header error
+[h264 @ 0x7fbe08d00880] no frame!
+
+(waybar:617765): LIBDBUSMENU-GLIB-WARNING **: 10:05:20.934: Unable to replace properties on 0: Error getting properties for ID
+
+(waybar:617765): LIBDBUSMENU-GTK-WARNING **: 10:05:20.934: Children but no menu, someone's been naughty with their 'children-display' property: 'submenu'
+
+(waybar:617765): LIBDBUSMENU-GTK-WARNING **: 10:05:20.934: Children but no menu, someone's been naughty with their 'children-display' property: 'submenu'
+
+(waybar:617765): LIBDBUSMENU-GTK-WARNING **: 10:05:20.935: Children but no menu, someone's been naughty with their 'children-display' property: 'submenu'
+
+(waybar:617765): LIBDBUSMENU-GLIB-WARNING **: 10:05:20.935: Unable to replace properties on 0: Error getting properties for ID
+
+(waybar:617765): LIBDBUSMENU-GTK-WARNING **: 10:05:20.935: Children but no menu, someone's been naughty with their 'children-display' property: 'submenu'
+
+(waybar:617765): LIBDBUSMENU-GTK-WARNING **: 10:05:20.935: Children but no menu, someone's been naughty with their 'children-display' property: 'submenu'
+
+(waybar:617765): LIBDBUSMENU-GTK-WARNING **: 10:05:20.935: Children but no menu, someone's been naughty with their 'children-display' property: 'submenu'
+[2025-01-04 10:05:20.937] [warning] Item 'vlc': Image file “vlc” contains no data
+[2025-01-04 10:05:20.937] [warning] Item 'vlc': Image file “vlc” contains no data
+
+(waybar:617765): LIBDBUSMENU-GLIB-WARNING **: 10:05:20.937: Group Properties error: GDBus.Error:org.freedesktop.DBus.Error.UnknownObject: No such object path '/MenuBar'
+
+(waybar:617765): LIBDBUSMENU-GLIB-WARNING **: 10:05:20.937: Unable to replace properties on 0: GDBus.Error:org.freedesktop.DBus.Error.UnknownObject: No such object path '/MenuBar'
+
+(waybar:617765): LIBDBUSMENU-GLIB-WARNING **: 10:05:20.937: Group Properties error: GDBus.Error:org.freedesktop.DBus.Error.UnknownObject: No such object path '/MenuBar'
+
+(waybar:617765): LIBDBUSMENU-GLIB-WARNING **: 10:05:20.937: Group Properties error: GDBus.Error:org.freedesktop.DBus.Error.UnknownObject: No such object path '/MenuBar'
+
+(waybar:617765): LIBDBUSMENU-GLIB-WARNING **: 10:05:20.937: Unable to replace properties on 0: GDBus.Error:org.freedesktop.DBus.Error.UnknownObject: No such object path '/MenuBar'
+
+(waybar:617765): LIBDBUSMENU-GLIB-WARNING **: 10:05:20.937: Group Properties error: GDBus.Error:org.freedesktop.DBus.Error.UnknownObject: No such object path '/MenuBar'
+[2025-01-04 10:05:20.940] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[000059beb8e1e520] main libvlc: Running vlc with the default interface. Use 'cvlc' to use vlc without interface.
+[2025-01-04 10:05:23.318] [warning] Item 'vlc': Image file “vlc” contains no data
+[2025-01-04 10:05:23.318] [warning] Item 'vlc': Image file “vlc” contains no data
+[2025-01-04 10:05:23.320] [info] Bar configured (width: 986, height: 37) for output: HDMI-A-1
+[2025-01-04 10:05:23.320] [warning] Item 'vlc': Image file “vlc” contains no data
+[2025-01-04 10:05:23.345] [warning] Item 'vlc': Image file “vlc” contains no data
+[2025-01-04 10:05:23.345] [warning] Item 'vlc': Image file “vlc” contains no data
+[0000732994c03eb0] avcodec decoder: Using Mesa Gallium driver 24.3.2-arch1.1 for AMD Radeon Graphics (radeonsi, renoir, LLVM 18.1.8, DRM 3.59, 6.12.8-arch1-1) for hardware decoding
+[h264 @ 0x732994c93a40] get_buffer() failed
+[h264 @ 0x732994c93a40] thread_get_buffer() failed
+[h264 @ 0x732994c93a40] decode_slice_header error
+[h264 @ 0x732994c93a40] no frame!
+[h264 @ 0x732994c93a40] get_buffer() failed
+[h264 @ 0x732994c93a40] thread_get_buffer() failed
+[h264 @ 0x732994c93a40] decode_slice_header error
+[h264 @ 0x732994c93a40] no frame!
+[h264 @ 0x732994c3d240] get_buffer() failed
+[h264 @ 0x732994c3d240] thread_get_buffer() failed
+[h264 @ 0x732994c3d240] decode_slice_header error
+[h264 @ 0x732994c3d240] no frame!
+[h264 @ 0x732994ccbcc0] get_buffer() failed
+[h264 @ 0x732994ccbcc0] thread_get_buffer() failed
+[h264 @ 0x732994ccbcc0] decode_slice_header error
+[h264 @ 0x732994ccbcc0] no frame!
+[h264 @ 0x732994c3d240] get_buffer() failed
+[h264 @ 0x732994c3d240] thread_get_buffer() failed
+[h264 @ 0x732994c3d240] decode_slice_header error
+[h264 @ 0x732994c3d240] no frame!
+[2025-01-04 10:05:37.391] [info] Bar configured (width: 987, height: 37) for output: HDMI-A-1
+[2025-01-04 10:05:37.391] [warning] Item 'vlc': Image file “vlc” contains no data
+[2025-01-04 10:05:37.691] [info] Bar configured (width: 986, height: 37) for output: HDMI-A-1
+[2025-01-04 10:05:37.691] [warning] Item 'vlc': Image file “vlc” contains no data
+[h264 @ 0x732994c93a40] get_buffer() failed
+[h264 @ 0x732994c93a40] thread_get_buffer() failed
+[h264 @ 0x732994c93a40] decode_slice_header error
+[h264 @ 0x732994c93a40] no frame!
+[h264 @ 0x732994ce7e00] get_buffer() failed
+[h264 @ 0x732994ce7e00] thread_get_buffer() failed
+[h264 @ 0x732994ce7e00] decode_slice_header error
+[h264 @ 0x732994ce7e00] no frame!
+[h264 @ 0x732994d03f40] get_buffer() failed
+[h264 @ 0x732994d03f40] thread_get_buffer() failed
+[h264 @ 0x732994d03f40] decode_slice_header error
+[h264 @ 0x732994d03f40] no frame!
+[2025-01-04 10:05:41.092] [info] Bar configured (width: 987, height: 37) for output: HDMI-A-1
+[2025-01-04 10:05:41.093] [warning] Item 'vlc': Image file “vlc” contains no data
+[2025-01-04 10:05:41.391] [info] Bar configured (width: 986, height: 37) for output: HDMI-A-1
+[2025-01-04 10:05:41.392] [warning] Item 'vlc': Image file “vlc” contains no data
+[h264 @ 0x732994c93a40] get_buffer() failed
+[h264 @ 0x732994c93a40] thread_get_buffer() failed
+[h264 @ 0x732994c93a40] decode_slice_header error
+[h264 @ 0x732994c93a40] no frame!
+[h264 @ 0x732994cafb80] get_buffer() failed
+[h264 @ 0x732994cafb80] thread_get_buffer() failed
+[h264 @ 0x732994cafb80] decode_slice_header error
+[h264 @ 0x732994cafb80] no frame!
+
+(waybar:617765): LIBDBUSMENU-GLIB-WARNING **: 10:05:41.768: Unable to replace properties on 0: Error getting properties for ID
+
+(waybar:617765): LIBDBUSMENU-GTK-WARNING **: 10:05:41.768: Children but no menu, someone's been naughty with their 'children-display' property: 'submenu'
+
+(waybar:617765): LIBDBUSMENU-GTK-WARNING **: 10:05:41.769: Children but no menu, someone's been naughty with their 'children-display' property: 'submenu'
+
+(waybar:617765): LIBDBUSMENU-GTK-WARNING **: 10:05:41.769: Children but no menu, someone's been naughty with their 'children-display' property: 'submenu'
+
+(waybar:617765): LIBDBUSMENU-GLIB-WARNING **: 10:05:41.769: Unable to replace properties on 0: Error getting properties for ID
+
+(waybar:617765): LIBDBUSMENU-GTK-WARNING **: 10:05:41.769: Children but no menu, someone's been naughty with their 'children-display' property: 'submenu'
+
+(waybar:617765): LIBDBUSMENU-GTK-WARNING **: 10:05:41.770: Children but no menu, someone's been naughty with their 'children-display' property: 'submenu'
+
+(waybar:617765): LIBDBUSMENU-GTK-WARNING **: 10:05:41.770: Children but no menu, someone's been naughty with their 'children-display' property: 'submenu'
+[2025-01-04 10:05:41.771] [warning] Item 'vlc': Image file “vlc” contains no data
+[2025-01-04 10:05:41.771] [warning] Item 'vlc': Image file “vlc” contains no data
+
+(waybar:617765): LIBDBUSMENU-GLIB-WARNING **: 10:05:41.771: Group Properties error: GDBus.Error:org.freedesktop.DBus.Error.UnknownObject: No such object path '/MenuBar'
+
+(waybar:617765): LIBDBUSMENU-GLIB-WARNING **: 10:05:41.771: Unable to replace properties on 0: GDBus.Error:org.freedesktop.DBus.Error.UnknownObject: No such object path '/MenuBar'
+
+(waybar:617765): LIBDBUSMENU-GLIB-WARNING **: 10:05:41.771: Group Properties error: GDBus.Error:org.freedesktop.DBus.Error.UnknownObject: No such object path '/MenuBar'
+
+(waybar:617765): LIBDBUSMENU-GLIB-WARNING **: 10:05:41.771: Group Properties error: GDBus.Error:org.freedesktop.DBus.Error.UnknownObject: No such object path '/MenuBar'
+
+(waybar:617765): LIBDBUSMENU-GLIB-WARNING **: 10:05:41.771: Unable to replace properties on 0: GDBus.Error:org.freedesktop.DBus.Error.UnknownObject: No such object path '/MenuBar'
+
+(waybar:617765): LIBDBUSMENU-GLIB-WARNING **: 10:05:41.771: Group Properties error: GDBus.Error:org.freedesktop.DBus.Error.UnknownObject: No such object path '/MenuBar'
+[2025-01-04 10:05:41.776] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+
+(nemo:651500): Gtk-CRITICAL **: 10:05:42.842: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:651500): Gtk-CRITICAL **: 10:05:42.842: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:651500): Gtk-CRITICAL **: 10:05:42.842: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:651500): Gtk-CRITICAL **: 10:05:42.842: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:651500): Gtk-CRITICAL **: 10:05:42.842: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:651500): Gtk-CRITICAL **: 10:05:42.842: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:651500): Gtk-CRITICAL **: 10:05:42.842: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:651500): Gtk-CRITICAL **: 10:05:42.842: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+[2025-01-04 10:05:57.727] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+[2025-01-04 10:05:58.026] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-04 10:05:58.128] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+[2025-01-04 10:05:58.426] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-04 10:06:00.001] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+warning: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+warning: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+[2025-01-04 10:06:05.027] [info] Bar configured (width: 957, height: 37) for output: HDMI-A-1
+[2025-01-04 10:06:05.327] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+[2025-01-04 10:06:09.562] [info] Bar configured (width: 957, height: 37) for output: HDMI-A-1
+[2025-01-04 10:06:09.859] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+[2025-01-04 10:06:11.586] [info] Bar configured (width: 944, height: 37) for output: HDMI-A-1
+[2025-01-04 10:06:11.759] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+warning: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+warning: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+warning: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+warning: Number of remaining views: 1
+info: ---------------------------------
+info: video settings reset:
+	base resolution:   1920x1080
+	output resolution: 1920x1080
+	downscale filter:  Bicubic
+	fps:               30/1
+	format:            NV12
+	YUV mode:          Rec. 709/Partial
+info: NV12 texture support enabled
+info: P010 texture support not available
+info: Settings changed (video)
+info: ------------------------------------------------
