@@ -151,78 +151,6 @@ print_checklist_tte() {
     setup_cron_job
 } || checklist[cron_job]=false
 
-# Section 5: Post-Configuration
-{
-    log_status " 🔧 Running post-configuration scripts..." | lsd-print
-    # Run config.sh script in the same terminal
-    cd ~/scripts || { log_error "Failed to navigate to ~/scripts"; exit 1; }
-    ./config.sh || { log_error "Failed to run config.sh"; exit 1; }
-
-    checklist[post_configuration]=true
-} || checklist[post_configuration]=false
-clear
-
-print_checklist_tte
-
-# Post Installation Summary
-echo "   Hyprland Gruvbox Installation is Complete !! 🫠
-     A list of common helpful keybinds is below:" | lsd-print
-
-echo " ⌨️  ▏ 󰖳 + ENTER             👻   Ghostty Terminal
-⌨️  ▏ 󰖳 + B                    Firefox
-⌨️  ▏ 󰖳 + F                    Nemo File Browser
-⌨️  ▏ 󰖳 + N                    NeoVim
-⌨️  ▏ 󰖳 + SPACE              󰀻  Rofi App Launcher
-⌨️  ▏ 󰖳 + Q                  󰅙  Close Window
-⌨️  ▏ 󰖳 + CTRL + Q           󰗽  Logout
-⌨️  ▏ 󰖳 + Mouse Left        🪟  Move Window""
-
-"To display a full list of keybinds use  ⌨️   ▏ CTRL + SPACE
-or left-click the gear icon    in the Waybar" | lsd-print
-
-# Options for reboot, rerun, or exit
-echo " Restart is required to complete setup !!" | lsd-print
-echo -e " 1.  🥾   Reboot now \n"
-echo -e " 2.  🔙   Rerun the installation script\n"
-echo -e " 3.  🚀   Exit \n"
-
-# Prompt user for input
-read -p " Enter your choice: " choice
-
-# Check the user's input
-case $choice in
-  1)
-        echo : ibooting now..."  | lsd-print
-        sudo reboot
-        ;;
-  2)
-        echo " Rerunning the script...  📜" | lsd-print
-        exec "$0"  # Reruns the current script
-        ;;
-  3)
-        echo " Exiting. System will not reboot... 🚀" lsd-print
-        exit 0
-        ;;
-  *)
-        echo " Invalid input. Exiting terminal... 🚀" | lsd-print
-        exit 0
-        ;;
-esac
-
-
-##### START OF CONFIG.SH SCRIPT #####
-
-#!/bin/bash
-clear
-
-# Gruvbox colors
-RESET="\e[0m"                 # Reset all attributes
-GREEN="\e[38;2;142;192;124m"  # #8ec07c
-CYAN="\e[38;2;69;133;136m"    # #458588:q
-YELLOW="\e[38;2;215;153;33m"  # #d79921
-RED="\e[38;2;204;36;29m"      # #cc241d
-GRAY="\e[38;2;60;56;54m"      # #3c3836"
-BOLD="\e[1m"                  # Bold text
 
 # Missing pkgs, Fix Zsh, refresh Hyprland, move Ass’s  ##
 echo "${GREEN}${BOLD}     Running post-boot configuration..." | lsd-print
@@ -345,7 +273,7 @@ echo -e " ✔️   Installation is complete."    | lsd-print
 echo " Choose an option:"                  | lsd-print
 echo " 1.  󰑎   Rerun this script"
 echo -e " 2.  󰩈   Exit \n"
-echo "If at any time you would like too rerun the Gruvbox configuration again simply type: 'monitor' into a temrinal window  🤓 "
+echo "If at any time you would like too rerun the Gruvbox configuration again simply type: 'config' into a temrinal window  🤓 "
 
 # Check the user's input or proceed to the default action
 case $choice in
@@ -360,7 +288,83 @@ case $choice in
         ;;
     *)
         echo ""
-        echo "  ⛔️   No input detected." | lsd-print
+
+
+
+
+# Section 5: Post-Configuration
+{
+    log_status " 🔧 Running post-configuration scripts..." | lsd-print
+    # Run config.sh script in the same terminal
+    cd ~/scripts || { log_error "Failed to navigate to ~/scripts"; exit 1; }
+    ./config.sh || { log_error "Failed to run config.sh"; exit 1; }
+
+    checklist[post_configuration]=true
+} || checklist[post_configuration]=false
+clear
+
+print_checklist_tte
+
+# Post Installation Summary
+echo "   Hyprland Gruvbox Installation is Complete !! 🫠
+     A list of common helpful keybinds is below:" | lsd-print
+
+echo " ⌨️  ▏ 󰖳 + ENTER             👻   Ghostty Terminal
+⌨️  ▏ 󰖳 + B                    Firefox
+⌨️  ▏ 󰖳 + F                    Nemo File Browser
+⌨️  ▏ 󰖳 + N                    NeoVim
+⌨️  ▏ 󰖳 + SPACE              󰀻  Rofi App Launcher
+⌨️  ▏ 󰖳 + Q                  󰅙  Close Window
+⌨️  ▏ 󰖳 + CTRL + Q           󰗽  Logout
+⌨️  ▏ 󰖳 + Mouse Left        🪟  Move Window""
+
+"To display a full list of keybinds use  ⌨️   ▏ CTRL + SPACE
+or left-click the gear icon    in the Waybar" | lsd-print
+
+# Options for reboot, rerun, or exit
+echo " Restart is required to complete setup !!" | lsd-print
+echo -e " 1.  🥾   Reboot now \n"
+echo -e " 2.  🔙   Rerun the installation script\n"
+echo -e " 3.  🚀   Exit \n"
+
+# Prompt user for input
+read -p " Enter your choice: " choice
+
+# Check the user's input
+case $choice in
+  1)
+        echo : ibooting now..."  | lsd-print
+        sudo reboot
+        ;;
+  2)
+        echo " Rerunning the script...  📜" | lsd-print
+        exec "$0"  # Reruns the current script
+        ;;
+  3)
+        echo " Exiting. System will not reboot... 🚀" lsd-print
+        exit 0
+        ;;
+  *)
+        echo " Invalid input. Exiting terminal... 🚀" | lsd-print
+        exit 0
+        ;;
+esac
+
+
+##### START OF CONFIG.SH SCRIPT #####
+
+#!/bin/bash
+clear
+
+# Gruvbox colors
+RESET="\e[0m"                 # Reset all attributes
+GREEN="\e[38;2;142;192;124m"  # #8ec07c
+CYAN="\e[38;2;69;133;136m"    # #458588:q
+YELLOW="\e[38;2;215;153;33m"  # #d79921
+RED="\e[38;2;204;36;29m"      # #cc241d
+GRAY="\e[38;2;60;56;54m"      # #3c3836"
+BOLD="\e[1m"                  # Bold text
+  echo "  ⛔️   No input detected." | lsd-print
         echo "Close terminal windows with keybind:  󰌓  ▏ 󰖳 + Q" | lsd-print
         ;;
 
