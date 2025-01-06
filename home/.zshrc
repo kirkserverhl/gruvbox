@@ -35,7 +35,7 @@ alias v='$EDITOR'
 alias vim='$EDITOR'
 alias ts='~/scripts/snapshot.sh'
 alias cleanup='~/scripts/cleanup.sh'
-alias ascii='~/scripts/figlet.sh'
+alias fig='~/scripts/figlet.sh'
 alias wifi='nmtui'
 alias monitor='~/scripts/monitor.sh'
 alias zsh='nvim ~/.zshrc'
@@ -71,6 +71,7 @@ alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias dusage='du -sh * 2>/dev/null'
 alias ping='ping -c 5'
 alias fastping='ping -c 100 -i .2'
+alias config ="~/scripts/config.sh"
 
 # Miscellaneous
 alias ff='fastfetch'

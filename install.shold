@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 
 # Gruvbox colors
 RESET="\e[0m"                 ``# Reset all attributes
@@ -9,8 +10,6 @@ RED="\e[38;2;204;36;29m"      # #cc241d
 GRAY="\e[38;2;60;56;54m"      # #3c3836"
 BOLD="\e[1m"                  # Bold text
 
-
-clear
 
 echo -e "${GREEN}${BOLD} 🫠  Welcome to Hyprland Gruvbox Installation !!"
 echo -e "        Sit back and enjoy the ride !!   🚀 ${RESET}"
@@ -29,17 +28,14 @@ checklist=(
 log_status() {
     echo -e "${CYAN}[INFO]${RESET} $1"
 }
-
 # Function to print success messages
 log_success() {
     echo -e "${GREEN}[SUCCESS]${RESET} $1"
 }
-
 # Function to print warning messages
 log_warning() {
     echo -e "${YELLOW}[WARNING]${RESET} $1"
 }
-
 # Function to print error messages
 log_error() {
     echo -e "${RED}[ERROR]${RESET} $1"
@@ -63,11 +59,9 @@ print_checklist_tte() {
     else
         cat "$checklist_file"
     fi
-
     # Clean up temporary file
     rm "$checklist_file"
 }
-
 
 # Function to add a cron job
 setup_cron_job() {
@@ -81,22 +75,23 @@ setup_cron_job() {
 
 # Section 1: Git and Yay Setup
 {
-    echo ""
-    log_status " ⚙️  Installing Git and Yay..."
-    echo "     " && sudo pacman -S --noconfirm git || log_error "Failed to install git"
-    git clone https://aur.archlinux.org/yay.git || log_error "Failed to clone yay"
-    cd yay
-    makepkg -si --noconfirm || log_error "Failed to build and install yay"
-    cd .. 
-    echo ""
-    log_success "Git and Yay installed successfully."
+log_status " ⚙️  Installing Git and Yay..."  | lsd-print
+    echo "     " && sudo pacman -S --noconfirm git waybar waypaper wayland-protocols cmake meson scdoc lsd-print-git python-pywal16 python-pywalfox neovim qt5-wayland qt6-wayland qt6ct-kde scdoc
+    git clone https://aur.archlinux.org/yay.git 
+    git clone https://https://github.com/kirkserverhl/gruvbox.git || log_error "Failed to download Gruvbox"
+    cd yay && makepkg -si --noconfirm 
+    log_success "Git and Yay installed successfully." | lsd-print
     checklist[git_and_yay]=true
 } || checklist[git_and_yay]=false
+
+
+
+
 
 # Section 2: Install Packages
 {
   echo ""
-  log_status "📦️  Installing packages..."
+  log_status "📦️  Installing packages..." | lsd-print
   echo ""
   if yay -S --noconfirm "${PACKAGES[@]}"; then
       log_success "All packages installed successfully."
@@ -110,37 +105,25 @@ setup_cron_job() {
   fi
 
 	PACKAGES=(
-    	amd-ucode aylurs-gtk-shell base base-devel blueprint-compiler bluez bluez-utils blueberry bpytop brightnessctl btrfs-progs cliphist cmake cmatrix cbonsai-git
-    	duf dunst efibootmgr eza fastfetch figlet firefox fortune-mod fortune-mod-archlinux fzf git ghostty
-    	gnome-text-editor go grim grimblast-git
-    	gst-plugin-pipewire gum htop hyprpolkitagent hyprpicker hyprshade hyprcursor hyprpaper hypridle hyprgraphics  hyprlang hyprutils hyprwayland-scanner
-    	imagemagick intel-media-driver iwd  kitty kvantum libpulse libva-intel-driver linux linux-firmware lsd lsd-print-git lua
-    	meson nemo nemo-emblems nemo-preview nemo-terminal neovim neovim-lspconfig neovim-web-devicons-git network-manager-applet networkmanager
-    	noto-fonts noto-fonts-emoji nwg-dock-hyprland nwg-look otf-fira-sans otf-font-awesome pacseek pacman-mirrorlist pavucontrol pinta pipewire pipewire-alsa
-    	pipewire-jack pipewire-pulse pomodorolm prettier python-pywal16 python-pywalfox python-pillow python-hyprpy python-vlc qt5-base
-    	qt5-graphicaleffects qt5-wayland qt6-wayland qt6ct-kde rofi-calc rofi-wayland sdm-sugar-candy-git
-    	smile slurp smartmontools sof-firmware starship stow timeshift timeshift-autosnap tmux ttf-sharetech-mono-nerd unzip vala vim
-    	vlc vlc-materia-skin-git vulkan-intel vulkan-radeon wl-clipboard wl-clipboard-history-git wget wireless_tools
-    	wireplumber wofi xclip xdg-desktop-portal-gtk xdg-desktop-portal-hyprland xdg-utils xf86-video-amdgpu xf86-video-ati xf86-video-nouveau xf86-video-vmware
-    	xorg-xhost xorg-server xorg-xinit xorg-wayland xsettingsd waypaper waybar wtype yazi zig zoxide zram-generator zsh-autosuggestions-git
-    	zsh wlogout python-terminaltexteffects
+    	amd-ucode aylurs-gtk-shell base base-devel blueprint-compiler bluez bluez-utils blueberry bpytop brightnessctl btrfs-progs cliphist cmatrix duf efibootmgr eza fastfetch figlet fortune-mod fortune-mod-archlinux fzf git ghostty go grim grimblast-git gst-plugin-pipewire gum htop hyprpolkitagent hyprpicker hyprshade hyprcursor hyprpaper hypridle hyprgraphics  hyprlang hyprutils hyprwayland-scanner
+    	imagemagick intel-media-driver iwd  kate konsole kvantum libpulse libva-intel-driver linux linux-firmware lsd lua neovim-lspconfig neovim-web-devicons-git network-manager-applet networkmanager
+    	noto-fonts noto-fonts-emoji nwg-dock-hyprland nwg-look otf-fira-sans otf-font-awesome pacseek pacman-mirrorlist pavucontrol pinta pipewire pipewire-alsa pipewire-jack pipewire-pulse pomodorolm prettier python-pillow python-hyprpy python-vlc qt5-base qt5-graphicaleffects rofi-calc rofi-wayland sdm-sugar-candy-git
+    	smile slurp smartmontools sof-firmware starship stow timeshift timeshift-autosnap tmux ttf-sharetech-mono-nerd unzip vala vim vlc vlc-materia-skin-git vulkan-intel vulkan-radeon wl-clipboard wl-clipboard-history-git wget wireless_tools
+    	wireplumber xclip xdg-desktop-portal-gtk xdg-desktop-portal-hyprland xdg-utils xf86-video-amdgpu xf86-video-ati xf86-video-nouveau xf86-video-vmware	xorg-xhost xorg-server xorg-xinit xorg-wayland xsettingsd  wtype yazi zig zoxide zram-generator zsh-autosuggestions-git zsh wlogout python-terminaltexteffects
 	)
-  echo ""
-
+  
 	yay -S --noconfirm "${PACKAGES[@]}" || log_error "Failed to install packages"
 	checklist[install_packages]=true
 } || checklist[install_packages]=false
 
 # Section 3: Configuration
-echo ""
 {
-	log_status "🛠️  Applying configurations..." | lsd-print
-	echo ""
-  sudo cp ~/.dotfiles/assets/pacman.conf /etc/ || log_error "Failed to move pacman.conf"
+	log_status " 🛠️    Applying configurations..." | lsd-print
+	sudo cp ~/.dotfiles/assets/pacman.conf /etc/ || log_error "Failed to move pacman.conf"
 	cd ~/.dotfiles || log_error "Failed to enter .dotfiles directory"
 
 	STOW_DIRS=("ags" "bat" "bpytop" "byobu" "dunst" "fastfetch" "fontconfig" "fzf" "ghostty" "gtk-3.0" "gtk-4.0" "home"
-    	"htop" "hypr" "kitty" "nemo" "nvim" "nwg-dock-hyprland" "nwg-look" "pacseek" "pomodorolm" "qt6ct" "rofi" "scripts" "sddm" "settings" "systemd" "vim" "vlc"
+    	"htop" "hypr" "kitty" "nvim" "nwg-dock-hyprland" "nwg-look" "pacseek" "pomodorolm" "qt6ct" "rofi" "scripts" "settings" "systemd" "vim" "vlc"
     	"wal" "waybar" "waypaper" "wlogout" "xdg-desktop-portal"
       "xsettingsd" "yazi" "znt" ".config" "oh-my-zsh")
 
@@ -153,54 +136,59 @@ echo ""
 
 # Section 4: Starting Cron Job
 {
-	log_status " 🕰️  Setting up cron job..." | lsd-print
+	log_status "   🕰️    Setting up cron job..." | lsd-print
 	setup_cron_job
 } || checklist[cron_job]=false
 
+
 # Section 5: Post-Configuration
 {
-    log_status " 🔧 Running post-configuration scripts..." | lsd-print
-    echo "Checking ~/scripts/config.sh"
+	log_status "  📜     Running post-configuration scripts..."
+	echo "DO NOT CLOSE THIS TERMINAL!!"
 
-    if [[ -d ~/scripts && -f ~/scripts/config.sh ]]; then
-        echo "Found ~/scripts/config.sh. Attempting to execute..."
-        cd ~/scripts
-        ./config.sh
-        if [[ $? -eq 0 ]]; then
-            checklist[post_configuration]=true
-            echo "config.sh executed successfully."
-        else
-            log_error "config.sh execution failed."
-            checklist[post_configuration]=false
-        fi
-    else
-        log_error "Directory ~/scripts or script config.sh not found."
-        checklist[post_configuration]=false
-    fi
+	# Run config.sh script in the same terminal
+	cd ~/scripts || { log_error "Failed to navigate to ~/scripts"; exit 1; }
+	./config.sh || { log_error "Failed to run config.sh"; exit 1; }
+
+	checklist[post_configuration]=true
 } || checklist[post_configuration]=false
 
-clear
-print_checklist_tte
-echo ""
-echo "   Hyprland Gruvbox Installation is Complete !! 🫠
-     A list of common helpful keybinds is below:" | lsd-print
+# Section 5: Post-Configuration
+{
+log_status "󰯂  Running post-configuration scripts..."
+	echo ""
+	echo "DO NOT CLOSE THIS TERMINAL!!"
 
-echo "⌨️  ▏ 󰖳 + ENTER             👻   Ghostty Terminal
-⌨️  ▏ 󰖳 + B                    Firefox
-⌨️  ▏ 󰖳 + N                    Nemo File Browser
-⌨️  ▏ 󰖳 + CTRL + N             NeoVim
-⌨️  ▏ 󰖳 + CTRL + ENTER       󰀻  Rofi App Launcher
-⌨️  ▏ 󰖳 + Q                  󰅙  Close Window
-⌨️  ▏ 󰖳 + CTRL + Q           󰗽  Logout
-⌨️  ▏ 󰖳 + Mouse Left         Move Window"
-echo ""
-echo "To display a full list of keybinds use  ⌨️  ▏ 󰖳 + SPACE
-or left-click the gear icon    in the Waybar" | lsd-print
+	# Run config.sh script in the same terminal
+	cd ~/scripts || { log_error "Failed to navigate to ~/scripts"; exit 1; }
+	./config.sh || { log_error "Failed to run config.sh"; exit 1; }
+
+	checklist[post_configuration]=true
+} || checklist[post_configuration]=false
+clear
+
+# Checking it TWICE- to ensure install complete
+print_checklist_tte
+
+echo -e "🎆\n  Hyprland Gruvbox Installation is Complete !! 🫠 /n
+ 🎇    A list of common helpful keybinds is below:"🎆 | lsd-print
+echo "                           🎇  "
+echo🎆" ⌨️  ▏ 󰖳 + ENTER             👻   Ghostty Terminal
+⌨️   ▏ 󰖳 + B                    Firefox
+⌨️   ▏ 󰖳 + F                    Nemo File Browser   
+⌨️   ▏ 󰖳 + N                    NeoVim                 🎇 
+⌨️   ▏ 󰖳 + ENTER               󰀻  Rofi App Launcher
+⌨️   ▏ 󰖳 + Q                  󰅙  Close WindoLw
+⌨️   ▏ 󰖳 + CTRL + Q           󰗽  Logout
+⌨️   ▏ 󰖳 + Mouse Left         Move Window            🎆 "
+    🎇 
+echo "🎆 To display a full list of keybinds use  ⌨️   ▏ 󰖳 + SPACE
+or left-click the gear icon  ⚙️  in the Waybar" | lsd-print
 
 # Options for reboot, rerun, or exit
 echo " Restart is required to complete setup !!" | lsd-print
 echo " 1.     Reboot now"
-echo " 2.  󰑎   Rerun the installation script"
+echo " 2.  󰑎   Rerun the installation script     🎆 "
 echo " 3.  󰩈   Exit"
 
 # Prompt user for input with a 60-second timeout

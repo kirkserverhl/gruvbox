@@ -10,11 +10,8 @@ RED="\e[38;2;204;36;29m"      # #cc241d
 GRAY="\e[38;2;60;56;54m"      # #3c3836"
 BOLD="\e[1m"                  # Bold text
 
-
-clear
-
 # Missing pkgs, Fix Zsh, refresh Hyprland, move Ass’s  ##
-echo "     Running post-boot configuration..." | lsd-print
+echo "${GREEN}${BOLD}     Running post-boot configuration..." | lsd-print
 
 # Function to display headers with figlet
 display_header() {
@@ -74,7 +71,7 @@ if [[ "$configure_grub" =~ ^[Yy]$ ]]; then
     curl -fsSL https://christitus.com/linux | sh; then
         track_action "Grub Install"
         mark_completed "Grub Install"
-    else
+        else
         mark_skipped "Grub Install"
     fi
 else
@@ -137,14 +134,11 @@ done
 echo -e "\n Configuration Completed Successfully." | lsd-print
 
 # Options for reboot, rerun, or exit
-echo " ✔️   Installation is complete." | lsd-print 
-echo " Choose an option:" | lsd-print
+echo "  ✔️   Installation is complete."    | lsd-print
+echo " Choose an option:"                | lsd-print
 echo " 1.  󰑎   Rerun this script"
-echo " 2.  󰩈   Exit"
-
-# Prompt user for input with a 30-second timeout
-read -t 60 -p " Enter your choice (default is exit): " choice
-echo ""
+echo -e " 2.  󰩈   Exit \n"
+echo "If at any time you would like too rerun the Gruvbox configuration again simply type: 'monitor' into a temrinal window  🤓 "
 
 # Check the user's input or proceed to the default action
 case $choice in
@@ -160,9 +154,8 @@ case $choice in
     *)
         echo ""
         echo "  ⛔️   No input detected." | lsd-print
-        echo " To close this terminal and complete installation use:  󰌓  ▏ 󰖳 + Q" | lsd-print
+        echo "Close terminal windows with keybind:  󰌓  ▏ 󰖳 + Q" | lsd-print
         ;;
-
 
 esac
 

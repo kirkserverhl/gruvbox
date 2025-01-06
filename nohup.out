@@ -8983,3 +8983,17 @@ time="2025-01-05T18:53:25-05:00" level=info msg=">>> Exporting /home/kirk/.confi
 [2025-01-05 22:54:24.819] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
 [2025-01-05 22:54:25.103] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
 [2025-01-05 22:54:25.402] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 22:55:00.002] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 22:55:08.939] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 22:55:09.223] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 22:55:09.675] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 22:55:09.973] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 22:55:13.239] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 22:55:13.523] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 22:55:16.023] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 22:55:16.306] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 22:55:17.873] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 22:55:18.172] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 22:55:22.816] [info] Bar configured (width: 941, height: 37) for output: HDMI-A-1
+[2025-01-05 22:55:23.508] [info] Bar configured (width: 942, height: 37) for output: HDMI-A-1
+[2025-01-05 22:55:23.807] [info] Bar configured (width: 941, height: 37) for output: HDMI-A-1
