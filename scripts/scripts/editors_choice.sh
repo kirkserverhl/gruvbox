@@ -94,10 +94,10 @@ print_checklist_tte() {
         # Add each installed section with its respective icon
         for section in "${checklist[@]}"; do
             case $section in
-                "Surfshark VPN") echo " 🦈  Surfshark VPN" >> "$checklist_file" ;;
-                "qBittorrent Enhanced") echo " 👿  qBittorrent" >> "$checklist_file" ;;
-                "Disk Utility") echo " 💽  Disk Utility" >> "$checklist_file" ;;
-                "Game Package") echo " 🕹️  Game Package" >> "$checklist_file" ;;
+                "Surfshark VPN") echo " 🦈  Surfshark VPN" >> "$checklist_file" ;;  | lsd-print
+                "qBittorrent Enhanced") echo " 👿  qBittorrent" >> "$checklist_file" ;; | lsd-print
+                "Disk Utility") echo " 💽  Disk Utility" >> "$checklist_file" ;; | lsd-print
+                "Game Package") echo " 🕹️  Game Package" >> "$checklist_file" ;; | lsd-print
             esac
         done
     fi

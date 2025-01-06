@@ -1,0 +1,1318 @@
+:: Reload ags
+:: Theme: /gruv
+
+(waybar:237291): Gtk-WARNING **: 12:59:47.595: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(waybar:237291): Gtk-WARNING **: 12:59:47.595: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+
+(gjs:237343): Gtk-WARNING **: 12:59:47.614: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(gjs:237343): Gtk-WARNING **: 12:59:47.614: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-05 12:59:47.620] [info] Using configuration file /home/kirk/.config/waybar/themes/gruv/config
+[2025-01-05 12:59:47.620] [info] Including resource file: ~/.config/settings/waybar-quicklinks.json
+[2025-01-05 12:59:47.620] [info] Including resource file: ~/.config/waybar/modules.json
+[2025-01-05 12:59:47.622] [info] Discovered appearance 'dark'
+[2025-01-05 12:59:47.622] [info] Using CSS file /home/kirk/.config/waybar/themes/gruv/colored/style.css
+[2025-01-05 12:59:47.627] [info] Hyprland IPC starting
+[2025-01-05 12:59:47.628] [info] Loading persistent workspaces from Waybar config
+[2025-01-05 12:59:47.628] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-05 12:59:47.632] [warning] no bluetooth controller found
+[2025-01-05 12:59:47.632] [warning] No batteries.
+[2025-01-05 12:59:47.668] [info] Loading persistent workspaces from Waybar config
+[2025-01-05 12:59:47.668] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-05 12:59:47.671] [warning] no bluetooth controller found
+[2025-01-05 12:59:47.671] [warning] No batteries.
+[2025-01-05 12:59:47.914] [info] Bar configured (width: 1572, height: 37) for output: DP-1
+[2025-01-05 12:59:47.914] [info] Bar configured (width: 872, height: 37) for output: HDMI-A-1
+[2025-01-05 12:59:48.489] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:00:00.002] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+waybar: no process found
+:: Reload ags
+:: Theme: /gruv
+
+(waybar:237896): Gtk-WARNING **: 13:00:35.492: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(waybar:237896): Gtk-WARNING **: 13:00:35.492: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+
+(gjs:237951): Gtk-WARNING **: 13:00:35.512: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(gjs:237951): Gtk-WARNING **: 13:00:35.512: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-05 13:00:35.516] [info] Using configuration file /home/kirk/.config/waybar/themes/gruv/config
+[2025-01-05 13:00:35.517] [info] Including resource file: ~/.config/settings/waybar-quicklinks.json
+[2025-01-05 13:00:35.517] [info] Including resource file: ~/.config/waybar/modules.json
+[2025-01-05 13:00:35.519] [info] Discovered appearance 'dark'
+[2025-01-05 13:00:35.519] [info] Using CSS file /home/kirk/.config/waybar/themes/gruv/colored/style.css
+[2025-01-05 13:00:35.524] [info] Hyprland IPC starting
+[2025-01-05 13:00:35.525] [info] Loading persistent workspaces from Waybar config
+[2025-01-05 13:00:35.525] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-05 13:00:35.528] [warning] no bluetooth controller found
+[2025-01-05 13:00:35.529] [warning] No batteries.
+[2025-01-05 13:00:35.564] [info] Loading persistent workspaces from Waybar config
+[2025-01-05 13:00:35.564] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-05 13:00:35.566] [warning] no bluetooth controller found
+[2025-01-05 13:00:35.566] [warning] No batteries.
+[2025-01-05 13:00:35.810] [info] Bar configured (width: 1572, height: 37) for output: DP-1
+[2025-01-05 13:00:35.810] [info] Bar configured (width: 872, height: 37) for output: HDMI-A-1
+[2025-01-05 13:00:36.368] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:00:43.263] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:00:43.612] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:00:43.895] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:00:44.195] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:00:44.796] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:00:45.095] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:00:47.363] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:00:47.662] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:00:58.680] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:00:58.964] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:00:59.113] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:00:59.414] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:01:00.002] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:01:17.898] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:01:18.198] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:01:18.932] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:01:19.233] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:01:22.482] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:01:22.782] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+waybar: no process found
+:: Reload ags
+:: Theme: /gruv
+
+(waybar:238355): Gtk-WARNING **: 13:01:32.666: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/ki
+(gjs:238409): Gtk-WARNING **: 13:01:32.666: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/rk/.config/gtk-3.0/colors.css: No such file or directory
+.config/gtk-3.0/colors.css: No such file or directory
+
+(gjs:238409): Gtk-WARNING **: 13:01:32.666: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+
+(waybar:238355): Gtk-WARNING **: 13:01:32.666: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-05 13:01:32.692] [info] Using configuration file /home/kirk/.config/waybar/themes/gruv/config
+[2025-01-05 13:01:32.692] [info] Including resource file: ~/.config/settings/waybar-quicklinks.json
+[2025-01-05 13:01:32.692] [info] Including resource file: ~/.config/waybar/modules.json
+[2025-01-05 13:01:32.694] [info] Discovered appearance 'dark'
+[2025-01-05 13:01:32.694] [info] Using CSS file /home/kirk/.config/waybar/themes/gruv/colored/style.css
+[2025-01-05 13:01:32.700] [info] Hyprland IPC starting
+[2025-01-05 13:01:32.701] [info] Loading persistent workspaces from Waybar config
+[2025-01-05 13:01:32.701] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-05 13:01:32.704] [warning] no bluetooth controller found
+[2025-01-05 13:01:32.705] [warning] No batteries.
+[2025-01-05 13:01:32.740] [info] Loading persistent workspaces from Waybar config
+[2025-01-05 13:01:32.740] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-05 13:01:32.742] [warning] no bluetooth controller found
+[2025-01-05 13:01:32.743] [warning] No batteries.
+[2025-01-05 13:01:32.987] [info] Bar configured (width: 1572, height: 37) for output: DP-1
+[2025-01-05 13:01:32.987] [info] Bar configured (width: 872, height: 37) for output: HDMI-A-1
+[2025-01-05 13:01:33.495] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:01:59.052] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:01:59.351] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:02:00.001] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:02:51.556] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:02:51.856] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:02:54.223] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:02:54.521] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:02:58.489] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:02:58.789] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:02:58.989] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:02:59.273] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:03:13.324] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:03:13.624] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:04:00.002] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:04:16.896] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:04:17.195] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:04:20.146] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:04:20.446] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+:: Wallpaper Cache disabled
+:: Setting wallpaper with source image /home/kirk/wallpaper/space_walk.png
+:: Path of current wallpaper copied to /home/kirk/.config/settings/cache/current_wallpaper
+:: Wallpaper Filename: space_walk.png
+:: Wallpaper effect is set to off
+:: Stop all running waybar instances
+:: Execute pywal with /home/kirk/wallpaper/space_walk.png
+We got: en
+Post command ~/.config/hypr/scripts/wallpaper.sh /home/kirk/wallpaper/space_walk.png && ~/scripts/launch.sh executed
+/home/kirk/.config/hypr/scripts/wallpaper.sh: line 141: /home/kirk/.config/waybar/launch.sh: No such file or directory
+:: Generate new cached wallpaper blur-50x30-off-space_walk.png with blur 50x30
+:: Resized to 75%
+:: Blurred
+:: Generate new cached wallpaper square-space_walk.png
+waybar: no process found
+:: Reload ags
+:: Theme: /gruv
+
+(waybar:246705): Gtk-WARNING **: 13:30:06.510: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(waybar:246705): Gtk-WARNING **: 13:30:06.510: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+
+(gjs:246722): Gtk-WARNING **: 13:30:06.529: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+
+(gjs:246722): Gtk-WARNING **: 13:30:06.529: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-05 13:30:06.534] [info] Using configuration file /home/kirk/.config/waybar/themes/gruv/config
+[2025-01-05 13:30:06.534] [info] Including resource file: ~/.config/settings/waybar-quicklinks.json
+[2025-01-05 13:30:06.534] [info] Including resource file: ~/.config/waybar/modules.json
+[2025-01-05 13:30:06.536] [info] Discovered appearance 'dark'
+[2025-01-05 13:30:06.536] [info] Using CSS file /home/kirk/.config/waybar/themes/gruv/colored/style.css
+[2025-01-05 13:30:06.542] [info] Hyprland IPC starting
+[2025-01-05 13:30:06.543] [info] Loading persistent workspaces from Waybar config
+[2025-01-05 13:30:06.543] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-05 13:30:06.546] [warning] no bluetooth controller found
+[2025-01-05 13:30:06.546] [warning] No batteries.
+[2025-01-05 13:30:06.579] [info] Loading persistent workspaces from Waybar config
+[2025-01-05 13:30:06.579] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-05 13:30:06.582] [warning] no bluetooth controller found
+[2025-01-05 13:30:06.582] [warning] No batteries.
+[2025-01-05 13:30:06.823] [info] Bar configured (width: 1572, height: 37) for output: DP-1
+[2025-01-05 13:30:06.823] [info] Bar configured (width: 872, height: 37) for output: HDMI-A-1
+[2025-01-05 13:30:07.407] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:30:27.978] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:30:28.276] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[246886, Main Thread] WARNING: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory: 'glib warning', file /usr/src/debug/firefox/firefox-133.0.3/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:246886): Gtk-WARNING **: 13:30:55.638: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+[246886, Main Thread] WARNING: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class: 'glib warning', file /usr/src/debug/firefox/firefox-133.0.3/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:246886): Gtk-WARNING **: 13:30:55.639: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-05 13:31:00.001] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:31:30.133] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:31:30.563] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:31:30.665] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:31:30.964] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:31:31.064] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:31:31.364] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:32:00.001] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:32:16.167] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:32:16.468] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:32:18.070] [info] Bar configured (width: 908, height: 37) for output: HDMI-A-1
+[2025-01-05 13:32:18.084] [info] Bar configured (width: 909, height: 37) for output: HDMI-A-1
+[2025-01-05 13:32:18.383] [info] Bar configured (width: 908, height: 37) for output: HDMI-A-1
+[2025-01-05 13:32:18.450] [info] Bar configured (width: 909, height: 37) for output: HDMI-A-1
+[2025-01-05 13:32:18.749] [info] Bar configured (width: 908, height: 37) for output: HDMI-A-1
+[2025-01-05 13:32:20.201] [info] Bar configured (width: 909, height: 37) for output: HDMI-A-1
+[2025-01-05 13:32:20.335] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:32:20.501] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:32:21.004] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:32:21.301] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:32:30.752] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:32:31.051] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:32:57.739] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:32:58.037] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:33:00.253] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:33:00.554] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:33:16.620] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:33:16.905] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:33:17.388] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:33:17.688] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:33:24.123] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:33:24.421] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:33:25.424] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:33:25.721] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:33:43.940] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:33:44.240] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:33:45.990] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:33:46.290] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:33:55.257] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:33:55.557] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:34:00.003] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:34:30.976] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:34:31.277] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:34:31.510] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:34:31.809] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:34:32.027] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:34:32.326] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:34:40.877] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:34:41.476] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:00.001] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:22.469] [info] Bar configured (width: 931, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:22.478] [info] Bar configured (width: 941, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:22.495] [info] Bar configured (width: 949, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:22.512] [info] Bar configured (width: 957, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:22.529] [info] Bar configured (width: 964, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:22.561] [info] Bar configured (width: 957, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:22.578] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:22.595] [info] Bar configured (width: 945, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:22.612] [info] Bar configured (width: 941, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:22.629] [info] Bar configured (width: 936, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:22.645] [info] Bar configured (width: 933, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:22.662] [info] Bar configured (width: 930, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:22.678] [info] Bar configured (width: 927, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:22.695] [info] Bar configured (width: 925, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:22.712] [info] Bar configured (width: 924, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:22.728] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:22.745] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:22.762] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:22.778] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:51.931] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:52.232] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:58.066] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:35:58.364] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:00.002] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:10.949] [info] Bar configured (width: 942, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:10.965] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:10.982] [info] Bar configured (width: 958, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:11.015] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:11.032] [info] Bar configured (width: 947, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:11.048] [info] Bar configured (width: 942, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:11.065] [info] Bar configured (width: 938, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:11.081] [info] Bar configured (width: 935, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:11.099] [info] Bar configured (width: 932, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:11.116] [info] Bar configured (width: 929, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:11.132] [info] Bar configured (width: 927, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:11.149] [info] Bar configured (width: 926, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:11.166] [info] Bar configured (width: 924, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:11.183] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:11.198] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:11.232] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:18.349] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:18.833] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:18.867] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:19.167] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:19.584] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:20.200] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:49.954] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:50.253] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:59.287] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:36:59.586] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:37:00.002] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:37:04.720] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:37:05.003] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:37:28.755] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:37:29.155] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:37:39.189] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:37:39.489] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:37:48.256] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:37:48.556] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:37:57.674] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:37:57.974] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:38:00.002] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:38:07.259] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:38:07.557] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:38:18.909] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:38:19.475] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:38:39.777] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:38:40.226] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:38:40.259] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:38:40.559] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:38:50.761] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:38:51.061] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:38:51.345] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:38:51.644] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:38:53.161] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:38:53.460] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:39:07.629] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:39:07.928] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:39:09.565] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:39:09.861] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:40:00.000] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:40:00.566] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:40:01.031] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:40:02.133] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:40:02.432] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:40:02.700] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:40:02.999] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:40:37.752] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:40:38.150] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:41:00.002] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:41:09.554] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:41:10.019] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:41:10.254] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:41:10.619] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:41:43.257] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:41:43.622] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:41:46.257] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:41:46.722] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:42:00.002] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:42:10.929] [info] Bar configured (width: 909, height: 37) for output: HDMI-A-1
+[2025-01-05 13:42:11.079] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:42:11.129] [info] Bar configured (width: 909, height: 37) for output: HDMI-A-1
+[2025-01-05 13:42:11.283] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:42:39.911] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:42:40.592] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:42:53.579] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:42:53.877] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:42:56.512] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:42:56.860] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:43:07.546] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:43:07.911] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:43:24.214] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:43:24.647] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:43:42.431] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:43:42.731] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:43:43.364] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:43:43.647] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:44:00.002] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:44:05.666] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:44:06.165] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:44:13.984] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:44:14.415] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:44:14.567] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:44:15.015] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:44:27.801] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:44:28.250] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:44:44.686] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:44:45.118] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:45:00.001] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:45:00.087] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:45:00.570] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:45:01.037] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:45:01.387] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:45:43.140] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:45:43.439] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:45:47.822] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:45:48.105] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:45:54.973] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:45:55.390] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:46:00.002] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:46:30.477] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:46:30.775] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:46:30.925] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:46:31.209] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:46:31.493] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:46:31.992] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:46:53.294] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:46:53.877] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:46:56.977] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:46:57.343] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:47:00.002] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:47:05.295] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:47:05.811] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:47:40.047] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:47:40.497] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:48:00.002] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:48:13.283] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:48:13.582] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:48:13.767] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:48:14.066] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:48:28.118] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:48:28.618] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:49:05.320] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:49:05.670] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:49:06.503] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:49:07.086] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:49:11.787] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:49:12.187] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:49:21.405] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:49:21.871] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:49:31.672] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:49:31.971] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:49:35.306] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 13:49:35.605] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:50:00.002] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:51:00.002] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:51:16.429] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:51:16.864] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:51:17.796] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:51:18.197] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:51:18.279] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:51:18.645] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:52:00.001] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:53:50.142] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:53:50.740] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:54:00.002] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:54:46.496] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:54:46.878] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:55:00.002] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:55:14.647] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:55:14.948] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:55:17.514] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:55:17.798] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:55:25.549] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:55:25.848] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:55:27.515] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:55:27.814] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:55:31.733] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:55:32.132] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:55:32.199] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:55:32.617] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:55:33.332] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:55:33.750] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:56:00.001] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:56:02.602] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:56:03.052] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:56:24.820] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:56:25.203] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:56:28.837] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:56:29.320] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:56:38.705] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:56:39.155] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:56:54.772] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:56:55.189] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:57:00.002] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:57:02.439] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 13:57:02.872] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 13:58:00.001] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:58:36.063] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:58:36.480] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:59:30.350] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:59:30.868] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:59:44.735] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:59:45.134] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:59:48.252] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:59:48.753] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:59:49.636] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:59:50.085] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:59:54.086] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:59:54.387] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 13:59:57.270] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 13:59:57.570] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:00:00.002] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:01:00.002] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:02:00.002] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:02:47.082] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:02:47.382] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:02:48.549] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:02:48.848] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:02:57.049] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:02:57.349] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:02:58.400] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:02:58.915] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:02:59.017] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:02:59.500] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:03:01.050] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:03:01.498] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:03:02.183] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:03:02.616] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:03:02.750] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:03:03.199] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:03:05.500] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:03:05.967] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[248679, Main Thread] WARNING: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory: 'glib warning', file /usr/src/debug/firefox/firefox-133.0.3/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:248679): Gtk-WARNING **: 14:03:14.534: Theme parsing error: gtk.css:1:21: Failed to import: Error opening file /home/kirk/.config/gtk-3.0/colors.css: No such file or directory
+[248679, Main Thread] WARNING: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class: 'glib warning', file /usr/src/debug/firefox/firefox-133.0.3/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:248679): Gtk-WARNING **: 14:03:14.534: Theme parsing error: gtk.css:7:2: Invalid name of pseudo-class
+[2025-01-05 14:03:16.667] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:03:16.684] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:03:16.783] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:03:16.818] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:03:16.919] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:03:16.952] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:03:18.434] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:03:18.735] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:03:19.251] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:03:19.534] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:03:32.256] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:03:32.552] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:03:32.603] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:03:32.902] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:04:00.001] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:04:21.423] [info] Bar configured (width: 924, height: 37) for output: HDMI-A-1
+[2025-01-05 14:04:21.821] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:05:00.002] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:05:39.896] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:05:40.262] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:06:00.003] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:06:17.682] [info] Bar configured (width: 924, height: 37) for output: HDMI-A-1
+[2025-01-05 14:06:18.065] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:06:19.081] [info] Bar configured (width: 924, height: 37) for output: HDMI-A-1
+[2025-01-05 14:06:19.448] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:06:19.682] [info] Bar configured (width: 924, height: 37) for output: HDMI-A-1
+[2025-01-05 14:06:20.013] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:06:20.983] [info] Bar configured (width: 924, height: 37) for output: HDMI-A-1
+[2025-01-05 14:06:21.698] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:07:00.002] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:07:36.554] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:07:36.837] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:07:52.255] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:07:52.554] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:08:00.002] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:08:24.157] [info] Bar configured (width: 924, height: 37) for output: HDMI-A-1
+[2025-01-05 14:08:24.456] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:08:24.525] [info] Bar configured (width: 924, height: 37) for output: HDMI-A-1
+[2025-01-05 14:08:24.991] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:08:25.675] [info] Bar configured (width: 924, height: 37) for output: HDMI-A-1
+[2025-01-05 14:08:25.973] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:08:46.126] [info] Bar configured (width: 924, height: 37) for output: HDMI-A-1
+[2025-01-05 14:08:46.559] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:09:02.994] [info] Bar configured (width: 924, height: 37) for output: HDMI-A-1
+[2025-01-05 14:09:03.459] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:09:09.861] [info] Bar configured (width: 924, height: 37) for output: HDMI-A-1
+[2025-01-05 14:09:10.160] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:09:10.277] [info] Bar configured (width: 924, height: 37) for output: HDMI-A-1
+[2025-01-05 14:09:10.577] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:09:13.828] [info] Bar configured (width: 924, height: 37) for output: HDMI-A-1
+[2025-01-05 14:09:14.127] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:09:14.379] [info] Bar configured (width: 924, height: 37) for output: HDMI-A-1
+[2025-01-05 14:09:14.677] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:09:22.512] [info] Bar configured (width: 924, height: 37) for output: HDMI-A-1
+[2025-01-05 14:09:22.911] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:09:33.696] [info] Bar configured (width: 924, height: 37) for output: HDMI-A-1
+[2025-01-05 14:09:33.995] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:09:34.980] [info] Bar configured (width: 924, height: 37) for output: HDMI-A-1
+[2025-01-05 14:09:35.278] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:10:00.002] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:10:07.582] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:10:07.881] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:10:07.949] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:10:08.248] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:10:32.034] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:10:32.333] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:10:33.535] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:10:33.832] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:10:49.035] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:10:49.335] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:10:51.419] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:10:52.067] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:11:00.001] [info] Bar configured (width: 918, height: 37) for output: HDMI-A-1
+[2025-01-05 14:11:50.089] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 14:11:50.604] [info] Bar configured (width: 918, height: 37) for output: HDMI-A-1
+[2025-01-05 14:11:54.773] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 14:11:55.121] [info] Bar configured (width: 918, height: 37) for output: HDMI-A-1
+[2025-01-05 14:12:00.001] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 14:12:14.741] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:12:15.040] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 14:12:25.257] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:12:25.557] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 14:12:50.394] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:12:50.843] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 14:13:14.795] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:13:15.178] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 14:14:00.000] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:14:10.616] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:14:10.916] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:15:00.001] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 14:15:06.438] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:15:06.737] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 14:15:33.739] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:15:34.037] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 14:15:35.105] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:15:35.406] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 14:15:49.091] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:15:49.390] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 14:15:56.158] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:15:56.456] [info] Bar configured (width: 919, height: 37) for output: HDMI-A-1
+[2025-01-05 14:16:00.002] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:17:00.002] [info] Bar configured (width: 918, height: 37) for output: HDMI-A-1
+[2025-01-05 14:18:00.003] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:18:42.003] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:18:42.468] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:19:55.891] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:19:56.190] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:19:59.691] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:19:59.974] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:20:00.001] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:20:19.010] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:20:19.543] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:20:40.161] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:20:40.911] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:20:41.079] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:20:41.377] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:21:00.002] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:21:09.997] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:21:10.296] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:21:11.047] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:21:11.347] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:21:35.632] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:21:35.931] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:21:36.115] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:21:36.414] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:22:00.002] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:22:39.953] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:22:40.337] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:23:23.973] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:23:24.657] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:23:24.823] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:23:25.106] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:24:00.002] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:25:00.002] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:25:49.150] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:25:49.499] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:26:00.001] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:26:16.970] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:26:17.320] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:26:46.706] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:26:47.072] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:26:52.240] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:26:52.639] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:27:00.002] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:28:00.002] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:28:19.781] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:28:20.264] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:29:55.622] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:29:56.038] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:30:12.107] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:30:12.689] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:31:00.002] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:31:53.282] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:31:53.764] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:32:00.001] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:32:10.033] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:32:10.316] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:32:13.600] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:32:13.900] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:33:11.188] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:33:11.488] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:33:11.772] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:33:12.071] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:33:55.609] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:33:56.190] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:00.002] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:13.260] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:13.560] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+sh: line 1: activate: command not found
+[2025-01-05 14:34:15.828] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:16.127] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:17.143] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:17.443] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:18.327] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:18.344] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:18.394] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:18.461] [info] Bar configured (width: 920, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:18.477] [info] Bar configured (width: 921, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:18.511] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:18.576] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:18.611] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:21.094] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:21.378] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:23.244] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:23.693] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:24.744] [info] Bar configured (width: 923, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:25.042] [info] Bar configured (width: 922, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:25.988] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:26.011] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:26.310] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:43.728] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:44.028] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:44.895] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:45.195] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:45.278] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:45.577] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:51.479] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:51.779] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:52.596] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:52.895] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:54.379] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:54.679] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:56.630] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:34:56.929] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:00.003] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:00.563] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:00.862] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:01.131] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:01.429] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:12.789] [info] Bar configured (width: 941, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:12.815] [info] Bar configured (width: 942, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:13.114] [info] Bar configured (width: 941, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:36.952] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:37.249] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+/home/kirk/scripts/filemanager.sh: line 1: nemo: command not found
+/home/kirk/scripts/filemanager.sh: line 1: nemo: command not found
+[2025-01-05 14:35:41.933] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:42.649] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:43.933] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:44.233] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:46.608] [info] Bar configured (width: 964, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:46.616] [info] Bar configured (width: 974, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:46.649] [info] Bar configured (width: 971, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:46.666] [info] Bar configured (width: 968, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:46.683] [info] Bar configured (width: 965, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:46.699] [info] Bar configured (width: 963, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:46.716] [info] Bar configured (width: 961, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:46.733] [info] Bar configured (width: 959, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:46.749] [info] Bar configured (width: 958, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:46.766] [info] Bar configured (width: 957, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:46.783] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:46.799] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:46.816] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:46.849] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+kf.i18n: KLocalizedString: Domain is not set for this string, translation will not work. Please see https://api.kde.org/frameworks/ki18n/html/prg_guide.html msgid: "No jobs" msgid_plural: "" msgctxt: ""
+14:35:52.058-debug default unknown@0 # virtual const QPalette* Qt6CTPlatformTheme::palette(QPlatformTheme::Palette) const QPlatformTheme::SystemPalette
+14:35:52.093-debug default unknown@0 # virtual const QPalette* Qt6CTPlatformTheme::palette(QPlatformTheme::Palette) const QPlatformTheme::ToolButtonPalette
+14:35:52.093-debug default unknown@0 # virtual const QPalette* Qt6CTPlatformTheme::palette(QPlatformTheme::Palette) const QPlatformTheme::ButtonPalette
+14:35:52.093-debug default unknown@0 # virtual const QPalette* Qt6CTPlatformTheme::palette(QPlatformTheme::Palette) const QPlatformTheme::CheckBoxPalette
+14:35:52.093-debug default unknown@0 # virtual const QPalette* Qt6CTPlatformTheme::palette(QPlatformTheme::Palette) const QPlatformTheme::RadioButtonPalette
+14:35:52.093-debug default unknown@0 # virtual const QPalette* Qt6CTPlatformTheme::palette(QPlatformTheme::Palette) const QPlatformTheme::HeaderPalette
+14:35:52.093-debug default unknown@0 # virtual const QPalette* Qt6CTPlatformTheme::palette(QPlatformTheme::Palette) const QPlatformTheme::ItemViewPalette
+14:35:52.093-debug default unknown@0 # virtual const QPalette* Qt6CTPlatformTheme::palette(QPlatformTheme::Palette) const QPlatformTheme::MessageBoxLabelPelette
+14:35:52.093-debug default unknown@0 # virtual const QPalette* Qt6CTPlatformTheme::palette(QPlatformTheme::Palette) const QPlatformTheme::TabBarPalette
+14:35:52.093-debug default unknown@0 # virtual const QPalette* Qt6CTPlatformTheme::palette(QPlatformTheme::Palette) const QPlatformTheme::LabelPalette
+14:35:52.093-debug default unknown@0 # virtual const QPalette* Qt6CTPlatformTheme::palette(QPlatformTheme::Palette) const QPlatformTheme::GroupBoxPalette
+14:35:52.093-debug default unknown@0 # virtual const QPalette* Qt6CTPlatformTheme::palette(QPlatformTheme::Palette) const QPlatformTheme::MenuPalette
+14:35:52.093-debug default unknown@0 # virtual const QPalette* Qt6CTPlatformTheme::palette(QPlatformTheme::Palette) const QPlatformTheme::MenuBarPalette
+14:35:52.093-debug default unknown@0 # virtual const QPalette* Qt6CTPlatformTheme::palette(QPlatformTheme::Palette) const QPlatformTheme::TextEditPalette
+14:35:52.093-debug default unknown@0 # virtual const QPalette* Qt6CTPlatformTheme::palette(QPlatformTheme::Palette) const QPlatformTheme::TextEditPalette
+14:35:52.093-debug default unknown@0 # virtual const QPalette* Qt6CTPlatformTheme::palette(QPlatformTheme::Palette) const QPlatformTheme::TextLineEditPalette
+14:35:52.093-debug default unknown@0 # virtual const QPalette* Qt6CTPlatformTheme::palette(QPlatformTheme::Palette) const QPlatformTheme::ToolTipPalette
+14:35:52.093-debug default unknown@0 # virtual QVariant Qt6CTPlatformTheme::themeHint(QPlatformTheme::ThemeHint) const
+14:35:52.106-debug default unknown@0 # virtual const QPalette* Qt6CTPlatformTheme::palette(QPlatformTheme::Palette) const QPlatformTheme::SystemPalette
+14:35:52.106-debug default unknown@0 # virtual const QPalette* Qt6CTPlatformTheme::palette(QPlatformTheme::Palette) const QPlatformTheme::SystemPalette
+14:35:52.106-debug default unknown@0 # System icon theme: "Gruvbox-Plus-Dark"
+[2025-01-05 14:35:52.267] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+14:35:52.291-warning default unknown@0 # QWidget::insertAction: Attempt to insert null action
+14:35:52.292-critical default unknown@0 # Couldn't start kglobalaccel from org.kde.kglobalaccel.service: QDBusError("org.freedesktop.DBus.Error.ServiceUnknown", "The name is not activatable")
+14:35:52.294-warning kf.i18n unknown@0 # Trying to convert empty KLocalizedString to QString.
+14:35:52.427-warning default unknown@0 # The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+[2025-01-05 14:35:52.700] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:53.817] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:35:54.235] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:36:00.001] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+14:36:00.056-warning kf.kio.widgets unknown@0 # Failed to check which JobView API is supported "The name is not activatable"
+14:36:00.074-warning default unknown@0 # The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+14:36:11.059-warning default unknown@0 # The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+[2025-01-05 14:36:15.103] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:36:15.502] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:36:41.789] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:36:42.404] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:36:55.272] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:36:55.889] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:36:55.955] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:36:56.238] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:36:56.489] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:36:57.038] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:36:58.040] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:36:58.456] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:36:58.573] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:36:58.872] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:36:58.989] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:36:59.839] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:36:59.873] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:37:00.006] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:37:00.272] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:37:01.657] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:37:01.956] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:37:04.540] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:37:04.822] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:37:10.173] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:37:10.673] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:37:17.925] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:37:18.324] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:37:22.441] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:37:22.890] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:37:49.477] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:37:49.894] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:37:52.593] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:37:52.893] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:37:57.094] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:37:57.627] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:00.002] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:31.813] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:32.196] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:33.196] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:34.063] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:34.148] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:34.663] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:36.314] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:36.780] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:37.197] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:38.363] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:38.630] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:39.147] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:39.229] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:39.514] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:39.580] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:40.080] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:40.764] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:41.313] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:41.346] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:41.863] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:42.581] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:43.030] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:43.080] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:43.364] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:44.198] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:45.264] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:45.998] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:46.297] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:46.331] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:47.064] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:47.681] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:48.231] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:48.315] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:48.614] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:48.731] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:49.131] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:49.714] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:49.997] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:50.115] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:50.414] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:52.498] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:52.898] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:52.931] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:38:53.231] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:39:38.569] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:39:38.951] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:39:39.952] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:39:40.369] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:39:57.820] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:39:58.120] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:40:00.002] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:40:19.522] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+[2025-01-05 14:40:19.805] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:40:40.789] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+[2025-01-05 14:40:41.073] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:40:45.773] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+[2025-01-05 14:40:46.073] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:41:00.002] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:42:00.002] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:43:23.319] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:43:23.670] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:43:55.622] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:43:55.922] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:44:00.002] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:44:21.807] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+[2025-01-05 14:44:22.090] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:44:22.640] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+[2025-01-05 14:44:22.940] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:44:48.176] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+[2025-01-05 14:44:48.475] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:44:48.559] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+[2025-01-05 14:44:48.842] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:45:00.002] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:45:01.026] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:45:01.460] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:45:08.010] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:45:08.627] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:46:00.002] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:46:22.982] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+[2025-01-05 14:46:23.283] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:46:36.134] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+[2025-01-05 14:46:36.417] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:46:36.483] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+[2025-01-05 14:46:36.783] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:46:38.416] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+[2025-01-05 14:46:38.917] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:46:40.201] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+[2025-01-05 14:46:40.501] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:46:50.285] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+[2025-01-05 14:46:50.568] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:46:52.485] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+[2025-01-05 14:46:52.785] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:47:00.002] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:47:03.319] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:47:03.602] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:47:36.371] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:47:36.671] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:47:37.605] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:47:37.889] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:47:44.024] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:47:44.505] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:47:46.274] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:47:46.756] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:48:00.002] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:50:00.001] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:51:00.001] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:51:50.042] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:51:50.424] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:52:00.002] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:54:00.001] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:00.002] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:35.592] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:36.075] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:36.142] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:36.641] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:41.576] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:41.875] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:41.976] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:42.275] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:44.109] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:44.408] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:46.926] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:47.309] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:48.915] [info] Bar configured (width: 964, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:48.941] [info] Bar configured (width: 962, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:48.958] [info] Bar configured (width: 961, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:48.975] [info] Bar configured (width: 959, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:48.991] [info] Bar configured (width: 958, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:49.008] [info] Bar configured (width: 957, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:49.024] [info] Bar configured (width: 956, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:49.058] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:49.074] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:49.124] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:50.459] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:55:50.892] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:00.002] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:18.711] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:19.010] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:23.278] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:23.578] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:24.263] [info] Bar configured (width: 943, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:24.544] [info] Bar configured (width: 942, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:24.862] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:25.161] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:27.822] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:28.111] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:32.163] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:32.679] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:32.995] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:33.295] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:36.278] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:36.579] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:42.112] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:42.496] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:51.031] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:51.330] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:51.413] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:51.714] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:54.414] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:54.847] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:55.548] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:56:56.047] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:00.002] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:11.115] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:11.598] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:11.765] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:12.314] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:16.366] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:16.715] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:30.383] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:30.684] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:36.484] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:36.783] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:40.901] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:41.200] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:44.467] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:44.751] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:46.451] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:46.751] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:54.985] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:55.284] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:57.085] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:57.385] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:57.569] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 14:57:57.869] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 14:58:00.001] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:58:02.969] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:58:03.519] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:58:13.520] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:58:13.854] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:58:20.337] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:58:20.636] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:58:35.288] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:58:35.587] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:58:39.905] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:58:40.205] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:58:42.289] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:58:42.571] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:58:45.122] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:58:45.422] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:58:45.555] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:58:45.855] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:58:47.306] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:58:47.723] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:59:01.473] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:59:02.023] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:59:08.291] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:59:08.591] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:59:09.040] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:59:09.340] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:59:20.608] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:59:20.908] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:59:21.558] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:59:21.858] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:59:30.293] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:59:30.658] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:59:37.777] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:59:38.076] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:59:45.876] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:59:46.176] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:59:53.810] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:59:54.110] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 14:59:54.227] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 14:59:54.527] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:15.178] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:15.628] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:25.545] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:25.846] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:26.495] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:27.063] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:28.630] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:28.929] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:30.563] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:30.863] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:32.696] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:32.997] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:33.030] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:33.463] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:35.196] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:35.480] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:38.213] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:38.497] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:42.130] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:42.429] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:42.513] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:42.813] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:45.331] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:45.730] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:47.714] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:00:48.163] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:01:00.002] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:01:02.299] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:01:02.699] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:01:20.833] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:01:21.133] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:01:30.668] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:01:31.450] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:01:40.401] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:01:40.935] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:01:41.052] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:01:41.634] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:01:41.701] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:01:42.417] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:01:43.068] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:01:43.367] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:02:00.002] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:04:00.002] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:04:07.677] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:04:08.061] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:04:31.947] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:04:32.246] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:04:49.531] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:04:49.831] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:05:00.002] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:06:00.002] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:07:00.002] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:07:11.591] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:07:11.974] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:07:33.243] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:07:33.793] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:07:50.330] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:07:50.627] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:07:54.464] [info] Bar configured (width: 940, height: 37) for output: HDMI-A-1
+[2025-01-05 15:07:54.478] [info] Bar configured (width: 941, height: 37) for output: HDMI-A-1
+[2025-01-05 15:07:54.777] [info] Bar configured (width: 940, height: 37) for output: HDMI-A-1
+[2025-01-05 15:08:00.002] [info] Bar configured (width: 942, height: 37) for output: HDMI-A-1
+[2025-01-05 15:08:01.745] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:08:02.129] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:08:15.063] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:08:15.445] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:08:17.013] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:08:17.446] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:08:18.546] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:08:18.997] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:08:20.297] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:08:20.746] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:08:21.246] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:08:21.680] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:08:22.930] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:08:23.430] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:00.416] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:01.365] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:04.132] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:04.516] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:06.433] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:07.715] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:08.033] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:08.633] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:13.383] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:13.667] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:19.834] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:20.117] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:25.918] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:26.218] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:27.001] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:27.302] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:27.968] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:28.517] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:37.802] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:38.086] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:38.385] [info] Bar configured (width: 955, height: 37) for output: HDMI-A-1
+[2025-01-05 15:09:38.685] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:10:00.002] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:10:07.570] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:10:07.869] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:10:07.987] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:10:08.287] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:10:13.588] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:10:14.088] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:10:14.321] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:10:14.621] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:10:42.507] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:10:42.990] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:10:51.641] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:10:52.140] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:10:52.175] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:10:52.574] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:11:00.002] [info] Bar configured (width: 949, height: 37) for output: HDMI-A-1
+[2025-01-05 15:11:36.060] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:11:36.394] [info] Bar configured (width: 949, height: 37) for output: HDMI-A-1
+[2025-01-05 15:12:00.002] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:12:03.695] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:12:04.612] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:12:11.279] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:12:11.580] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:12:11.780] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:12:12.080] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:12:13.697] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:12:14.029] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:12:18.397] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:12:18.880] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:12:19.580] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:12:20.047] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:12:58.267] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:12:58.566] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:12:58.868] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:12:59.633] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:13:42.770] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:13:43.270] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:13:50.637] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:13:51.203] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:13:52.154] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:13:52.720] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:14:00.002] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:14:04.937] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:14:05.403] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:14:10.938] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:14:11.405] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:14:13.072] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:14:13.538] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:14:15.005] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:14:15.872] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:15:00.002] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:15:09.259] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:15:09.576] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:15:13.160] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:15:13.526] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:15:14.026] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:15:14.493] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:15:17.810] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:15:18.309] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:15:32.210] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:15:32.910] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:15:33.128] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:15:33.428] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:16:00.002] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:16:41.883] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:16:42.183] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:16:42.216] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:16:42.516] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:17:00.002] [info] Bar configured (width: 949, height: 37) for output: HDMI-A-1
+[2025-01-05 15:17:06.734] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:17:07.784] [info] Bar configured (width: 949, height: 37) for output: HDMI-A-1
+[2025-01-05 15:17:08.185] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:17:11.018] [info] Bar configured (width: 949, height: 37) for output: HDMI-A-1
+[2025-01-05 15:17:11.051] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:17:11.336] [info] Bar configured (width: 949, height: 37) for output: HDMI-A-1
+[2025-01-05 15:17:11.369] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:17:11.868] [info] Bar configured (width: 949, height: 37) for output: HDMI-A-1
+[2025-01-05 15:17:12.336] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:17:12.868] [info] Bar configured (width: 949, height: 37) for output: HDMI-A-1
+[2025-01-05 15:17:13.535] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:17:14.385] [info] Bar configured (width: 949, height: 37) for output: HDMI-A-1
+[2025-01-05 15:17:33.003] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:17:33.869] [info] Bar configured (width: 949, height: 37) for output: HDMI-A-1
+[2025-01-05 15:17:52.638] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:17:52.938] [info] Bar configured (width: 949, height: 37) for output: HDMI-A-1
+[2025-01-05 15:17:53.238] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:17:53.521] [info] Bar configured (width: 949, height: 37) for output: HDMI-A-1
+[2025-01-05 15:17:54.188] [info] Bar configured (width: 950, height: 37) for output: HDMI-A-1
+[2025-01-05 15:17:54.605] [info] Bar configured (width: 949, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:00.002] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:22.039] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:22.339] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:22.423] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:22.723] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:32.757] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:33.307] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:36.824] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:37.358] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:37.992] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:38.408] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:38.458] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:38.874] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:39.041] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:39.459] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:43.674] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:44.058] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:47.509] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:47.959] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:50.559] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:50.858] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:51.975] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:52.574] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:58.892] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:18:59.276] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:19:00.877] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:19:01.327] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:19:13.344] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:19:13.911] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:19:23.477] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:19:23.994] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:19:24.578] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:19:25.078] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:19:25.895] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:19:26.195] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:19:26.328] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:19:26.628] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:19:36.362] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:19:36.895] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:19:42.663] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:19:43.045] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:20:00.002] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:20:02.682] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:20:03.114] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:20:03.197] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:20:03.680] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:20:04.547] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:20:04.847] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:20:05.031] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:20:05.332] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:20:40.034] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:20:40.567] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:20:41.368] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:20:41.833] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:20:49.951] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:20:50.250] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:20:50.635] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:20:50.934] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:20:51.084] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:20:51.367] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:21:00.002] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:21:01.902] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:21:02.202] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:21:05.285] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:21:05.585] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:21:06.986] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:21:07.285] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:21:10.386] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:21:10.785] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:21:15.686] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:21:15.986] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:21:21.453] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:21:21.753] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:21:23.919] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:21:24.320] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:21:40.838] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:21:41.138] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:21:57.489] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:21:57.839] [info] Bar configured (width: 951, height: 37) for output: HDMI-A-1
+[2025-01-05 15:22:00.002] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:22:00.956] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:22:01.238] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:22:43.892] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:22:44.276] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:22:48.526] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:22:48.875] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:22:49.393] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:22:49.926] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:22:50.010] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:22:50.526] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:22:59.544] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:23:00.094] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:23:00.727] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:23:01.027] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:23:01.059] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:23:01.360] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:23:19.345] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:23:20.329] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:23:22.629] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:23:23.078] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:23:32.863] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:23:33.380] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:23:54.147] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:23:54.447] [info] Bar configured (width: 952, height: 37) for output: HDMI-A-1
+[2025-01-05 15:24:00.002] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:24:00.598] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:24:00.898] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:24:14.315] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:24:14.615] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:24:15.833] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:24:16.132] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:24:16.583] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:24:16.866] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:24:17.233] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:24:17.533] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:24:17.601] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:24:18.215] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:24:29.417] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:24:29.900] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:24:32.701] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:24:33.234] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1
+[2025-01-05 15:24:53.018] [info] Bar configured (width: 954, height: 37) for output: HDMI-A-1
+[2025-01-05 15:24:53.534] [info] Bar configured (width: 953, height: 37) for output: HDMI-A-1

@@ -1,12 +1,4 @@
-#!/bin/bash
-clear
-echo ""
-echo "   Welcome to Hyprland Gruvbox Installation !!"
-echo ""
-echo " Sit back and enjoy the ride !!   "
-echo ""
-echo ""
-echo ""
+`
 
 # Checklist to track completed sections
 declare -A checklist
@@ -78,8 +70,7 @@ setup_cron_job() {
 # Section 2: Install Packages
 {
 	log_status "  Installing packages..."
-	echo ""
-  yay -Syyu --noconfirm || log_error "Failed to update package database"
+	yay -Syyu --noconfirm || log_error "Failed to update package database"
 
 	PACKAGES=(
     	alacritty  amd-ucode aylurs-gtk-shell base base-devel blueprint-compiler bluez bluez-utils blueberry bpytop brightnessctl btrfs-progs cliphist cmake cmatrix cbonsai-git
@@ -102,13 +93,14 @@ setup_cron_job() {
 	checklist[install_packages]=true
 } || checklist[install_packages]=false
 clear
+
 # Section 3: Configuration
 {
 	log_status "  Applying configurations..."
 	echo ""
-  sudo cp ~/.dotfiles/assets/pacman.conf /etc/ || log_error "Failed to move pacman.conf"
+  s
 	
-	cd ~/.dotfiles || log_error "Failed to enter .dotfiles directory"
+                                                                                                                                         
 
 	STOW_DIRS=("ags" "alacritty" "bat" "bpytop" "byobu" "dunst" "fastfetch" "fontconfig" "fzf" "ghostty" "gtk-3.0" "gtk-4.0" "home"
     	"htop" "hypr" "kitty" "nemo" "nvim" "nwg-dock-hyprland" "nwg-look" "pacseek" "pomodorolm" "qt6ct" "rofi" "scripts" "sddm" "settings" "systemd" "vim" "vlc"
@@ -139,7 +131,7 @@ echo ""
 	echo ""
 	echo "DO NOT CLOSE THIS TERMINAL!!"
 
-	# Run post-configuration scripts in a new Alacritty terminal
+	# Run post-configuration scripts in a new Alacritty termi nal
 	alacritty --hold -e bash -c "
 		cd ~/scripts || exit 1;
 		./config.sh || exit 1;
