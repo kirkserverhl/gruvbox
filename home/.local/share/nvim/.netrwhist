@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/kirk/.config'
+let g:netrw_dirhist_6='/home/kirk'
+let g:netrw_dirhist_5='/home/kirk/.dotfiles/home/.themes'
+let g:netrw_dirhist_4='/home/kirk/.dotfiles/home/.themes/Colloid-gtk-theme-main'
+let g:netrw_dirhist_3='/usr/share/themes'
+let g:netrw_dirhist_2='/home/kirk'
+let g:netrw_dirhist_1='/home/kirk/.dotfiles/home/.themes/gruvbox-kvantum-themes-main'
