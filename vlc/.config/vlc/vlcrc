@@ -1487,7 +1487,7 @@ freetype-background-opacity=128
 skins2-last=/usr/share/vlc/skins2/materia-git.vlt
 
 # Config of last used skin (string)
-skins2-config=["Player" "Main" 61 252 720 466 1]["fullscreenController" "fswindow" 90 1488 720 64 0]
+skins2-config=["Player" "Main" 61 252 1920 1144 1]["fullscreenController" "fswindow" 90 1488 720 64 0]
 
 # Enable transparency effects (boolean)
 #skins2-transparency=0
