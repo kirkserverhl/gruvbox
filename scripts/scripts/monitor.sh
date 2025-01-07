@@ -27,7 +27,7 @@ fi
 
 # Display available configurations to the user
 echo ""
-echo " Available monitor configurations:"
+echo " Available monitor configurations:" | lsd-print
 for i in "${!configs[@]}"; do
     config_name=$(basename "${configs[$i]}")
     echo "$((i + 1)). $config_name"
@@ -42,7 +42,7 @@ echo ""
 if [[ "$choice" -ge 1 && "$choice" -le "${#configs[@]}" ]]; then
     selected_conf="${configs[$((choice - 1))]}"
     selected_name=$(basename "$selected_conf")
-    echo " You selected: $selected_name"
+    echo " You selected: $selected_name" | lsd-print
 else
     echo " Invalid choice. Exiting."
     exit 1
@@ -55,5 +55,5 @@ sed -i "s|source = .*|source = $selected_conf|" "$monitor_conf"
 # Send a dunst notification
 notify-send -u normal -t 3000 "Monitor Configuration Updated" "Selected: $selected_name"
 
-echo " monitor.conf has been updated successfully!"
+echo " monitor.conf has been updated successfully!" | lsd-print
 
