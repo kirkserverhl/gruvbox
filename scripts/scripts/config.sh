@@ -10,7 +10,6 @@ YELLOW="\e[38;2;215;153;33m"  	 #d79921 ##
 RED="\e[38;2;204;36;29m"      	 #cc241d ##
 GRAY="\e[38;2;60;56;54m"      	 #3c3836 ##
 BOLD="\e[1m"                  	 # Bold  ##
-
 ###################################################################################
 # Function to display headers with figlet     #####################################
 ###################################################################################
@@ -19,6 +18,7 @@ display_header() {
     # clear
     figlet -f ~/.local/share/fonts/Graffiti.flf "$1"
 }
+
 ###################################################################################
 # Initialize checklist array ######################################################
 ###################################################################################
@@ -39,12 +39,16 @@ echo -e "\n     Running Post Install Configuration..." | lsd-print
 {
     sudo cp ~/.dotfiles/assets/pacman.conf /etc/
     yay -R dolphin --noconfirm && mkdir ~/Pictures
+    cd ~/.dotfiles
+    rm -r -f ~/.config/hypr/hyprland.conf && stow hypr --adopt && cp -f ~/.config/hypr/conf/hypr_stable.conf ~/.config/hypr/hyprland.conf
     nohup waypaper --random &>/dev/null &
+    touch ~/.conf/hypr/hyprland.conf
     echo -e "\n     Loading Nvim Plugins ... \n"
     echo -e " ✔️    Nvim Configured \n" | lsd-print
     nohup nvim --headless &>/dev/null &
     clear
 }
+
 ###################################################################################
 # SDDM Configuration  #############################################################
 ###################################################################################
@@ -106,7 +110,6 @@ clear
 ###################################################################################
 # Editors Choice Packages #########################################################
 ###################################################################################
-
 display_header "Editors Choice" | lsd-print
 echo ""
 read -p "  🫠    Would you like to install Editors Choice packages  (y/n) ? " editors_choice
@@ -126,7 +129,6 @@ clear
 ###################################################################################
 # Shell Configuration #############################################################
 ###################################################################################
-
 display_header "Shell  Setup" | lsd-print
 echo ""
 read -p "  🐢   Would you like to configure your shell  (y/n) ? " configure_shell
@@ -145,7 +147,6 @@ clear
 ###################################################################################
 # Cleanup #########################################################################
 ###################################################################################
-
 display_header "Cleanup" | lsd-print
 echo ""
 read -p "  🧹    Would you like to perform a system cleanup  (y/n) ? " perform_cleanup
@@ -164,7 +165,6 @@ clear
 ###################################################################################
 # Display Checklist Summary #######################################################
 ###################################################################################
-
 echo -e "\n  📜    Configuration Summary:"   | lsd-print
 for section in "${!checklist[@]}"; do
     echo -e "${checklist[$section]} $section"
@@ -175,7 +175,6 @@ echo -e "\n Configuration Completed Successfully." | lsd-print
 ###################################################################################
 # Options for reboot, rerun, or ###################################################
 ###################################################################################
-
 echo -e "  ✔️   Installation is complete.\n"
 echo -e " Choose an option:"                | lsd-print
 echo -e " 1.  🔙  Rerun this script \n"
