@@ -11,6 +11,10 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:version
+|2,0,1736124271,,"version"
+::version
+|2,0,1736124255,,":version"
 :q
 |2,0,1735994905,,"q"
 :w
@@ -50,20 +54,202 @@
 # Jumplist (newest first):
 -'  1  0  ~/.config/hypr/hyprland.conf
 |4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
--'  8  1  ~/.config/hypr/hyprland.conf
-|4,39,8,1,1735994683,"~/.config/hypr/hyprland.conf"
--'  8  1  ~/.config/hypr/hyprland.conf
-|4,39,8,1,1735993060,"~/.config/hypr/hyprland.conf"
--'  302  89  ~/.config/hypr/hyprland.conf
-|4,39,302,89,1735992859,"~/.config/hypr/hyprland.conf"
--'  302  89  ~/.config/hypr/hyprland.conf
-|4,39,302,89,1735992859,"~/.config/hypr/hyprland.conf"
--'  302  89  ~/.config/hypr/hyprland.conf
-|4,39,302,89,1735992007,"~/.config/hypr/hyprland.conf"
 -'  1  0  ~/.config/hypr/hyprland.conf
-|4,39,1,0,1735991572,"~/.config/hypr/hyprland.conf"
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
 -'  1  0  ~/.config/hypr/hyprland.conf
-|4,39,1,0,1735991572,"~/.config/hypr/hyprland.conf"
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
+-'  1  0  ~/.config/hypr/hyprland.conf
+|4,39,1,0,1735994905,"~/.config/hypr/hyprland.conf"
 
 # History of marks within files (newest to oldest):
 

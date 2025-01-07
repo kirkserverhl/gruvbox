@@ -1,0 +1,11 @@
+[ExtractDialog]
+2 screens: Window-Maximized=true
+DirHistory[$e]=$HOME/.fonts/,$HOME/Downloads/,$HOME/Downloads/Material_Gruvbox_Dark_IconPack_7TSP/
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+StatusBar=Disabled
+ToolBarsMovable=Disabled

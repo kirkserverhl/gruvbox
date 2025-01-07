@@ -63,7 +63,6 @@ alias gall="git add -A"
 alias gl="git log"
 alias gll="git log --oneline"
 alias push='git push origin main --force'
-alias git_config='~/scripts/git_config.sh'
 
 # System Commands
 alias shutdown='systemctl poweroff'
@@ -71,13 +70,13 @@ alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias dusage='du -sh * 2>/dev/null'
 alias ping='ping -c 5'
 alias fastping='ping -c 100 -i .2'
-alias config ="~/scripts/config.sh"
 
 # Miscellaneous
 alias ff='fastfetch'
 alias pf='pfetch'
 alias tm='tmux -2'
 alias ps='pacseek'
+alias lp='lsd-print'
 
 # -----------------------------------------------------
 # Plugins and Features
@@ -131,6 +130,18 @@ gitupdate() {
 # -----------------------------------------------------
 # END OF .zshrc
 # -----------------------------------------------------
-# 
 
 
+
+
+### ZNT's installer added snippet ###
+fpath=( "$fpath[@]" "$HOME/.config/znt/zsh-navigation-tools" )
+autoload n-aliases n-cd n-env n-functions n-history n-kill n-list n-list-draw n-list-input n-options n-panelize n-help
+autoload znt-usetty-wrapper znt-history-widget znt-cd-widget znt-kill-widget
+alias naliases=n-aliases ncd=n-cd nenv=n-env nfunctions=n-functions nhistory=n-history
+alias nkill=n-kill noptions=n-options npanelize=n-panelize nhelp=n-help
+zle -N znt-history-widget
+bindkey '^R' znt-history-widget
+setopt AUTO_PUSHD HIST_IGNORE_DUPS PUSHD_IGNORE_DUPS
+zstyle ':completion::complete:n-kill::bits' matcher 'r:|=** l:|=*'
+### END ###

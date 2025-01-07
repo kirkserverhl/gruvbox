@@ -88,4 +88,3 @@ echo "You can test the theme using the command: sudo sddm --test-mode"
 echo "To exit the test, press Ctrl+C."
 
 exit 0
-
