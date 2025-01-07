@@ -97,14 +97,7 @@ echo -e "\n  🫠   Welcome to Hyprland Gruvbox Installation !!   🚀
         git  clone https://aur.archlinux.org/yay.git || log_success "Git installed successfully"
         cd yay &&  makepkg -si --noconfirm ||   log_success "YAY installed successfully"
       PACKAGES1=(
-        base-devel figlet hyprcursor hyprgraphics hypridle hyprlang hyprpaper
-        nwg-look hyprpicker hyprpolkitagent hyprshade hyprutils hyprwayland-scanner
-        imagemagick lsd-print-git neovim network-manager-applet networkmanager
-        nwg-dock-hyprland pacman-mirrorlist pacseek python-pywal16 python-pywalfox
-        python-terminaltexteffects qt5-base qt5-declarative qt5-graphicaleffects
-        qt5-wayland qt5-x11extras qt5ct-kde qt6-base qt6-declarative qt6-wayland
-        qt6ct-kde rofi-wayland sddm-sugar-candy-git stow ttf-sharetech-mono-nerd
-        waybar waypaper xdg-desktop-portal-gtk xdg-desktop-portal-hyprland zsh
+        amd-ucode ark aylurs-gtk-shell base-devel bluez bluez-utils bpytop btrfs-progs cliphist cmake cmatrix duf efibootmgr eza fastfetch figlet fortune-mod fortune-mod-archlinux fzf ghostty ghostty-shell-integration ghostty-terminfo go grimblast-git gst-plugin-pipewire gtk-engine-murrine gum htop hyprcursor hyprgraphics hypridle hyprlang hyprpaper hyprpicker hyprpicker hyprpolkitagent hyprshade hyprutils hyprwayland-scanner imagemagick iwd kate konsole konsole-gruvbox kvantum libpulse libva-intel-driver lsd lsd-print-git lua neovim network-manager-applet network-manager-applet networkmanager nwg-dock-hyprland nwg-look otf-fira-sans otf-font-awesome pacman-mirrorlist pacman-mirrorlist pacseek pavucontrol pipewire python-hyprpy python-pywal16 python-pywalfox python-terminaltexteffects qt5-base qt5-declarative qt5-graphicaleffects qt5-wayland qt5-x11extras qt5ct-kde qt6-base qt6-declarative qt6-wayland qt6ct-kde rofi-calc rofi-wayland sddm-sugar-candy-git slurp smile starship stow syntax-highlighting tldr++ tmux tree-sitter ttf-nerd-fonts-symbols ttf-sharetech-mono-nerd vlc vlc-materia-skin-git waybar waypaper wget wireless_tools wireplumber wl-clipboard wl-clipboard-history-git wlogout wtf wtype xclip xdg-desktop-portal-gtk xdg-desktop-portal-hyprland xdg-utils xf86-video-amdgpu xf86-video-ati xf86-video-nouveau xf86-video-vmware xorg-server xorg-wayland xorg-xhost xorg-xinit xsettingsd yazi zig zoxide zsh zsh-autosuggestions-git zsh-syntax-highlighting
         )
         yay -S --noconfirm "${PACKAGES1[@]}"
      checklist[base_packages]=true
@@ -126,34 +119,16 @@ clear
 ###############################################################################################
 ## Section 3: Install Main Packages ###########################################################
 ###############################################################################################
-{
-    echo -e "   📦️    Installing Main Packages..." | lsd-print
-      PACKAGES2=(
-        amd-ucode ark aylurs-gtk-shell bluez bluez-utils bpytop btrfs-progs cliphist cmake
-        cmatrix duf efibootmgr eza fastfetch fortune-mod fortune-mod-archlinux fzf go
-        grimblast-git gst-plugin-pipewire gum htop iwd libpulse libva-intel-driver lsd lua
-        ghostty ghostty-shell-integration ghostty-terminfo gtk-engine-murrine hyprpicker kate
-        konsole konsole-gruvbox kvantum nemo nemo-terminal network-manager-applet otf-fira-sans
-        otf-font-awesome pacman-mirrorlist pacseek pavucontrol pipewire python-hyprpy rofi-calc
-        slurp smile starship syntax-highlighting tmux yazi tldr++ tree-sitter ttf-nerd-fonts-symbols vlc vlc-materia-skin-git wget wireless_tools wireplumber wl-clipboard
-        wl-clipboard-history-git wlogout wtf wtype xclip xdg-utils xf86-video-amdgpu
-        xf86-video-ati xf86-video-nouveau xf86-video-vmware xorg-server xorg-wayland xorg-xhost
-        xorg-xinit xsettingsd zig zoxide zsh-autosuggestions-git zsh-syntax-highlighting
-        )
-        yay -S --noconfirm "${PACKAGES2[@]}"
-        checklist[main_packages]=true
-} ||    checklist[main_packages]=false
-clear
 
 ###############################################################################################
 ## Section 4: Starting Cron Job  ##############################################################
 ###############################################################################################
-{
-    log_status "   🕰️    Setting up Cleanup cron job..."
-    nohup setup_cron_job &
-} || checklist[cron_job]=false
-clear
-
+#{
+#    log_status "   🕰️    Setting up Cleanup cron job..."
+#    nohup setup_cron_job &
+#} || checklist[cron_job]=false
+#clear
+#
 ###############################################################################################
 ## Section 5: Post-Configuration  #############################################################
 ###############################################################################################
