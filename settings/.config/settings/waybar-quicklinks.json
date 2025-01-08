@@ -8,13 +8,13 @@
     "format": "",
     "on-click": "~/scripts/browser.sh",
     "on-click-right": "~/scripts/terminal.sh",
-    "tooltip-format": "Left: Open Firefox\nRight: Open Ghostty"
+    "tooltip-format": "Left: Open Firefox 🦊\nRight: Open Ghostty 👻"
   },
   "custom/quicklink3": {
     "format": "",
     "on-click": "~/scripts/filemanager.sh",
     "on-click-right": "~/scripts/yazi.sh",
-    "tooltip-format": "Left: Open Nemo filemanager\nRight: Open Yazi File Manager"
+    "tooltip-format": "Left: Open Dolphin 🐬 \nRight: Open Yazi 🦆"
   },
   "custom/quicklink4": {
     "format": "",
