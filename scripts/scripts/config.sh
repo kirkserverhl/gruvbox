@@ -38,7 +38,7 @@ mark_skipped() {
 echo -e "\n     Running Post Install Configuration..." | lsd-print
 {
     sudo cp ~/.dotfiles/assets/pacman.conf /etc/
-    yay -R dolphin --noconfirm && mkdir ~/Pictures
+    mkdir ~/Pictures
     cd ~/.dotfiles
     rm -r -f ~/.config/hypr/hyprland.conf && stow hypr --adopt && cp -f ~/.config/hypr/conf/hypr_stable.conf ~/.config/hypr/hyprland.conf
     nohup waypaper --random &>/dev/null &
