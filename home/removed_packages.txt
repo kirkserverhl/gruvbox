@@ -1,18 +1,9 @@
-        krusader
-
-        nemo-emblems nemo-preview nemo-python
-
-        noto-fonts noto-fonts-emoji
-
-        obs-studio pipewire-alsa pipewire-jack pipewire-pulse pomodorolm
+         obs-studio pipewire-alsa pipewire-jack pipewire-pulse pomodorolm
 
         prettier python-build python-cattrs python-click python-colormaps python-colorama python-editables python-fastjsonschema python-ftputil python-gobject python-jsonschema python-jsonschema-specifications python-log_colorizer python-lsp-jsonrpc python-lsp-server python-lsprotocol python-lxml python-markdown python-markupsafe python-poetry-core python-powerline-git python-pytest python-string-color python-tcolorpy python-termcolor python-toolz python-tree-sitter-zathurarc python-webcolors python-wheel python-xtermcolor python2 python2-pillow python2-pyfiglet python2-pygments python2-pygments-style-gruvbox-git python3-colorsysplus   python-lsp-tree-sitter python-jedi python-pynvim python-pillow python-powerline-git python-pygments python-pygments-style-gruvbox-git
         python-tree-sitter python-vlc
 
-        rust rainbow
-
-        ruby ruby-color ruby-colorator ruby-manpages
-
+        rust rainbow ruby ruby-color ruby-colorator ruby-manpages
         ruby-rainbow rubygems
 
         timeshift timeshift-autosnap

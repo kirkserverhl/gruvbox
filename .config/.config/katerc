@@ -27,7 +27,7 @@ Word Wrap Marker=false
 ColorScheme=Kvantum
 
 [filetree]
-editShade=183,220,246
+editShade=120,64,106
 listMode=false
 middleClickToClose=false
 shadingEnabled=true
@@ -35,4 +35,4 @@ showCloseButton=false
 showFullPathOnRoots=false
 showToolbar=true
 sortRole=0
-viewShade=211,190,222
+viewShade=126,55,55
