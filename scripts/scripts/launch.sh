@@ -26,8 +26,8 @@ ags run &
 # ----------------------------------------------------- 
 # Default theme: /THEMEFOLDER;/VARIATION
 # ----------------------------------------------------- 
-themestyle="/ml4w;/ml4w/light"
-
+# themestyle="/ml4w;/ml4w/light"
+themestyle="/gruv;/gruv/colored"
 # ----------------------------------------------------- 
 # Get current theme information from ~/scripts/waybar-theme.sh
 # ----------------------------------------------------- 
@@ -42,7 +42,7 @@ IFS=';' read -ra arrThemes <<< "$themestyle"
 echo ":: Theme: ${arrThemes[0]}"
 
 if [ ! -f ~/.config/waybar/themes${arrThemes[1]}/style.css ]; then
-    themestyle="/ml4w;/ml4w/light"
+    themestyle="/gruv;/gruv/colored"
 fi
 
 # ----------------------------------------------------- 

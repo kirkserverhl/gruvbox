@@ -1,0 +1,7 @@
+# GIMP gimp-crop-tool options
+
+(aspect-denominator 630)
+(aspect-numerator 1200)
+(pattern "Clipboard Image")
+
+# end of gimp-crop-tool options

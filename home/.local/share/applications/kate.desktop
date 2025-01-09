@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/usr/bin/kate
+MimeType=text/plain;
+Name=kate
+NoDisplay=true
+Type=Application

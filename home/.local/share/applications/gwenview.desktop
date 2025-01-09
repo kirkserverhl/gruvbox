@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/usr/bin/gwenview
+MimeType=image/jpeg;
+Name=gwenview
+NoDisplay=true
+Type=Application

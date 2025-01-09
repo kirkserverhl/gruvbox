@@ -5,16 +5,14 @@
 ##  |  |   |  \\___ \  |  |  / __ \|  |_|  |__     \___ \|   Y  \
 ##  |__|___|  /____  > |__| (____  /____/____/ /\ /____  >___|  /
 ##          \/     \/            \/            \/      \/     \/
-##################################################################################
-RESET="\e[0m"                	# Reset  ##  Notes:
+##                          	# Reset  ##  Notes:
 GREEN="\e[38;2;142;192;124m" 	# 8ec07c ##
 CYAN="\e[38;2;69;133;136m"   	# 458588 ##
 YELLOW="\e[38;2;215;153;33m" 	# d79921 ##
 RED="\e[38;2;204;36;29m"     	# cc241d ##
 GRAY="\e[38;2;60;56;54m"     	# 3c3836 ##
 BOLD="\e[1m"                 	# Bold   ##
-###########################################
-clear #####################################
+clear
 
 declare -A checklist
 checklist=(
@@ -62,15 +60,15 @@ print_checklist_tte() {
 
 echo -e "\n  🫠   Welcome to Hyprland Gruvbox Installation !!   🚀
             Sit back and enjoy the ride !!   \n"  | lsd-print
-
-
 {
     echo -e "   📦️     Installing Base Packages..." | lsd-print
         sudo pacman -S --noconfirm git || log_error "Failed to install git"
         git  clone https://aur.archlinux.org/yay.git || log_success "Git installed successfully"
         cd yay &&  makepkg -si --noconfirm ||   log_success "YAY installed successfully"
       PACKAGES1=(
-        amd-ucode ark aylurs-gtk-shell base-devel bluez bluez-utils bpytop btrfs-progs cliphist cmake cmatrix duf efibootmgr eza fastfetch figlet fortune-mod fortune-mod-archlinux fzf ghostty ghostty-shell-integration ghostty-terminfo go grimblast-git gst-plugin-pipewire gtk-engine-murrine gum hyprcursor hyprgraphics hypridle hyprlang hyprpaper hyprpicker hyprpicker hyprpolkitagent hyprshade hyprutils hyprwayland-scanner imagemagick kate konsole konsole-gruvbox kvantum libpulse libva-intel-driver lsd lsd-print-git lua neovim network-manager-applet network-manager-applet networkmanager nwg-dock-hyprland nwg-look otf-fira-sans otf-font-awesome pacman-mirrorlist pacman-mirrorlist pacseek pavucontrol pipewire python-hyprpy python-pywal16 python-pywalfox python-terminaltexteffects qt5-base qt5-declarative qt5-graphicaleffects qt5-x11extras qt5ct-kde qt6-base qt6-declarative qt6ct-kde rofi-calc rofi-wayland sddm-sugar-candy-git smile starship stow syntax-highlighting tldr++ tmux tree-sitter ttf-nerd-fonts-symbols ttf-sharetech-mono-nerd vlc vlc-materia-skin-git waybar waypaper wireplumber wl-clipboard wl-clipboard-history-git wlogout wtf wtype xclip xdg-desktop-portal-gtk xf86-video-amdgpu xf86-video-ati xf86-video-nouveau xf86-video-vmware xorg-server xorg-wayland xorg-xhost xorg-xinit xsettingsd yazi zig zoxide zsh zsh-autosuggestions-git zsh-syntax-highlighting
+        amd-ucode ark aylurs-gtk-shell base-devel bluez bluez-utils bpytop btrfs-progs cliphist cmake cmatrix duf efibootmgr expac eza fastfetch figlet fortune-mod fortune-mod-archlinux fzf ghostty ghostty-shell-integration ghostty-terminfo go grimblast-git gst-plugin-pipewire
+        gtk-engine-murrine gum hyprcursor hyprgraphics hypridle hyprlang hyprpaper hyprpicker go  hyprpicker hyprpolkitagent hyprshade hyprutils hyprwayland-scanner imagemagick kate konsole konsole-gruvbox kvantum libpulse libva-intel-driver lsd lsd-print-git lua neovim network-manager-applet network-manager-applet networkmanager nwg-dock-hyprland nwg-look otf-fira-sans otf-font-awesome pacman-mirrorlist pacman-mirrorlist pacseek pavucontrol pipewire python-hyprpy python-pywal16 python-pywalfox python-terminaltexteffects qt5-base qt5-declarative qt5-graphicaleffects qt5-x11extras qt5ct-kde qt6-base qt6-declarative qt6ct-kde rofi-calc rofi-wayland sddm-sugar-candy-git smile starship stow syntax-highlighting tldr++ tmux tree-sitter ttf-nerd-fonts-symbols ttf-sharetech-mono-nerd vlc vlc-materia-skin-git waybar waypaper wireplumber wl-clipboard wl-clipboard-history-git wlogout wtf wtype xclip xdg-desktop-portal-gtk xf86-video-amdgpu xf86-video-ati xf86-video-nouveau xf86-video-vmware xorg-server xorg-wayland xorg-xhost xorg-xinit xsettingsd yazi zig zoxide zsh timeshift
+        zsh-autosuggestions-git zsh-syntax-highlighting neovim-lspconfig grub-theme-vimix python-enrich obs-studio neovim-qt vim-auto-pairs prettier python-editorconfig editorconfig-checker tig python-phitigra ruby-terminal-table ruby-term-ansicolor python-termstyle python-termcolor
         )
         yay -S --noconfirm "${PACKAGES1[@]}"
      checklist[packages]=true

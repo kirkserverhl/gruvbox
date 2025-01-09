@@ -1,0 +1,17 @@
+WRN 2025-01-09T03:16:03.088 nvim.8006.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
+WRN 2025-01-09T04:02:16.567 nvim.23016.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
+WRN 2025-01-09T04:38:18.807 nvim.160698.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
+WRN 2025-01-09T04:52:08.948 nvim.180673.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
+WRN 2025-01-09T04:59:40.148 nvim.190766.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
+WRN 2025-01-09T05:02:10.456 nvim.191509.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
+WRN 2025-01-09T05:02:28.376 nvim.191591.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
+WRN 2025-01-09T05:13:44.345 nvim.210513.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
+WRN 2025-01-09T05:13:47.923 nvim.210786.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
+WRN 2025-01-09T05:19:39.602 nvim.232173.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
+WRN 2025-01-09T07:32:06.164 nvim.313992.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
+WRN 2025-01-09T07:42:17.847 nvim.319583.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
+WRN 2025-01-09T07:42:36.450 nvim.319591.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
+WRN 2025-01-09T07:42:48.855 nvim.319599.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
+WRN 2025-01-09T07:42:57.634 nvim.319610.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
+WRN 2025-01-09T07:44:17.509 nvim.319737.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
+WRN 2025-01-09T07:51:26.659 nvim.321818.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server

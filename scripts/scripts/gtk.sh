@@ -1,13 +1,13 @@
 #!/bin/bash
-#   ____ _____ _  __
-#  / ___|_   _| |/ /
-# | |  _  | | | ' / 
-# | |_| | | | | . \ 
-#  \____| |_| |_|\_\
-#                   
-# Source: https://github.com/swaywm/sway/wiki/GTK-3-settings-on-Wayland
+#     _______________________  __.
+#   /  _____/\__    ___/    |/ _|
+#  /   \  ___  |    |  |      <  
+#  \    \_\  \ |    |  |    |  \ 
+#   \______  / |____|  |____|__ \
+#          \/                  \/
+#
+# config="$HOME/.config/gtk-3.0/settings.ini"
 
-config="$HOME/.config/gtk-3.0/settings.ini"
 if [ ! -f "$config" ]; then exit 1; fi
 
 gnome_schema="org.gnome.desktop.interface"
