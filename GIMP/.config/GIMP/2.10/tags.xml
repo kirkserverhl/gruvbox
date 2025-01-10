@@ -10,10 +10,10 @@
     <tag>round</tag>
   </resource>
 
-  <resource identifier="gimp-brush-clipboard-image" checksum="ee155fbcc7c596d11e94e71905ff578e">
+  <resource identifier="gimp-brush-clipboard-image" checksum="157dcef48665ab465439cfaf10d6feeb">
   </resource>
 
-  <resource identifier="gimp-brush-clipboard-mask" checksum="f288f7b583cc524170e1c4952eb4ab10">
+  <resource identifier="gimp-brush-clipboard-mask" checksum="157dcef48665ab465439cfaf10d6feeb">
   </resource>
 
   <resource identifier="${gimp_data_dir}/brushes/Basic/1-pixel.vbr" checksum="c84494b4a904a7c1a3548e564b073ca3">
@@ -772,10 +772,7 @@
   <resource identifier="${mypaint_brushes_dir}/ramon/wet_round.myb" checksum="038abfe33947692f773e0244d2ac7fc1">
   </resource>
 
-  <resource identifier="gimp-pattern-clipboard-image" checksum="4260bb297e5f49eb339d666f5653740f">
-  </resource>
-
-  <resource identifier="${gimp_dir}/patterns/Small-Squares-copy.pat" checksum="4ba7d3135d74ec48bca8ee42c9645866">
+  <resource identifier="gimp-pattern-clipboard-image" checksum="eff9598f9f61c1dc78d842f1798c2ab8">
   </resource>
 
   <resource identifier="${gimp_data_dir}/patterns/Legacy/3dgreen.pat" checksum="00052731f14a5bc614daece969b368bc">
@@ -1310,18 +1307,6 @@
   <resource identifier="${gimp_data_dir}/palettes/Web.gpl" checksum="f02e8dfa23d01d6acfbab7f895c2dd16">
   </resource>
 
-  <resource identifier="C059" checksum="(null)">
-  </resource>
-
-  <resource identifier="C059 Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="C059 Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="C059 Italic" checksum="(null)">
-  </resource>
-
   <resource identifier="Cantarell" checksum="(null)">
   </resource>
 
@@ -1340,7 +1325,28 @@
   <resource identifier="Cantarell Ultra-Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="D050000L" checksum="(null)">
+  <resource identifier="DejaVu Sans Code" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Code Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Code Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Code Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Mono for Powerline" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Mono for Powerline Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Mono for Powerline Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Mono for Powerline Oblique" checksum="(null)">
   </resource>
 
   <resource identifier="Fira Sans" checksum="(null)">
@@ -1679,67 +1685,7 @@
   <resource identifier="mtx" checksum="(null)">
   </resource>
 
-  <resource identifier="Nimbus Mono PS" checksum="(null)">
-  </resource>
-
-  <resource identifier="Nimbus Mono PS Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Nimbus Mono PS Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Nimbus Mono PS Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Nimbus Roman," checksum="(null)">
-  </resource>
-
-  <resource identifier="Nimbus Roman, Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Nimbus Roman, Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Nimbus Roman, Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Nimbus Sans" checksum="(null)">
-  </resource>
-
-  <resource identifier="Nimbus Sans Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Nimbus Sans Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Nimbus Sans Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Nimbus Sans Narrow Bold Oblique Semi-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Nimbus Sans Narrow Bold Semi-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Nimbus Sans Narrow Oblique Semi-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Nimbus Sans Narrow Semi-Condensed" checksum="(null)">
-  </resource>
-
   <resource identifier="Noto Color Emoji" checksum="(null)">
-  </resource>
-
-  <resource identifier="P052" checksum="(null)">
-  </resource>
-
-  <resource identifier="P052 Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="P052 Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="P052 Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Sans-serif" checksum="(null)">
@@ -1865,37 +1811,7 @@
   <resource identifier="SourceCodeVF Ultra-Light Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="Standard Symbols PS" checksum="(null)">
-  </resource>
-
   <resource identifier="Symbols Nerd Font" checksum="(null)">
-  </resource>
-
-  <resource identifier="URW Bookman Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="URW Bookman Light Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="URW Bookman Semi-Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="URW Bookman Semi-Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="URW Gothic" checksum="(null)">
-  </resource>
-
-  <resource identifier="URW Gothic Oblique" checksum="(null)">
-  </resource>
-
-  <resource identifier="URW Gothic Semi-Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="URW Gothic Semi-Bold Oblique" checksum="(null)">
-  </resource>
-
-  <resource identifier="Z003 Medium Italic" checksum="(null)">
   </resource>
 
   <resource identifier="${gimp_data_dir}/tool-presets/Crop/16_10.gtp" checksum="(null)">

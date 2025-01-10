@@ -190,4 +190,6 @@ configuration {
 
 //@theme "/usr/share/rofi/themes/windows11-grid-dark.rasi"
 
-@theme "/home/kirk/.config/rofi/themes/HyprGruv.rasi"
+//@theme "/home/kirk/.config/rofi/themes/HyprGruv.rasi"
+
+@theme "/usr/share/rofi/themes/fullscreen-preview.rasi"

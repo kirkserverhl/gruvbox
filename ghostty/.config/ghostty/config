@@ -1,25 +1,71 @@
-# theme = GruvboxDark
-theme = GruvboxDarkHard
-font-family = ShureTechMono Nerd Font
-font-size = 13
-background-opacity = 0.95
-gtk-titlebar = false
-custom-shader = /home/chris/bloom.glsl
-#custom-shader = /home/chris/crt.glsl
-
+# Cursor
 shell-integration-features = no-cursor,sudo,no-title
 cursor-style = block
 adjust-cell-height = 35%
 
+cursor-style = block
+cursor-style-blink = false
 mouse-hide-while-typing = true
 mouse-scroll-multiplier = 2
 
-window-padding-balance = true 
-window-save-state = always
-macos-titlebar-style=transparent
-window-colorspace = "display-p3"
-background = 1C2021
-# foreground = d4be98
+
+# fonts
+theme = GruvboxDarkHard
+font-family = ShureTechMono Nerd Font
+font-size = 13
+
+adjust-cell-width = -1
+
+# Window
+background-opacity = 0.95
+gtk-titlebar = false
+custom-shader = /home/chris/bloom.glsl
+gtk-single-instance = true
+gtk-wide-tabs = false
+window-padding-x = 5,5
+window-padding-y = 5,0
+window-padding-balance = true
+window-decoration = false
+window-theme = system
+confirm-close-surface = false
+resize-overlay = never
+gtk-adwaita = false
+title = "Ghostty"
+
+# theming
+background = #222222
+foreground = #ebdbb2
+
+palette = 0=#3c3836
+palette = 8=#928374
+
+palette = 1=#cc241d
+palette = 9=#fb4934
+
+palette = 2=#98971a
+palette = 10=#b8bb26
+
+palette = 3=#d79921
+palette = 11=#fabd2f
+
+palette = 4=#458588
+palette = 12=#83a598
+
+palette = 5=#b16286
+palette = 13=#d3869b
+
+palette = 6=#689d6a
+palette = 14=#8ec07c
+
+palette = 7=#a89984
+palette = 15=#ebdbb2
+
+cursor-color = #928374
+cursor-text = #ebdbb2
+
+selection-background = #928374
+selection-foreground = #ebdbb2
+bold-is-bright = true
 
 # keybindings
 keybind = cmd+s>r=reload_config
@@ -58,5 +104,6 @@ keybind = cmd+s>z=toggle_split_zoom
 
 keybind = cmd+s>e=equalize_splits
 
-# other
+# Other
 copy-on-select = clipboard
+shell-integration-features = no-cursor,sudo,no-title

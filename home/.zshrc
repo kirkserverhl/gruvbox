@@ -32,7 +32,7 @@ alias doom='~/scripts/doom.sh'
 # Productivity
 alias c='clear && $SHELL'
 alias v='$EDITOR'
-alias vim='$EDITOR'
+# alias vim='$EDITOR'
 alias ts='~/scripts/snapshot.sh'
 alias cleanup='~/scripts/cleanup.sh'
 alias fig='~/scripts/figlet.sh'
