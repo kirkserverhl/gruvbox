@@ -7,6 +7,8 @@ export PATH="$HOME/scripts:$PATH"
 export ZSH="$HOME/.oh-my-zsh"
 
 # Starship -------------------------------------------
+# export STARSHIP_CONFIG="$ZDOTDIR/starship/config.toml"
+# export STARSHIP_CACHE="$ZDOTDIR/starship/cache"
 eval "$(starship init zsh)"
 
 # -----------------------------------------------------
