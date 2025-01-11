@@ -76,7 +76,7 @@ clear
 {
     log_status "  🛠️   Applying base configurations..." | lsd-print
         cd ~/.dotfiles
-        stow .config ags bpytop byobu dunst fastfetch fontconfig fzf ghostty gtk-3.0 gtk-4.0 home htop hypr kate kitty kvantum nvim nwg-dock-hyprland nwg-look oh-my-zsh pacseek pomodorolm qt5ct qt6ct rofi scripts sddm settings vim vlc wal waybar waypaper wlogout xdg-desktop-portal xsettingsd yazi --adopt
+        stow .config ags bat bpytop byobu dunst fastfetch fontconfig fzf ghostty gtk-2.0 gtk-3.0 gtk-4.0 home htop hypr kate kitty kvantum nvim nwg-dock-hyprland nwg-look oh-my-zsh pacseek pomodorolm qt5ct qt6ct rofi scripts sddm settings vim vlc wal waybar waypaper wlogout xdg-desktop-portal xsettingsd yazi --adopt
         sudo cp ~/.dotfiles/home/hyprland.conf ~/.config/hypr
       checklist[config]=true
 } ||  checklist[config]=false
