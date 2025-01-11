@@ -1,1 +1,0 @@
-{"primary_source":{"type":"registry+v1","id":"pkg:npm\/markdownlint-cli2@0.17.1"},"links":{"opt":{},"share":{},"bin":{"markdownlint-cli2":"node_modules\/.bin\/markdownlint-cli2"}},"name":"markdownlint-cli2","metrics":{"completion_time":1736347514492,"start_time":1736347507339},"schema_version":"1.1","secondary_sources":[]}
