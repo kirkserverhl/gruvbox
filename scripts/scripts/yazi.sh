@@ -1,1 +1,1 @@
-ghostty --class dotfiles-floating -e yazi
+kitty --class dotfiles-floating -e yazi
