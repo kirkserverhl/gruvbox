@@ -1,6 +1,6 @@
 window {
-  background: #36364f;
-	border-radius: 10px;
+  background: #282828;
+	border-radius: 0px;
 	border-style: none;
 	border-width: 1px;
 	border-color: rgba(156, 142, 122, 0.7)
@@ -25,7 +25,7 @@ button, image {
 }
 
 button {
-	padding: 4px;
+	padding: 0px;
 	margin-left: 4px;
 	margin-right: 4px;
 	color: #eee;
