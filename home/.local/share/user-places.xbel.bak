@@ -18,19 +18,7 @@
     <bookmark:icon name="user-home"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1736407154/0</ID>
-    <isSystemItem>true</isSystemItem>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/kirk/Desktop">
-  <title>Desktop</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="user-desktop"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1736407154/1</ID>
+    <ID>1736574927/0</ID>
     <isSystemItem>true</isSystemItem>
    </metadata>
   </info>
@@ -42,7 +30,7 @@
     <bookmark:icon name="folder-documents"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1736407154/2</ID>
+    <ID>1736574927/1</ID>
     <isSystemItem>true</isSystemItem>
    </metadata>
   </info>
@@ -54,7 +42,19 @@
     <bookmark:icon name="folder-downloads"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1736407154/3</ID>
+    <ID>1736574927/2</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/kirk/Pictures">
+  <title>Pictures</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-pictures"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1736574927/5</ID>
     <isSystemItem>true</isSystemItem>
    </metadata>
   </info>
@@ -66,7 +66,7 @@
     <bookmark:icon name="folder-network"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1736407154/4</ID>
+    <ID>1736574927/3</ID>
     <isSystemItem>true</isSystemItem>
    </metadata>
   </info>
@@ -78,7 +78,7 @@
     <bookmark:icon name="user-trash"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1736407154/5</ID>
+    <ID>1736574927/4</ID>
     <isSystemItem>true</isSystemItem>
    </metadata>
   </info>

@@ -124,7 +124,7 @@ export BAT_THEME="gruvbox-dark"
 # Bun Completions
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
-# Git Update 
+# Git Update
 gitupdate() {
   cd ~/.dotfiles && git add . && git commit -m "$1" && git push
 }
@@ -147,4 +147,3 @@ bindkey '^R' znt-history-widget
 setopt AUTO_PUSHD HIST_IGNORE_DUPS PUSHD_IGNORE_DUPS
 zstyle ':completion::complete:n-kill::bits' matcher 'r:|=** l:|=*'
 ### END ###
-
