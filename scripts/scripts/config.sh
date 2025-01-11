@@ -29,13 +29,14 @@ mark_skipped() {
     checklist["$1"]="[✖️ ]"
 }
 
-#
-## Move Assets #############################
+### Move Assets #############################
 
 echo -e "\n     Running Post Install Configuration..." | lsd-print
 {
-    sudo cp ~/.dotfiles/assets/pacman.conf /etc/
+    # sudo cp ~/.dotfiles/assets/pacman.conf /etc/
     mkdir ~/Pictures
+    cd ~/scripts
+    ./sddm_theme.sh
     cd ~/.dotfiles
     rm -r -f ~/.config/hypr/hyprland.conf && stow hypr --adopt && cp -f ~/.config/hypr/conf/hypr_stable.conf ~/.config/hypr/hyprland.conf
     nohup waypaper --random &>/dev/null &
@@ -79,26 +80,28 @@ else
 fi
 clear
 
-##### GRUB Theme and Extra Packages  #######
-
+##### GRUB Theme and Extra Packages #######
 display_header "GRUB" | lsd-print
 echo ""
-read -p "  🪱    Would you like to configure GRUB theme  & extra packages  (y/n) ? " configure_grub
+read -p "  🪱    Would you like to configure GRUB theme & extra packages (y/n)? " configure_grub
+echo ""
+
 if [[ "$configure_grub" =~ ^[Yy]$ ]]; then
-    if echo "Setting up GRUB theme and installing extra packages..."
-    curl -fsSL https://christitus.com/linux | sh; then
-        track_action "Grub Install"
-        mark_completed "Grub Install"
-        else
-        mark_skipped "Grub Install"
+    if sudo -v; then  # Checks if the user has sudo privileges
+        sudo ~/scripts/sddm_theme.sh  # Run the script with sudo
+        track_action "Grub Theme"
+        mark_completed "Grub Theme"
+    else
+        echo "You need sudo privileges to configure the GRUB theme."
+        mark_skipped "Grub Theme"
     fi
 else
-    mark_skipped "Grub Install"
+    mark_skipped "Grub Theme"
 fi
 clear
 
-## Editors Choice Packages  ##
 
+### Editors Choice ####
 display_header "Editors Choice" | lsd-print
 echo ""
 read -p "  🫠    Would you like to install Editors Choice packages  (y/n) ? " editors_choice
