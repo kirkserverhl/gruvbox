@@ -24,7 +24,7 @@ fi
 
 force_generate=0
 generatedversions="$HOME/.config/settings/cache/wallpaper-generated"
-waypaperrunning=$HOME/.config/settings/cache/waypaper-running
+waypaperrunning="$HOME/.config/settings/cache/waypaper-running"
 cachefile="$HOME/.config/settings/cache/current_wallpaper"
 blurredwallpaper="$HOME/.config/settings/cache/blurred_wallpaper.png"
 squarewallpaper="$HOME/.config/settings/cache/square_wallpaper.png"
