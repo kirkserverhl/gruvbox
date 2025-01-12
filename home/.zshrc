@@ -1,10 +1,34 @@
 # -----------------------------------------------------
 # INIT
 # -----------------------------------------------------
+
+export BACKGROUND='#111313'
+export FOREGROUND='#c3c4c4'
+export CURSOR='#c3c4c4'
+export COLOR0='#111313'
+export COLOR1='#656158'
+export COLOR2='#6C7268'
+export COLOR3='#B15A44'
+export COLOR4='#788873'
+export COLOR5='#ABA06F'
+export COLOR6='#848881'
+export COLOR7='#c3c4c4'
+export COLOR8='#5a6e6e'
+export COLOR9='#656158'
+export COLOR10='#6C7268'
+export COLOR11='#B15A44'
+export COLOR12='#788873'
+export COLOR13='#ABA06F'
+export COLOR14='#848881'
+export COLOR15='#c3c4c4'
+
 export EDITOR="nvim"
 export SUDO_EDITOR="$EDITOR"
 export PATH="$HOME/scripts:$PATH"
 export ZSH="$HOME/.oh-my-zsh"
+export LESSOPEN="| /usr/bin/source-highlight-esc.sh %s"
+export LESS='-R '
+# zinit load zdharma-continuum/colorize
 
 # Starship -------------------------------------------
 # export STARSHIP_CONFIG="$ZDOTDIR/starship/config.toml"
@@ -46,6 +70,12 @@ alias jel1="sudo mount.cifs //192.168.0.105/jel1 /mnt/jel1 -o username=kirk,pass
 alias jel2="sudo mount.cifs //192.168.0.105/jel2 /mnt/jel2 -o username=kirk,password=123456"
 alias jel3="sudo mount.cifs //192.168.0.105/jel3 /mnt/jel3 -o username=kirk,password=123456"
 alias jel="~/scripts/mount_jel.sh"
+
+# Color
+alias diff='diff --color=auto'
+alias grep='grep --color=auto'
+alias ip='ip --color=auto'
+alias ls='eza'
 
 # Git
 alias gs="git status"
@@ -96,6 +126,7 @@ plugins=(
     colored-man-pages
     emoji
     fzf
+    colorize
 )
 
 # Load oh-my-zsh
@@ -147,3 +178,24 @@ bindkey '^R' znt-history-widget
 setopt AUTO_PUSHD HIST_IGNORE_DUPS PUSHD_IGNORE_DUPS
 zstyle ':completion::complete:n-kill::bits' matcher 'r:|=** l:|=*'
 ### END ###
+#
+#zmodload zsh/zpty
+
+pty() {
+	zpty pty-${UID} ${1+$@}
+	if [[ ! -t 1 ]];then
+		setopt local_traps
+		trap '' INT
+	fi
+	zpty -r pty-${UID}
+	zpty -d pty-${UID}
+}
+
+ptyless() {
+	pty $@ | less
+
+}
+~/.cache/wal/colors.sh
+
+
+

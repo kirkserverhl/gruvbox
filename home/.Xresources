@@ -1,7 +1,7 @@
-include: "~/.cache/wal/colors.Xresources"
+source: "~/.cache/wal/colors.Xresources"
 
 
-Xcursor.theme: "Simple-Gruvbox-Light"
+Xcursor.theme: "Simple-Gruvbox-Dark"
 
 
 

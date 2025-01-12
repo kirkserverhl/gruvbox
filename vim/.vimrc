@@ -54,8 +54,8 @@ Plug 'voldikss/vim-floaterm'
 Plug 'turbio/bracey.vim'
 "Plug 'JamshedVesuna/vim-markdown-preview'
 Plug 'vimwiki/vimwiki'
-Plug 'chipsenkbeil/vimwiki-server.nvim', { 'tag': 'v0.1.0-alpha.5' }
-Plug 'maxmellon/vim-jsx-pretty'
+Plug 'chipsenkbeil/vimwiki-server.nvim' 
+# Plug 'maxmellon/vim-jsx-pretty'
 Plug 'jceb/vim-orgmode'
 Plug 'sbdchd/neoformat'
 Plug 'nvim-neorg/neorg' 
@@ -71,6 +71,7 @@ Plug 'vigoux/LanguageTool.nvim'
 Plug 'junegunn/fzf.vim'
 Plug 'michal-h21/vim-zettel'
 Plug 'https://github.com/alok/notational-fzf-vim'
+Plug 'dylanaraps/wal.vim'
 let g:nv_search_paths = ['~/Documents' ]
 let g:languagetool_server_jar="/home/theena/languagetool/languagetool-commandline-2.2._jar"
 
@@ -85,9 +86,10 @@ Plug 'reedes/vim-pencil'
 Plug 'reedes/vim-wordy'
 Plug 'plasticboy/vim-markdown'
 Plug 'mhinz/vim-startify'
-Plug 'colepeters/spacemacs-theme.vim'
+Plug 'colepeters/spacemacs-theme.vim' 
 Plug 'sainnhe/gruvbox-material'
-Plug 'phanviet/vim-monokai-pro'
+
+#Plug 'phanviet/vim-monokai-pro'
 Plug 'flazz/vim-colorschemes'
 Plug 'chriskempson/base16-vim'
 Plug 'gruvbox-community/gruvbox'
@@ -388,14 +390,14 @@ nmap ,wr :Ack <cword><CR>
 " use 256 colors when possible
 if (&term =~? 'mlterm\|xterm\|xterm-256\|screen-256') || has('nvim')
 	let &t_Co = 256
-    colorscheme gruvbox-material  
+    colorscheme     wal 
 else
-    colorscheme gruvbox-material
+    colorscheme wal
 endif
 
 " colors for gvim
 if has('gui_running')
-    colorscheme gruvbox-material
+    colorscheme wal
 endif
 
 " when scrolling, keep cursor 3 lines away from screen border
