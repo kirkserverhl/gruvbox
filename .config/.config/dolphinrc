@@ -1,12 +1,12 @@
 [DetailsMode]
-PreviewSize=112
+PreviewSize=64
 
 [General]
 Version=202
 ViewPropsTimestamp=2025,1,11,0,2,17.031
 
-[IconsMode]
-PreviewSize=96
+[InformationPanel]
+previewsShown=false
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
