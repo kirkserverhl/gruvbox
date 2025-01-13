@@ -34,11 +34,28 @@ endif
 " this needs to be here, so vim-plug knows we are declaring the plugins we
 " want to use
 call plug#begin('~/.vim/plugged')
-
-" main one
+"
+"" main one
 Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
 " 9000+ Snippets
 Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
+
+" lua & third party sources -- See https://github.com/ms-jpq/coq.thirdparty
+" Need to **configure separately**
+
+Plug 'ms-jpq/coq.thirdparty', {'branch': '3p'}
+" - shell repl
+" - nvim lua api
+" - scientific calculator
+" - comment banner
+" - etc
+"
+"
+"
+" main one
+"Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
+" 9000+ Snippets
+"Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
 Plug 'ervandew/supertab' 
 Plug 'nvie/vim-flake8'
 Plug 'tmhedberg/SimpylFold'
@@ -52,10 +69,10 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'rajasegar/vim-search-web'
 Plug 'voldikss/vim-floaterm'
 Plug 'turbio/bracey.vim'
-"Plug 'JamshedVesuna/vim-markdown-preview'
+Plug 'JamshedVesuna/vim-markdown-preview'
 Plug 'vimwiki/vimwiki'
 Plug 'chipsenkbeil/vimwiki-server.nvim' 
-# Plug 'maxmellon/vim-jsx-pretty'
+Plug 'maxmellon/vim-jsx-pretty'
 Plug 'jceb/vim-orgmode'
 Plug 'sbdchd/neoformat'
 Plug 'nvim-neorg/neorg' 
@@ -65,7 +82,7 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend upda
 Plug 'RishabhRD/popfix'
 Plug 'RishabhRD/nvim-cheat.sh'
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
-"Plug 'metakirby5/codi.vim'
+Plug 'metakirby5/codi.vim'
 Plug 'kristijanhusak/orgmode.nvim'
 Plug 'vigoux/LanguageTool.nvim'
 Plug 'junegunn/fzf.vim'
@@ -89,7 +106,7 @@ Plug 'mhinz/vim-startify'
 Plug 'colepeters/spacemacs-theme.vim' 
 Plug 'sainnhe/gruvbox-material'
 
-#Plug 'phanviet/vim-monokai-pro'
+Plug 'phanviet/vim-monokai-pro'
 Plug 'flazz/vim-colorschemes'
 Plug 'chriskempson/base16-vim'
 Plug 'gruvbox-community/gruvbox'
@@ -194,7 +211,7 @@ if !has('nvim')
 else
   " Do nothing here to use the neovim default
   " or do soemething like:
-  " set viminfo+=n~/.shada
+  set viminfo+=n~/.shada
 endif
 
 
@@ -245,14 +262,14 @@ Plug 'michaeljsmith/vim-indent-object'
 " Indentation based movements
 Plug 'jeetsukumaran/vim-indentwise'
 " Python autocompletion, go to definition.
-"Plug 'davidhalter/jedi-vim'
+Plug 'davidhalter/jedi-vim'
 " Better autocompletion
- "Plug 'Shougo/neocomplcache.vim'
+Plug 'Shougo/neocomplcache.vim'
 " Snippets manager (SnipMate), dependencies, and snippets repo
-"Plug 'MarcWeber/vim-addon-mw-utils'
-"Plug 'tomtom/tlib_vim'
-"Plug 'honza/vim-snippets'
-"Plug 'garbas/vim-snipmate'
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
+Plug 'honza/vim-snippets'
+Plug 'garbas/vim-snipmate'
 " Git/mercurial/others diff icons on the side of the file lines
 Plug 'mhinz/vim-signify'
 " Automatically sort python imports
@@ -497,12 +514,12 @@ nmap <leader>e :Errors<CR>
 let g:syntastic_check_on_open = 1
 " don't put icons on the sign column (it hides the vcs status icons of signify)
 let g:syntastic_enable_signs = 0
-" custom icons (enable them if you use a patched font, and enable the previous 
-" setting)
-"let g:syntastic_error_symbol = '✗'
-"let g:syntastic_warning_symbol = '⚠'
-"let g:syntastic_style_error_symbol = '✗'
-"let g:syntastic_style_warning_symbol = '⚠'
+"custom icons (enable them if you use a patched font, and enable the previous 
+"setting)
+let g:syntastic_error_symbol = '✗'
+let g:syntastic_warning_symbol = '⚠'
+let g:syntastic_style_error_symbol = '✗'
+let g:syntastic_style_warning_symbol = '⚠'
 
 " Jedi-vim ------------------------------
 
@@ -589,16 +606,16 @@ let g:airline#extensions#whitespace#enabled = 0
 
 " to use fancy symbols for airline, uncomment the following lines and use a
 " patched font (more info on the README.rst)
-"if !exists('g:airline_symbols')
-"   let g:airline_symbols = {}
-"endif
+if !exists('g:airline_symbols')
+   let g:airline_symbols = {}
+endif
 let g:airline_left_sep = '⮀'
 let g:airline_left_alt_sep = '⮁'
 let g:airline_right_sep = '⮂'
-"let g:airline_right_alt_sep = '⮃'
-"let g:airline_symbols.branch = '⭠'
-"let g:airline_symbols.readonly = '⭤'
-"let g:airline_symbols.linenr = '⭡'
+let g:airline_right_alt_sep = '⮃'
+let g:airline_symbols.branch = '⭠'
+let g:airline_symbols.readonly = '⭤'
+let g:airline_symbols.linenr = '⭡'
 
 " start with Insert on:
 "au BufRead,BufNewFile * startinsert
