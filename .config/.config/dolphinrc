@@ -1,6 +1,9 @@
 [DetailsMode]
 PreviewSize=64
 
+[FoldersPanel]
+HiddenFilesShown=true
+
 [General]
 Version=202
 ViewPropsTimestamp=2025,1,11,0,2,17.031
