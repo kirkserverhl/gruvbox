@@ -1,6 +1,6 @@
 [default-routes]
-alsa_card.pci-0000_04_00.1:output:\oOut\c\sHDMI1={"mute":false, "channelVolumes":[0.063997, 0.063997], "channelMap":["FL", "FR"], "latencyOffsetNsec":0}
-alsa_card.pci-0000_04_00.1:output:\oOut\c\sHDMI2={"mute":false, "channelVolumes":[0.063997, 0.063997], "channelMap":["FL", "FR"], "latencyOffsetNsec":0}
+alsa_card.pci-0000_04_00.1:output:\oOut\c\sHDMI1={"channelMap":["FL", "FR"], "latencyOffsetNsec":0, "mute":false, "channelVolumes":[0.063997, 0.063997]}
+alsa_card.pci-0000_04_00.1:output:\oOut\c\sHDMI2={"channelMap":["FL", "FR"], "latencyOffsetNsec":0, "mute":false, "channelVolumes":[0.063997, 0.063997]}
 alsa_card.pci-0000_04_00.1:profile:HiFi=["[Out] HDMI2", "[Out] HDMI1"]
-alsa_card.usb-DisplayLink_Plugable_UD_6950H_235703-02:output:analog-output-speaker={"mute":false, "channelVolumes":[0.068915, 0.068915], "channelMap":["FL", "FR"], "latencyOffsetNsec":0}
+alsa_card.usb-DisplayLink_Plugable_UD_6950H_235703-02:output:analog-output-speaker={"channelMap":["FL", "FR"], "latencyOffsetNsec":0, "mute":false, "channelVolumes":[0.068915, 0.068915]}
 alsa_card.usb-DisplayLink_Plugable_UD_6950H_235703-02:profile:output:analog-stereo+input:iec958-stereo=["analog-output-speaker"]
