@@ -1,5 +1,0 @@
-name = "AsciiDoc"
-grammar = "asciidoc"
-path_suffixes = ["asciidoc", "adoc"]
-line_comments = ["// "]
-brackets = []

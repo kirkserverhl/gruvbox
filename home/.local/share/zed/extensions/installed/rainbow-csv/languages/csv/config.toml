@@ -1,3 +1,0 @@
-name = "Rainbow CSV"
-grammar = "csv"
-path_suffixes = ["csv"]

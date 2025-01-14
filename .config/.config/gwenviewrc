@@ -1,3 +1,6 @@
+[FullScreen]
+FullScreenModeActive=true
+
 [General]
 BackgroundColorMode=DocumentView::Neutral
 LastUsedVersion=210800
@@ -5,35 +8,35 @@ SideBarPage=operations
 ThumbnailBarIsVisible=true
 
 [ImageView]
-ThumbnailSplitterSizes=568,163
+ThumbnailSplitterSizes=509,146
 
 [MainWindow]
 MenuBar=Disabled
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Pictures/sp.png
-File10[$e]=$HOME/wallpaper/p69hsapr2z1d1.png
-File2[$e]=$HOME/Pictures/gruvbox_sp.png
-File3[$e]=$HOME/Pictures/groovbox_col4.png
-File4[$e]=$HOME/Pictures/groovbox_col2.png
-File5[$e]=$HOME/Pictures/groovbox_col3.png
-File6[$e]=$HOME/.config/settings/cache/square_wallpaper.png
-File7[$e]=$HOME/Pictures/box.png
-File8[$e]=$HOME/Pictures/swirly.jpg
-File9[$e]=$HOME/wallpaper/bhuk4hxrfapa1.jpg
-Name1[$e]=sp.png
-Name10[$e]=p69hsapr2z1d1.png
-Name2[$e]=gruvbox_sp.png
-Name3[$e]=groovbox_col4.png
-Name4[$e]=groovbox_col2.png
-Name5[$e]=groovbox_col3.png
-Name6[$e]=square_wallpaper.png
-Name7[$e]=box.png
-Name8[$e]=swirly.jpg
-Name9[$e]=bhuk4hxrfapa1.jpg
+File1[$e]=$HOME/Pictures/screenshot_14012025_130017.jpg
+File10[$e]=$HOME/Pictures/screenshot_14012025_091021.jpg
+File2[$e]=$HOME/Pictures/screenshot_14012025_125945.jpg
+File3[$e]=$HOME/Pictures/screenshot_14012025_125826.jpg
+File4[$e]=$HOME/Pictures/screenshot_14012025_124638.jpg
+File5[$e]=$HOME/Pictures/screenshot_14012025_124518.jpg
+File6[$e]=$HOME/Pictures/screenshot_14012025_095548.jpg
+File7[$e]=$HOME/Pictures/screenshot_14012025_094616.jpg
+File8[$e]=$HOME/Pictures/screenshot_14012025_092430.jpg
+File9[$e]=$HOME/Pictures/screenshot_14012025_091517.jpg
+Name1[$e]=screenshot_14012025_130017.jpg
+Name10[$e]=screenshot_14012025_091021.jpg
+Name2[$e]=screenshot_14012025_125945.jpg
+Name3[$e]=screenshot_14012025_125826.jpg
+Name4[$e]=screenshot_14012025_124638.jpg
+Name5[$e]=screenshot_14012025_124518.jpg
+Name6[$e]=screenshot_14012025_095548.jpg
+Name7[$e]=screenshot_14012025_094616.jpg
+Name8[$e]=screenshot_14012025_092430.jpg
+Name9[$e]=screenshot_14012025_091517.jpg
 
 [SideBar]
 InformationSplitterSizes=228,247
 IsVisible ViewMode=true
-SideBarSplitterSizes=269,516
+SideBarSplitterSizes=261,1298

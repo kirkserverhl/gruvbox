@@ -1,1 +1,1 @@
-$(cat ~/scripts/terminal.sh) --class dotfiles-floating -e htop 
+kitty --class dotfiles-floating -e htop 

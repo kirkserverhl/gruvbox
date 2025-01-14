@@ -21,6 +21,9 @@ export COLOR13='#ABA06F'
 export COLOR14='#848881'
 export COLOR15='#c3c4c4'
 
+
+# source = "~/.cache/wal/colors.sh"
+
 export EDITOR="nvim"
 export SUDO_EDITOR="$EDITOR"
 export PATH="$HOME/scripts:$PATH"
@@ -157,6 +160,10 @@ export BAT_THEME="gruvbox-dark"
 
 # Bun Completions
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Git Update
 gitupdate() {
