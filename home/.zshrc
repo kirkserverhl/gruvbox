@@ -115,6 +115,10 @@ alias lp='lsd-print'
 # -----------------------------------------------------
 plugins=(
     aliases
+    hitchhiker
+    poetry
+    python
+    eza
     bun
     git
     sudo
