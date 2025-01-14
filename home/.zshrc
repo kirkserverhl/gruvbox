@@ -27,6 +27,7 @@ export SUDO_EDITOR="$EDITOR"
 export PATH="$HOME/scripts:$PATH"
 export ZSH="$HOME/.oh-my-zsh"
 export LESSOPEN="| /usr/bin/source-highlight-esc.sh %s"
+export QT_QPA_PLATFORMTHEME=qt5ct:q 
 
 # Starship -------------------------------------------
 # export STARSHIP_CONFIG="$ZDOTDIR/starship/config.toml"
@@ -38,6 +39,7 @@ eval "$(starship init zsh)"
 # -----------------------------------------------------
 # File Management
 alias mv='mv -i'
+export QT_QPA_PLATFORMTHEME=qt5ct
 alias rm='rm -i'
 alias cp='cp -i'
 alias ln='ln -i'
@@ -213,6 +215,7 @@ autoload -Uz _zinit
 
 # Load a few important annexes, without Turbo
 # (this is currently required for annexes)
+
 zinit light-mode for \
     zdharma-continuum/zinit-annex-as-monitor \
     zdharma-continuum/zinit-annex-bin-gem-node \
