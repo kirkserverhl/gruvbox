@@ -82,3 +82,6 @@
 @define-color warning_color_breeze #fe8019;
 @define-color warning_color_insensitive_backdrop_breeze #d65d0e;
 @define-color warning_color_insensitive_breeze #d65d0e;
+
+@define-color selected_bg_color @theme_selected_bg_color_breeze;
+@define-color selected_fg_color @theme_selected_fg_color_breeze;

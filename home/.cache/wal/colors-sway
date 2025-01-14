@@ -1,21 +1,21 @@
-set $wallpaper /home/kirk/wallpaper/Evangelion.png
+set $wallpaper /home/kirk/wallpaper/triangle.jpg
 
-set $background #0f0f0f
+set $background #101012
 set $foreground #c3c3c3
 
-set $color0 #0f0f0f
-set $color1 #933737
-set $color2 #A23D3D
-set $color3 #994848
-set $color4 #7B7F80
-set $color5 #7C8080
-set $color6 #8D8D8D
+set $color0 #101012
+set $color1 #817D69
+set $color2 #979274
+set $color3 #90908F
+set $color4 #B2AF8E
+set $color5 #C3BD90
+set $color6 #D7D19F
 set $color7 #c3c3c3
-set $color8 #6c5959
-set $color9 #933737
-set $color10 #A23D3D
-set $color11 #994848
-set $color12 #7B7F80
-set $color13 #7C8080
-set $color14 #8D8D8D
+set $color8 #59596d
+set $color9 #817D69
+set $color10 #979274
+set $color11 #90908F
+set $color12 #B2AF8E
+set $color13 #C3BD90
+set $color14 #D7D19F
 set $color15 #c3c3c3

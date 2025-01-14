@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [ -z "$1" ]; then
-  wallpaper=$(find ~/.config/wallpaper/ -type f | shuf -n 1)
+  wallpaper=$(find ~/wallpaper/ -type f | shuf -n 1)
 else
   wallpaper=$1
 fi
@@ -13,7 +13,7 @@ else
   rm ~/.cache/wallpaper
   ln -s "$wallpaper" ~/.cache/wallpaper
   echo "$wallpaper" > ~/.cache/wallpaper-path
-  if ! pgrep -x "swww-daemon" > /dev/null; then
+  if ! pgrep -x "hyprpaper" > /dev/null; then
     export SWWW_TRANSITION_STEP=255
   fi
   swww init --no-cache
@@ -46,5 +46,5 @@ done
 
 pywalfox update
 
-systemctl --user restart ulauncher swaync ags waybar &
-seaglass-spicetify
+systemctl --user restart rofi hyprpaper ags waybar waypaper
+# seaglass-spicetify

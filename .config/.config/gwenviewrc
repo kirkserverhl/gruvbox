@@ -11,28 +11,32 @@ ThumbnailSplitterSizes=540,186
 MenuBar=Disabled
 ToolBarsMovable=Disabled
 
+[Phonon::AudioOutput]
+Gwenview_Volume=1
+
 [Recent Files]
-File1[$e]=$HOME/Pictures/screenshot_14012025_092430.jpg
-File10[$e]=$HOME/wallpaper/gruvbox_groovbox_col4.png
-File2[$e]=$HOME/Pictures/screenshot_14012025_091517.jpg
-File3[$e]=$HOME/Pictures/screenshot_14012025_091021.jpg
-File4[$e]=$HOME/wallpaper/guitar.png
-File5[$e]=$HOME/wallpaper/alley_gruv.jpg
-File6[$e]=$HOME/wallpaper/icon_color.jpg
-File7[$e]=$HOME/wallpaper/icon.jpg
-File8[$e]=$HOME/wallpaper/gruvbox_icon.jpg
-File9[$e]=$HOME/wallpaper/gruvbox_icon_color.jpg
-Name1[$e]=screenshot_14012025_092430.jpg
-Name10[$e]=gruvbox_groovbox_col4.png
-Name2[$e]=screenshot_14012025_091517.jpg
-Name3[$e]=screenshot_14012025_091021.jpg
-Name4[$e]=guitar.png
-Name5[$e]=alley_gruv.jpg
-Name6[$e]=icon_color.jpg
-Name7[$e]=icon.jpg
-Name8[$e]=gruvbox_icon.jpg
-Name9[$e]=gruvbox_icon_color.jpg
+File1[$e]=$HOME/Pictures/1673470389-1673470389-bg-battlebridge1-animated.mp4
+File10[$e]=$HOME/Pictures/Wakamo (Swimsuit)
+File2[$e]=$HOME/Pictures/1673470388-1673470388-bg-dust-animated.mp4
+File3[$e]=$HOME/Pictures/1673470387-1673470387-bg-genericroom-animated.mp4
+File4[$e]=$HOME/Pictures/1673451937-1673451937-【九尾狐-玉藻前】tamamo-no-mae-4k60fps.mp4
+File5[$e]=$HOME/Pictures/1655729203-1655729203-abstract-hd-live-wallpaper,-vj-loop-&-background-visual-floating-mirror-spheres.mp4
+File6[$e]=$HOME/Pictures/2b-sword-flowers-nier-automata-moewalls-com.mp4
+File7[$e]=$HOME/Pictures/_8efb9852_7222_4dbf_82ca_371545dad7ce_by_jameshosie1995_dg9830w-pre.jpg
+File8[$e]=$HOME/Pictures/yor-forger-bloody-needles-spy-x-family-moewalls-com.mp4
+File9[$e]=$HOME/Pictures/yae-miko-lying-down-relaxing-genshin-impact-moewalls-com.mp4
+Name1[$e]=1673470389-1673470389-bg-battlebridge1-animated.mp4
+Name10[$e]=Wakamo (Swimsuit)
+Name2[$e]=1673470388-1673470388-bg-dust-animated.mp4
+Name3[$e]=1673470387-1673470387-bg-genericroom-animated.mp4
+Name4[$e]=1673451937-1673451937-【九尾狐-玉藻前】tamamo-no-mae-4k60fps.mp4
+Name5[$e]=1655729203-1655729203-abstract-hd-live-wallpaper,-vj-loop-&-background-visual-floating-mirror-spheres.mp4
+Name6[$e]=2b-sword-flowers-nier-automata-moewalls-com.mp4
+Name7[$e]=_8efb9852_7222_4dbf_82ca_371545dad7ce_by_jameshosie1995_dg9830w-pre.jpg
+Name8[$e]=yor-forger-bloody-needles-spy-x-family-moewalls-com.mp4
+Name9[$e]=yae-miko-lying-down-relaxing-genshin-impact-moewalls-com.mp4
 
 [SideBar]
 InformationSplitterSizes=228,247
-SideBarSplitterSizes=261,737
+IsVisible ViewMode=true
+SideBarSplitterSizes=172,172

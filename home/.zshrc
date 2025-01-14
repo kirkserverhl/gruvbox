@@ -222,3 +222,6 @@ zinit light-mode for \
 ### # -----------------------------------------------------
 ### END OF .zshrc
 ### #-----------------------------------------------------
+
+# bun completions
+[ -s "/home/kirk/.bun/_bun" ] && source "/home/kirk/.bun/_bun"

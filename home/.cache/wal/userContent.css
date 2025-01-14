@@ -1,10 +1,10 @@
 html[data-darkreader-mode] body a {
-  color: rgb(162,61,61) !important;
+  color: rgb(151,146,116) !important;
 }
 
 @-moz-document regexp('^(?!http).*') {
   :root>* {
-    background: rgb(15,15,15) !important;
+    background: rgb(16,16,18) !important;
   }
 }
 
