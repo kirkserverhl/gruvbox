@@ -1,1 +1,1 @@
-
+../../../../../../../.dotfiles/home/.local/share/plasma/look-and-feel/seaglass/contents/splash/Splash.qml

@@ -1,6 +1,2 @@
 [General]
-theme=gruvbox-kvantum
-
-[Applications]
-Default=waypaper
-Gruvbox-Dark-Green=waypaper
+theme=Fluent-Dark

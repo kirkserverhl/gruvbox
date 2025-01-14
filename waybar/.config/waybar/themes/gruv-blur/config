@@ -52,7 +52,6 @@
         "group/tools",
         "tray",
         "custom/exit",
-        "custom/ml4w-welcome",
         "clock"
     ]
 }

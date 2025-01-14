@@ -7,19 +7,19 @@
   "custom/quicklink2": {
     "format": "",
     "on-click": "~/scripts/browser.sh",
-    "on-click-right": "~/scripts/.sh",
+    "on-click-right": "~/scripts/terminal.sh",
     "tooltip-format": "Left: Open Firefox 🦊\nRight: Open Ghostty 👻"
   },
   "custom/quicklink3": {
     "format": "",
     "on-click": "~/scripts/filemanager.sh",
     "on-click-right": "~/scripts/ranger.sh",
-  "tooltip-format": "Left: Krusader 🛸 \nRight: Open Ranger 🤠"
+  "tooltip-format": "Left: Dolphin 🐬 \nRight: Open Ranger 🤠"
   },
   "custom/quicklink4": {
     "format": "",
-    "on-click": "betterbird",
-    "tooltip-format": "Open Betterbird"
+    "on-click": "xdg-open https://gmail.com",
+    "tooltip-format": "Gmail 📧"
   },
   "custom/quicklink5": {
     "format": "",

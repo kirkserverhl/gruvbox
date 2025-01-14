@@ -23,7 +23,6 @@
       "*": 5
     }
   },
-
   // Taskbar
   "wlr/taskbar": {
     "format": "{icon}",
@@ -40,7 +39,6 @@
       "Foot Server": "Terminal"
     }
   },
-
   // Hyprland Window
   "hyprland/window": {
     "rewrite": {
@@ -52,29 +50,25 @@
     },
     "separate-outputs": true
   },
-
   // Empty
   "custom/empty": {
     "format": ""
   },
-
   // Tools
   "custom/tools": {
     "format": "",
     "on-click": "~/scripts/bpytop.sh",
     "on-click-right": "~/scripts/htop.sh",
-    "tooltip-format": "Left: BpyTop\nRight: HTop"
+    "tooltip-format": "Left: BpyTop 🔝\nRight: HTop 📊"
   },
-
   // Cliphist
   "custom/cliphist": {
     "format": "",
     "on-click": "sleep 0.1 && ~/scripts/cliphist.sh",
     "on-click-right": "sleep 0.1 && ~/scripts/screenshot.sh",
     "on-click-middle": "sleep 0.1 && ~/scripts/cliphist.sh w",
-    "tooltip-format": "Left: Clipboard Manager\nRight: Screenshot"
+    "tooltip-format": "Left: Clipboard Manager 📋️\nRight: Screenshot 📸"
   },
-
   // Updates Count
   "custom/updates": {
     "format": "  {}",
@@ -84,7 +78,7 @@
     "interval": 1800,
     "on-click": "$(cat ~/scripts/terminal.sh) --class dotfiles-floating -e ~/scripts/installupdates.sh",
     "on-click-right": "~/scripts/software.sh",
-    "tooltip-format": "Left: Start Update\nRight: Pacseek Manager"
+    "tooltip-format": "Left: Start Update ⬆️⬆️\nRight: Pacseek Manager 📦️"
   },
 
   // Wallpaper
@@ -92,7 +86,7 @@
     "format": "",
     "on-click": "waypaper",
     "on-click-right": "~/scripts/decorations.sh",
-    "tooltip-format": "Left: Select a wallpaper\nRight: Cycle Window Decorations"
+    "tooltip-format": "Left: Select a wallpaper 🖼️\nRight: Cycle Window Decorations ✨"
   },
 
   // Waybar Themes
@@ -100,7 +94,7 @@
     "format": "",
     "on-click": "~/scripts/themeswitcher.sh",
     "on-click-right": "~/scripts/animations.sh",
-    "tooltip-format": "Left: Waybar Theme\nRight: Cycle Window Animations"
+    "tooltip-format": "Left: Waybar Theme ⏸️\nRight: Cycle Window Animations 🔄"
   },
 
   // Settings
@@ -108,7 +102,7 @@
     "format": "",
     "on-click": "~/scripts/keybinds.sh",
     "on-click-right": "$(cat ~/scripts/terminal.sh) --class dotfiles-floating -e nvim .zshrc ",
-    "tooltip-format": "Left: Keybindings\nRight: Zshrc"
+    "tooltip-format": "Left: Keybindings ⌨️⌨️\nRight: Zshrc 🐢"
   },
 
   // Keybindings
@@ -122,7 +116,7 @@
   "custom/chatgpt": {
     "format": " ",
     "on-click": "~/scripts/ai.sh",
-    "tooltip-format": "AI Support"
+    "tooltip-format": "AI Support 🤖"
   },
 
   // Calculator
@@ -148,30 +142,26 @@
     "on-click-right": "~/scripts/rofilaunch.sh w",
     "tooltip-format": "Left: Rofi App Launcher\nRight: Running Applications"
   },
-
   // Rofi Application Launcher
   "custom/appmenuicon": {
     "format": "",
     "on-click": "sleep 0.2;rofi -show drun -replace",
     "on-click-right": "~/scripts/launch.sh",
-    "tooltip-format": "Left: Open Rofi\nRight: Running Applications"
+    "tooltip-format": "Left: Open Rofi 🔳\nRight: Running Applications 🏃♂️"
   },
-
   // Power Menu
   "custom/exit": {
     "format": "",
     "on-click": "~/scripts/wlogout.sh",
-    "tooltip-format": "Power Menu"
+    "tooltip-format": "Power Menu 🚪"
   },
-
   // Hyprshade
   "custom/hyprshade": {
     "format": "",
-    "tooltip-format": "Toggle Screen Shader",
+    "tooltip-format": "Toggle Screen Shader 🕶️",
     "on-click": "~/scripts/hyprshade.sh",
     "on-click-right": "sleep 0.5; ~/scripts/hyprshade.sh rofi"
   },
-
   // Hypridle inhibitor
   "custom/hypridle": {
     "format": "",
@@ -301,7 +291,7 @@
   // Battery
   "battery": {
     "states": {
-      // "good": 95,
+      "good": 95,
       "warning": 30,
       "critical": 15
     },
@@ -309,14 +299,14 @@
     "format-charging": "  {capacity}%",
     "format-plugged": "  {capacity}%",
     "format-alt": "{icon}  {time}",
-    // "format-good": "", // An empty format will hide the module
-    // "format-full": "",
+    "format-good": "", 
+    "format-full": "",
     "format-icons": [" ", " ", " ", " ", " "]
   },
 
   // Pulseaudio
   "pulseaudio": {
-    // "scroll-step": 1, // %, can be a float
+     "scroll-step": 1, // %, can be a float
     "format": "{icon}  {volume}%",
     "format-bluetooth": "{volume}% {icon} {format_source}",
     "format-bluetooth-muted": " {icon} {format_source}",
