@@ -1,0 +1,117 @@
+<snippets namespace="reST" authors="mpaglia0" license="LGPL v3+" name="reStructuredText Snippets" filetypes="reStructuredText">
+ <script>function fileName() { return document.fileName(); }
+function fileUrl() { return document.url(); }
+function encoding() { return document.encoding(); }
+function selection() { return view.selectedText(); }
+function year() { return new Date().getFullYear(); }
+function upper(x) { return x.toUpperCase(); }
+function lower(x) { return x.toLowerCase(); }
+function how_much_bullet_points(count) { var 		str = '';
+	for(var i=0; i &lt; count;i++) {
+		str += "*\n";
+	};
+	return str;
+}
+function replace_chars(strToReplace, replacementChar) {
+	return strToReplace.replace(/./g,replacementChar);
+}
+</script>
+ <item>
+  <match>Bold</match>
+  <fillin>**${bold_text}**${cursor}</fillin>
+ </item>
+ <item>
+  <match>Link</match>
+  <fillin>`${link_text} &lt;${link_URL}>`_</fillin>
+ </item>
+ <item>
+  <match>Image</match>
+  <fillin>.. image:: ${image_path}
+	
+${cursor}</fillin>
+ </item>
+ <item>
+  <match>HorizontalMarker</match>
+  <fillin>----
+${cursor}</fillin>
+ </item>
+ <item>
+  <match>Quote</match>
+  <fillin>	${quoted_text}
+	
+${cursor}</fillin>
+ </item>
+ <item>
+  <match>Italic</match>
+  <fillin>*${italic_text}*${cursor}</fillin>
+ </item>
+ <item>
+  <match>EnumeratedList</match>
+  <fillin>1. ${enumerated_item}
+
+${cursor}</fillin>
+ </item>
+ <item>
+  <match>Title</match>
+  <fillin>${header_text}
+${replace_chars(header_text,"=")}
+
+${cursor}</fillin>
+ </item>
+ <item>
+  <match>InterpretedText</match>
+  <fillin>`${code_inline}`${cursor}</fillin>
+ </item>
+ <item>
+  <match>BulletList</match>
+  <fillin>- ${bullet_item}
+
+${cursor}</fillin>
+ </item>
+ <item>
+  <match>EnumeratedListAuto</match>
+  <fillin>#. ${enumerated_item}
+
+${cursor}</fillin>
+ </item>
+ <item>
+  <match>Figure</match>
+  <fillin>.. figure:: ${image_path}
+	:width: ${image_width}
+	:height: ${image_height}
+	:scale: ${image_scale}
+   :alt: ${alt_text}
+   :class: ${css_class}
+
+	${image_caption}
+
+${cursor}</fillin>
+ </item>
+ <item>
+  <match>Subtitle</match>
+  <fillin>${header_text}
+${replace_chars(header_text,"-")}
+
+${cursor}</fillin>
+ </item>
+ <item>
+  <match>Sub-subtitle</match>
+  <fillin>${header_text}
+${replace_chars(header_text,"~")}
+
+${cursor}</fillin>
+ </item>
+ <item>
+  <match>InlineLiteral</match>
+  <fillin>``${inline_literal}``${cursor}</fillin>
+ </item>
+ <item>
+  <match>Table</match>
+  <fillin>+---------------+---------------+
+| ${header_1}   | ${header_2}   |
++===============+===============+
+| ${body_row_1} | ${body_row_1} |
++---------------+---------------+
+</fillin>
+ </item>
+</snippets>

@@ -1,0 +1,29 @@
+id = "move-aptos"
+name = "move-aptos"
+version = "0.0.1"
+schema_version = 1
+description = "Move on Aptos language support for Zed"
+repository = "https://github.com/caoyang2002/zed-move-aptos"
+authors = ["simons <reggiesimons2cy@gmail.com>"]
+themes = []
+languages = ["languages/move"]
+
+[lib]
+kind = "Rust"
+version = "0.2.0"
+
+[grammars.move]
+repository = "https://github.com/caoyang2002/tree-sitter-move-aptos"
+rev = "f71fe313c7b56d7a22034b00d5e495a3dbf74029"
+
+[language_servers.move-language-server]
+language = "Move"
+languages = []
+
+[language_servers.move-language-server.language_ids]
+
+[context_servers]
+
+[slash_commands]
+
+[indexed_docs_providers]

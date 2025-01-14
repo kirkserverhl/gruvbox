@@ -1,0 +1,17 @@
+id = "asciidoc"
+name = "AsciiDoc"
+version = "0.0.1"
+schema_version = 1
+description = "Support for AsciiDoc syntax"
+repository = "https://github.com/andreicek/asciidoc-zed"
+authors = ["Andrei Zvonimir Crnkovic <andrei@0x7f.dev>"]
+themes = []
+languages = ["languages/asciidoc"]
+
+[lib]
+
+[grammars.asciidoc]
+repository = "https://github.com/cathaysia/tree-sitter-asciidoc"
+rev = "736ab072da132283b5d9397100d70f14b4fb71ae"
+
+[language_servers]

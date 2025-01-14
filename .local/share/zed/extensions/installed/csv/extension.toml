@@ -1,0 +1,19 @@
+id = "csv"
+name = "CSV"
+version = "0.0.2"
+schema_version = 1
+description = "CSV language support."
+repository = "https://github.com/huacnlee/zed-csv"
+authors = ["Jason Lee <huacnlee@gmail.com>"]
+themes = []
+languages = ["languages/csv"]
+
+[lib]
+kind = "Rust"
+version = "0.0.4"
+
+[grammars.csv]
+repository = "https://github.com/arnau/tree-sitter-csv"
+rev = "4b25b5d745f9462e54b781e3d7798b8e0a4db703"
+
+[language_servers]

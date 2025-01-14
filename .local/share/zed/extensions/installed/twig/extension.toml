@@ -1,0 +1,27 @@
+id = "twig"
+name = "Twig"
+version = "0.1.1"
+schema_version = 1
+description = "Syntax highlighting and Intellisense for Twig in Zed"
+repository = "https://github.com/YussufSassi/zed-twig"
+authors = ["Yussuf Sassi <yussuf@tuta.io>"]
+themes = []
+languages = ["languages/twig"]
+
+[lib]
+kind = "Rust"
+version = "0.0.6"
+
+[grammars.twig]
+repository = "https://github.com/gbprod/tree-sitter-twig"
+rev = "eaf80e6af969e25993576477a9dbdba3e48c1305"
+
+[language_servers.twig-language-server]
+language = "Twig"
+languages = []
+
+[language_servers.twig-language-server.language_ids]
+
+[slash_commands]
+
+[indexed_docs_providers]

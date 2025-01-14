@@ -1,0 +1,23 @@
+id = "haml"
+name = "Haml"
+version = "0.1.0"
+schema_version = 1
+description = "Haml template support"
+repository = "https://github.com/davidcornu/zed-haml"
+authors = ["David Cornu <me@davidcornu.com>"]
+themes = []
+languages = ["languages/haml"]
+
+[lib]
+
+[grammars.haml]
+repository = "https://github.com/vitallium/tree-sitter-haml"
+rev = "ca002c14a373534affb32079dad6ca4a493451b2"
+
+[language_servers]
+
+[context_servers]
+
+[slash_commands]
+
+[indexed_docs_providers]

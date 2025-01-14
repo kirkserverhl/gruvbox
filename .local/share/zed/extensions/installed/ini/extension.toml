@@ -1,0 +1,23 @@
+id = "ini"
+name = "ini"
+version = "0.0.3"
+schema_version = 1
+description = "Ini support and conf, config etc too"
+repository = "https://github.com/bajrangCoder/zed-ini"
+authors = ["Raunak Raj <bajrangcoders@gmail.com>"]
+themes = []
+languages = ["languages/ini"]
+
+[lib]
+
+[grammars.ini]
+repository = "https://github.com/justinmk/tree-sitter-ini"
+rev = "fc37e95b8d9651c60d81cccbcbbc55867dbb0afd"
+
+[language_servers]
+
+[context_servers]
+
+[slash_commands]
+
+[indexed_docs_providers]

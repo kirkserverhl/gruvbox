@@ -1,0 +1,19 @@
+id = "vscode-dark-high-contrast"
+name = "VSCode Dark High Contrast"
+version = "1.0.0"
+schema_version = 1
+description = "A clone of the Dark High Contrast theme from VSCode"
+repository = "https://github.com/nick-myrick/vscode-dark-high-contrast"
+authors = ["Nicholas Myrick <nmyrick@purdue.edu>"]
+themes = ["themes/vscodehighcontrast.json"]
+languages = []
+
+[lib]
+
+[grammars]
+
+[language_servers]
+
+[slash_commands]
+
+[indexed_docs_providers]

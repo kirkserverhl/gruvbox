@@ -1,0 +1,27 @@
+id = "typst"
+name = "Typst"
+version = "0.1.0"
+schema_version = 1
+description = "Typst support."
+repository = "https://github.com/weethet/typst.zed"
+authors = ["WeetHet <stas.ale66@gmail.com>"]
+themes = []
+languages = ["languages/typst"]
+
+[lib]
+kind = "Rust"
+version = "0.1.0"
+
+[grammars.typst]
+repository = "https://github.com/uben0/tree-sitter-typst"
+rev = "abe60cbed7986ee475d93f816c1be287f220c5d8"
+
+[language_servers.tinymist]
+language = "Typst"
+languages = []
+
+[language_servers.tinymist.language_ids]
+
+[slash_commands]
+
+[indexed_docs_providers]

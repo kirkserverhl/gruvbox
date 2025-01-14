@@ -1,0 +1,30 @@
+id = "gem"
+name = "Gem"
+version = "0.0.1"
+schema_version = 1
+description = "Gem plugin for VS Code"
+repository = "https://github.com/mantou132/gem"
+authors = ["mantou132 <709922234@qq.com>"]
+themes = []
+languages = []
+snippets = "./snippets/typescript.json"
+
+[lib]
+kind = "Rust"
+version = "0.1.0"
+
+[grammars]
+
+[language_servers.gem]
+languages = ["TypeScript", "TSX", "JavaScript", "JSDoc"]
+
+[language_servers.gem.language_ids]
+TypeScript = "typescript"
+JavaScript = "javascript"
+TSX = "typescriptreact"
+
+[context_servers]
+
+[slash_commands]
+
+[indexed_docs_providers]

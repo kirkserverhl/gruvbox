@@ -1,0 +1,27 @@
+id = "iwe"
+name = "IWE"
+version = "0.0.1"
+schema_version = 1
+description = "Markdown files graph navigation and transformation"
+repository = "https://github.com/iwe-org/zed-iwe"
+authors = ["Dmytro Halichenko <dmytrohalichenko@gmail.com>"]
+themes = []
+languages = []
+
+[lib]
+kind = "Rust"
+version = "0.2.0"
+
+[grammars]
+
+[language_servers.iwe]
+language = "Markdown"
+languages = []
+
+[language_servers.iwe.language_ids]
+
+[context_servers]
+
+[slash_commands]
+
+[indexed_docs_providers]

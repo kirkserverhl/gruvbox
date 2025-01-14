@@ -1,0 +1,27 @@
+id = "marksman"
+name = "Marksman"
+version = "0.0.3"
+schema_version = 1
+description = "Marksman support for Markdown files."
+repository = "https://github.com/vitallium/zed-marksman"
+authors = ["Vitaly Slobodin <vitaliy.slobodin@gmail.com>"]
+themes = []
+languages = []
+
+[lib]
+kind = "Rust"
+version = "0.2.0"
+
+[grammars]
+
+[language_servers.marksman]
+language = "Markdown"
+languages = []
+
+[language_servers.marksman.language_ids]
+
+[context_servers]
+
+[slash_commands]
+
+[indexed_docs_providers]

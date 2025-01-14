@@ -1,0 +1,15 @@
+id = "the-dark-side"
+name = "The Dark Side"
+version = "0.2.5"
+schema_version = 0
+description = "Join the dark side."
+repository = "https://github.com/Imgkl/the-dark-side"
+authors = ["Sai Gokula Krishnan <hi@gokula.dev>"]
+themes = ["themes/the-dark-side.json"]
+languages = []
+
+[lib]
+
+[grammars]
+
+[language_servers]

@@ -1,0 +1,13 @@
+name = "move"
+grammar = "move"
+path_suffixes = ["move"]
+line_comments = ["// "]
+autoclose_before = ";:.,=}])>` \n\t\""
+brackets = [
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = true },
+    { start = "{", end = "}", close = true, newline = true },
+]
+line_comment = ["// ", "/// "]
+block_comment = ["/*", "*/"]
+collapsed_placeholder = " /* ... */ "

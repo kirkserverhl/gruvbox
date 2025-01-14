@@ -1,0 +1,26 @@
+id = "unicode"
+name = "Unicode"
+version = "0.1.5"
+schema_version = 1
+description = "Unicode characters for Zed"
+repository = "https://github.com/aripiprazole/unicode"
+authors = ["Gabrielle Guimarães de Oliveira <gabrielle1guim@gmail.com>"]
+themes = []
+languages = []
+
+[lib]
+kind = "Rust"
+version = "0.1.0"
+
+[grammars]
+
+[language_servers.unicode]
+languages = ["AsciiDoc", "Astro", "Bash", "Biome", "C", "C++", "Clojure", "CSharp", "CSS", "CSV", "D", "Dart", "Elixir", "Elm", "Erlang", "Fish", "FSharp", "GDScript", "Gleam", "Go", "GraphQL", "Haskell", "HEEX", "HTML", "Hy", "Idris", "Java", "JavaScript", "JSON", "JSONC", "Julia", "Kotlin", "Lua", "Markdown", "Nim", "Nix", "OCaml", "PureScript", "Python", "Racket", "Roc", "Ruby", "Rust", "Scheme", "SCSS", "Shell Script", "SQL", "Swift", "TOML", "TSX", "TypeScript", "WIT", "XML", "YAML", "Zig"]
+
+[language_servers.unicode.language_ids]
+
+[context_servers]
+
+[slash_commands]
+
+[indexed_docs_providers]

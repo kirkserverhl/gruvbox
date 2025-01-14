@@ -1,0 +1,4 @@
+name = "tmux"
+grammar = "tmux"
+path_suffixes = ["tmux", "tmux.conf"]
+line_comments = ["# "]

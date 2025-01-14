@@ -1,0 +1,19 @@
+id = "zedrack-theme"
+name = "Zedrack Theme"
+version = "0.0.6"
+schema_version = 1
+description = "Vim-insipred strong-contrast transparent theme"
+repository = "https://github.com/foorack/zed-theme"
+authors = ["Foorack <max@foorack.com>"]
+themes = ["themes/foorack.json"]
+languages = []
+
+[lib]
+
+[grammars]
+
+[language_servers]
+
+[slash_commands]
+
+[indexed_docs_providers]
