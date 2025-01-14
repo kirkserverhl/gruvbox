@@ -1,6 +1,3 @@
-[FullScreen]
-FullScreenModeActive=true
-
 [General]
 BackgroundColorMode=DocumentView::Neutral
 LastUsedVersion=210800
@@ -8,35 +5,34 @@ SideBarPage=operations
 ThumbnailBarIsVisible=true
 
 [ImageView]
-ThumbnailSplitterSizes=509,146
+ThumbnailSplitterSizes=540,186
 
 [MainWindow]
 MenuBar=Disabled
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Pictures/screenshot_14012025_130017.jpg
-File10[$e]=$HOME/Pictures/screenshot_14012025_091021.jpg
-File2[$e]=$HOME/Pictures/screenshot_14012025_125945.jpg
-File3[$e]=$HOME/Pictures/screenshot_14012025_125826.jpg
-File4[$e]=$HOME/Pictures/screenshot_14012025_124638.jpg
-File5[$e]=$HOME/Pictures/screenshot_14012025_124518.jpg
-File6[$e]=$HOME/Pictures/screenshot_14012025_095548.jpg
-File7[$e]=$HOME/Pictures/screenshot_14012025_094616.jpg
-File8[$e]=$HOME/Pictures/screenshot_14012025_092430.jpg
-File9[$e]=$HOME/Pictures/screenshot_14012025_091517.jpg
-Name1[$e]=screenshot_14012025_130017.jpg
-Name10[$e]=screenshot_14012025_091021.jpg
-Name2[$e]=screenshot_14012025_125945.jpg
-Name3[$e]=screenshot_14012025_125826.jpg
-Name4[$e]=screenshot_14012025_124638.jpg
-Name5[$e]=screenshot_14012025_124518.jpg
-Name6[$e]=screenshot_14012025_095548.jpg
-Name7[$e]=screenshot_14012025_094616.jpg
-Name8[$e]=screenshot_14012025_092430.jpg
-Name9[$e]=screenshot_14012025_091517.jpg
+File1[$e]=$HOME/Pictures/screenshot_14012025_092430.jpg
+File10[$e]=$HOME/wallpaper/gruvbox_groovbox_col4.png
+File2[$e]=$HOME/Pictures/screenshot_14012025_091517.jpg
+File3[$e]=$HOME/Pictures/screenshot_14012025_091021.jpg
+File4[$e]=$HOME/wallpaper/guitar.png
+File5[$e]=$HOME/wallpaper/alley_gruv.jpg
+File6[$e]=$HOME/wallpaper/icon_color.jpg
+File7[$e]=$HOME/wallpaper/icon.jpg
+File8[$e]=$HOME/wallpaper/gruvbox_icon.jpg
+File9[$e]=$HOME/wallpaper/gruvbox_icon_color.jpg
+Name1[$e]=screenshot_14012025_092430.jpg
+Name10[$e]=gruvbox_groovbox_col4.png
+Name2[$e]=screenshot_14012025_091517.jpg
+Name3[$e]=screenshot_14012025_091021.jpg
+Name4[$e]=guitar.png
+Name5[$e]=alley_gruv.jpg
+Name6[$e]=icon_color.jpg
+Name7[$e]=icon.jpg
+Name8[$e]=gruvbox_icon.jpg
+Name9[$e]=gruvbox_icon_color.jpg
 
 [SideBar]
 InformationSplitterSizes=228,247
-IsVisible ViewMode=true
-SideBarSplitterSizes=261,1298
+SideBarSplitterSizes=261,737
