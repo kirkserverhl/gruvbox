@@ -1,7 +1,6 @@
 # -----------------------------------------------------
 # INIT
 # -----------------------------------------------------
-
 export BACKGROUND='#111313'
 export FOREGROUND='#c3c4c4'
 export CURSOR='#c3c4c4'
@@ -27,13 +26,11 @@ export SUDO_EDITOR="$EDITOR"
 export PATH="$HOME/scripts:$PATH"
 export ZSH="$HOME/.oh-my-zsh"
 export LESSOPEN="| /usr/bin/source-highlight-esc.sh %s"
-export QT_QPA_PLATFORMTHEME=qt5ct:q 
+export QT_QPA_PLATFORMTHEME=qt5ct
+export PYWAL='~/.cache/wal/colors.sh'
 
 # Starship -------------------------------------------
-# export STARSHIP_CONFIG="$ZDOTDIR/starship/config.toml"
-# export STARSHIP_CACHE="$ZDOTDIR/starship/cache"
 eval "$(starship init zsh)"
-
 # -----------------------------------------------------
 # ALIASES
 # -----------------------------------------------------
@@ -71,6 +68,7 @@ alias jel2="sudo mount.cifs //192.168.0.105/jel2 /mnt/jel2 -o username=kirk,pass
 alias jel3="sudo mount.cifs //192.168.0.105/jel3 /mnt/jel3 -o username=kirk,password=123456"
 alias jel="~/scripts/mount_jel.sh"
 alias rg='ranger'
+
 # Color
 alias diff='diff --color=auto'
 alias grep='grep --color=auto'
@@ -163,14 +161,9 @@ export BAT_THEME="gruvbox-dark"
 gitupdate() {
   cd ~/.dotfiles && git add . && git commit -m "$1" && git push
 }
-
 # -----------------------------------------------------
-# END OF .zshrc
+# ZNT and Zharma
 # -----------------------------------------------------
-
-
-
-
 ### ZNT's installer added snippet ###
 fpath=( "$fpath[@]" "$HOME/.config/znt/zsh-navigation-tools" )
 autoload n-aliases n-cd n-env n-functions n-history n-kill n-list n-list-draw n-list-input n-options n-panelize n-help
@@ -182,9 +175,8 @@ bindkey '^R' znt-history-widget
 setopt AUTO_PUSHD HIST_IGNORE_DUPS PUSHD_IGNORE_DUPS
 zstyle ':completion::complete:n-kill::bits' matcher 'r:|=** l:|=*'
 ### END ###
-#
-#zmodload zsh/zpty
 
+#zmodload zsh/zpty
 pty() {
 	zpty pty-${UID} ${1+$@}
 	if [[ ! -t 1 ]];then
@@ -197,20 +189,14 @@ pty() {
 
 ptyless() {
 	pty $@ | less
-
 }
-~/.cache/wal/colors.sh
-
-
-
-
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
     print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
     command mkdir -p "$HOME/.local/share/zinit" && command chmod g-rwX "$HOME/.local/share/zinit"
     command git clone https://github.com/zdharma-continuum/zinit "$HOME/.local/share/zinit/zinit.git" && \
         print -P "%F{33} %F{34}Installation successful.%f%b" || \
-        print -P "%F{160} The clone has failed.%f%b"
+        print -P "%F{160} Te clone has failed.%f%b"
 fi
 
 source "$HOME/.local/share/zinit/zinit.git/zinit.zsh"
@@ -219,12 +205,12 @@ autoload -Uz _zinit
 
 # Load a few important annexes, without Turbo
 # (this is currently required for annexes)
-
 zinit light-mode for \
     zdharma-continuum/zinit-annex-as-monitor \
     zdharma-continuum/zinit-annex-bin-gem-node \
     zdharma-continuum/zinit-annex-patch-dl \
-    zdharma-continuum/zinit-annex-rust
-#    zdharma-continuum/colorize
-
+    zdharma-continuum/zinit-annex-rust    
 ### End of Zinit's installer chunk
+### # -----------------------------------------------------
+### END OF .zshrc
+### #-----------------------------------------------------
