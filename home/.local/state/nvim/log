@@ -1,73 +1,18 @@
-WRN 2025-01-11T11:24:06.445 nvim.64175.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-11T11:28:56.458 nvim.67291.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-11T11:44:38.332 nvim.69565.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-11T12:05:11.964 nvim.77646.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-11T12:05:22.707 nvim.77654.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-11T12:06:10.115 nvim.77672.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-11T13:08:42.434 nvim.169780.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-11T13:09:20.559 nvim.169807.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-11T14:01:20.612 nvim.387719.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-11T14:58:31.715 nvim.402641.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-11T15:04:17.097 nvim.414959.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-11T17:58:53.875 nvim.10967.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-11T17:59:32.501 nvim.11525.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-12T03:35:02.304 nvim.11461.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-12T04:03:12.100 nvim.12733.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-12T05:26:55.100 nvim.32268.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-12T05:34:58.802 nvim.39056.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-12T05:35:56.716 nvim.39548.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-12T05:36:08.772 nvim.39726.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-12T06:17:37.384 nvim.43172.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-12T07:23:56.573 nvim.65313.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-12T07:29:20.646 nvim.66155.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-12T07:41:16.614 nvim.67701.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-12T07:42:35.324 nvim.67751.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-12T07:43:21.082 nvim.67944.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-12T07:43:34.800 nvim.68115.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-12T07:45:31.699 nvim.68184.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-12T09:35:21.290 nvim.12346.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-12T09:36:01.514 nvim.12355.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-12T09:44:05.778 nvim.15331.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-12T09:45:43.019 nvim.15505.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-12T09:53:35.949 nvim.18017.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-12T09:53:54.827 nvim.18035.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-13T00:10:24.169 nvim.309718.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-13T15:24:26.311 nvim.432165.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-13T15:32:23.344 nvim.433813.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-13T16:01:56.192 nvim.6243.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-13T16:43:03.489 nvim.18630.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-13T16:45:07.847 nvim.19203.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-13T18:09:35.346 nvim.10512.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-13T18:10:09.189 nvim.10672.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-13T18:13:08.648 nvim.11516.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T02:20:58.787 nvim.167349.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T02:22:47.471 nvim.167562.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T02:23:49.595 nvim.167838.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T02:37:53.754 nvim.178507.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T02:44:05.564 nvim.179137.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T02:50:08.731 nvim.180090.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T02:50:56.682 nvim.180428.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T03:14:36.384 nvim.185730.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T03:32:45.047 nvim.196008.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T05:32:25.172 nvim.231844.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T05:35:36.747 nvim.233037.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T05:42:02.616 nvim.235322.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T05:49:48.294 nvim.237178.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T05:51:11.499 nvim.237237.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T05:54:15.067 nvim.238793.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T05:54:23.314 nvim.238802.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T05:54:51.097 nvim.238824.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T09:35:49.970 nvim.43852.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T09:41:43.583 nvim.44075.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T09:42:16.794 nvim.44376.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T09:43:25.364 nvim.44867.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T10:05:52.125 nvim.52864.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T11:57:48.019 nvim.85280.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T12:48:25.642 nvim.92974.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T18:03:47.993 nvim.207337.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T18:17:27.100 nvim.211328.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T18:19:14.066 nvim.211979.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T18:21:11.555 nvim.214999.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T22:01:10.949 nvim.235094.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-14T23:06:31.662 nvim.237273.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
-WRN 2025-01-15T21:03:36.657 nvim.348415.0 server_start:163: Failed to start server: address already in use: /tmp/spacevim_nvim_server
+ERR 2025-01-15T22:30:49.271 nvim.27670.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/NqOGCC/
+ERR 2025-01-15T22:35:43.810 nvim.31138.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/X7X5gO/
+ERR 2025-01-15T22:44:07.968 nvim.35061.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/g7o5bA/
+ERR 2025-01-15T22:54:31.768 nvim.39916.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/KmYUPX/
+ERR 2025-01-15T23:29:11.106 nvim.54148.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/CC33hR/
+ERR 2025-01-15T23:37:58.165 nvim.66794.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/JmeVp6/
+ERR 2025-01-15T23:59:01.566 nvim.2901.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/MjHAi1/
+ERR 2025-01-16T00:25:57.564 nvim.19076.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/muszrJ/
+ERR 2025-01-16T01:09:46.586 nvim.7357.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/INxrVB/
+ERR 2025-01-16T02:33:02.275 nvim.4419.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/WBpS45/
+ERR 2025-01-16T02:33:02.433 nvim.4419.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/9ArKHG/
+ERR 2025-01-16T02:33:03.106 nvim.4419.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/lRHhI3/
+ERR 2025-01-16T02:33:03.946 nvim.4419.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/9FaN88/
+ERR 2025-01-16T02:33:06.018 nvim.4419.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/AdJG97/
+ERR 2025-01-16T02:33:06.738 nvim.4419.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/5it95t/
+ERR 2025-01-16T02:33:11.667 nvim.4419.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/8Hx9Yf/
+ERR 2025-01-16T02:33:12.227 nvim.4419.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/AOqHCq/
+ERR 2025-01-16T14:01:15.290 nvim.16136.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/hoL4YO/
