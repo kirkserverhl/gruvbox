@@ -22,6 +22,7 @@ vim.cmd("set spell")
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
 vim.cmd("set termguicolors")
+-- vim.cmd('dylanaraps/wal.vim')
 vim.cmd("colorscheme gruvbox")
 
 -- require("keymaps")

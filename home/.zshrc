@@ -61,6 +61,7 @@ alias v='$EDITOR'
 alias vim='vim'
 alias ts='~/scripts/snapshot.sh'
 alias cleanup='~/scripts/cleanup.sh'
+alias update='~/scripts/system_cleanup_and_update.sh'
 alias fig='~/scripts/figlet.sh'
 alias wifi='nmtui'
 alias monitor='~/scripts/monitor.sh'
@@ -226,3 +227,5 @@ zinit light-mode for \
 # bun completions
 [ -s "/home/kirk/.bun/_bun" ] && source "/home/kirk/.bun/_bun"
 # ascii-term
+#
+source "$HOME/.cache/wal/colors-tty.sh"
