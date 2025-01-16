@@ -1222,11 +1222,6 @@ freetype-background-opacity=128
 # Sync on Intra Frame (boolean)
 #packetizer-mpegvideo-sync-iframe=0
 
-[notify] # LibNotify Notification Plugin
-
-# Timeout (ms) (integer)
-#notify-timeout=4000
-
 [mux_ts] # TS muxer (libdvbpsi)
 
 # Digital TV Standard (string)
@@ -3123,6 +3118,17 @@ sout-x264-tune=film
 
 # Frame rate (string)
 #timecode-fps=25/1
+
+[smb] # SMB input
+
+# Username (string)
+#smb-user=
+
+# Password (string)
+#smb-pwd=
+
+# SMB domain (string)
+#smb-domain=
 
 [shm] # Shared memory framebuffer
 
