@@ -67,7 +67,7 @@
     "on-click": "sleep 0.1 && ~/scripts/cliphist.sh",
     "on-click-right": "sleep 0.1 && ~/scripts/screenshot.sh",
     "on-click-middle": "sleep 0.1 && ~/scripts/cliphist.sh w",
-    "tooltip-format": " Left:  Clipboard   📋️\nRight: Screenshot 📸"
+    "tooltip-format": " Left:  Clipboard    📋️\nRight: Screenshot 📸"
   },
   // Updates Count
   "custom/updates": {
@@ -86,7 +86,7 @@
     "format": "",
     "on-click": "waypaper",
     "on-click-right": "~/scripts/decorations.sh",
-    "tooltip-format": "Left:  Wallpaper  🖼️\nRight: Decorations ✨"
+    "tooltip-format": "Left:   Wallpaper   🖼️\nRight: Decorations ✨"
   },
 
   // Waybar Themes
@@ -94,7 +94,7 @@
     "format": "",
     "on-click": "~/scripts/themeswitcher.sh",
     "on-click-right": "~/scripts/animations.sh",
-    "tooltip-format": "Left: Waybar  ⏸️\nRight: Animations 🔄"
+    "tooltip-format": "Left:    Waybar      ⏸️\nRight: Animations 🔄"
   },
 
   // Settings
@@ -102,7 +102,7 @@
     "format": "",
     "on-click": "~/scripts/keybinds.sh",
     "on-click-right": "$(cat ~/scripts/terminal.sh) --class dotfiles-floating -e nvim .zshrc ",
-    "tooltip-format": "Left: Keybinds ⌨️\nRight:  Zshrc  🐢"
+    "tooltip-format": "Left: Keybind ⌨️\nRight:  Zshrc  🐢"
   },
 
   // Keybindings
@@ -140,7 +140,7 @@
     // END APPS LABEL
     "on-click": "sleep 0.2;pkill rofi || rofi -show drun -replace",
     "on-click-right": "~/scripts/rofilaunch.sh w",
-    "tooltip-format": "Left: Rofi App Launcher\nRight: Running Applications"
+    "tooltip-format": "Left:   Open Rofi  🔳 \nRight: Open Apps 🏃"
   },
   // Rofi Application Launcher
   "custom/appmenuicon": {

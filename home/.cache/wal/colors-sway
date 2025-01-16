@@ -1,21 +1,21 @@
-set $wallpaper /home/kirk/wallpaper/space_walk.png
+set $wallpaper /home/kirk/wallpaper/fractal.webp
 
-set $background #101212
+set $background #111212
 set $foreground #c3c3c3
 
-set $color0 #101212
-set $color1 #3F8288
-set $color2 #478789
-set $color3 #739C90
-set $color4 #83A598
-set $color5 #9EAA95
-set $color6 #C9D1A8
+set $color0 #111212
+set $color1 #556E6A
+set $color2 #57847C
+set $color3 #6E827C
+set $color4 #3E8585
+set $color5 #488687
+set $color6 #709A92
 set $color7 #c3c3c3
-set $color8 #596d6d
-set $color9 #3F8288
-set $color10 #478789
-set $color11 #739C90
-set $color12 #83A598
-set $color13 #9EAA95
-set $color14 #C9D1A8
+set $color8 #6e5959
+set $color9 #556E6A
+set $color10 #57847C
+set $color11 #6E827C
+set $color12 #3E8585
+set $color13 #488687
+set $color14 #709A92
 set $color15 #c3c3c3

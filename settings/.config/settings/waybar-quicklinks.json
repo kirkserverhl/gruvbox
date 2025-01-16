@@ -8,13 +8,13 @@
     "format": "",
     "on-click": "~/scripts/browser.sh",
     "on-click-right": "~/scripts/terminal.sh",
-    "tooltip-format": "Left:  Firefox   🦊\nRight: Ghostty 👻"
+    "tooltip-format": "Left:   Firefox   🦊\nRight: Ghostty 👻"
   },
   "custom/quicklink3": {
     "format": "",
     "on-click": "~/scripts/filemanager.sh",
     "on-click-right": "~/scripts/ranger.sh",
-    "tooltip-format": "Left:   Dolphin  🐬 \nRight:  Ranger  🤠"
+    "tooltip-format": "Left:    Dolphin 🐬 \nRight:  Ranger  🤠"
   },
   "custom/quicklink4": {
     "format": "",
