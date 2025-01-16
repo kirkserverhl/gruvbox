@@ -1,29 +1,29 @@
 {
-    "checksum": "adbbedcc3281d7351190e12111b2349b",
-    "wallpaper": "/home/kirk/wallpaper/triangle.jpg",
+    "checksum": "b00056a4d74687261f402855c5de814c",
+    "wallpaper": "/home/kirk/wallpaper/fractal.webp",
     "alpha": "100",
 
     "special": {
-        "background": "#101012",
+        "background": "#111212",
         "foreground": "#c3c3c3",
         "cursor": "#c3c3c3"
     },
     "colors": {
-        "color0": "#101012",
-        "color1": "#817D69",
-        "color2": "#979274",
-        "color3": "#90908F",
-        "color4": "#B2AF8E",
-        "color5": "#C3BD90",
-        "color6": "#D7D19F",
+        "color0": "#111212",
+        "color1": "#556E6A",
+        "color2": "#57847C",
+        "color3": "#6E827C",
+        "color4": "#3E8585",
+        "color5": "#488687",
+        "color6": "#709A92",
         "color7": "#c3c3c3",
-        "color8": "#59596d",
-        "color9": "#817D69",
-        "color10": "#979274",
-        "color11": "#90908F",
-        "color12": "#B2AF8E",
-        "color13": "#C3BD90",
-        "color14": "#D7D19F",
+        "color8": "#6e5959",
+        "color9": "#556E6A",
+        "color10": "#57847C",
+        "color11": "#6E827C",
+        "color12": "#3E8585",
+        "color13": "#488687",
+        "color14": "#709A92",
         "color15": "#c3c3c3"
     }
 }

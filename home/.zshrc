@@ -225,3 +225,4 @@ zinit light-mode for \
 
 # bun completions
 [ -s "/home/kirk/.bun/_bun" ] && source "/home/kirk/.bun/_bun"
+# ascii-term

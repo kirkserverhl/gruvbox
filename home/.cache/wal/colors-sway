@@ -1,21 +1,21 @@
-set $wallpaper /home/kirk/wallpaper/triangle.jpg
+set $wallpaper /home/kirk/wallpaper/fractal.webp
 
-set $background #101012
+set $background #111212
 set $foreground #c3c3c3
 
-set $color0 #101012
-set $color1 #817D69
-set $color2 #979274
-set $color3 #90908F
-set $color4 #B2AF8E
-set $color5 #C3BD90
-set $color6 #D7D19F
+set $color0 #111212
+set $color1 #556E6A
+set $color2 #57847C
+set $color3 #6E827C
+set $color4 #3E8585
+set $color5 #488687
+set $color6 #709A92
 set $color7 #c3c3c3
-set $color8 #59596d
-set $color9 #817D69
-set $color10 #979274
-set $color11 #90908F
-set $color12 #B2AF8E
-set $color13 #C3BD90
-set $color14 #D7D19F
+set $color8 #6e5959
+set $color9 #556E6A
+set $color10 #57847C
+set $color11 #6E827C
+set $color12 #3E8585
+set $color13 #488687
+set $color14 #709A92
 set $color15 #c3c3c3
