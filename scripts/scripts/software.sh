@@ -1,1 +1,1 @@
-$(cat ~/scripts/terminal.sh) --class dotfiles-floating -e pacseek
+$(cat ~/scripts/terminal.sh) -e pacseek

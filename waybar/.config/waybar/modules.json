@@ -76,7 +76,7 @@
     "return-type": "json",
     "exec": "~/scripts/updates.sh",
     "interval": 1800,
-    "on-click": "$(cat ~/scripts/terminal.sh) --class dotfiles-floating -e ~/scripts/installupdates.sh",
+    "on-click": "$(cat ~/scripts/terminal.sh) -e ~/scripts/installupdates.sh",
     "on-click-right": "~/scripts/software.sh",
     "tooltip-format": "Left: Start Update ⬆️⬆️\nRight: Pacseek Manager 📦️"
   },

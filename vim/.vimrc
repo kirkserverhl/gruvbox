@@ -123,6 +123,7 @@ let g:tex_conceal='abdmg'
 Plug 'SirVer/ultisnips'
 "This ends snippets"
 Plug 'thaerkh/vim-workspace'
+Plug 'dylanaraps/wal.vim'
 
 "Related to above, the following code saves all session files in a single directory outside your
 "workspace
