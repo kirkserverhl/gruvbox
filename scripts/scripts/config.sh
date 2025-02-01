@@ -56,8 +56,6 @@ echo ""
 echo "  🐢    Zsh Shell is suggested for BEST performance !!   🐚"
 echo ""
 read -p "        Would you like to configure your shell  (y/n) ? " configure_shell
-echo ""
-echo "To Exit Neovim use "
 if [[ "$configure_shell" =~ ^[Yy]$ ]]; then
     if ~/scripts/shell.sh; then
     	track_action "Shell Configuration"
@@ -67,26 +65,6 @@ if [[ "$configure_shell" =~ ^[Yy]$ ]]; then
     fi
 else
     mark_skipped "Shell Configuration"
-fi
-clear
-
-### Neovim Configuration ###
-
-display_header "Neovim  Setup" | lsd-print
-echo ""
-echo "  Would you like to configure Neovim (y/n) ? " | lsd-print
-echo ""
-echo "  To Close Neovim use:  Win + Q  "
-read -p "   " configure_nvim
-if [[ "$configure_nvim" =~ ^[Yy]$ ]]; then
-    if ~/scripts/nvim.sh; then
-    	track_action "Nvim Configuration"
-      mark_completed "Nvim Configuration"
-    else
-        mark_skipped "Nvim Configuration"
-    fi
-else
-    mark_skipped "Nvim Configuration"
 fi
 clear
 
@@ -145,7 +123,6 @@ else
 fi
 clear
 
-
 ### Editors Choice ####
 display_header "Editors Choice" | lsd-print
 echo ""
@@ -167,16 +144,19 @@ clear
 
 display_header "Neovim  Setup" | lsd-print
 echo ""
-read -p "        Would you like to configure Neovim  (y/n) ? " configure_nvim
+echo "     Would you like to configure Neovim (y/n) ? "
+echo ""
+echo "  ( To Close Neovim use:  󰖳 + Q )   " | lsd-print
+read -p "   " configure_nvim
 if [[ "$configure_nvim" =~ ^[Yy]$ ]]; then
     if ~/scripts/nvim.sh; then
-    	track_action "Nvim Configuration"
-      mark_completed "Nvim Configuration"
+    	track_action "Neovim Configuration"
+      mark_completed "Neovim Configuration"
     else
-        mark_skipped "Nvim Configuration"
+        mark_skipped "Neovim Configuration"
     fi
 else
-    mark_skipped "Nvim Configuration"
+    mark_skipped "Neovim Configuration"
 fi
 clear
 
@@ -250,4 +230,3 @@ case $choice in
         exit 1
         ;;
 esac
-
