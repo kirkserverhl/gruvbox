@@ -13,9 +13,7 @@ RED="\e[38;2;204;36;29m"     	# cc241d ##
 GRAY="\e[38;2;60;56;54m"     	# 3c3836 ##
 BOLD="\e[1m"                 	# Bold   ##
 ###########################################
-## clear #####################################
-
-
+clear #####################################
 
 display_header() {
     # clear
@@ -52,6 +50,8 @@ echo -e "\n     Running Post Install Configuration..." | lsd-print
 ### Shell Configuration ###
 
 display_header "Shell  Setup" | lsd-print
+echo ""
+echo "       Zsh Shell is suggested for BEST performance !!"
 echo ""
 read -p "  🐢   Would you like to configure your shell  (y/n) ? " configure_shell
 if [[ "$configure_shell" =~ ^[Yy]$ ]]; then
