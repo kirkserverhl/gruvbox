@@ -1,3 +1,8 @@
+MenuBar=Disabled
+
+[CompactMode]
+PreviewSize=80
+
 [DetailsMode]
 PreviewSize=80
 

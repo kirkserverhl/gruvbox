@@ -16,3 +16,5 @@ ERR 2025-01-16T02:33:06.738 nvim.4419.0/c vim_gettempdir:3494: tempdir disappear
 ERR 2025-01-16T02:33:11.667 nvim.4419.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/8Hx9Yf/
 ERR 2025-01-16T02:33:12.227 nvim.4419.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/AOqHCq/
 ERR 2025-01-16T14:01:15.290 nvim.16136.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/hoL4YO/
+ERR 2025-01-31T23:45:27.820 nvim.4850.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/3fE3nN/
+ERR 2025-02-01T01:16:57.588 nvim.5122.0/c vim_gettempdir:3494: tempdir disappeared (antivirus or broken cleanup job?): /tmp/nvim.kirk/LKjxFf/
