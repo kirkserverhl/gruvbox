@@ -1,2 +1,3 @@
-ghossty
-nvim
+kitty -e nvim
+#ghossty
+#nvim

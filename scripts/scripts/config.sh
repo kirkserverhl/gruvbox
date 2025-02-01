@@ -31,29 +31,33 @@ mark_skipped() {
 
 ### Move Assets #############################
 
-echo -e "\n     Running Post Install Configuration..." | lsd-print
-{
+# echo -e "\n     Running Post Install Configuration..." | lsd-print
+# {
     # sudo cp ~/.dotfiles/assets/pacman.conf /etc/
-    mkdir ~/Pictures
-    cd ~/scripts
-    ./sddm_theme.sh
-    cd ~/.dotfiles
-    ## rm -r -f ~/.config/hypr/hyprland.conf && stow hypr --adopt && cp -f ~/.config/hypr/conf/hypr_stable.conf ~/.config/hypr/hyprland.conf
-    nohup waypaper --random &>/dev/null &
-    touch ~/.conf/hypr/hyprland.conf
-    echo -e "\n     Loading Nvim Plugins ... \n"
-    echo -e " ✔️    Nvim Configured \n" | lsd-print
-    nohup nvim --headless &>/dev/null &
-    clear
-}
+    # mkdir ~/Pictures
+    # cd ~/scripts
+    # ./sddm_theme.sh
+    # ./zsh_fix.sh
+    # cd ~/.dotfiles
+    # ./stow.sh
+    # rm -r -f ~/.config/hypr/hyprland.conf && stow hypr --adopt && cp -f ~/.config/hypr/conf/hypr_stable.conf ~/.config/hypr/hyprland.conf
+    # nohup waypaper --random &>/dev/null &
+    # touch ~/.conf/hypr/hyprland.conf
+    # echo -e "\n     Loading Nvim Plugins ... \n"
+    # echo -e " ✔️    Nvim Configured \n" | lsd-print
+    # nohup nvim --headless &>/dev/null &
+    # clear
+# }
 
 ### Shell Configuration ###
 
 display_header "Shell  Setup" | lsd-print
 echo ""
-echo "       Zsh Shell is suggested for BEST performance !!"
+echo "  🐢    Zsh Shell is suggested for BEST performance !!   🐚"
 echo ""
-read -p "  🐢   Would you like to configure your shell  (y/n) ? " configure_shell
+read -p "        Would you like to configure your shell  (y/n) ? " configure_shell
+echo ""
+echo "To Exit Neovim use "
 if [[ "$configure_shell" =~ ^[Yy]$ ]]; then
     if ~/scripts/shell.sh; then
     	track_action "Shell Configuration"
@@ -66,9 +70,30 @@ else
 fi
 clear
 
+### Neovim Configuration ###
+
+display_header "Neovim  Setup" | lsd-print
+echo ""
+echo "  Would you like to configure Neovim (y/n) ? " | lsd-print
+echo ""
+echo "  To Close Neovim use:  Win + Q  "
+read -p "   " configure_nvim
+if [[ "$configure_nvim" =~ ^[Yy]$ ]]; then
+    if ~/scripts/nvim.sh; then
+    	track_action "Nvim Configuration"
+      mark_completed "Nvim Configuration"
+    else
+        mark_skipped "Nvim Configuration"
+    fi
+else
+    mark_skipped "Nvim Configuration"
+fi
+clear
+
 ## SDDM Configuration  #######################
 
 display_header "SDDM" | lsd-print
+echo ""
 read -p "   🍬     Would you like to install Sugar-Candy SDDM theme  (y/n)  ? " configure_sddm
 if [[ "$configure_sddm" =~ ^[Yy]$ ]]; then
     if ~/scripts/sddm_candy_install.sh; then
@@ -135,6 +160,40 @@ if [[ "$editors_choice" =~ ^[Yy]$ ]]; then
     fi
 else
     mark_skipped "Editors Choice Packages"
+fi
+clear
+
+### Neovim Configuration ###
+
+display_header "Neovim  Setup" | lsd-print
+echo ""
+read -p "        Would you like to configure Neovim  (y/n) ? " configure_nvim
+if [[ "$configure_nvim" =~ ^[Yy]$ ]]; then
+    if ~/scripts/nvim.sh; then
+    	track_action "Nvim Configuration"
+      mark_completed "Nvim Configuration"
+    else
+        mark_skipped "Nvim Configuration"
+    fi
+else
+    mark_skipped "Nvim Configuration"
+fi
+clear
+
+### Terminal Effects ###
+
+display_header "Terminal Effects" | lsd-print
+echo ""
+read -p "   🌈    Would you like to Beautify your Terminal  (y/n) ?   " terminal_effects
+if [[ "$terminal_effects" =~ ^[Yy]$ ]]; then
+    if ~/.dotfiles/additional_pkgs.sh; then
+    	track_action "Terminal Effects"
+      mark_completed "Terminal Effects"
+    else
+        mark_skipped "Terminal Effects"
+    fi
+else
+    mark_skipped "Terminal Effects"
 fi
 clear
 
