@@ -1,0 +1,2 @@
+ghossty
+nvim

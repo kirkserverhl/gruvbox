@@ -13,7 +13,9 @@ RED="\e[38;2;204;36;29m"     	# cc241d ##
 GRAY="\e[38;2;60;56;54m"     	# 3c3836 ##
 BOLD="\e[1m"                 	# Bold   ##
 ###########################################
-clear #####################################
+## clear #####################################
+
+
 
 display_header() {
     # clear
@@ -38,7 +40,7 @@ echo -e "\n     Running Post Install Configuration..." | lsd-print
     cd ~/scripts
     ./sddm_theme.sh
     cd ~/.dotfiles
-    rm -r -f ~/.config/hypr/hyprland.conf && stow hypr --adopt && cp -f ~/.config/hypr/conf/hypr_stable.conf ~/.config/hypr/hyprland.conf
+    ## rm -r -f ~/.config/hypr/hyprland.conf && stow hypr --adopt && cp -f ~/.config/hypr/conf/hypr_stable.conf ~/.config/hypr/hyprland.conf
     nohup waypaper --random &>/dev/null &
     touch ~/.conf/hypr/hyprland.conf
     echo -e "\n     Loading Nvim Plugins ... \n"
@@ -46,6 +48,24 @@ echo -e "\n     Running Post Install Configuration..." | lsd-print
     nohup nvim --headless &>/dev/null &
     clear
 }
+
+### Shell Configuration ###
+
+display_header "Shell  Setup" | lsd-print
+echo ""
+read -p "  🐢   Would you like to configure your shell  (y/n) ? " configure_shell
+if [[ "$configure_shell" =~ ^[Yy]$ ]]; then
+    if ~/scripts/shell.sh; then
+    	track_action "Shell Configuration"
+      mark_completed "Shell Configuration"
+    else
+        mark_skipped "Shell Configuration"
+    fi
+else
+    mark_skipped "Shell Configuration"
+fi
+clear
+
 ## SDDM Configuration  #######################
 
 display_header "SDDM" | lsd-print
@@ -118,24 +138,6 @@ else
 fi
 clear
 
-### Shell Configuration ###
-
-display_header "Shell  Setup" | lsd-print
-echo ""
-read -p "  🐢   Would you like to configure your shell  (y/n) ? " configure_shell
-if [[ "$configure_shell" =~ ^[Yy]$ ]]; then
-    if ~/scripts/shell.sh; then
-    	track_action "Shell Configuration"
-      mark_completed "Shell Configuration"
-    else
-        mark_skipped "Shell Configuration"
-    fi
-else
-    mark_skipped "Shell Configuration"
-fi
-clear
-
-
 ### Cleanup  ###
 
 display_header "Cleanup" | lsd-print
@@ -176,13 +178,17 @@ case $choice in
         echo -e"  🔙  Rerunning the script..." | lsd-print
         exec "$0"  # Reruns the current script
         ;;
+
     2)
-        echo -e "  🚀    Exiting Configuration.\n"
-        echo -e " To close this terminal use:  󰌓  ▏ 󰖳 + Q" | lsd-print
+        echo -e "  🚀   Exiting..." | lsd-print
+        # Ensure ~/config_check.sh exists and set its value to "off"
+        echo "off" > ~/config_check.sh
         exit 0
         ;;
     *)
-        echo -e "  ⛔️   No input detected.\n"
-        echo -e "Close terminal windows with keybind:  󰌓  ▏ 󰖳 + Q" | lsd-print
+        echo -e "❌ Invalid choice. Exiting by default." | lsd-print
+        echo "off" > ~/config_check.sh  # Ensure the file is set to "off" on invalid input as well
+        exit 1
         ;;
 esac
+
