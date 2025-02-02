@@ -4,7 +4,7 @@
 	email = kirkserverhl@gmail.com
 	name = kirkserverhl
 [credential]
-	helper = cache
+	helper = store
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
