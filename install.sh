@@ -12,7 +12,6 @@ YELLOW="\e[38;2;215;153;33m" 	# d79921 ##
 RED="\e[38;2;204;36;29m"     	# cc241d ##
 GRAY="\e[38;2;60;56;54m"     	# 3c3836 ##
 BOLD="\e[1m"                 	# Bold   ##
-rm -f ~/config_check.sh
 cp -f ~/.dotfiles/install.sh ~/scripts
 cd ~/.dotfiles/assets/set_script/
 clear
@@ -61,8 +60,12 @@ print_checklist_tte() {
     rm "$checklist_file"
 }
 ###### Section 1: Installing Packages #######
+yay -Syu stow lsd-print-git figlet
+cp -f ~/.dotfiles/assets/hyrland.conf /.config/hypr
+clear
 echo -e "\n  🫠   Welcome to Hyprland Gruvbox Installation !!   🚀
             Sit back and enjoy the ride !!   \n"  | lsd-print
+
 {
     echo -e "   📦️     Installing Base Packages..." | lsd-print
         sudo pacman -S --noconfirm git || log_error "Failed to install git"
@@ -88,7 +91,7 @@ clear
 ## Section 3: Shel-Configuration  ##
 {
 	log_status "󰯂  Running post-configuration scripts..."
-        # cd ~/scripts || { log_error "Failed to navigate to ~/scripts"; exit 1; }
+        cd ~/scripts || { log_error "Failed to navigate to ~/scripts"; exit 1; }
         ./shell.sh || { log_error "Failed to run ghostty-shell-integration.sh"; exit 1; }
      checklist[shell]=true
 } || checklist[shell]=false
@@ -96,6 +99,7 @@ clear
 
 ####### Section 6: Checklist ######
 
+rm -f ~/config_check.sh
 print_checklist_tte
 
 echo -e "\n       Hyprland Gruvbox Installation is Complete !! 🫠
