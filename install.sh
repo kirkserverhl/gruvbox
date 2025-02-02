@@ -12,7 +12,10 @@ YELLOW="\e[38;2;215;153;33m" 	# d79921 ##
 RED="\e[38;2;204;36;29m"     	# cc241d ##
 GRAY="\e[38;2;60;56;54m"     	# 3c3836 ##
 BOLD="\e[1m"                 	# Bold   ##
+rm -f ~/config_check.sh
+cp -f ~/.dotfiles/install.sh ~/scripts
 clear
+
 
 declare -A checklist
 checklist=(
@@ -57,7 +60,6 @@ print_checklist_tte() {
     rm "$checklist_file"
 }
 ###### Section 1: Installing Packages #######
-
 echo -e "\n  🫠   Welcome to Hyprland Gruvbox Installation !!   🚀
             Sit back and enjoy the ride !!   \n"  | lsd-print
 {
@@ -73,7 +75,7 @@ echo -e "\n  🫠   Welcome to Hyprland Gruvbox Installation !!   🚀
 } || checklist[packages]=false
 clear
 
-####### Section 2: Configure  ###
+####### Section 2: Configure  ######
 {
     log_status "  🛠️   Applying base configurations..." | lsd-print
         cd ~/scripts/ || { log_error "Failed to navigate to ~/scripts"; exit 1; }

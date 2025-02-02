@@ -12,7 +12,6 @@ YELLOW="\e[38;2;215;153;33m" 	# d79921 ##
 RED="\e[38;2;204;36;29m"     	# cc241d ##
 GRAY="\e[38;2;60;56;54m"     	# 3c3836 ##
 BOLD="\e[1m"                 	# Bold   ##
-###########################################
 clear #####################################
 
 display_header() {
@@ -130,7 +129,7 @@ display_header "Terminal Effects" | lsd-print
 echo ""
 read -p "   🌈    Would you like to Beautify your Terminal  (y/n) ?   " terminal_effects
 if [[ "$terminal_effects" =~ ^[Yy]$ ]]; then
-    if ~/scripts/additional_pkgs.sh; then
+    if ~/.dotfiles/assets/additional_pkgs.sh; then
     	track_action "Terminal Effects"
       mark_completed "Terminal Effects"
     else
@@ -141,11 +140,28 @@ else
 fi
 clear
 
+#########  Python Packages  ################
+
+display_header "Python Packages" | lsd-print
+echo ""
+read -p "::  🐍    Would you like to install Python Packages  (y/n) ?   " python_pkgs
+if [[ "$python_pkgs" =~ ^[Yy]$ ]]; then
+    if ~/scripts/python_pkgs.sh; then
+    	track_action "Python Packages"
+      mark_completed "Python Packages"
+    else
+        mark_skipped "Python Packages"
+    fi
+else
+    mark_skipped "Python Packages"
+fi
+clear
+
 ###########  Cleanup  ####################
 
 display_header "Cleanup" | lsd-print
 echo ""
-read -p "  🧹    Would you like to perform a system cleanup  (y/n) ? " perform_cleanup
+read -p ":: 🧹    Would you like to perform a system cleanup  (y/n) ? " perform_cleanup
 if [[ "$perform_cleanup" =~ ^[Yy]$ ]]; then
     if ~/scripts/cleanup.sh; then
         track_action "System cleanup"
@@ -185,13 +201,12 @@ case $choice in
 
     2)
         echo -e "  🚀   Exiting..." | lsd-print
-        # Ensure ~/config_check.sh exists and set its value to "off"
         echo "off" > ~/config_check.sh
         exit 0
         ;;
     *)
         echo -e "❌ Invalid choice. Exiting by default." | lsd-print
-        echo "off" > ~/config_check.sh  # Ensure the file is set to "off" on invalid input as well
+        # echo "off" > ~/config_check.sh  # Ensure the file is set to "off" on invalid input as well
         exit 1
         ;;
 esac

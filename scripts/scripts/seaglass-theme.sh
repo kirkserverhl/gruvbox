@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+~/scripts/seaglass_add.sh
+
 if [ -z "$1" ]; then
   wallpaper=$(find ~/wallpaper/ -type f | shuf -n 1)
 else

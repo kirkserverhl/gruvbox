@@ -21,9 +21,6 @@ export COLOR13='#ABA06F'
 export COLOR14='#848881'
 export COLOR15='#c3c4c4'
 
-
-# source = "~/.cache/wal/colors.sh"
-
 export EDITOR="nvim"
 export SUDO_EDITOR="$EDITOR"
 export PATH="$HOME/scripts:$PATH"
@@ -32,11 +29,15 @@ export LESSOPEN="| /usr/bin/source-highlight-esc.sh %s"
 export QT_QPA_PLATFORMTHEME=qt5ct
 export PYWAL='~/.cache/wal/colors.sh'
 
-# Starship -------------------------------------------
+# -----------------------------------------------------
+# Starship 
+# -----------------------------------------------------
 eval "$(starship init zsh)"
+
 # -----------------------------------------------------
 # ALIASES
 # -----------------------------------------------------
+
 # File Management
 alias mv='mv -i'
 export QT_QPA_PLATFORMTHEME=qt5ct
@@ -54,6 +55,7 @@ alias ls='eza -a --icons'
 alias ll='eza -al --icons'
 alias lt='eza -a --tree --level=1 --icons'
 alias doom='~/scripts/doom.sh'
+# alias fs= '~/scripts/fs.sh'
 
 # Productivity
 alias c='clear && $SHELL'
@@ -170,10 +172,11 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 gitupdate() {
   cd ~/.dotfiles && git add . && git commit -m "$1" && git push
 }
+
 # -----------------------------------------------------
 # ZNT and Zharma
 # -----------------------------------------------------
-### ZNT's installer added snippet ###
+
 fpath=( "$fpath[@]" "$HOME/.config/znt/zsh-navigation-tools" )
 autoload n-aliases n-cd n-env n-functions n-history n-kill n-list n-list-draw n-list-input n-options n-panelize n-help
 autoload znt-usetty-wrapper znt-history-widget znt-cd-widget znt-kill-widget
@@ -183,7 +186,6 @@ zle -N znt-history-widget
 bindkey '^R' znt-history-widget
 setopt AUTO_PUSHD HIST_IGNORE_DUPS PUSHD_IGNORE_DUPS
 zstyle ':completion::complete:n-kill::bits' matcher 'r:|=** l:|=*'
-### END ###
 
 #zmodload zsh/zpty
 pty() {
@@ -212,20 +214,19 @@ source "$HOME/.local/share/zinit/zinit.git/zinit.zsh"
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 
-# Load a few important annexes, without Turbo
-# (this is currently required for annexes)
+# Load a few important annexes, without Turbo (this is currently required for annexes)
 zinit light-mode for \
     zdharma-continuum/zinit-annex-as-monitor \
     zdharma-continuum/zinit-annex-bin-gem-node \
     zdharma-continuum/zinit-annex-patch-dl \
     zdharma-continuum/zinit-annex-rust    
-### End of Zinit's installer chunk
-### # -----------------------------------------------------
-### END OF .zshrc
-### #-----------------------------------------------------
+# End of Zinit's installer chunk
 
 # bun completions
 [ -s "/home/kirk/.bun/_bun" ] && source "/home/kirk/.bun/_bun"
-# ascii-term
-#
+
 source "$HOME/.cache/wal/colors-tty.sh"
+
+# ----------------------------------------------------------
+# End of .zshrc
+# ----------------------------------------------------------

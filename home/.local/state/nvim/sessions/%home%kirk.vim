@@ -14,10 +14,10 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +37 ~/.dotfiles/hypr/.config/hypr/conf/autostart.conf
+badd +16 ~/.dotfiles/install.sh
 argglobal
 %argdel
-edit ~/.dotfiles/hypr/.config/hypr/conf/autostart.conf
+edit ~/.dotfiles/install.sh
 wincmd t
 let s:save_winminheight = &winminheight
 let s:save_winminwidth = &winminwidth
@@ -34,12 +34,12 @@ setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 37 - ((23 * winheight(0) + 15) / 30)
+let s:l = 16 - ((11 * winheight(0) + 13) / 27)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 37
-normal! 036|
+keepjumps 16
+normal! 06|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
