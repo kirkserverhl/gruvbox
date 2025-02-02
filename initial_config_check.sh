@@ -1,7 +1,7 @@
 #!/bin/bash
 
 CONFIG_FILE="$HOME/config_check.sh"
-CONFIG_SCRIPT="$HOME/.dotfiles/assets/set_script/config.sh"
+CONFIG_SCRIPT="$HOME/.dotfiles/config.sh"
 
 # Ensure the config_check.sh file exists
 if [[ ! -f "$CONFIG_FILE" ]]; then
