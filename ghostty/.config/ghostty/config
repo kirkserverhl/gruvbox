@@ -12,7 +12,7 @@ mouse-scroll-multiplier = 2
 # fonts
 theme = "/home/kirk/.cache/wal/colors-ghostty"
 font-family = ShureTechMono Nerd Font
-font-size = 13
+font-size = 12
 
 adjust-cell-width = -1
 

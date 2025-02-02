@@ -14,11 +14,10 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +87 install.sh
+badd +1 ~/.dotfiles/install.sh
 argglobal
 %argdel
-$argadd install.sh
-edit install.sh
+edit ~/.dotfiles/install.sh
 wincmd t
 let s:save_winminheight = &winminheight
 let s:save_winminwidth = &winminwidth
@@ -35,11 +34,11 @@ setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 87 - ((19 * winheight(0) + 14) / 28)
+let s:l = 1 - ((0 * winheight(0) + 15) / 30)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 87
+keepjumps 1
 normal! 0
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'

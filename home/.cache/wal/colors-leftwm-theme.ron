@@ -2,8 +2,8 @@
 (
     border_width: 2,
     margin: [4, 4],
-    default_border_color: "#181818",
-    floating_border_color: "#B9AD8F",
-    focused_border_color: "#c5c5c5",
-    background_color: "#181818",
+    default_border_color: "#101012",
+    floating_border_color: "#D7D19F",
+    focused_border_color: "#c3c3c3",
+    background_color: "#101012",
 )

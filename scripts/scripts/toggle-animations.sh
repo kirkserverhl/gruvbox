@@ -1,0 +1,1 @@
+/home/kirk/.config/hypr/scripts/toggle-animations.sh
