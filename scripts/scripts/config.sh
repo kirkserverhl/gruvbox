@@ -129,7 +129,7 @@ display_header "Terminal Effects" | lsd-print
 echo ""
 read -p "   🌈    Would you like to Beautify your Terminal  (y/n) ?   " terminal_effects
 if [[ "$terminal_effects" =~ ^[Yy]$ ]]; then
-    if ~/.dotfiles/assets/additional_pkgs.sh; then
+    if ~/.dotfiles/assets/set_script/additional_pkgs.sh; then
     	track_action "Terminal Effects"
       mark_completed "Terminal Effects"
     else

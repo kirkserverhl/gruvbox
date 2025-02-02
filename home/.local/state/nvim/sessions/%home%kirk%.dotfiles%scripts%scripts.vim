@@ -14,10 +14,11 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +4 ~/.dotfiles/scripts/scripts/additional_pkgs.sh
+badd +26 sddm_candy_install.sh
 argglobal
 %argdel
-edit ~/.dotfiles/scripts/scripts/additional_pkgs.sh
+$argadd sddm_candy_install.sh
+edit sddm_candy_install.sh
 wincmd t
 let s:save_winminheight = &winminheight
 let s:save_winminwidth = &winminwidth
@@ -34,17 +35,12 @@ setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 4 - ((3 * winheight(0) + 16) / 33)
+let s:l = 26 - ((25 * winheight(0) + 15) / 30)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 4
-let s:c = 2170 - ((95 * winwidth(0) + 99) / 198)
-if s:c > 0
-  exe 'normal! ' . s:c . '|zs' . 2170 . '|'
-else
-  normal! 02170|
-endif
+keepjumps 26
+normal! 02|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

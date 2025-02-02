@@ -20,9 +20,11 @@ move_dir() {
     local dest=$2
     echo "Removing existing directory $dest if present..."
     sudo rm -rf "$dest"
+    echo ""
     echo "Moving $src to $dest..."
+    echo ""
     sudo cp -rf "$src" "$dest"
-}
+  }
 
 # Function to attempt package installation
 install_package() {
