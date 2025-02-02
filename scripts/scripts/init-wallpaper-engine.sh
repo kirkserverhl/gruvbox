@@ -1,1 +1,0 @@
-/home/kirk/.config/hypr/scripts/init-wallpaper-engine.sh

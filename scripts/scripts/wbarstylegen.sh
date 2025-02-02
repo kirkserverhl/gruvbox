@@ -1,1 +1,0 @@
-/home/kirk/.config/hypr/scripts/wbarstylegen.sh

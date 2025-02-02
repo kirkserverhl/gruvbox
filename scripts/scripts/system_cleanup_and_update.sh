@@ -1,1 +1,0 @@
-/home/kirk/.config/hypr/scripts/system_cleanup_and_update.sh
