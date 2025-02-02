@@ -1,7 +1,7 @@
 Arch Linux: HyprGruv Setup Instructions
 Developed by Kirk Bass
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 Prerequisites:
 
@@ -9,7 +9,7 @@ Ventoy USB: Create a bootable USB using Ventoy and add the latest Arch Linux ISO
 
 Ensure Internet Access: Wired or wireless connection for installation.
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 Step 1: Install Arch Linux
 
@@ -17,7 +17,7 @@ Insert the Ventoy USB when the computer is off, turn on your device and you will
 
 Select Normal Mode in the boot menu and then choose archinstall-medium.
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 Step 2: Install Arch Linux Using 'archinstall'
 
@@ -70,7 +70,7 @@ Run the following string of commands Line:
 
 sudo pacman -S git && git clone https://github.com/kirkserverhl/gruvbox.git ~/.dotfiles && cd ~/.dotfiles && ./install.sh
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 The initial install will install the base packages and configure the zsh or bash shell configuration.  At this point the device will reboot to complete configurations.  
 When the device reboots the next half of the installation, configuration, will begin in which personal preferences and extras can be configured.
@@ -79,7 +79,7 @@ If the script does not finish completely either ~/.dotfiles/install.sh or ~/scri
 
 Please note that full configuration will require a restart.
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 To move windows you can use: Win + Left Mouse
 **permanent bind, works before and after install
@@ -92,5 +92,5 @@ To close windows during install use:  Win + C
 ** after install a list of keydinds is available using:
  ‘Win + K’ or by typing ‘keybinds’ in the terminal.
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
