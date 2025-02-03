@@ -15,7 +15,7 @@ BOLD="\e[1m"                 	# Bold   ##
 clear #####################################
 
 display_header() {
-    # clear
+    
     figlet -f ~/.dotfiles/assets/figfont/Graffiti.flf "$1"
 }
 
