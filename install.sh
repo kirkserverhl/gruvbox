@@ -80,13 +80,13 @@ clear
 ####### Section 2: Configure  ######
 {
     log_status "  🛠️   Applying base configurations..." | lsd-print
-        cd ~/.dotfiles/scripts/ || { log_error "Failed to navigate to ~/scripts"; exit 1; }
+        cd ~/.dotfiles   || { log_error "Failed to navigate to ~/scripts"; exit 1; }
         ./base_config.sh || { log_error "Failed to run base_config.sh"; exit 1; }       
       checklist[config]=true
 } ||  checklist[config]=false
 clear
 
-## Section 3: Shel-Configuration  ##
+#### Section 3: Shell-Configuration  ####
 {
 	log_status "󰯂  Running post-configuration scripts..."
         cd ~/.dotfiles/ || { log_error "Failed to navigate to ~/scripts"; exit 1; }
