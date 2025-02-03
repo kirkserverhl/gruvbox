@@ -12,8 +12,6 @@ YELLOW="\e[38;2;215;153;33m" 	# d79921 ##
 RED="\e[38;2;204;36;29m"     	# cc241d ##
 GRAY="\e[38;2;60;56;54m"     	# 3c3836 ##
 BOLD="\e[1m"                 	# Bold   ##
-# cp -f ~/.dotfiles/install.sh ~/scripts
-# cd ~/.dotfiles/assets/set_script/
 clear
 
 
@@ -82,7 +80,7 @@ clear
 ####### Section 2: Configure  ######
 {
     log_status "  🛠️   Applying base configurations..." | lsd-print
-        cd ~/.dotfiles/ || { log_error "Failed to navigate to ~/scripts"; exit 1; }
+        cd ~/.dotfiles/scripts/ || { log_error "Failed to navigate to ~/scripts"; exit 1; }
         ./base_config.sh || { log_error "Failed to run base_config.sh"; exit 1; }       
       checklist[config]=true
 } ||  checklist[config]=false
