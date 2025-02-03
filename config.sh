@@ -16,7 +16,7 @@ clear #####################################
 
 display_header() {
     # clear
-    figlet -f ~/.dotfiles/assets/Graffiti.flf "$1"
+    figlet -f ~/.dotfiles/assets/figfont/Graffiti.flf "$1"
 }
 
 ######  Initialize checklist array  ########
