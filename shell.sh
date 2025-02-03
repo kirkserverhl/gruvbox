@@ -6,7 +6,7 @@ clear
 # -----------------------------------------------------
 
 RESET="\e[0m"                 	 # Reset ##
-GREEN="\e[38;2;142;192;124m"  	 #8ec07c ##  **Notes
+GREEN="\e[38;2;142;192;124m"  	 #8ec07c ##
 CYAN="\e[38;2;69;133;136m"    	 #458588 ##
 YELLOW="\e[38;2;215;153;33m"  	 #d79921 ##
 RED="\e[38;2;204;36;29m"      	 #cc241d ##
@@ -14,7 +14,6 @@ GRAY="\e[38;2;60;56;54m"      	 #3c3836 ##
 BOLD="\e[1m"                  	 # Bold  ##
 
 display_header() {
-    # clear
     figlet -f ~/.dotfiles/assets/Graffiti.flf "$1"
 }
 
@@ -38,6 +37,7 @@ echo ":: Please select your preferred shell"
 echo ""
 echo ":: For best install and setup use Zsh !!" | lsd-print
 echo ""
+
 shell=$(gum choose "zsh" "bash" "Cancel")
 
 # ----------------------------------------------------- 
@@ -67,7 +67,6 @@ elif [[ $shell == "zsh" ]] ;then
         sleep 1
     done
     echo ":: Shell is now zsh."
-q
 
 # ----------------------------------------------------- 
 # Cancel
