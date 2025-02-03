@@ -12,8 +12,6 @@ YELLOW="\e[38;2;215;153;33m" 	# d79921 ##
 RED="\e[38;2;204;36;29m"     	# cc241d ##
 GRAY="\e[38;2;60;56;54m"     	# 3c3836 ##
 BOLD="\e[1m"                 	# Bold   ##
-clear
-
 
 declare -A checklist
 checklist=(
@@ -48,6 +46,7 @@ print_checklist_tte() {
             echo " ✖️ $section" >> "$checklist_file"
         fi
     done
+
 # Display the checklist using tte beams
         if  command -v tte &>/dev/null; then
         cat "$checklist_file" | tte beams
@@ -57,6 +56,7 @@ print_checklist_tte() {
     	# Clean up temporary file
     rm "$checklist_file"
 }
+
 ###### Section 1: Installing Packages #######
 yay -Syu stow lsd-print-git figlet
 cp -f ~/.dotfiles/assets/hyrland.conf /.config/hypr
@@ -95,7 +95,7 @@ clear
 } || checklist[shell]=false
 clear
 
-####### Section 6: Checklist ######
+####### Section 4: Checklist ######
 
 rm -f ~/config_check.sh
 print_checklist_tte
