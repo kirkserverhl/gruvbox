@@ -70,9 +70,8 @@ RunPrefix=
 SetEditor=false
 
 [MainWindow]
-2 screens: Height=1044
+2 screens: Height=1056
 2 screens: Width=1078
-2 screens: Window-Maximized=true
 
 [UiSettings]
 ColorScheme=gruvbox dark

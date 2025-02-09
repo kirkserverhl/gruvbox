@@ -14,11 +14,10 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +52 .zshrc
+badd +422 ~/.dotfiles/dunst/.config/dunst/dunstrc
 argglobal
 %argdel
-$argadd .zshrc
-edit .zshrc
+edit ~/.dotfiles/dunst/.config/dunst/dunstrc
 wincmd t
 let s:save_winminheight = &winminheight
 let s:save_winminwidth = &winminwidth
@@ -35,12 +34,12 @@ setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 52 - ((10 * winheight(0) + 29) / 59)
+let s:l = 369 - ((50 * winheight(0) + 27) / 55)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 52
-normal! 029|
+keepjumps 369
+normal! 0
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
