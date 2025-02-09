@@ -23,7 +23,7 @@ vim.cmd("filetype plugin indent on")
 vim.cmd("set spell")
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
-vim.cmd("set termguicolors")({ "echasnovski/mini.nvim", version = false })
+vim.cmd("set termguicolors")
 -- require("keymaps")
 -- require("options")
 -- require("misc")

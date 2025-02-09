@@ -117,10 +117,7 @@ plugins=(
 # -----------------------------------------------------
 eval "$(starship init zsh)"
 
-# Load oh-my-zsh# Git Update
-#gitupdate() {
-#cd ~/.dotfiles && git add . && git commit -m "$1" && git push
-#}
+# Load oh-my-zsh#
 
 source $ZSH/oh-my-zsh.sh
 
@@ -145,10 +142,79 @@ export BAT_THEME="gruvbox-dark"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-# Source Pywal Colors
-source "$HOME/.cache/wal/colors-tty.sh
+# -----------------------------------------------------
+# ZNT and Zharma
+# -----------------------------------------------------
 
-#config/hyprnyvim hyprland.confsource  ~/.config/hypr/conf/hyprland.conf)
+fpath=( "$fpath[@]" "$HOME/.config/znt/zsh-navigation-tools" )
+autoload n-aliases n-cd n-env n-functions n-history n-kill n-list n-list-draw n-list-input n-options n-panelize n-help
+autoload znt-usetty-wrapper znt-history-widget znt-cd-widget znt-kill-widget
+alias naliases=n-aliases ncd=n-cd nenv=n-env nfunctions=n-functions nhistory=n-history
+alias nkill=n-kill noptions=n-options npanelize=n-panelize nhelp=n-help
+zle -N znt-history-widget
+bindkey '^R' znt-history-widget
+setopt AUTO_PUSHD HIST_IGNORE_DUPS PUSHD_IGNORE_DUPS
+zstyle ':completion::complete:n-kill::bits' matcher 'r:|=** l:|=*'
+
+#zmodload zsh/zpty
+pty() {
+	zpty pty-${UID} ${1+$@}
+	if [[ ! -t 1 ]];then
+		setopt local_traps
+		trap '' INT
+	fi
+	zpty -r pty-${UID}
+	zpty -d pty-${UID}
+}
+
+ptyless() {
+	pty $@ | less
+}
+
+### Added by Zinit's installer
+if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
+    print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
+    command mkdir -p "$HOME/.local/share/zinit" && command chmod g-rwX "$HOME/.local/share/zinit"
+    command git clone https://github.com/zdharma-continuum/zinit "$HOME/.local/share/zinit/zinit.git" && \
+        print -P "%F{33} %F{34}Installation successful.%f%b" || \
+        print -P "%F{160} Te clone has failed.%f%b"
+fi
+
+source "$HOME/.local/share/zinit/zinit.git/zinit.zsh"
+autoload -Uz _zinit
+(( ${+_comps} )) && _comps[zinit]=_zinit
+
+# Load a few important annexes, without Turbo (this is currently required for annexes)
+
+  zinit light-mode for\
+      zdharma-continuum/zinit-annex-as-monitor \
+      zdharma-continuum/zinit-annex-bin-gem-node \
+      zdharma-continuum/zinit-annex-patch-dl \
+      zdharma-continuum/zinit-annex-rust
+
+# End of Zinit's installer chunk
+
+
+ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
+[ ! -d $ZINIT_HOME ] && mkdir -p "$(dirname $ZINIT_HOME)"
+[ ! -d $ZINIT_HOME/.git ] && git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
+source "${ZINIT_HOME}/zinit.zsh"
+
+if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
+    print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
+    command mkdir -p "$HOME/.local/share/zinit" && command chmod g-rwX "$HOME/.local/share/zinit"
+    command git clone https://github.com/zdharma-continuum/zinit "$HOME/.local/share/zinit/zinit.git" && \
+        print -P "%F{33} %F{34}Installation successful.%f%b" || \
+        print -P "%F{160} Te clone has failed.%f%b"
+fi
+
+
+# Source Pywal Colors
+source "$HOME/.cache/wal/colors-tty.sh"
+# Add this line to your .bashrc or a shell script.
+. "~/.cache/wal/colors.sh"
+
+# config/hyprnyvim hyprland.confsource  ~/.config/hypr/conf/hyprland.conf)
 
 # -----------------------------------------------------
 # ZNT and Zharma

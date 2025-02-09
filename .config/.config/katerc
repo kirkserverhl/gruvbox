@@ -58,6 +58,9 @@ Text Font=ShuretechMono Nerd Font,9,-1,2,400,0,0,0,0,0,0,0,0,0,0,1
 Text Font Features=
 Word Wrap Marker=false
 
+[KTextEditor::Search]
+Search History=theme
+
 [Konsole]
 AutoSyncronizeMode=0
 KonsoleEscKeyBehaviour=true
@@ -69,6 +72,7 @@ SetEditor=false
 [MainWindow]
 2 screens: Height=1044
 2 screens: Width=1078
+2 screens: Window-Maximized=true
 
 [UiSettings]
 ColorScheme=gruvbox dark
