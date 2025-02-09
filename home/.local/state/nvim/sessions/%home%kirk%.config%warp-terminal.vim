@@ -14,7 +14,7 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +4 user_preferences.json
+badd +1 user_preferences.json
 argglobal
 %argdel
 $argadd user_preferences.json
@@ -35,12 +35,12 @@ setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 4 - ((3 * winheight(0) + 9) / 19)
+let s:l = 1 - ((0 * winheight(0) + 29) / 59)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 4
-normal! 05|
+keepjumps 1
+normal! 0
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

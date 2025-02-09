@@ -14,11 +14,11 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +19 install.sh
+badd +30 setup.sh
 argglobal
 %argdel
-$argadd install.sh
-edit install.sh
+$argadd setup.sh
+edit setup.sh
 argglobal
 setlocal fdm=expr
 setlocal fde=v:lua.require'lazyvim.util'.ui.foldexpr()
@@ -28,12 +28,14 @@ setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 19 - ((18 * winheight(0) + 16) / 33)
+48
+normal! zo
+let s:l = 30 - ((29 * winheight(0) + 17) / 34)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 19
-normal! 0
+keepjumps 30
+normal! 015|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

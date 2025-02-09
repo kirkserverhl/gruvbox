@@ -1,11 +1,10 @@
 /*
- * __        __          _                  ____  _         _       
- * \ \      / /_ _ _   _| |__   __ _ _ __  / ___|| |_ _   _| | ___  
- *  \ \ /\ / / _` | | | | '_ \ / _` | '__| \___ \| __| | | | |/ _ \ 
- *   \ V  V / (_| | |_| | |_) | (_| | |     ___) | |_| |_| | |  __/ 
- *    \_/\_/ \__,_|\__, |_.__/ \__,_|_|    |____/ \__|\__, |_|\___| 
- *                 |___/                              |___/         
- *  
+*   __      __               ___.
+*  /  \    /  \_____  ___.__.\_ |__ _____ _______
+*  \   \/\/   /\__  \<   |  | | __ \\__  \\_  __ \
+*   \        /  / __ \\___  | | \_\ \/ __ \|  | \/
+*    \__/\  /  (____  / ____| |___  (____  /__|
+*         \/        \/\/          \/     \/
  * ----------------------------------------------------- 
 */
 
@@ -19,8 +18,7 @@
  * ----------------------------------------------------- */
 
 * {
-    font-family: "UbuntuMono Nerd Font Propo", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    sans-serif;
+  font-family: "Hurmit Nerd Font";
   border: none;
   border-radius: 0px;
 }
@@ -40,41 +38,41 @@ window#waybar {
 
 #workspaces {
   background: @workspacesbackground1;
-  margin: 2px 1px 3px 1px;
-  padding: 0px 1px;
-  border-radius: 15px;
+  margin: 2px 18px 3px 1px;
+  padding: 0px 2px;
+  border-radius: 5px 5px 5px 5px;
   border: 0px;
   font-weight: bold;
   font-style: normal;
   opacity: 0.8;
-  font-size: 14px;
+  font-size: 16px;
   color: @textcolor1;
 }
 
 #workspaces button {
-  padding: 0px 5px;
-  margin: 4px 3px;
-  border-radius: 15px;
+  padding: 0px 6px;
+  margin: 3px 2px;
+  border-radius: 3px 3px 3px 3px;
   border: 0px;
   color: @textcolor1;
   background-color: @workspacesbackground2;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s linear;
   opacity: 0.4;
 }
 
 #workspaces button.active {
   color: @textcolor1;
   background: @workspacesbackground2;
-  border-radius: 15px;
-  min-width: 40px;
-  transition: all 0.3s ease-in-out;
+  border-radius: 3px 3px 3px 3px;
+  min-width: 30px;
+  transition: all 0.1s linear;
   opacity: 1;
 }
 
 #workspaces button:hover {
   color: @textcolor1;
   background: @workspacesbackground2;
-  border-radius: 15px;
+  border-radius: 5px 5px 5px 5px;
   opacity: 0.7;
 }
 
@@ -83,9 +81,9 @@ window#waybar {
  * ----------------------------------------------------- */
 
 tooltip {
-  border-radius: 10px;
+  border-radius: 16px;
   background-color: @backgroundlight;
-  opacity: 0.8;
+  opacity: 0.9;
   padding: 20px;
   margin: 0px;
 }
@@ -99,11 +97,10 @@ tooltip label {
  * ----------------------------------------------------- */
 
 #window {
-  background: @backgroundlight;
-  margin: 5px 15px 5px 0px;
+  margin: 3px 15px 3px 0px;
   padding: 2px 10px 0px 10px;
-  border-radius: 12px;
-  color: @textcolor2;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
   font-size: 16px;
   font-weight: normal;
   opacity: 0.8;
@@ -121,7 +118,7 @@ window#waybar.empty #window {
   background: @backgroundlight;
   margin: 3px 15px 3px 0px;
   padding: 0px;
-  border-radius: 15px;
+  border-radius: 5px 5px 5px 5px;
   font-weight: normal;
   font-style: normal;
   opacity: 0.8;
@@ -130,7 +127,7 @@ window#waybar.empty #window {
 
 #taskbar button {
   margin: 0;
-  border-radius: 15px;
+  border-radius: 5px 5px 5px 5px;
   padding: 0px 5px 0px 5px;
 }
 
@@ -216,15 +213,6 @@ window#waybar.empty #window {
   color: #dc2f2f;
 }
 
-#custom-ml4w-welcome {
-  margin-right: 12px;
-  background-image: url("../assets/ml4w-icon.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding-right: 20px;
-}
-
 #custom-chatgpt {
   margin-right: 16px;
   background-image: url("../assets/openai.svg");
@@ -261,11 +249,11 @@ window#waybar.empty #window {
 
 #custom-appmenu {
   background-color: @backgrounddark;
-  font-size: 14px;
+  font-size: 16px;
   color: @textcolor1;
-  border-radius: 15px;
+  border-radius: 5px 5px 5px 5px;
   padding: 0px 10px 0px 10px;
-  margin: 3px 17px 3px 0px;
+  margin: 2px 17px 2px 0px;
   opacity: 0.8;
   border: 3px solid @bordercolor;
 }
@@ -288,11 +276,11 @@ window#waybar.empty #window {
 
 #custom-updates {
   background-color: @backgroundlight;
-  font-size: 14px;
+  font-size: 16px;
   color: @textcolor2;
-  border-radius: 15px;
+  border-radius: 5px 5px 5px 5px;
   padding: 2px 10px 0px 10px;
-  margin: 5px 15px 5px 0px;
+  margin: 3px 15px 3px 0px;
   opacity: 0.8;
 }
 
@@ -336,7 +324,7 @@ window#waybar.empty #window {
   background-color: @backgrounddark;
   font-size: 16px;
   color: @textcolor1;
-  border-radius: 15px;
+  border-radius: 3px 5px 3px 5px;
   padding: 1px 10px 0px 10px;
   margin: 3px 0px 3px 0px;
   opacity: 0.8;
@@ -351,9 +339,9 @@ window#waybar.empty #window {
   background-color: @backgroundlight;
   font-size: 16px;
   color: @textcolor2;
-  border-radius: 15px;
+  border-radius: 5px 5px 5px 5px;
   padding: 2px 10px 0px 10px;
-  margin: 5px 15px 5px 0px;
+  margin: 3px 15px 3px 0px;
   opacity: 0.8;
 }
 
@@ -365,9 +353,9 @@ window#waybar.empty #window {
   background-color: @backgroundlight;
   font-size: 16px;
   color: @textcolor2;
-  border-radius: 15px;
+  border-radius: 5px 5px 5px 5px;
   padding: 2px 10px 0px 10px;
-  margin: 5px 15px 5px 0px;
+  margin: 3px 15px 3px 0px;
   opacity: 0.8;
 }
 
@@ -384,9 +372,9 @@ window#waybar.empty #window {
   background-color: @backgroundlight;
   font-size: 16px;
   color: @textcolor2;
-  border-radius: 15px;
+  border-radius: 5px 5px 5px 5px;
   padding: 2px 10px 0px 10px;
-  margin: 5px 15px 5px 0px;
+  margin: 3px 15px 3px 0px;
   opacity: 0.8;
 }
 
@@ -410,9 +398,9 @@ window#waybar.empty #window {
   background-color: @backgroundlight;
   font-size: 16px;
   color: @textcolor2;
-  border-radius: 15px;
+  border-radius: 5px 5px 5px 5px;
   padding: 2px 10px 0px 10px;
-  margin: 5px 15px 5px 0px;
+  margin: 3px 15px 3px 0px;
   opacity: 0.8;
 }
 
@@ -430,9 +418,9 @@ window#waybar.empty #window {
   background-color: @backgroundlight;
   font-size: 16px;
   color: @textcolor2;
-  border-radius: 15px;
+  border-radius: 5px 5px 5px 5px;
   padding: 2px 15px 0px 10px;
-  margin: 5px 15px 5px 0px;
+  margin: 3px 15px 3px 0px;
   opacity: 0.8;
 }
 

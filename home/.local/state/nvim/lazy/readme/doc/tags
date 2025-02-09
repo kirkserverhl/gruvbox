@@ -12,18 +12,6 @@ blink.cmp-contributors	blink.cmp.md	/### Contributors
 blink.cmp-features	blink.cmp.md	/## Features
 blink.cmp-installation	blink.cmp.md	/## Installation
 blink.cmp-special-thanks	blink.cmp.md	/## Special Thanks
-blink.compat-blink-compat-blink-compat	blink.compat.md	/# Blink Compat (blink.compat)
-blink.compat-note	blink.compat.md	/## Note
-blink.compat-options	blink.compat.md	/## Options
-blink.compat-usage	blink.compat.md	/## Usage
-cmake-tools.nvim-balloon-configuration	cmake-tools.nvim.md	/## :balloon: Configuration
-cmake-tools.nvim-cmake-tools	cmake-tools.nvim.md	/# CMake Tools
-cmake-tools.nvim-licence	cmake-tools.nvim.md	/## LICENCE
-cmake-tools.nvim-magic-wand-docs	cmake-tools.nvim.md	/## :magic_wand: Docs
-cmake-tools.nvim-muscle-contribute	cmake-tools.nvim.md	/## :muscle: Contribute
-cmake-tools.nvim-reference	cmake-tools.nvim.md	/## Reference
-cmake-tools.nvim-sparkles-installation	cmake-tools.nvim.md	/## :sparkles: Installation
-cmp_luasnip-cmp-luasnip	cmp_luasnip.md	/# cmp_luasnip
 copilot.lua-authentication	copilot.lua.md	/### Authentication
 copilot.lua-commands	copilot.lua.md	/## Commands
 copilot.lua-copilot-lua	copilot.lua.md	/# copilot.lua
@@ -81,52 +69,9 @@ inc-rename.nvim-inc-rename-nvim	inc-rename.nvim.md	/# inc-rename.nvim
 inc-rename.nvim-installation	inc-rename.nvim.md	/## Installation
 inc-rename.nvim-known-issues	inc-rename.nvim.md	/## Known issues
 inc-rename.nvim-usage	inc-rename.nvim.md	/## Usage
-kulala.nvim-configuration	kulala.nvim.md	/### Configuration
-kulala.nvim-curl-nvim	kulala.nvim.md	/### curl.nvim
-kulala.nvim-honorable-mentions	kulala.nvim.md	/## Honorable mentions
-kulala.nvim-httpbin-org	kulala.nvim.md	/### httpbin.org
-kulala.nvim-install	kulala.nvim.md	/## Install
-kulala.nvim-kulala-nvim	kulala.nvim.md	/# kulala.nvim
-kulala.nvim-rest-nvim	kulala.nvim.md	/### rest.nvim
-lazygit.nvim-bashrc	lazygit.nvim.md	/# ~\/.bashrc
-lazygit.nvim-config-jesseduffield-lazygit-config-yml	lazygit.nvim.md	/# ~\/.config\/jesseduffield\/lazygit\/config.yml
-lazygit.nvim-highlighting-groups	lazygit.nvim.md	/### Highlighting groups
-lazygit.nvim-install	lazygit.nvim.md	/### Install
-lazygit.nvim-lazygit-nvim	lazygit.nvim.md	/# lazygit.nvim
-lazygit.nvim-telescope-plugin	lazygit.nvim.md	/### Telescope Plugin
-lazygit.nvim-usage	lazygit.nvim.md	/### Usage
-mason-nvim-dap.nvim-advanced-customization	mason-nvim-dap.nvim.md	/### Advanced Customization
-mason-nvim-dap.nvim-available-dap-adapters	mason-nvim-dap.nvim.md	/# Available Dap Adapters
-mason-nvim-dap.nvim-basic-customization	mason-nvim-dap.nvim.md	/### Basic Customization
-mason-nvim-dap.nvim-commands	mason-nvim-dap.nvim.md	/# Commands
-mason-nvim-dap.nvim-configuration	mason-nvim-dap.nvim.md	/# Configuration
-mason-nvim-dap.nvim-default-configuration	mason-nvim-dap.nvim.md	/## Default configuration
-mason-nvim-dap.nvim-handlers-usage-automatic-setup	mason-nvim-dap.nvim.md	/# Handlers usage (Automatic Setup)
-mason-nvim-dap.nvim-installation	mason-nvim-dap.nvim.md	/# Installation
-mason-nvim-dap.nvim-introduction	mason-nvim-dap.nvim.md	/# Introduction
-mason-nvim-dap.nvim-lazy-https-github-com-folke-lazy-nvim	mason-nvim-dap.nvim.md	/## \[Lazy\](https:\/\/github.com\/folke\/lazy.nvim)
-mason-nvim-dap.nvim-packer-https-github-com-wbthomason-packer-nvim	mason-nvim-dap.nvim.md	/## \[Packer\](https:\/\/github.com\/wbthomason\/packer.nvim)
-mason-nvim-dap.nvim-requirements	mason-nvim-dap.nvim.md	/# Requirements
-mason-nvim-dap.nvim-setup	mason-nvim-dap.nvim.md	/# Setup
-mason-nvim-dap.nvim-star-history	mason-nvim-dap.nvim.md	/## Star History
 neotest-golang-features	neotest-golang.md	/## Features
 neotest-golang-neotest-golang	neotest-golang.md	/# neotest-golang
 neotest-python-neotest-python	neotest-python.md	/# neotest-python
-neotest-rspec-debug-test	neotest-rspec.md	/#### Debug test
-neotest-rspec-default-configuration	neotest-rspec.md	/### Default configuration
-neotest-rspec-filtering-directories	neotest-rspec.md	/### Filtering directories
-neotest-rspec-gift-contributing	neotest-rspec.md	/## :gift: Contributing
-neotest-rspec-neotest-rspec	neotest-rspec.md	/# neotest-rspec
-neotest-rspec-package-installation	neotest-rspec.md	/## :package: Installation
-neotest-rspec-rocket-usage	neotest-rspec.md	/## :rocket: Usage
-neotest-rspec-running-tests-in-a-docker-container	neotest-rspec.md	/### Running tests in a Docker container
-neotest-rspec-setting-the-root-directory	neotest-rspec.md	/### Setting the root directory
-neotest-rspec-test-directory	neotest-rspec.md	/#### Test directory
-neotest-rspec-test-file	neotest-rspec.md	/#### Test file
-neotest-rspec-test-single-function	neotest-rspec.md	/#### Test single function
-neotest-rspec-test-suite	neotest-rspec.md	/#### Test suite
-neotest-rspec-the-test-command	neotest-rspec.md	/### The test command
-neotest-rspec-wrench-configuration	neotest-rspec.md	/## :wrench: Configuration
 neotest-testthat-neotest-testthat	neotest-testthat.md	/# neotest-testthat
 nui.nvim-blocks	nui.nvim.md	/## Blocks
 nui.nvim-components	nui.nvim.md	/## Components
@@ -290,34 +235,6 @@ nui.nvim-nuitree-lua-nui-tree	nui.nvim.md	/### \[NuiTree\](lua\/nui\/tree)
 nui.nvim-popup-lua-nui-popup	nui.nvim.md	/### \[Popup\](lua\/nui\/popup)
 nui.nvim-requirements	nui.nvim.md	/## Requirements
 nui.nvim-split-lua-nui-split	nui.nvim.md	/### \[Split\](lua\/nui\/split)
-nvim-dap-ruby-clap-acknowledgement	nvim-dap-ruby.md	/## :clap: Acknowledgement
-nvim-dap-ruby-debugging	nvim-dap-ruby.md	/### Debugging
-nvim-dap-ruby-extra-options-for-rails	nvim-dap-ruby.md	/#### Extra options for Rails
-nvim-dap-ruby-implemented	nvim-dap-ruby.md	/### Implemented
-nvim-dap-ruby-not-supported-yet	nvim-dap-ruby.md	/### Not Supported Yet
-nvim-dap-ruby-nvim-dap-ruby	nvim-dap-ruby.md	/# nvim-dap-ruby
-nvim-dap-ruby-package-installation	nvim-dap-ruby.md	/## :package: Installation
-nvim-dap-ruby-registering-the-plugin	nvim-dap-ruby.md	/### Registering the plugin
-nvim-dap-ruby-rocket-usage	nvim-dap-ruby.md	/## :rocket: Usage
-nvim-dap-ruby-ruby-on-rails	nvim-dap-ruby.md	/### Ruby on Rails
-nvim-dap-ruby-sparkles-features	nvim-dap-ruby.md	/## :sparkles: Features
-nvim-dap-ruby-zap-requirements	nvim-dap-ruby.md	/## :zap: Requirements
-nvim-dap-virtual-text-nvim-dap-virtual-text	nvim-dap-virtual-text.md	/# nvim-dap-virtual-text
-nvim-dap-virtual-text-show-stop-reason-on-exception	nvim-dap-virtual-text.md	/## Show Stop Reason on Exception
-nvim-tmux-navigation-additional-help	nvim-tmux-navigation.md	/## Additional help
-nvim-tmux-navigation-alternatives	nvim-tmux-navigation.md	/## Alternatives
-nvim-tmux-navigation-author	nvim-tmux-navigation.md	/## Author
-nvim-tmux-navigation-configuration	nvim-tmux-navigation.md	/## Configuration
-nvim-tmux-navigation-decide-whether-we-re-in-a-vim-process	nvim-tmux-navigation.md	/# decide whether we're in a Vim process
-nvim-tmux-navigation-faq	nvim-tmux-navigation.md	/## FAQ
-nvim-tmux-navigation-installation	nvim-tmux-navigation.md	/## Installation
-nvim-tmux-navigation-license	nvim-tmux-navigation.md	/## License
-nvim-tmux-navigation-neovim	nvim-tmux-navigation.md	/### Neovim
-nvim-tmux-navigation-see-https-github-com-christoomey-vim-tmux-navigator	nvim-tmux-navigation.md	/# See: https:\/\/github.com\/christoomey\/vim-tmux-navigator
-nvim-tmux-navigation-smart-pane-switching-with-awareness-of-vim-splits	nvim-tmux-navigation.md	/# Smart pane switching with awareness of Vim splits.
-nvim-tmux-navigation-tmux	nvim-tmux-navigation.md	/### Tmux
-nvim-tmux-navigation-tmux-plugin-manager	nvim-tmux-navigation.md	/#### Tmux Plugin Manager
-nvim-tmux-navigation-usage	nvim-tmux-navigation.md	/## Usage
 nvim-ts-autotag-a-note-on-lazy-loading	nvim-ts-autotag.md	/### A note on lazy loading
 nvim-ts-autotag-contributors	nvim-ts-autotag.md	/## Contributors
 nvim-ts-autotag-enable-update-on-insert	nvim-ts-autotag.md	/### Enable update on insert
@@ -357,88 +274,15 @@ project.nvim-telescope-integration	project.nvim.md	/### Telescope Integration
 project.nvim-telescope-mappings	project.nvim.md	/#### Telescope mappings
 project.nvim-telescope-projects-picker	project.nvim.md	/#### Telescope Projects Picker
 project.nvim-vim-plug-https-github-com-junegunn-vim-plug	project.nvim.md	/### \[vim-plug\](https:\/\/github.com\/junegunn\/vim-plug)
-refactoring.nvim-configuration-a-name-configuration-a	refactoring.nvim.md	/## Configuration<a name="configuration"><\/a>
-refactoring.nvim-configuration-for-debug-operations-a-name-config-debug-a	refactoring.nvim.md	/### Configuration for Debug Operations<a name="config-debug"><\/a>
-refactoring.nvim-configuration-for-refactoring-operations-a-name-config-refactoring-a	refactoring.nvim.md	/### Configuration for Refactoring Operations<a name="config-refactoring"><\/a>
-refactoring.nvim-configuration-for-type-prompt-operations-a-name-config-prompt-a	refactoring.nvim.md	/### Configuration for Type Prompt Operations<a name="config-prompt"><\/a>
-refactoring.nvim-customizing-extract-variable-statements-a-name-config-119-custom-a	refactoring.nvim.md	/### Customizing Extract variable Statements<a name="config-119-custom"><\/a>
-refactoring.nvim-customizing-print-var-statements-a-name-config-debug-stringification-print-var-a	refactoring.nvim.md	/##### Customizing Print Var Statements<a name="config-debug-stringification-print-var"><\/a>
-refactoring.nvim-customizing-printf-and-print-var-statements-a-name-config-debug-stringification-a	refactoring.nvim.md	/#### Customizing Printf and Print Var Statements<a name="config-debug-stringification"><\/a>
-refactoring.nvim-customizing-printf-statements-a-name-config-debug-stringification-printf-a	refactoring.nvim.md	/##### Customizing Printf Statements<a name="config-debug-stringification-printf"><\/a>
-refactoring.nvim-debug-features-a-name-debug-features-a	refactoring.nvim.md	/### Debug Features<a name="debug-features"><\/a>
-refactoring.nvim-ex-commands-a-name-config-refactoring-command-a	refactoring.nvim.md	/#### Ex Commands <a name="config-refactoring-command"><\/a>
-refactoring.nvim-features-a-name-features-a	refactoring.nvim.md	/## Features<a name="features"><\/a>
-refactoring.nvim-installation-a-name-installation-a	refactoring.nvim.md	/## Installation<a name="installation"><\/a>
-refactoring.nvim-lua-api-a-name-config-refactoring-direct-a	refactoring.nvim.md	/#### Lua API <a name="config-refactoring-direct"><\/a>
-refactoring.nvim-quickstart-a-name-quickstart-a	refactoring.nvim.md	/### Quickstart<a name="quickstart"><\/a>
-refactoring.nvim-refactoring-features-a-name-refactoring-features-a	refactoring.nvim.md	/### Refactoring Features<a name="refactoring-features"><\/a>
-refactoring.nvim-requirements-a-name-requirements-a	refactoring.nvim.md	/### Requirements<a name="requirements"><\/a>
-refactoring.nvim-setup-using-lazy-a-name-lazy-a	refactoring.nvim.md	/### Setup Using Lazy<a name="lazy"><\/a>
-refactoring.nvim-setup-using-packer-a-name-packer-a	refactoring.nvim.md	/### Setup Using Packer<a name="packer"><\/a>
-refactoring.nvim-supported-languages-a-name-supported-languages-a	refactoring.nvim.md	/### Supported Languages<a name="supported-languages"><\/a>
-refactoring.nvim-table-of-contents	refactoring.nvim.md	/## Table of Contents
-refactoring.nvim-using-built-in-neovim-selection-a-name-config-refactoring-builtin-a	refactoring.nvim.md	/#### Using Built-In Neovim Selection<a name="config-refactoring-builtin"><\/a>
-refactoring.nvim-using-telescope-a-name-config-refactoring-telescope-a	refactoring.nvim.md	/#### Using Telescope<a name="config-refactoring-telescope"><\/a>
-swagger-preview.nvim-configuration	swagger-preview.nvim.md	/## Configuration
-swagger-preview.nvim-contributing	swagger-preview.nvim.md	/## Contributing
-swagger-preview.nvim-installation	swagger-preview.nvim.md	/## Installation
-swagger-preview.nvim-lazy-nvim	swagger-preview.nvim.md	/### lazy.nvim
-swagger-preview.nvim-packer-nvim	swagger-preview.nvim.md	/### packer.nvim
-swagger-preview.nvim-swagger-preview-nvim	swagger-preview.nvim.md	/# swagger-preview.nvim
-swagger-preview.nvim-usage	swagger-preview.nvim.md	/## Usage
-telescope_hoogle-development	telescope_hoogle.md	/## Development
-telescope_hoogle-installation	telescope_hoogle.md	/## Installation
-telescope_hoogle-keybindings	telescope_hoogle.md	/## Keybindings
-telescope_hoogle-telescope-hoogle	telescope_hoogle.md	/# telescope_hoogle
-tree-sitter-haskell-0-newline-lookahead-at-src-scanner-c-2583	tree-sitter-haskell.md	/#0  newline_lookahead () at src\/scanner.c:2583
-tree-sitter-haskell-1-0x00007ffff7a0740e-in-newline-start-at-src-scanner-c-2604	tree-sitter-haskell.md	/#1  0x00007ffff7a0740e in newline_start () at src\/scanner.c:2604
-tree-sitter-haskell-2-scan-at-src-scanner-c-2646	tree-sitter-haskell.md	/#2  scan () at src\/scanner.c:2646
-tree-sitter-haskell-3-eval-at-src-scanner-c-2684	tree-sitter-haskell.md	/#3  eval () at src\/scanner.c:2684
-tree-sitter-haskell-4-tree-sitter-haskell-external-scanner-scan-payload-optimized-out-lexer-optimized-out	tree-sitter-haskell.md	/#4  tree_sitter_haskell_external_scanner_scan (payload=<optimized out>, lexer=<optimized out>,
-tree-sitter-haskell-5-0x0000555555772488-in-ts-parser-lex	tree-sitter-haskell.md	/#5  0x0000555555772488 in ts_parser.lex ()
-tree-sitter-haskell-bugs	tree-sitter-haskell.md	/# Bugs
-tree-sitter-haskell-compiling-the-parser	tree-sitter-haskell.md	/## Compiling the parser
-tree-sitter-haskell-cpp	tree-sitter-haskell.md	/## CPP
-tree-sitter-haskell-debugging	tree-sitter-haskell.md	/### Debugging
-tree-sitter-haskell-development	tree-sitter-haskell.md	/# Development
-tree-sitter-haskell-generating-the-parser	tree-sitter-haskell.md	/## Generating the parser
-tree-sitter-haskell-output-path	tree-sitter-haskell.md	/## Output path
-tree-sitter-haskell-querying	tree-sitter-haskell.md	/# Querying
-tree-sitter-haskell-references	tree-sitter-haskell.md	/# References
-tree-sitter-haskell-supported-language-extensions	tree-sitter-haskell.md	/# Supported Language Extensions
-tree-sitter-haskell-testing-the-parser	tree-sitter-haskell.md	/## Testing the parser
-tree-sitter-haskell-the-grammar	tree-sitter-haskell.md	/## The grammar
-tree-sitter-haskell-tracing	tree-sitter-haskell.md	/#### Tracing
-tree-sitter-haskell-tree-sitter-haskell	tree-sitter-haskell.md	/# tree-sitter-haskell
-tree-sitter-haskell-webassembly	tree-sitter-haskell.md	/### WebAssembly
-typescript.nvim-archived	typescript.nvim.md	/# ARCHIVED
-typescript.nvim-code-action-setup	typescript.nvim.md	/### Code Action Setup
-typescript.nvim-commands	typescript.nvim.md	/### Commands
-typescript.nvim-commands-available-as-code-actions	typescript.nvim.md	/### Commands Available as Code Actions
-typescript.nvim-contributing	typescript.nvim.md	/## Contributing
-typescript.nvim-faq	typescript.nvim.md	/## FAQ
-typescript.nvim-features	typescript.nvim.md	/## Features
-typescript.nvim-handlers	typescript.nvim.md	/### Handlers
-typescript.nvim-integrations	typescript.nvim.md	/## Integrations
-typescript.nvim-lua-code	typescript.nvim.md	/### Lua Code
-typescript.nvim-null-ls	typescript.nvim.md	/### null-ls
-typescript.nvim-setup	typescript.nvim.md	/## Setup
-typescript.nvim-tests	typescript.nvim.md	/## Tests
-typescript.nvim-typescript-code	typescript.nvim.md	/### TypeScript Code
-typescript.nvim-typescript-nvim	typescript.nvim.md	/# typescript.nvim
-typescript.nvim-will-not-support	typescript.nvim.md	/## Will not support
-venv-selector.nvim-changing-the-output-in-the-telescope-viewer-on-telescope-result-callback	venv-selector.nvim.md	/## Changing the output in the telescope viewer (on_telescope_result_callback)
-venv-selector.nvim-common-flags-to-fd	venv-selector.nvim.md	/## Common flags to fd
-venv-selector.nvim-configuration-snippet-for-lazy-nvim-https-github-com-folke-lazy-nvim	venv-selector.nvim.md	/## Configuration snippet for \[lazy.nvim\](https:\/\/github.com\/folke\/lazy.nvim)
-venv-selector.nvim-default-searches	venv-selector.nvim.md	/## Default searches
-venv-selector.nvim-exposed-functions	venv-selector.nvim.md	/## Exposed functions
-venv-selector.nvim-features	venv-selector.nvim.md	/# ⚡️ Features
-venv-selector.nvim-global-options-to-the-plugin	venv-selector.nvim.md	/## Global options to the plugin
-venv-selector.nvim-my-venvs-dont-show-up-how-can-i-create-my-own-search	venv-selector.nvim.md	/## My venvs dont show up - how can i create my own search?
-venv-selector.nvim-override-or-disable-a-default-search	venv-selector.nvim.md	/## Override or disable a default search
-venv-selector.nvim-python-debugger-support-with-dap-and-dap-python	venv-selector.nvim.md	/## Python debugger support with dap and dap-python
-venv-selector.nvim-run-your-own-code-on-venv-activation-on-venv-activate-callback	venv-selector.nvim.md	/## Run your own code on venv activation (on_venv_activate_callback)
-venv-selector.nvim-special-note-about-anaconda-miniconda-searches	venv-selector.nvim.md	/### Special note about anaconda\/miniconda searches
-venv-selector.nvim-the-current-default-searches-are-for	venv-selector.nvim.md	/### The current default searches are for:
-venv-selector.nvim-venvselect-is-slow-for-me-what-can-i-do	venv-selector.nvim.md	/## VenvSelect is slow for me, what can i do?
-venv-selector.nvim-why-did-you-rewrite-the-plugin	venv-selector.nvim.md	/## Why did you rewrite the plugin?
+pywal16.nvim-active-theme	pywal16.nvim.md	/## Active theme
+pywal16.nvim-enable-lualine-theme	pywal16.nvim.md	/## Enable lualine theme
+pywal16.nvim-enable-the-feline-theme-untested-with-pywal16-i-don-t-use-feline	pywal16.nvim.md	/## Enable the feline theme (untested with pywal16, I don't use feline)
+pywal16.nvim-enjoy	pywal16.nvim.md	/## Enjoy
+pywal16.nvim-hack-me	pywal16.nvim.md	/## Hack me
+pywal16.nvim-how-it-works	pywal16.nvim.md	/## How it works
+pywal16.nvim-installation	pywal16.nvim.md	/## Installation
+pywal16.nvim-plugin-support	pywal16.nvim.md	/## Plugin Support
+pywal16.nvim-pywal16-nvim	pywal16.nvim.md	/# pywal16.nvim
+pywal16.nvim-screenshots	pywal16.nvim.md	/## Screenshots
+pywal16.nvim-thanks	pywal16.nvim.md	/## Thanks
+pywal16.nvim-using-the-core-to-get-the-colors	pywal16.nvim.md	/## Using the core to get the colors

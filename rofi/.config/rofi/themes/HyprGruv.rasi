@@ -14,7 +14,7 @@ configuration {
     modi:                       "drun,run";
     font:                       "ShureTechMono Nerd Font 13";
     show-icons:                 true;
-    icon-theme:                 "Gruvbox Plus Dark";
+    icon-theme:                 "Gruvbox-Material-Dark";
     display-drun:               "APPS";
     display-run:                "RUN";
     display-filebrowser:        "FILES";

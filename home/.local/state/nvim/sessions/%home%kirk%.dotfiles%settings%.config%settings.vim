@@ -14,11 +14,11 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +23 waybar-quicklinks.json
+badd +1 rofi-font.rasi
 argglobal
 %argdel
-$argadd waybar-quicklinks.json
-edit waybar-quicklinks.json
+$argadd rofi-font.rasi
+edit rofi-font.rasi
 wincmd t
 let s:save_winminheight = &winminheight
 let s:save_winminwidth = &winminwidth
@@ -35,11 +35,11 @@ setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 23 - ((22 * winheight(0) + 13) / 27)
+let s:l = 1 - ((0 * winheight(0) + 15) / 31)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 23
+keepjumps 1
 normal! 0
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
@@ -56,6 +56,7 @@ if filereadable(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
 set hlsearch
+nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :

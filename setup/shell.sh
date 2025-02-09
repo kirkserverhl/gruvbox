@@ -1,6 +1,6 @@
 #!/bin/bash
 
-display_header "Shell Setup" | lsd-print
+
 sleep 1
 _isInstalledYay() {
     package="$1";

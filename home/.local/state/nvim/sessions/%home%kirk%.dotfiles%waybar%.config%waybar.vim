@@ -14,7 +14,7 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +90 modules.json
+badd +24 modules.json
 argglobal
 %argdel
 $argadd modules.json
@@ -35,11 +35,11 @@ setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 90 - ((4 * winheight(0) + 12) / 25)
+let s:l = 24 - ((23 * winheight(0) + 14) / 28)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 90
+keepjumps 24
 normal! 0
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
@@ -56,6 +56,7 @@ if filereadable(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
 set hlsearch
+nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :

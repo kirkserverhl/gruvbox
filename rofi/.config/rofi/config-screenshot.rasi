@@ -12,9 +12,9 @@
 /* ---- Configuration ---- */
 configuration {
     modi:                       "drun,run";
-    font:                       "Fira Sans 11";
-    show-icons:                 false;
-    icon-theme:                 "kora";
+    font:                       "Hurmit Nerd Font 13";
+    show-icons:                 true;
+    icon-theme:                 "Gruvbox-Material-Dark";
     display-drun:               "APPS";
     display-run:                "RUN";
     display-filebrowser:        "FILES";

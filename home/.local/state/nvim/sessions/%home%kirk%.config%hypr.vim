@@ -14,18 +14,11 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +236 ~/.zshrc
+badd +27 hyprland.conf
 argglobal
 %argdel
-$argadd ~/.zshrc
-edit ~/.zshrc
-wincmd t
-let s:save_winminheight = &winminheight
-let s:save_winminwidth = &winminwidth
-set winminheight=0
-set winheight=1
-set winminwidth=0
-set winwidth=1
+$argadd hyprland.conf
+edit hyprland.conf
 argglobal
 setlocal fdm=expr
 setlocal fde=v:lua.require'lazyvim.util'.ui.foldexpr()
@@ -35,12 +28,12 @@ setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 236 - ((21 * winheight(0) + 16) / 33)
+let s:l = 11 - ((0 * winheight(0) + 0) / 1)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 236
-normal! 060|
+keepjumps 11
+normal! 0
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
@@ -48,8 +41,6 @@ endif
 unlet! s:wipebuf
 set winheight=1 winwidth=20
 let &shortmess = s:shortmess_save
-let &winminheight = s:save_winminheight
-let &winminwidth = s:save_winminwidth
 let s:sx = expand("<sfile>:p:r")."x.vim"
 if filereadable(s:sx)
   exe "source " . fnameescape(s:sx)

@@ -20,3 +20,6 @@ ToolBarsMovable=Disabled
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,avif,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,heif,imagethumbnail,jpegthumbnail,jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail,gdk-pixbuf-thumbnailer
+
+[Search]
+Location=Everywhere
