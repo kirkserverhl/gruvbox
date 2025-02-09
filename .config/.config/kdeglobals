@@ -137,8 +137,8 @@ DirSelectDialog Size=834,578
 History Items[$e]=file:$HOME/wallpaper,file:$HOME/wallpaper
 
 [General]
-ColorScheme=GruvboxColors
-ColorSchemeHash=7104f9da7102bf606aa814a54d7ca40135e70ad2
+ColorSchemeHash=68f7da041112b660ac4e6911cf4bf8a7b361feda
+UseSystemBell=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
 fixed=ShureTechMono Nerd Font Mono,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
@@ -152,12 +152,13 @@ Theme=Gruvbox-Plus-Dark
 [KDE]
 LookAndFeelPackage=org.kde.breezedark.desktop
 ShowDeleteCommand=false
+widgetStyle=qt6ct-style
 
 [KFileDialog Settings]
 Allow Expansion=false
 Automatically select filename extension=true
-Breadcrumb Navigation=true
-Decoration position=2
+Breadcrumb Navigation=false
+Decoration position=0
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
 Show Bookmarks=false
@@ -165,13 +166,17 @@ Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
-Show hidden files=false
+Show hidden files=true
 Sort by=Name
 Sort directories first=true
 Sort hidden files last=false
 Sort reversed=false
 Speedbar Width=192
-View Style=DetailTree
+View Style=Simple
+
+[KScreen]
+ScreenScaleFactors=DP-1=1;HDMI-A-1=1;
+XwaylandClientsScale=false
 
 [PreviewSettings]
 EnableRemoteFolderThumbnail=false

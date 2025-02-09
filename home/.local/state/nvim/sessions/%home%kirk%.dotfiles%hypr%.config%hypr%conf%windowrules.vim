@@ -14,7 +14,7 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +69 default.conf
+badd +1 default.conf
 argglobal
 %argdel
 $argadd default.conf
@@ -35,11 +35,11 @@ setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 69 - ((17 * winheight(0) + 12) / 25)
+let s:l = 1 - ((0 * winheight(0) + 15) / 30)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 69
+keepjumps 1
 normal! 0
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'

@@ -1222,6 +1222,11 @@ freetype-background-opacity=128
 # Sync on Intra Frame (boolean)
 #packetizer-mpegvideo-sync-iframe=0
 
+[notify] # LibNotify Notification Plugin
+
+# Timeout (ms) (integer)
+#notify-timeout=4000
+
 [mux_ts] # TS muxer (libdvbpsi)
 
 # Digital TV Standard (string)
@@ -1479,10 +1484,10 @@ freetype-background-opacity=128
 [skins2] # Skinnable Interface
 
 # Skin to use (string)
-skins2-last=/usr/share/vlc/skins2/materia-git.vlt
+skins2-last=/usr/share/vlc/skins2/default.vlt
 
 # Config of last used skin (string)
-skins2-config=["Player" "Main" 61 252 1920 1144 1]["fullscreenController" "fswindow" 90 1488 720 64 0]
+skins2-config=["aboutwin" "aboutwinwin-main" 795 454 330 171 0]["eqwin" "eqwin-main" 795 454 330 171 0]["fullscreenController" "fsc_normal" 710 918 500 130 0]["main" "normal" 710 365 1280 846 1]["plwin" "plwin-normal" 806 419 500 350 0]
 
 # Enable transparency effects (boolean)
 #skins2-transparency=0

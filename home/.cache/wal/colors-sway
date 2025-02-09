@@ -1,21 +1,21 @@
-set $wallpaper /home/kirk/wallpaper/space_odyssey.jpg
+set $wallpaper /home/kirk/wallpaper/space_walk.png
 
-set $background #0f1111
+set $background #101212
 set $foreground #c3c3c3
 
-set $color0 #0f1111
-set $color1 #B36543
-set $color2 #B7934F
-set $color3 #66938C
-set $color4 #9A9D8B
-set $color5 #85A597
-set $color6 #BCAD93
+set $color0 #101212
+set $color1 #3F8288
+set $color2 #478789
+set $color3 #739C90
+set $color4 #83A598
+set $color5 #9EAA95
+set $color6 #C9D1A8
 set $color7 #c3c3c3
 set $color8 #596d6d
-set $color9 #B36543
-set $color10 #B7934F
-set $color11 #66938C
-set $color12 #9A9D8B
-set $color13 #85A597
-set $color14 #BCAD93
+set $color9 #3F8288
+set $color10 #478789
+set $color11 #739C90
+set $color12 #83A598
+set $color13 #9EAA95
+set $color14 #C9D1A8
 set $color15 #c3c3c3

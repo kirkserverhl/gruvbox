@@ -6,15 +6,15 @@
 ##  |__|___|  /____  > |__| (____  /____/____/ /\ /____  >___|  /
 ##          \/     \/            \/            \/      \/     \/
 ##                          	# Reset  ##  Notes:
-GREEN="\e[38;2;142;192;124m" 	# 8ec07c ##
-CYAN="\e[38;2;69;133;136m"   	# 458588 ##
-YELLOW="\e[38;2;215;153;33m" 	# d79921 ##
-RED="\e[38;2;204;36;29m"     	# cc241d ##
-GRAY="\e[38;2;60;56;54m"     	# 3c3836 ##
-BOLD="\e[1m"                 	# Bold   ##
+GREEN="\e[38;2;142;192;124m" # 8ec07c ##
+CYAN="\e[38;2;69;133;136m"   # 458588 ##
+YELLOW="\e[38;2;215;153;33m" # d79921 ##
+RED="\e[38;2;204;36;29m"     # cc241d ##
+GRAY="\e[38;2;60;56;54m"     # 3c3836 ##
+BOLD="\e[1m"                 # Bold   ##
 rm -f ~/config_check.sh
 cp -f ~/.dotfiles/install.sh ~/scripts
-cd ~/.dotfiles/assets/set_script/
+'cd.. ~/.dotfiles/assets/set_script/
 clear
 
 
@@ -122,20 +122,20 @@ echo -e ""
 
 # Check the user's input
 case $choice in
-  1)
-        echo " Rebooting now..." | lsd-print
-        sudo reboot
-        ;;
-  2)
-        echo " Rerunning the script..."   | lsd-print
-        exec "$0"  # Reruns the current script
-        ;;
-  3)
-        echo " Exiting. System will not reboot."  | lsd-print
-        exit 0
-        ;;
-  *)
-        echo " Invalid input. Exiting without reboot."  | lsd-print
-        exit 0
-        ;;
+1)
+	echo " Rebooting now..." | lsd-print
+	sudo reboot
+	;;
+2)
+	echo " Rerunning the script..." | lsd-print
+	exec "$0" # Reruns the current script
+	;;
+3)
+	echo " Exiting. System will not reboot." | lsd-print
+	exit 0
+	;;
+*)
+	echo " Invalid input. Exiting without reboot." | lsd-print
+	exit 0
+	;;
 esac

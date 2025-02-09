@@ -1,25 +1,6 @@
 # -----------------------------------------------------
 # INIT
 # -----------------------------------------------------
-export BACKGROUND='#111313'
-export FOREGROUND='#c3c4c4'
-export CURSOR='#c3c4c4'
-export COLOR0='#111313'
-export COLOR1='#656158'
-export COLOR2='#6C7268'
-export COLOR3='#B15A44'
-export COLOR4='#788873'
-export COLOR5='#ABA06F'
-export COLOR6='#848881'
-export COLOR7='#c3c4c4'
-export COLOR8='#5a6e6e'
-export COLOR9='#656158'
-export COLOR10='#6C7268'
-export COLOR11='#B15A44'
-export COLOR12='#788873'
-export COLOR13='#ABA06F'
-export COLOR14='#848881'
-export COLOR15='#c3c4c4'
 
 export EDITOR="nvim"
 export SUDO_EDITOR="$EDITOR"
@@ -28,11 +9,6 @@ export ZSH="$HOME/.oh-my-zsh"
 export LESSOPEN="| /usr/bin/source-highlight-esc.sh %s"
 export QT_QPA_PLATFORMTHEME=qt5ct
 export PYWAL='~/.cache/wal/colors.sh'
-
-# -----------------------------------------------------
-# Starship 
-# -----------------------------------------------------
-eval "$(starship init zsh)"
 
 # -----------------------------------------------------
 # ALIASES
@@ -54,8 +30,6 @@ alias .....='cd ../../../../..'
 alias ls='eza -a --icons'
 alias ll='eza -al --icons'
 alias lt='eza -a --tree --level=1 --icons'
-alias doom='~/scripts/doom.sh'
-# alias fs= '~/scripts/fs.sh'
 
 # Productivity
 alias c='clear && $SHELL'
@@ -75,12 +49,13 @@ alias jel3="sudo mount.cifs //192.168.0.105/jel3 /mnt/jel3 -o username=kirk,pass
 alias jel="~/scripts/mount_jel.sh"
 alias rg='ranger'
 alias newkey='sudo rm -fr /etc/pacman.d/gnupg  && pacman-key --init && pacman-key --populate archlinux'
+alias fgg="figlet -f ~/.dotfiles/assets/Graffiti.flf"
 
 # Color
 alias diff='diff --color=auto'
 alias grep='grep --color=auto'
 alias ip='ip --color=auto'
-alias ls='eza'
+alias ls='eza --long --color = always -- icons= --no-user'
 
 # Git
 alias gs="git status"
@@ -114,6 +89,7 @@ alias pf='pfetch'
 alias tm='tmux -2'
 alias ps='pacseek'
 alias lp='lsd-print'
+alias doom='~/scripts/doom.sh'
 
 # -----------------------------------------------------
 # Plugins and Features
@@ -122,7 +98,6 @@ plugins=(
     aliases
     hitchhiker
     poetry
-    python
     eza
     bun
     git
@@ -134,11 +109,19 @@ plugins=(
     zoxide
     colored-man-pages
     emoji
-    fzf
     colorize
 )
 
-# Load oh-my-zsh
+# -----------------------------------------------------
+# Starship
+# -----------------------------------------------------
+eval "$(starship init zsh)"
+
+# Load oh-my-zsh# Git Update
+#gitupdate() {
+#cd ~/.dotfiles && git add . && git commit -m "$1" && git push
+#}
+
 source $ZSH/oh-my-zsh.sh
 
 # FZF Integration
@@ -150,13 +133,8 @@ HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
 
-# -----------------------------------------------------
-# Terminal Customization
-# -----------------------------------------------------
-if [[ $TERM == "xterm-kitty" ]]; then
-    ff && fortune | lsd-print
-else
-fi
+# Dolphin 'Open With' fix
+~/scripts/dolphin_fix.sh
 
 # BAT Theme
 export BAT_THEME="gruvbox-dark"
@@ -164,14 +142,13 @@ export BAT_THEME="gruvbox-dark"
 # Bun Completions
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
-# bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-# Git Update
-gitupdate() {
-  cd ~/.dotfiles && git add . && git commit -m "$1" && git push
-}
+# Source Pywal Colors
+source "$HOME/.cache/wal/colors-tty.sh
+
+#config/hyprnyvim hyprland.confsource  ~/.config/hypr/conf/hyprland.conf)
 
 # -----------------------------------------------------
 # ZNT and Zharma
@@ -201,6 +178,7 @@ pty() {
 ptyless() {
 	pty $@ | less
 }
+
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
     print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
@@ -215,20 +193,26 @@ autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 
 # Load a few important annexes, without Turbo (this is currently required for annexes)
-zinit light-mode for \
-    zdharma-continuum/zinit-annex-as-monitor \
-    zdharma-continuum/zinit-annex-bin-gem-node \
-    zdharma-continuum/zinit-annex-patch-dl \
-    zdharma-continuum/zinit-annex-rust    
+
+  zinit light-mode for\
+      zdharma-continuum/zinit-annex-as-monitor \
+      zdharma-continuum/zinit-annex-bin-gem-node \
+      zdharma-continuum/zinit-annex-patch-dl \
+      zdharma-continuum/zinit-annex-rust
+
 # End of Zinit's installer chunk
 
-# bun completions
-[ -s "/home/kirk/.bun/_bun" ] && source "/home/kirk/.bun/_bun"
 
-source "$HOME/.cache/wal/colors-tty.sh"
-
-
+-----------------------------------------------------
+# Terminal Customization
+# -----------------------------------------------------
+if [[ $TERM == "xterm-kitty" ]]; then
+    clear ff && fortune | lsd-print
+else
+    clear
+fi
 
 # ----------------------------------------------------------
 # End of .zshrc
 # ----------------------------------------------------------
+

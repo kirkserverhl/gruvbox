@@ -4,7 +4,7 @@
 # Clears the screen and displays the header
 function display_header() {
     clear
-    figlet -f ~/.local/share/fonts/Graffiti.flf "$1"
+    figlet -f ~/scripts/Graffiti.flf "$1"
 }
 
 # Main script logic
@@ -28,7 +28,7 @@ fi
 # Save the output to a file
 output_file=~/figlet.txt
 echo "Saving output to $output_file..."
-figlet -f ~/.local/share/fonts/Graffiti.flf "$mytext" > "$output_file"
+figlet -f ~/scripts/Graffiti.flf "$mytext" > "$output_file"
 
 echo "Contents of the file:"
 cat "$output_file"

@@ -1,3 +1,5 @@
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
 vim.cmd("set nocompatible")
 vim.cmd("set showmatch")
 vim.cmd("set ignorecase")
@@ -21,10 +23,7 @@ vim.cmd("filetype plugin indent on")
 vim.cmd("set spell")
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
-vim.cmd("set termguicolors")
--- vim.cmd('dylanaraps/wal.vim')
-vim.cmd("colorscheme gruvbox")
-
+vim.cmd("set termguicolors")({ "echasnovski/mini.nvim", version = false })
 -- require("keymaps")
 -- require("options")
 -- require("misc")
